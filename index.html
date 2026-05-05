@@ -1,994 +1,535 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Netzwerk Zukunftsschulen – Arbeitstreffen</title>
-<script src="https://cdn.tailwindcss.com"></script>
-<style>
-:root {
-  --col-slate-dark:  #2C3D4C;
-  --col-slate:       #3E5668;
-  --col-slate-mid:   #6A8599;
-  --col-slate-pale:  #D0DCE6;
-  --col-slate-ghost: #EEF3F7;
-  --col-rust-dark:   #9E4E22;
-  --col-rust:        #D97A4A;
-  --col-rust-pale:   #F5DDD1;
-  --col-rust-ghost:  #FBF0EB;
-  --col-sage-dark:   #4D8B3F;
-  --col-sage:        #7DBB6F;
-  --col-sage-pale:   #DDF0D8;
-  --col-sage-ghost:  #F0FAF0;
-  --col-warning:      #C17B00;
-  --col-warning-pale: #FFF3CC;
-  --col-warning-text: #5C4400;
-  --col-error:        #C0392B;
-  --col-error-pale:   #FDECEA;
-  --col-error-text:   #7A1B14;
-  --col-bg:           #F5F4F1;
-  --col-white:        #FFFFFF;
-  --col-text:         #1E2A35;
-  --col-muted:        #5A6A78;
-  --col-border:       #D4D0C8;
-  --col-shadow:       rgba(62,86,104,0.12);
-}
-*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
-body{font-family:-apple-system,'Helvetica Neue',Arial,sans-serif;background:var(--col-bg);color:var(--col-text);min-height:100vh;display:flex;flex-direction:column;line-height:1.55;}
-:focus-visible{outline:3px solid var(--col-slate);outline-offset:3px;border-radius:4px;}
-
-textarea,input[type="text"],input[type="date"]{font-size:1rem;font-family:inherit;border:1.5px solid var(--col-border);border-radius:8px;padding:10px 14px;background:var(--col-white);color:var(--col-text);width:100%;transition:border-color .15s;}
-textarea:focus,input:focus{outline:3px solid var(--col-slate);outline-offset:2px;border-color:var(--col-slate);}
-
-/* ── TIMER ── */
-.timer-num{font-variant-numeric:tabular-nums;font-weight:700;font-size:1.6rem;color:white;transition:color .3s;}
-.timer-warn{color:#FFF3CC !important;}
-.timer-over{animation:blink .7s infinite;}
-@keyframes blink{0%,100%{opacity:1}50%{opacity:.3}}
-
-/* ── DOTS ── */
-.phdot{width:9px;height:9px;border-radius:50%;background:var(--col-slate-mid);cursor:pointer;transition:all .2s;flex-shrink:0;}
-.phdot.active{background:var(--col-rust);transform:scale(1.4);box-shadow:0 0 0 3px rgba(217,122,74,.3);}
-.phdot.done{background:var(--col-sage);}
-
-/* ── STICKY NOTES ── */
-.note-card{border-radius:6px;padding:10px 12px;font-size:.85rem;line-height:1.4;display:flex;align-items:flex-start;gap:8px;box-shadow:1px 2px 5px rgba(0,0,0,.08);word-break:break-word;}
-.note-del{background:none;border:none;cursor:pointer;color:var(--col-muted);font-size:1.1rem;padding:0;flex-shrink:0;line-height:1;opacity:.6;transition:opacity .15s;}
-.note-del:hover{opacity:1;color:var(--col-error);}
-
-/* ── CARDS ── */
-.card{background:white;border-radius:12px;border:1.5px solid var(--col-border);padding:20px;box-shadow:0 2px 8px var(--col-shadow);}
-
-/* ── GROUP CARDS ── */
-.grp-g1{background:var(--col-sage-ghost);border:2px solid var(--col-sage);}
-.grp-g2{background:var(--col-rust-ghost);border:2px solid var(--col-rust-pale);}
-.grp-g3{background:var(--col-slate-ghost);border:2px solid var(--col-slate-pale);}
-
-/* ── PRESENTATION MODE ── */
-body.pres .edit-only{display:none!important;}
-body.pres #main-area{font-size:1.15em;}
-body.pres .pres-big{font-size:1.4em!important;}
-body.pres .card{padding:28px;}
-body.pres textarea{font-size:1.05rem;}
-body.pres .phase-kicker{font-size:1rem!important;}
-body.pres .phase-h2{font-size:2rem!important;}
-body.pres .phase-sub{font-size:1rem!important;}
-body.pres .pres-show{display:flex!important;}
-.pres-show{display:none;}
-body.pres .note-del{display:none;}
-
-/* ── ANIM ── */
-.phase-in{animation:phaseIn .28s ease both;}
-@keyframes phaseIn{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
-
-/* ── PRINT ── */
-@media print{
-  #app-header,#app-nav-bar,#app-bottom-nav{display:none!important;}
-  #main-area{padding:0!important;}
-  body{background:white;}
-  .no-print{display:none!important;}
-  .print-sec{page-break-inside:avoid;margin-bottom:18pt;}
-}
-
-/* scrollbar */
-::-webkit-scrollbar{width:5px}::-webkit-scrollbar-thumb{background:var(--col-slate-pale);border-radius:3px}
-</style>
-</head>
-<body>
-
-<!-- ═══════════════════════════════════════════════════════ HEADER -->
-<header id="app-header" style="background:var(--col-slate);color:white;padding:10px 24px;flex-shrink:0;">
-  <div style="max-width:1280px;margin:0 auto;display:flex;align-items:center;gap:16px;flex-wrap:wrap;">
-    <!-- Title block -->
-    <div style="flex:1;min-width:180px;">
-      <div style="font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;color:var(--col-slate-pale);margin-bottom:2px;">HBG Dortmund · Netzwerk Zukunftsschulen</div>
-      <h1 id="hdr-title" style="font-size:1.05rem;font-weight:700;line-height:1.25;"></h1>
-    </div>
-
-    <!-- Timer block -->
-    <div style="display:flex;align-items:center;gap:12px;background:rgba(0,0,0,.2);border-radius:10px;padding:8px 16px;">
-      <div>
-        <div style="font-size:.6rem;color:var(--col-slate-pale);text-transform:uppercase;letter-spacing:.08em;margin-bottom:1px;">Verbleibend</div>
-        <div class="timer-num" id="timer-disp">—:——</div>
-      </div>
-      <div style="display:flex;flex-direction:column;gap:5px;">
-        <button id="btn-timer-toggle" onclick="timerToggle()"
-          style="background:var(--col-rust-dark);color:white;border:none;border-radius:6px;padding:5px 11px;font-size:.75rem;font-weight:700;cursor:pointer;white-space:nowrap;">
-          ▶ Start
-        </button>
-        <button onclick="timerReset()"
-          style="background:rgba(255,255,255,.15);color:white;border:none;border-radius:6px;padding:5px 11px;font-size:.72rem;cursor:pointer;">
-          ↺ Reset
-        </button>
-      </div>
-    </div>
-
-    <!-- Presentation toggle -->
-    <button id="btn-pres" onclick="presToggle()"
-      style="background:rgba(255,255,255,.12);border:1.5px solid rgba(255,255,255,.25);color:white;border-radius:8px;padding:8px 14px;font-size:.82rem;cursor:pointer;white-space:nowrap;transition:background .2s;">
-      🖥 Präsentationsmodus
-    </button>
-    <!-- Fullscreen toggle -->
-    <button id="btn-fs" onclick="fsToggle()" title="Vollbild"
-      style="background:rgba(255,255,255,.12);border:1.5px solid rgba(255,255,255,.25);color:white;border-radius:8px;padding:8px 12px;font-size:1rem;cursor:pointer;line-height:1;transition:background .2s;">
-      ⛶
-    </button>
-  </div>
-</header>
-
-<!-- ═══════════════════════════════════════════════════════ PHASE NAV -->
-<div id="app-nav-bar" style="background:var(--col-slate-dark);padding:7px 24px;flex-shrink:0;">
-  <div style="max-width:1280px;margin:0 auto;display:flex;align-items:center;gap:0;justify-content:center;" id="dot-row"></div>
-</div>
-
-<!-- ═══════════════════════════════════════════════════════ MAIN -->
-<main id="main-area" style="flex:1;overflow-y:auto;padding:24px 24px 8px;"></main>
-
-<!-- ═══════════════════════════════════════════════════════ BOTTOM NAV -->
-<nav id="app-bottom-nav" class="no-print" style="background:white;border-top:2px solid var(--col-border);padding:10px 24px;display:flex;justify-content:space-between;align-items:center;flex-shrink:0;">
-  <button onclick="prevPhase()" id="btn-prev"
-    style="background:var(--col-slate-ghost);border:1.5px solid var(--col-border);color:var(--col-text);border-radius:8px;padding:9px 20px;font-size:.9rem;font-weight:600;cursor:pointer;min-width:44px;min-height:44px;">
-    ← Zurück
-  </button>
-  <span id="nav-label" style="font-size:.82rem;color:var(--col-muted);text-align:center;"></span>
-  <button onclick="nextPhase()" id="btn-next"
-    style="background:var(--col-rust-dark);color:white;border:none;border-radius:8px;padding:9px 22px;font-size:.9rem;font-weight:600;cursor:pointer;min-width:44px;min-height:44px;">
-    Weiter →
-  </button>
-</nav>
-
-<script>
-// ═══════════════════════════════════════════════════════════════
-// CONFIG
-// ═══════════════════════════════════════════════════════════════
-const SK = 'mpk-at-v2';
-
-const PHASES = [
-  { id:0, num:'',   title:'Übersicht',                       sub:'Arbeitstreffen · 90 Minuten',                   secs:0      },
-  { id:1, num:'01', title:'Einstieg & Zielklärung',           sub:'Format festlegen · Rollen klären',               secs:10*60 },
-  { id:2, num:'02', title:'Gemeinsame Sammlung',               sub:'Was wurde getestet?',                            secs:15*60 },
-  { id:3, num:'03', title:'Auswertung in Gruppen',             sub:'Chancen · Stolperstellen · Perspektiven',        secs:25*60 },
-  { id:4, num:'04', title:'Verdichtung: Die Botschaft',        sub:'3–5 Kernaussagen für die anderen Schulen',       secs:15*60 },
-  { id:5, num:'05', title:'Präsentationsentwurf erstellen',    sub:'Folieninhalte erarbeiten',                       secs:20*60 },
-  { id:6, num:'06', title:'Abschluss & Aufgabenverteilung',    sub:'Wer macht was bis wann?',                        secs:5*60  },
-  { id:7, num:'',   title:'Export',                           sub:'Ergebnisse sichern & teilen',                    secs:0     },
-];
-
-// ═══════════════════════════════════════════════════════════════
-// STATE
-// ═══════════════════════════════════════════════════════════════
-let S = {
-  cur: 0,
-  pres: false,
-  done: [],
-  d: {
-    p1: { fmt:'folien', mod:'', dok:'' },
-    p2: { notes:[] },
-    p3: { g1:{aus:'',bsp:''}, g2:{aus:'',bsp:''}, g3:{aus:'',bsp:''} },
-    p4: { frage:'', versucht:'', bewaehrt:'', schwer:'', next:'' },
-    p5: { f1:'', f2:'', f3:'', f4:'', f5:'', f6:'' },
-    p6: { fehlt:'', mat:'', wer:'', dl:'' },
-  }
-};
-
-(function(){
-  try {
-    const raw = localStorage.getItem(SK);
-    if (raw) {
-      const p = JSON.parse(raw);
-      S = { ...S, ...p, d: mergeDeep(S.d, p.d || {}) };
-    }
-  } catch(e){}
-})();
-
-function mergeDeep(target, src) {
-  const out = {...target};
-  for (const k in src) {
-    if (src[k] && typeof src[k] === 'object' && !Array.isArray(src[k])) out[k] = mergeDeep(target[k] || {}, src[k]);
-    else out[k] = src[k];
-  }
-  return out;
-}
-
-function persist() { localStorage.setItem(SK, JSON.stringify(S)); }
-
-function setField(obj, path, val) {
-  const parts = path.split('.');
-  let o = obj;
-  for (let i=0;i<parts.length-1;i++) o = o[parts[i]];
-  o[parts[parts.length-1]] = val;
-}
-function getField(obj, path) {
-  return path.split('.').reduce((o,k)=> o&&o[k]!==undefined?o[k]:'', obj);
-}
-
-// ═══════════════════════════════════════════════════════════════
-// TIMER
-// ═══════════════════════════════════════════════════════════════
-let tSecs = 0, tRunning = false, tInterval = null;
-
-function timerSet(secs) {
-  clearInterval(tInterval); tRunning = false;
-  tSecs = secs;
-  timerDraw();
-  btn('btn-timer-toggle').textContent = '▶ Start';
-}
-function timerDraw() {
-  const m = String(Math.floor(tSecs/60)).padStart(2,'0');
-  const s = String(tSecs%60).padStart(2,'0');
-  const el = ge('timer-disp');
-  el.textContent = tSecs > 0 ? `${m}:${s}` : '00:00';
-  el.classList.remove('timer-warn','timer-over');
-  if (tSecs <= 60 && tSecs > 0) el.classList.add('timer-warn');
-  if (tSecs <= 0) el.classList.add('timer-over');
-}
-function timerToggle() {
-  if (tRunning) {
-    clearInterval(tInterval); tRunning = false;
-    btn('btn-timer-toggle').textContent = '▶ Fortsetzen';
-  } else {
-    if (tSecs <= 0) return;
-    tRunning = true;
-    btn('btn-timer-toggle').textContent = '⏸ Pause';
-    tInterval = setInterval(() => {
-      tSecs--;
-      timerDraw();
-      if (tSecs <= 0) {
-        clearInterval(tInterval); tRunning = false;
-        btn('btn-timer-toggle').textContent = '▶ Start';
-        beep();
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>Finde das Einhorn!</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            cream: '#FFF7ED',
+            stable: '#8B5A2B',
+            stableDark: '#5C3517',
+            roseSoft: '#FFE4F1',
+            lilac: '#EDE9FE',
+            skySoft: '#E0F2FE',
+            grassSoft: '#DCFCE7',
+            goldSoft: '#FEF3C7'
+          },
+          animation: {
+            'floaty': 'floaty 3.2s ease-in-out infinite',
+            'sparkle': 'sparkle 1.25s ease-in-out infinite',
+            'pop': 'pop .35s ease-out',
+            'wiggle': 'wiggle .45s ease-in-out',
+            'door': 'door .75s ease-in-out',
+            'slide-bowl': 'slideBowl .8s ease-in-out',
+            'pulse-soft': 'pulseSoft 1.8s ease-in-out infinite',
+            'rainbow': 'rainbow 2s linear infinite',
+            'bounce-soft': 'bounceSoft 1.1s ease-in-out infinite'
+          },
+          keyframes: {
+            floaty: {
+              '0%,100%': { transform: 'translateY(0)' },
+              '50%': { transform: 'translateY(-8px)' }
+            },
+            sparkle: {
+              '0%,100%': { opacity: '0.45', transform: 'scale(.9) rotate(0deg)' },
+              '50%': { opacity: '1', transform: 'scale(1.12) rotate(8deg)' }
+            },
+            pop: {
+              '0%': { transform: 'scale(.75)', opacity: '0' },
+              '75%': { transform: 'scale(1.08)', opacity: '1' },
+              '100%': { transform: 'scale(1)', opacity: '1' }
+            },
+            wiggle: {
+              '0%,100%': { transform: 'rotate(0deg)' },
+              '20%': { transform: 'rotate(-3deg)' },
+              '50%': { transform: 'rotate(3deg)' },
+              '80%': { transform: 'rotate(-2deg)' }
+            },
+            door: {
+              '0%': { transform: 'scaleX(1)' },
+              '45%': { transform: 'scaleX(.92)' },
+              '100%': { transform: 'scaleX(1)' }
+            },
+            slideBowl: {
+              '0%': { transform: 'translateY(16px) scale(.9)', opacity: '.2' },
+              '100%': { transform: 'translateY(0) scale(1)', opacity: '1' }
+            },
+            pulseSoft: {
+              '0%,100%': { transform: 'scale(1)', opacity: '.75' },
+              '50%': { transform: 'scale(1.03)', opacity: '1' }
+            },
+            rainbow: {
+              '0%': { filter: 'hue-rotate(0deg)' },
+              '100%': { filter: 'hue-rotate(360deg)' }
+            },
+            bounceSoft: {
+              '0%,100%': { transform: 'translateY(0)' },
+              '50%': { transform: 'translateY(-5px)' }
+            }
+          }
+        }
       }
-    }, 1000);
-  }
-}
-function timerReset() {
-  clearInterval(tInterval); tRunning = false;
-  tSecs = PHASES[S.cur].secs;
-  timerDraw();
-  btn('btn-timer-toggle').textContent = '▶ Start';
-}
-function beep() {
-  try {
-    const ctx = new AudioContext();
-    [0,.15,.3].forEach(t => {
-      const o = ctx.createOscillator(), g = ctx.createGain();
-      o.connect(g); g.connect(ctx.destination);
-      o.frequency.value = t===0?880:t===.15?660:440;
-      g.gain.setValueAtTime(.25, ctx.currentTime+t);
-      g.gain.exponentialRampToValueAtTime(.001, ctx.currentTime+t+.3);
-      o.start(ctx.currentTime+t); o.stop(ctx.currentTime+t+.35);
-    });
-  } catch(e){}
-}
-
-// ═══════════════════════════════════════════════════════════════
-// NAVIGATION
-// ═══════════════════════════════════════════════════════════════
-function goTo(id) {
-  if (id > S.cur && !S.done.includes(S.cur)) S.done.push(S.cur);
-  S.cur = id;
-  persist();
-  timerSet(PHASES[id].secs);
-  updateNav();
-  render();
-  ge('main-area').scrollTop = 0;
-}
-function nextPhase() { if (S.cur<7) goTo(S.cur+1); }
-function prevPhase() { if (S.cur>0) goTo(S.cur-1); }
-
-function updateNav() {
-  const p = PHASES[S.cur];
-  ge('hdr-title').textContent = S.cur===0
-    ? 'Arbeitstreffen – Vorbereitung Abschlusspräsentation'
-    : S.cur===7 ? 'Ergebnisse exportieren'
-    : `Phase ${p.num}: ${p.title}`;
-
-  ge('btn-prev').disabled = S.cur===0;
-  ge('btn-next').textContent = S.cur===6 ? 'Zum Export →' : S.cur===7 ? '—' : 'Weiter →';
-  ge('btn-next').disabled = S.cur===7;
-  ge('nav-label').textContent = S.cur===0 ? 'Übersicht' : S.cur===7 ? 'Export' : `Phase ${S.cur} von 6  ·  ${formatTime(PHASES[S.cur].secs)}`;
-
-  // Dots
-  const row = ge('dot-row');
-  row.innerHTML = '';
-  PHASES.forEach((ph, i) => {
-    if (i === 0 || i === 7) return; // skip overview & export from dots
-    const dot = mk('span');
-    dot.className = 'phdot' + (i===S.cur?' active':S.done.includes(i)?' done':'');
-    dot.title = `Phase ${ph.num}: ${ph.title} (${formatTime(ph.secs)})`;
-    dot.onclick = () => goTo(i);
-    // connector line
-    if (i > 1) {
-      const line = mk('div');
-      line.style.cssText = 'height:2px;background:rgba(255,255,255,.15);width:28px;flex-shrink:0;';
-      row.appendChild(line);
     }
-    row.appendChild(dot);
-  });
-}
-
-function formatTime(secs) {
-  if (!secs) return '—';
-  return `${Math.floor(secs/60)} min`;
-}
-
-// ═══════════════════════════════════════════════════════════════
-// PRESENTATION MODE
-// ═══════════════════════════════════════════════════════════════
-function presToggle() {
-  S.pres = !S.pres;
-  document.body.classList.toggle('pres', S.pres);
-  const b = ge('btn-pres');
-  b.textContent = S.pres ? '✏️ Bearbeitungsmodus' : '🖥 Präsentationsmodus';
-  b.style.background = S.pres ? 'var(--col-rust-dark)' : 'rgba(255,255,255,.12)';
-}
-
-// ═══════════════════════════════════════════════════════════════
-// FULLSCREEN
-// ═══════════════════════════════════════════════════════════════
-function fsToggle() {
-  if (!document.fullscreenElement) {
-    document.documentElement.requestFullscreen().catch(() => {});
-  } else {
-    document.exitFullscreen().catch(() => {});
-  }
-}
-document.addEventListener('fullscreenchange', () => {
-  const b = ge('btn-fs');
-  if (!b) return;
-  const inFs = !!document.fullscreenElement;
-  b.textContent = inFs ? '✕' : '⛶';
-  b.title = inFs ? 'Vollbild beenden' : 'Vollbild';
-  b.style.background = inFs ? 'var(--col-rust-dark)' : 'rgba(255,255,255,.12)';
-});
-
-// ═══════════════════════════════════════════════════════════════
-// HELPERS
-// ═══════════════════════════════════════════════════════════════
-const ge = id => document.getElementById(id);
-const mk = tag => document.createElement(tag);
-const btn = id => ge(id);
-
-function phaseHeader(numLabel, title, sub, timeStr, accent) {
-  // accent: slate | rust | sage | warning
-  const bgs = {slate:'var(--col-slate)',rust:'var(--col-rust-dark)',sage:'var(--col-sage-dark)',warning:'var(--col-warning)'};
-  const bg = bgs[accent]||bgs.slate;
-  const el = mk('div');
-  el.style.cssText = `background:${bg};color:white;border-radius:14px;padding:20px 28px;margin-bottom:22px;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;`;
-  el.innerHTML = `
-    <div>
-      <div class="phase-kicker" style="font-size:.72rem;text-transform:uppercase;letter-spacing:.1em;opacity:.75;margin-bottom:4px;">${numLabel}</div>
-      <h2 class="phase-h2" style="font-size:1.55rem;font-weight:700;line-height:1.2;">${title}</h2>
-      <p class="phase-sub" style="font-size:.88rem;opacity:.85;margin-top:4px;">${sub}</p>
-    </div>
-    ${timeStr ? `<div style="background:rgba(0,0,0,.2);border-radius:10px;padding:10px 18px;text-align:center;flex-shrink:0;">
-      <div style="font-size:.6rem;letter-spacing:.08em;text-transform:uppercase;opacity:.8;">Dauer</div>
-      <div style="font-size:1.6rem;font-weight:700;">⏱ ${timeStr}</div>
-    </div>` : ''}
-  `;
-  return el;
-}
-
-function fieldGroup(labelText, path, placeholder, rows=4, hint='') {
-  const wrap = mk('div');
-  wrap.style.marginBottom = '16px';
-  const val = getField(S.d, path);
-  wrap.innerHTML = `
-    <label style="display:block;font-weight:600;font-size:.88rem;color:var(--col-text);margin-bottom:5px;">${labelText}</label>
-    ${hint ? `<p style="font-size:.78rem;color:var(--col-muted);margin-bottom:5px;">${hint}</p>` : ''}
-    <textarea rows="${rows}" placeholder="${placeholder}" style="resize:vertical;">${val}</textarea>
-  `;
-  wrap.querySelector('textarea').addEventListener('input', function() {
-    setField(S.d, path, this.value); persist();
-  });
-  return wrap;
-}
-
-// ═══════════════════════════════════════════════════════════════
-// RENDER DISPATCHER
-// ═══════════════════════════════════════════════════════════════
-function render() {
-  const area = ge('main-area');
-  area.innerHTML = '';
-  const fns = [renderOverview, renderP1, renderP2, renderP3, renderP4, renderP5, renderP6, renderExport];
-  const c = mk('div');
-  c.className = 'phase-in';
-  c.style.maxWidth = '1180px';
-  c.style.margin = '0 auto';
-  fns[S.cur](c);
-  area.appendChild(c);
-}
-
-// ═══════════════════════════════════════════════════════════════
-// PHASE 0 – OVERVIEW
-// ═══════════════════════════════════════════════════════════════
-function renderOverview(c) {
-  c.innerHTML = `
-    <div style="background:var(--col-slate);color:white;border-radius:16px;padding:32px 36px;margin-bottom:26px;text-align:center;">
-      <div style="font-size:.75rem;letter-spacing:.12em;text-transform:uppercase;opacity:.7;margin-bottom:8px;">HBG Dortmund · Netzwerk Zukunftsschulen</div>
-      <h1 style="font-size:2rem;font-weight:700;margin-bottom:8px;">Vorbereitung Abschlusspräsentation</h1>
-      <p style="opacity:.85;font-size:.95rem;">Arbeitstreffen · 90 Minuten · Abschlusspräsentation vorbereiten</p>
+  </script>
+  <style>
+    html, body { height: 100%; overscroll-behavior: none; }
+    body { font-family: ui-rounded, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    .safe-bottom { padding-bottom: max(1rem, env(safe-area-inset-bottom)); }
+    .safe-top { padding-top: max(.75rem, env(safe-area-inset-top)); }
+    .no-tap-highlight { -webkit-tap-highlight-color: transparent; }
+    .door-planks {
+      background-image:
+        linear-gradient(90deg, rgba(255,255,255,.12) 0 1px, transparent 1px 33%),
+        linear-gradient(180deg, rgba(255,255,255,.16), rgba(0,0,0,.1));
+    }
+    .magic-ring {
+      background: conic-gradient(from 90deg, #f0abfc, #93c5fd, #86efac, #fde68a, #f0abfc);
+    }
+    .rainbow-bg {
+      background: linear-gradient(120deg, #fecdd3, #fed7aa, #fef08a, #bbf7d0, #bfdbfe, #ddd6fe, #fbcfe8);
+      background-size: 220% 220%;
+    }
+  </style>
+</head>
+<body class="bg-cream text-slate-800 min-h-screen overflow-hidden">
+  <main id="app" class="relative min-h-screen max-w-md mx-auto bg-gradient-to-b from-skySoft via-roseSoft to-cream shadow-2xl overflow-hidden flex flex-col safe-top safe-bottom">
+    <div class="absolute inset-0 pointer-events-none overflow-hidden">
+      <div class="absolute -top-14 -left-16 w-44 h-44 bg-white/50 rounded-full blur-2xl"></div>
+      <div class="absolute top-28 -right-16 w-48 h-48 bg-purple-200/35 rounded-full blur-3xl"></div>
+      <div class="absolute bottom-20 -left-20 w-56 h-56 bg-emerald-200/35 rounded-full blur-3xl"></div>
+      <div class="absolute top-16 left-6 text-xl animate-sparkle">✨</div>
+      <div class="absolute top-28 right-8 text-lg animate-floaty">⭐</div>
+      <div class="absolute bottom-40 right-5 text-xl animate-sparkle">💖</div>
     </div>
 
-    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:14px;margin-bottom:22px;">
-      ${[
-        {n:'01',t:'Einstieg & Zielklärung',d:'Format festlegen · Rollen klären',time:'10 min',bg:'var(--col-slate-ghost)',bo:'var(--col-slate-pale)',ph:1},
-        {n:'02',t:'Gemeinsame Sammlung',d:'Methoden · Jahrgänge · Ziele · Materialien',time:'15 min',bg:'var(--col-rust-ghost)',bo:'var(--col-rust-pale)',ph:2},
-        {n:'03',t:'Auswertung in Gruppen',d:'Chancen · Stolperstellen · Perspektiven',time:'25 min',bg:'var(--col-sage-ghost)',bo:'var(--col-sage-pale)',ph:3},
-        {n:'04',t:'Verdichtung: Die Botschaft',d:'3–5 zentrale Aussagen für die anderen Schulen',time:'15 min',bg:'var(--col-warning-pale)',bo:'#E8C87A',ph:4},
-        {n:'05',t:'Präsentationsentwurf',d:'Folieninhalte erarbeiten & aufteilen',time:'20 min',bg:'var(--col-rust-ghost)',bo:'var(--col-rust-pale)',ph:5},
-        {n:'06',t:'Abschluss & Aufgaben',d:'Wer macht was bis wann?',time:'5 min',bg:'var(--col-sage-ghost)',bo:'var(--col-sage-pale)',ph:6},
-      ].map(p=>`
-        <div onclick="goTo(${p.ph})" style="background:${p.bg};border:2px solid ${p.bo};border-radius:12px;padding:18px 20px;cursor:pointer;transition:transform .15s,box-shadow .15s;"
-          onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 5px 16px rgba(0,0,0,.1)'"
-          onmouseout="this.style.transform='';this.style.boxShadow=''">
-          <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:8px;">
-            <span style="font-size:2.2rem;font-weight:800;opacity:.2;line-height:1;color:var(--col-slate-dark);">${p.n}</span>
-            <span style="background:white;border-radius:20px;padding:3px 10px;font-size:.72rem;font-weight:700;color:var(--col-muted);">⏱ ${p.time}</span>
-          </div>
-          <h3 style="font-size:.95rem;font-weight:700;margin-bottom:4px;">${p.t}</h3>
-          <p style="font-size:.78rem;color:var(--col-muted);">${p.d}</p>
-        </div>
-      `).join('')}
-    </div>
-    <div style="background:var(--col-warning-pale);border:1px solid var(--col-warning);border-radius:10px;padding:12px 18px;font-size:.85rem;color:var(--col-warning-text);">
-      <strong>⚠ Hinweis:</strong> Alle Eingaben werden automatisch im Browser gespeichert. Auf eine Phase klicken, um direkt dorthin zu springen.
-    </div>
-  `;
-}
-
-// ═══════════════════════════════════════════════════════════════
-// PHASE 1 – EINSTIEG
-// ═══════════════════════════════════════════════════════════════
-function renderP1(c) {
-  c.appendChild(phaseHeader('Phase 1 von 6','Einstieg & Zielklärung','Gemeinsam Kurs setzen – dann kann es losgehen.','10 min','slate'));
-
-  // Quote
-  const q = mk('div');
-  q.style.cssText = 'background:var(--col-slate-ghost);border-left:5px solid var(--col-slate);border-radius:0 12px 12px 0;padding:16px 22px;margin-bottom:22px;';
-  q.innerHTML = `<span style="font-size:1.8rem;line-height:.6;color:var(--col-slate-mid);display:block;margin-bottom:4px;">❝</span>
-    <p class="pres-big" style="font-size:1rem;font-style:italic;color:var(--col-text);line-height:1.6;">
-      Wir arbeiten heute nicht alles perfekt aus, sondern bereiten unsere Erfahrungen so auf, dass sie beim Abschlusstreffen für die anderen drei Schulen <strong>verständlich, ehrlich und nützlich</strong> sind.
-    </p>`;
-  c.appendChild(q);
-
-  const grid = mk('div');
-  grid.style.cssText = 'display:grid;grid-template-columns:1fr 1fr;gap:18px;';
-
-  // FORMAT CARD
-  const fc = mk('div');
-  fc.className = 'card';
-  fc.innerHTML = `
-    <h3 style="font-size:.95rem;font-weight:700;margin-bottom:4px;">📋 Format festlegen</h3>
-    <p style="font-size:.78rem;color:var(--col-muted);margin-bottom:14px;">Welches Produkt entsteht für das Netzwerktreffen?</p>
-    <div id="fmt-options" style="display:flex;flex-direction:column;gap:8px;"></div>
-  `;
-  const opts = [
-    {v:'folien', l:'📊 5–7 Präsentationsfolien', h:'Strukturiert, gut präsentierbar'},
-    {v:'taskcard', l:'🗂 Taskcard', h:'Digital, interaktiv, verlinkbar'},
-    {v:'bericht', l:'📄 Erfahrungsbericht + Materialbeispiele', h:'Narrativ, dokumentarisch'},
-  ];
-  grid.appendChild(fc);
-  setTimeout(() => {
-    const cont = ge('fmt-options');
-    if (!cont) return;
-    opts.forEach(o => {
-      const lbl = mk('label');
-      const active = S.d.p1.fmt === o.v;
-      lbl.id = `fl-${o.v}`;
-      lbl.style.cssText = `display:flex;align-items:flex-start;gap:10px;cursor:pointer;background:${active?'var(--col-slate-ghost)':'var(--col-bg)'};border:1.5px solid ${active?'var(--col-slate)':'var(--col-border)'};border-radius:8px;padding:10px 14px;transition:all .15s;`;
-      lbl.innerHTML = `
-        <input type="radio" name="fmt" value="${o.v}" ${active?'checked':''} style="margin-top:3px;accent-color:var(--col-slate);flex-shrink:0;">
-        <div><div style="font-weight:600;font-size:.88rem;">${o.l}</div><div style="font-size:.75rem;color:var(--col-muted);">${o.h}</div></div>
-      `;
-      lbl.querySelector('input').addEventListener('change', function() {
-        S.d.p1.fmt = this.value; persist();
-        opts.forEach(oo => {
-          const el = ge(`fl-${oo.v}`);
-          if (!el) return;
-          const sel = oo.v===this.value;
-          el.style.background = sel?'var(--col-slate-ghost)':'var(--col-bg)';
-          el.style.borderColor = sel?'var(--col-slate)':'var(--col-border)';
-        });
-      });
-      cont.appendChild(lbl);
-    });
-  }, 0);
-
-  // ROLLEN CARD
-  const rc = mk('div');
-  rc.className = 'card';
-  const rcInner = mk('div');
-  rcInner.innerHTML = `<h3 style="font-size:.95rem;font-weight:700;margin-bottom:4px;">👥 Rollen klären</h3>
-    <p style="font-size:.78rem;color:var(--col-muted);margin-bottom:14px;">Eine Person moderiert – eine Person dokumentiert sichtbar für alle.</p>`;
-  [['🎤 Moderation','p1.mod','Name oder Kürzel…'],['📝 Dokumentation (sichtbar für alle)','p1.dok','Name oder Kürzel…']].forEach(([lbl,path,ph]) => {
-    const w = mk('div'); w.style.marginBottom='12px';
-    const val = getField(S.d, path);
-    w.innerHTML = `<label style="display:block;font-weight:600;font-size:.85rem;margin-bottom:4px;">${lbl}</label>
-      <input type="text" placeholder="${ph}" value="${val}" style="border:1.5px solid var(--col-border);border-radius:8px;padding:8px 12px;font-size:1rem;font-family:inherit;width:100%;">`;
-    w.querySelector('input').addEventListener('input', function() { setField(S.d,path,this.value); persist(); });
-    rcInner.appendChild(w);
-  });
-  rc.appendChild(rcInner);
-  grid.appendChild(rc);
-  c.appendChild(grid);
-}
-
-// ═══════════════════════════════════════════════════════════════
-// PHASE 2 – WHITEBOARD
-// ═══════════════════════════════════════════════════════════════
-const CAT_CFG = [
-  {id:1, label:'Prüfungsmethode', q:'Welche neuen Prüfungsmethoden wurden getestet?',         bg:'#FEE9DC',border:'var(--col-rust)',    head:'var(--col-rust-dark)', btnbg:'var(--col-rust-pale)'},
-  {id:2, label:'Jahrgang / Fach',  q:'In welchen Jahrgängen / Fächern?',                      bg:'#E8F7E4',border:'var(--col-sage)',    head:'var(--col-sage-dark)', btnbg:'var(--col-sage-pale)'},
-  {id:3, label:'Zielsetzung',       q:'Mit welcher Zielsetzung?',                               bg:'#E4EBF2',border:'var(--col-slate-mid)',head:'var(--col-slate)',     btnbg:'var(--col-slate-pale)'},
-  {id:4, label:'Materialien',       q:'Welche Materialien / Aufgabenformate wurden genutzt?', bg:'#FFF3CC',border:'#D4A800',           head:'var(--col-warning-text)',btnbg:'var(--col-warning-pale)'},
-];
-
-function renderP2(c) {
-  c.appendChild(phaseHeader('Phase 2 von 6','Gemeinsame Sammlung: Was wurde getestet?','Zuerst einzeln / zu zweit sammeln – dann clustern.','15 min','rust'));
-
-  // Leitfragen legend
-  const leg = mk('div');
-  leg.style.cssText = 'display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px;';
-  CAT_CFG.forEach(cat => {
-    const span = mk('div');
-    span.style.cssText = `background:${cat.bg};border:1px solid ${cat.border};color:${cat.head};padding:4px 12px;border-radius:20px;font-size:.75rem;font-weight:700;`;
-    span.textContent = `${cat.id} · ${cat.label}`;
-    leg.appendChild(span);
-  });
-  c.appendChild(leg);
-
-  // Input bar (edit-only)
-  const bar = mk('div');
-  bar.className = 'edit-only';
-  bar.style.cssText = 'display:flex;gap:10px;margin-bottom:18px;flex-wrap:wrap;align-items:center;';
-  bar.innerHTML = `
-    <select id="nb-cat" style="border:1.5px solid var(--col-border);border-radius:8px;padding:8px 12px;font-size:.88rem;background:white;font-family:inherit;flex-shrink:0;">
-      ${CAT_CFG.map(c=>`<option value="${c.id}">${c.id} – ${c.label}</option>`).join('')}
-    </select>
-    <input type="text" id="nb-text" placeholder="Karte eingeben und Enter drücken…"
-      style="flex:1;min-width:220px;border:1.5px solid var(--col-border);border-radius:8px;padding:8px 12px;font-size:1rem;font-family:inherit;">
-    <button onclick="noteAdd()"
-      style="background:var(--col-rust-dark);color:white;border:none;border-radius:8px;padding:10px 18px;font-size:.88rem;font-weight:700;cursor:pointer;white-space:nowrap;">
-      + Karte
-    </button>
-    <button onclick="noteClear()"
-      style="background:var(--col-error-pale);color:var(--col-error-text);border:1px solid var(--col-error);border-radius:8px;padding:10px 14px;font-size:.82rem;cursor:pointer;">
-      🗑 Alle
-    </button>
-  `;
-  c.appendChild(bar);
-  setTimeout(() => {
-    const inp = ge('nb-text');
-    if (inp) inp.addEventListener('keydown', e => { if(e.key==='Enter') noteAdd(); });
-  },0);
-
-  // Note count badge
-  const cnt = mk('div');
-  cnt.id = 'note-count';
-  cnt.style.cssText = 'font-size:.78rem;color:var(--col-muted);margin-bottom:10px;';
-  c.appendChild(cnt);
-
-  // Board columns
-  const board = mk('div');
-  board.style.cssText = 'display:grid;grid-template-columns:repeat(4,1fr);gap:14px;';
-  CAT_CFG.forEach(cat => {
-    const col = mk('div');
-    col.style.cssText = `background:${cat.bg};border:2px solid ${cat.border};border-radius:12px;padding:14px;min-height:220px;`;
-    col.innerHTML = `
-      <h4 style="font-weight:700;font-size:.8rem;color:${cat.head};margin-bottom:10px;display:flex;align-items:center;gap:6px;">
-        <span style="background:${cat.head};color:white;border-radius:50%;width:20px;height:20px;display:inline-flex;align-items:center;justify-content:center;font-size:.7rem;flex-shrink:0;">${cat.id}</span>
-        ${cat.label}
-      </h4>
-      <div id="nc-${cat.id}" style="display:flex;flex-direction:column;gap:7px;"></div>
-    `;
-    board.appendChild(col);
-  });
-  c.appendChild(board);
-  renderNotes();
-}
-
-function renderNotes() {
-  const total = S.d.p2.notes.length;
-  const cnt = ge('note-count');
-  if (cnt) cnt.textContent = total === 0 ? 'Noch keine Karten.' : `${total} Karte${total===1?'':'n'}`;
-  CAT_CFG.forEach(cat => {
-    const cont = ge(`nc-${cat.id}`);
-    if (!cont) return;
-    cont.innerHTML = '';
-    S.d.p2.notes.filter(n=>n.cat===cat.id).forEach(note => {
-      const el = mk('div');
-      el.className = 'note-card';
-      el.style.cssText = `background:${cat.bg};border:1px solid ${cat.border};border-radius:6px;padding:8px 10px;font-size:.83rem;display:flex;align-items:flex-start;gap:7px;box-shadow:1px 2px 4px rgba(0,0,0,.07);word-break:break-word;`;
-      el.innerHTML = `<span style="flex:1;line-height:1.4;">${escHtml(note.text)}</span>
-        <button class="note-del" onclick="noteDel('${note.id}')" title="Löschen">×</button>`;
-      cont.appendChild(el);
-    });
-  });
-}
-
-window.noteAdd = function() {
-  const t = (ge('nb-text')||{}).value?.trim();
-  const c = parseInt((ge('nb-cat')||{}).value||'1');
-  if (!t) return;
-  S.d.p2.notes.push({id: Date.now().toString(36)+Math.random().toString(36).slice(2,5), text:t, cat:c});
-  persist(); if(ge('nb-text')) ge('nb-text').value = '';
-  renderNotes();
-};
-window.noteDel = function(id) {
-  S.d.p2.notes = S.d.p2.notes.filter(n=>n.id!==id); persist(); renderNotes();
-};
-window.noteClear = function() {
-  if(confirm('Alle Karten löschen?')) { S.d.p2.notes = []; persist(); renderNotes(); }
-};
-
-function escHtml(s) {
-  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
-}
-
-// ═══════════════════════════════════════════════════════════════
-// PHASE 3 – GRUPPENARBEIT
-// ═══════════════════════════════════════════════════════════════
-const GROUPS = [
-  {id:'g1',icon:'✅',title:'Gruppe 1: Chancen & Gelungenes',
-   desc:'Was hat gut funktioniert? Lernzuwachs, Motivation, Transparenz, bessere Kompetenzorientierung?',
-   headCol:'var(--col-sage-dark)',cls:'grp-g1',pathPre:'p3.g1'},
-  {id:'g2',icon:'⚠️',title:'Gruppe 2: Stolperstellen & offene Fragen',
-   desc:'Was war schwierig? Organisatorische, rechtliche, technische oder bewertungsbezogene Probleme?',
-   headCol:'var(--col-rust-dark)',cls:'grp-g2',pathPre:'p3.g2'},
-  {id:'g3',icon:'👁',title:'Gruppe 3: Schüler:innen- & Lehrkräfteperspektive',
-   desc:'Wie haben SuS reagiert? Was haben Kolleg:innen beobachtet? Zitate, Rückmeldungen, typische Situationen?',
-   headCol:'var(--col-slate)',cls:'grp-g3',pathPre:'p3.g3'},
-];
-
-function renderP3(c) {
-  c.appendChild(phaseHeader('Phase 3 von 6','Auswertung in drei Gruppen','Jede Gruppe bearbeitet einen festen Fokus. Maximal 5 Kernaussagen + konkrete Beispiele.','25 min','sage'));
-
-  // Group focus cards (always visible, big in pres mode)
-  const grid = mk('div');
-  grid.style.cssText = 'display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-bottom:24px;';
-  GROUPS.forEach(g => {
-    const el = mk('div');
-    el.className = `card ${g.cls}`;
-    el.innerHTML = `
-      <div style="font-size:1.8rem;margin-bottom:8px;">${g.icon}</div>
-      <h3 style="font-weight:700;font-size:.95rem;color:${g.headCol};margin-bottom:8px;">${g.title}</h3>
-      <p style="font-size:.82rem;color:var(--col-muted);line-height:1.55;margin-bottom:14px;">${g.desc}</p>
-      <div style="background:rgba(255,255,255,.7);border-radius:8px;padding:10px 12px;font-size:.78rem;color:var(--col-muted);">
-        <strong>Aufgabe:</strong> Max. 5 Kernaussagen formulieren + konkrete Beispiele ergänzen
+    <header class="relative z-10 px-4 pt-1 pb-2 flex items-center justify-between gap-3">
+      <div>
+        <p class="text-xs font-bold tracking-wide uppercase text-purple-700/80">Ponyhof-Mathe</p>
+        <h1 class="text-2xl font-black leading-tight text-slate-900">Finde das Einhorn</h1>
       </div>
-    `;
-    grid.appendChild(el);
-  });
-  c.appendChild(grid);
+      <button id="fullscreenBtn" class="no-tap-highlight shrink-0 rounded-2xl bg-white/80 border border-white px-3 py-2 text-sm font-extrabold shadow-lg active:scale-95 transition" aria-label="Vollbild starten">
+        ⛶ Vollbild
+      </button>
+    </header>
 
-  // Results section
-  const sec = mk('div');
-  sec.innerHTML = `<h3 style="font-size:1rem;font-weight:700;margin-bottom:16px;color:var(--col-text);border-bottom:2px solid var(--col-border);padding-bottom:8px;">📥 Ergebnisse der Gruppenarbeit eintragen</h3>`;
-  GROUPS.forEach(g => {
-    const gc = mk('div');
-    gc.className = 'card';
-    gc.style.marginBottom = '16px';
-    const title = mk('h4');
-    title.style.cssText = `font-weight:700;margin-bottom:14px;color:${g.headCol};font-size:.95rem;`;
-    title.textContent = `${g.icon} ${g.title}`;
-    gc.appendChild(title);
-    gc.appendChild(fieldGroup('Kernaussagen (max. 5)', `${g.pathPre}.aus`, '1. …\n2. …\n3. …\n4. …\n5. …', 5, 'Eine Aussage pro Zeile'));
-    gc.appendChild(fieldGroup('Konkrete Beispiele & Beobachtungen', `${g.pathPre}.bsp`, 'Situationen, Zitate, Materialhinweise…', 4));
-    sec.appendChild(gc);
-  });
-  c.appendChild(sec);
-}
+    <section class="relative z-10 px-4 pb-2">
+      <div class="rounded-3xl bg-white/75 border border-white shadow-xl p-3">
+        <div class="flex items-start gap-3">
+          <div id="guideAvatar" class="text-4xl animate-bounce-soft">🧚‍♀️</div>
+          <div class="flex-1 min-h-[64px]">
+            <p id="storyText" class="text-base font-bold leading-snug">Hinter einer Stalltür versteckt sich ein Einhorn. Tippe eine Tür an!</p>
+            <p id="smallHint" class="text-sm text-slate-600 mt-1">Löse erst die Futtermischung. Dann testest du mit Zauberzeichen.</p>
+            <p id="readAloudText" class="mt-2 text-sm font-semibold leading-snug text-purple-800 bg-purple-50/80 border border-purple-100 rounded-2xl px-3 py-2">Vorlesen: „Schau dir die drei Stalltüren an. Hinter einer Tür versteckt sich das Einhorn. Welche Tür möchtest du zuerst öffnen?“</p>
+          </div>
+        </div>
+        <div class="mt-3 h-3 bg-slate-100 rounded-full overflow-hidden">
+          <div id="progressBar" class="h-full w-0 rainbow-bg animate-rainbow transition-all duration-500 rounded-full"></div>
+        </div>
+      </div>
+    </section>
 
-// ═══════════════════════════════════════════════════════════════
-// PHASE 4 – VERDICHTUNG
-// ═══════════════════════════════════════════════════════════════
-function renderP4(c) {
-  c.appendChild(phaseHeader('Phase 4 von 6','Verdichtung: Was ist die Botschaft?','Ergebnisse zusammenführen – was nehmen die anderen Schulen mit?','15 min','slate'));
+    <section class="relative z-10 px-4 pt-1">
+      <div class="grid grid-cols-3 gap-2">
+        <button data-door="0" class="doorBtn no-tap-highlight relative h-36 rounded-3xl shadow-xl border-4 border-white overflow-hidden active:scale-95 transition bg-stable door-planks">
+          <div class="absolute inset-x-0 top-0 h-7 bg-stableDark/80"></div>
+          <div class="absolute top-2 left-1/2 -translate-x-1/2 text-white font-black text-sm">Stall 1</div>
+          <div class="absolute inset-x-3 top-11 h-16 rounded-2xl bg-amber-900/25 border-2 border-amber-950/20"></div>
+          <div class="absolute right-3 top-20 w-4 h-4 rounded-full bg-yellow-300 shadow"></div>
+          <div class="doorStatus absolute bottom-2 inset-x-2 rounded-2xl bg-white/80 text-center text-xs font-black py-1">?</div>
+        </button>
+        <button data-door="1" class="doorBtn no-tap-highlight relative h-36 rounded-3xl shadow-xl border-4 border-white overflow-hidden active:scale-95 transition bg-stable door-planks">
+          <div class="absolute inset-x-0 top-0 h-7 bg-stableDark/80"></div>
+          <div class="absolute top-2 left-1/2 -translate-x-1/2 text-white font-black text-sm">Stall 2</div>
+          <div class="absolute inset-x-3 top-11 h-16 rounded-2xl bg-amber-900/25 border-2 border-amber-950/20"></div>
+          <div class="absolute right-3 top-20 w-4 h-4 rounded-full bg-yellow-300 shadow"></div>
+          <div class="doorStatus absolute bottom-2 inset-x-2 rounded-2xl bg-white/80 text-center text-xs font-black py-1">?</div>
+        </button>
+        <button data-door="2" class="doorBtn no-tap-highlight relative h-36 rounded-3xl shadow-xl border-4 border-white overflow-hidden active:scale-95 transition bg-stable door-planks">
+          <div class="absolute inset-x-0 top-0 h-7 bg-stableDark/80"></div>
+          <div class="absolute top-2 left-1/2 -translate-x-1/2 text-white font-black text-sm">Stall 3</div>
+          <div class="absolute inset-x-3 top-11 h-16 rounded-2xl bg-amber-900/25 border-2 border-amber-950/20"></div>
+          <div class="absolute right-3 top-20 w-4 h-4 rounded-full bg-yellow-300 shadow"></div>
+          <div class="doorStatus absolute bottom-2 inset-x-2 rounded-2xl bg-white/80 text-center text-xs font-black py-1">?</div>
+        </button>
+      </div>
+    </section>
 
-  const lf = mk('div');
-  lf.style.cssText = 'background:var(--col-slate-ghost);border-left:5px solid var(--col-slate);border-radius:0 12px 12px 0;padding:14px 20px;margin-bottom:22px;';
-  lf.innerHTML = `<p class="pres-big" style="font-size:.95rem;font-weight:600;color:var(--col-slate-dark);">💬 Leitfrage: Welche drei bis fünf Aussagen sollen die anderen Schulen unbedingt mitnehmen?</p>`;
-  c.appendChild(lf);
+    <section class="relative z-10 flex-1 px-4 pt-3 min-h-0">
+      <div id="taskCard" class="h-full min-h-[310px] rounded-[2rem] bg-white/85 border border-white shadow-2xl p-4 flex flex-col">
+        <div id="idlePanel" class="flex-1 flex flex-col items-center justify-center text-center gap-4">
+          <div class="text-7xl animate-floaty">🏰</div>
+          <div>
+            <h2 class="text-2xl font-black">Wähle eine Stalltür</h2>
+            <p class="text-slate-600 font-semibold mt-1">In einem Stall wartet das Einhorn. In den anderen Ställen wohnen liebe Pferde.</p>
+          </div>
+        </div>
 
-  const card = mk('div');
-  card.className = 'card';
-  card.innerHTML = `<h3 style="font-weight:700;font-size:.95rem;margin-bottom:16px;">📐 Struktur der Botschaft</h3>`;
-  [
-    {path:'p4.frage',    label:'1 · Unsere Ausgangsfrage',                      ph:'Was war die ursprüngliche Frage oder Herausforderung?',rows:2},
-    {path:'p4.versucht', label:'2 · Das haben wir ausprobiert',                 ph:'Welche Methoden, Formate und Ansätze haben wir erprobt?',rows:3},
-    {path:'p4.bewaehrt', label:'3 · Das hat sich bewährt',                      ph:'Was hat gut funktioniert? Was würden wir wieder machen?',rows:3},
-    {path:'p4.schwer',   label:'4 · Das war schwierig',                         ph:'Was lief nicht wie geplant? Wo braucht es noch Lösungen?',rows:3},
-    {path:'p4.next',     label:'5 · Daraus ergeben sich unsere nächsten Schritte', ph:'Was planen wir als Konsequenz? Welche Entscheidungen sind offen?',rows:3},
-  ].forEach(f => card.appendChild(fieldGroup(f.label, f.path, f.ph, f.rows)));
-  c.appendChild(card);
-}
+        <div id="questionPanel" class="hidden flex-1 flex-col min-h-0">
+          <div class="flex items-center justify-between gap-2">
+            <div>
+              <p id="phaseLabel" class="text-xs font-black uppercase tracking-wide text-purple-700">Futtermischung</p>
+              <h2 id="taskTitle" class="text-xl font-black leading-tight">Mische das Futter</h2>
+            </div>
+            <div id="selectedDoorBadge" class="rounded-2xl bg-lilac px-3 py-2 font-black text-sm">Stall</div>
+          </div>
 
-// ═══════════════════════════════════════════════════════════════
-// PHASE 5 – PRÄSENTATIONSENTWURF
-// ═══════════════════════════════════════════════════════════════
-function renderP5(c) {
-  c.appendChild(phaseHeader('Phase 5 von 6','Präsentationsentwurf erstellen','Folieninhalte erarbeiten – das Layout wird separat aufbereitet.','20 min','rust'));
+          <div id="visualArea" class="mt-3 rounded-3xl bg-gradient-to-br from-goldSoft to-white border border-amber-100 p-3 min-h-[104px] flex flex-col items-center justify-center text-center overflow-hidden">
+            <div id="sceneEmoji" class="text-5xl mb-1 animate-slide-bowl">🥣</div>
+            <div id="equationText" class="text-2xl font-black tracking-wide"></div>
+            <div id="tokenText" class="text-2xl leading-relaxed mt-1 break-words"></div>
+          </div>
 
-  const note = mk('div');
-  note.style.cssText = 'background:var(--col-warning-pale);border:1px solid var(--col-warning);border-radius:10px;padding:12px 16px;font-size:.83rem;color:var(--col-warning-text);margin-bottom:20px;';
-  note.innerHTML = '<strong>📌 Hinweis:</strong> Hier werden die Textinhalte für die Folien gesammelt. Das finale Design wird separat aufbereitet (Layout, Formatierung, Bilder).';
-  c.appendChild(note);
+          <p id="instructionText" class="text-center text-base font-bold text-slate-700 my-3">Tippe die richtige Antwort an.</p>
 
-  const grid = mk('div');
-  grid.style.cssText = 'display:grid;grid-template-columns:1fr 1fr;gap:18px;';
-  [
-    {path:'p5.f1',label:'Folie 1 · Ausgangslage und Ziel',           ph:'Was war der Ausgangspunkt? Welches Ziel hatte die Erprobungsphase?',rows:4},
-    {path:'p5.f2',label:'Folie 2 · Getestete Prüfungsmethoden',       ph:'Welche Methoden wurden erprobt? Liste, kurze Beschreibungen…',rows:5},
-    {path:'p5.f3',label:'Folie 3 · Ergebnisse und Beobachtungen',     ph:'Was wurde beobachtet? Welche Erkenntnisse gibt es?',rows:5},
-    {path:'p5.f4',label:'Folie 4 · Stolperstellen',                    ph:'Was hat nicht funktioniert? Wo gab es Probleme?',rows:4},
-    {path:'p5.f5',label:'Folie 5 · Nächste Schritte',                  ph:'Was plant die Schule als nächstes?',rows:4},
-    {path:'p5.f6',label:'Folie 6 · Materialbeispiele, Fotos, Zitate', ph:'Welche Materialien, Fotos oder Schüler:innenzitate sollen gezeigt werden?',rows:4},
-  ].forEach(f => {
-    const fc = mk('div');
-    fc.className = 'card';
-    fc.appendChild(fieldGroup(f.label, f.path, f.ph, f.rows));
-    grid.appendChild(fc);
-  });
-  c.appendChild(grid);
-}
+          <div id="answers" class="grid grid-cols-3 gap-2 mt-auto"></div>
+        </div>
 
-// ═══════════════════════════════════════════════════════════════
-// PHASE 6 – ABSCHLUSS
-// ═══════════════════════════════════════════════════════════════
-function renderP6(c) {
-  c.appendChild(phaseHeader('Phase 6 von 6','Abschluss & Aufgabenverteilung','Was fehlt noch? Wer macht was bis wann?','5 min','sage'));
+        <div id="resultPanel" class="hidden flex-1 flex-col items-center justify-center text-center gap-4">
+          <div id="resultEmoji" class="text-8xl animate-pop">🐴</div>
+          <div>
+            <h2 id="resultTitle" class="text-3xl font-black leading-tight">Ein Pferd!</h2>
+            <p id="resultText" class="text-slate-600 font-semibold mt-2"></p>
+          </div>
+          <button id="continueBtn" class="no-tap-highlight w-full rounded-3xl bg-purple-600 text-white font-black text-xl py-4 shadow-xl active:scale-95 transition">Weiter suchen</button>
+        </div>
 
-  const card = mk('div');
-  card.className = 'card';
-  card.style.marginBottom = '18px';
-  [
-    {path:'p6.fehlt', label:'❓ Was fehlt noch?',                    ph:'Inhaltliche Lücken, offene Entscheidungen, fehlende Materialien…', rows:3},
-    {path:'p6.mat',   label:'📎 Wer ergänzt welche Materialien?',    ph:'Name: Aufgabe / Material\nName: Aufgabe / Material', rows:3},
-    {path:'p6.wer',   label:'🎤 Wer spricht beim Abschlusstreffen?', ph:'Namen und ggf. Aufteilung der Präsentation…', rows:2},
-  ].forEach(f => card.appendChild(fieldGroup(f.label, f.path, f.ph, f.rows)));
+        <div id="winPanel" class="hidden flex-1 flex-col items-center justify-center text-center gap-4 relative overflow-hidden">
+          <div class="absolute inset-0 rainbow-bg animate-rainbow opacity-50 rounded-[2rem]"></div>
+          <div class="relative text-8xl animate-floaty">🦄</div>
+          <div class="relative">
+            <h2 class="text-3xl font-black leading-tight text-slate-950">Du hast das Einhorn gefunden!</h2>
+            <p class="text-slate-700 font-bold mt-2">Der Zauber glitzert. Das Einhorn kommt aus dem Stall.</p>
+          </div>
+          <div class="relative text-3xl animate-sparkle">⭐ 💖 💎 ✨ 🌙</div>
+          <button id="newGameBtn" class="relative no-tap-highlight w-full rounded-3xl bg-pink-600 text-white font-black text-xl py-4 shadow-xl active:scale-95 transition">Neue Runde</button>
+        </div>
+      </div>
+    </section>
+  </main>
 
-  // Deadline
-  const dlw = mk('div'); dlw.style.marginBottom='8px';
-  dlw.innerHTML = `<label style="display:block;font-weight:600;font-size:.88rem;margin-bottom:5px;">📅 Deadline: Wann ist die Endfassung fertig?</label>
-    <input type="date" value="${S.d.p6.dl||''}" style="border:1.5px solid var(--col-border);border-radius:8px;padding:8px 14px;font-size:1rem;font-family:inherit;">`;
-  dlw.querySelector('input').addEventListener('change', function() { S.d.p6.dl=this.value; persist(); });
-  card.appendChild(dlw);
-  c.appendChild(card);
+  <script>
+    const doors = Array.from(document.querySelectorAll('.doorBtn'));
+    const doorStatuses = Array.from(document.querySelectorAll('.doorStatus'));
+    const storyText = document.getElementById('storyText');
+    const smallHint = document.getElementById('smallHint');
+    const readAloudText = document.getElementById('readAloudText');
+    const guideAvatar = document.getElementById('guideAvatar');
+    const progressBar = document.getElementById('progressBar');
+    const idlePanel = document.getElementById('idlePanel');
+    const questionPanel = document.getElementById('questionPanel');
+    const resultPanel = document.getElementById('resultPanel');
+    const winPanel = document.getElementById('winPanel');
+    const phaseLabel = document.getElementById('phaseLabel');
+    const taskTitle = document.getElementById('taskTitle');
+    const selectedDoorBadge = document.getElementById('selectedDoorBadge');
+    const sceneEmoji = document.getElementById('sceneEmoji');
+    const equationText = document.getElementById('equationText');
+    const tokenText = document.getElementById('tokenText');
+    const instructionText = document.getElementById('instructionText');
+    const answers = document.getElementById('answers');
+    const resultEmoji = document.getElementById('resultEmoji');
+    const resultTitle = document.getElementById('resultTitle');
+    const resultText = document.getElementById('resultText');
+    const continueBtn = document.getElementById('continueBtn');
+    const newGameBtn = document.getElementById('newGameBtn');
+    const fullscreenBtn = document.getElementById('fullscreenBtn');
+    const app = document.getElementById('app');
 
-  const cta = mk('div');
-  cta.style.cssText = 'background:var(--col-sage-ghost);border:2px solid var(--col-sage);border-radius:14px;padding:24px;text-align:center;';
-  cta.innerHTML = `
-    <p style="font-size:1.1rem;font-weight:700;color:var(--col-sage-dark);margin-bottom:8px;">🎉 Arbeitstreffen abgeschlossen!</p>
-    <p style="font-size:.88rem;color:var(--col-muted);margin-bottom:16px;">Jetzt alle Ergebnisse exportieren, um sie für das Netzwerktreffen zu teilen.</p>
-    <button onclick="goTo(7)"
-      style="background:var(--col-sage-dark);color:white;border:none;border-radius:8px;padding:12px 26px;font-size:.95rem;font-weight:700;cursor:pointer;">
-      📤 Zum Export →
-    </button>
-  `;
-  c.appendChild(cta);
-}
+    const foodItems = [
+      { name: 'Äpfel', emoji: '🍎' },
+      { name: 'Möhren', emoji: '🥕' },
+      { name: 'Getreide', emoji: '🌾' },
+      { name: 'Gras', emoji: '🌿' }
+    ];
 
-// ═══════════════════════════════════════════════════════════════
-// EXPORT
-// ═══════════════════════════════════════════════════════════════
-function renderExport(c) {
-  const hdr = mk('div');
-  hdr.style.cssText = 'background:var(--col-slate);color:white;border-radius:14px;padding:22px 28px;margin-bottom:22px;';
-  hdr.innerHTML = `<h2 style="font-size:1.5rem;font-weight:700;margin-bottom:4px;">📤 Ergebnisse exportieren</h2>
-    <p style="opacity:.85;font-size:.88rem;">Alle Eingaben aus dem Arbeitstreffen in einem Dokument</p>`;
-  c.appendChild(hdr);
+    const magicItems = [
+      { name: 'Sterne', emoji: '⭐' },
+      { name: 'Herzen', emoji: '💖' },
+      { name: 'Kristalle', emoji: '💎' },
+      { name: 'Monde', emoji: '🌙' },
+      { name: 'Glitzer', emoji: '✨' }
+    ];
 
-  const btns = mk('div');
-  btns.style.cssText = 'display:flex;gap:12px;margin-bottom:24px;flex-wrap:wrap;';
-  btns.innerHTML = `
-    <button onclick="doPrint()"
-      style="background:var(--col-slate);color:white;border:none;border-radius:8px;padding:12px 22px;font-size:.9rem;font-weight:700;cursor:pointer;">
-      🖨 Als PDF drucken
-    </button>
-    <button id="btn-copy" onclick="doCopy()"
-      style="background:var(--col-rust-dark);color:white;border:none;border-radius:8px;padding:12px 22px;font-size:.9rem;font-weight:700;cursor:pointer;">
-      📋 Text kopieren
-    </button>
-    <button onclick="doReset()"
-      style="background:var(--col-error-pale);color:var(--col-error-text);border:1px solid var(--col-error);border-radius:8px;padding:12px 18px;font-size:.85rem;cursor:pointer;">
-      🗑 Zurücksetzen
-    </button>
-  `;
-  c.appendChild(btns);
+    let unicornDoor = 0;
+    let selectedDoor = null;
+    let phase = 'idle';
+    let currentTask = null;
+    let checkedDoors = [false, false, false];
+    let attempts = 0;
 
-  const preview = mk('div');
-  preview.id = 'export-body';
-  preview.style.cssText = 'border:2px solid var(--col-border);border-radius:12px;overflow:hidden;';
-  preview.innerHTML = buildExportMarkup();
-  c.appendChild(preview);
-}
+    function rand(min, max) {
+      return Math.floor(Math.random() * (max - min + 1)) + min;
+    }
 
-function buildExportMarkup() {
-  const d = S.d;
-  const date = new Date().toLocaleDateString('de-DE',{day:'2-digit',month:'2-digit',year:'numeric'});
-  const fmtLabel = {folien:'📊 Folien (5–7)',taskcard:'🗂 Taskcard',bericht:'📄 Erfahrungsbericht'};
-  const noteSec = [1,2,3,4].map(cat => {
-    const ns = d.p2.notes.filter(n=>n.cat===cat);
-    if (!ns.length) return '';
-    return `<p><strong>${CAT_CFG[cat-1].label}:</strong> ${ns.map(n=>escHtml(n.text)).join(' · ')}</p>`;
-  }).join('');
-  const fmtField = (label, val) => val ? `<p><strong>${label}</strong><br>${val.replace(/\n/g,'<br>')}</p>` : '';
+    function pick(arr) {
+      return arr[Math.floor(Math.random() * arr.length)];
+    }
 
-  return `<div style="padding:28px;background:white;font-family:-apple-system,Helvetica,Arial,sans-serif;color:#1E2A35;font-size:14px;line-height:1.65;">
-    <div style="border-bottom:3px solid #3E5668;padding-bottom:14px;margin-bottom:22px;">
-      <div style="font-size:11px;color:#5A6A78;margin-bottom:3px;">HBG Dortmund · Netzwerk Zukunftsschulen</div>
-      <h1 style="font-size:22px;font-weight:700;color:#2C3D4C;margin-bottom:3px;">Ergebnisse Arbeitstreffen</h1>
-      <div style="font-size:12px;color:#5A6A78;">Datum: ${date}</div>
-    </div>
+    function repeatEmoji(emoji, count) {
+      return Array.from({ length: count }, () => emoji).join('');
+    }
 
-    <div class="print-sec" style="background:#EEF3F7;border-radius:8px;padding:16px 18px;margin-bottom:16px;">
-      <h2 style="font-size:14px;font-weight:700;color:#2C3D4C;margin-bottom:10px;">Phase 1 · Einstieg</h2>
-      <p><strong>Format:</strong> ${fmtLabel[d.p1.fmt]||'–'}</p>
-      <p><strong>Moderation:</strong> ${escHtml(d.p1.mod)||'–'}</p>
-      <p><strong>Dokumentation:</strong> ${escHtml(d.p1.dok)||'–'}</p>
-    </div>
+    function showOnly(panel) {
+      [idlePanel, questionPanel, resultPanel, winPanel].forEach(p => {
+        p.classList.add('hidden');
+        p.classList.remove('flex');
+      });
+      panel.classList.remove('hidden');
+      panel.classList.add('flex');
+    }
 
-    <div class="print-sec" style="background:#FBF0EB;border-radius:8px;padding:16px 18px;margin-bottom:16px;">
-      <h2 style="font-size:14px;font-weight:700;color:#2C3D4C;margin-bottom:10px;">Phase 2 · Sammlung (${d.p2.notes.length} Karten)</h2>
-      ${noteSec || '<p style="color:#5A6A78;">Keine Karten eingetragen.</p>'}
-    </div>
+    function makeTask(kind) {
+      if (kind === 'food') {
+        const first = pick(foodItems);
+        let second = pick(foodItems);
+        while (second.emoji === first.emoji) second = pick(foodItems);
+        const a = rand(1, 5);
+        const b = rand(1, 10 - a);
+        return {
+          kind,
+          op: '+',
+          a,
+          b,
+          answer: a + b,
+          first,
+          second,
+          title: 'Mische das Futter',
+          label: 'Futtermischung',
+          scene: '🥣',
+          instruction: 'Tippe die Futterschale mit der richtigen Anzahl an.'
+        };
+      }
 
-    <div class="print-sec" style="background:#F0FAF0;border-radius:8px;padding:16px 18px;margin-bottom:16px;">
-      <h2 style="font-size:14px;font-weight:700;color:#2C3D4C;margin-bottom:12px;">Phase 3 · Gruppenauswertung</h2>
-      ${GROUPS.map(g => `
-        <div style="margin-bottom:14px;padding-bottom:14px;border-bottom:1px solid #D4D0C8;">
-          <p style="font-weight:700;margin-bottom:6px;">${g.icon} ${g.title}</p>
-          ${d.p3[g.id].aus ? `<p><em>Kernaussagen:</em><br>${escHtml(d.p3[g.id].aus).replace(/\n/g,'<br>')}</p>` : ''}
-          ${d.p3[g.id].bsp ? `<p style="margin-top:6px;"><em>Beispiele:</em><br>${escHtml(d.p3[g.id].bsp).replace(/\n/g,'<br>')}</p>` : ''}
-        </div>`).join('')}
-    </div>
+      const item = pick(magicItems);
+      const useMinus = Math.random() < 0.45;
+      if (useMinus) {
+        const a = rand(3, 10);
+        const b = rand(1, a - 1);
+        return {
+          kind,
+          op: '-',
+          a,
+          b,
+          answer: a - b,
+          first: item,
+          second: item,
+          title: 'Teste den Zauber',
+          label: 'Zauberspruch',
+          scene: '🔮',
+          instruction: 'Tippe den Zauberkreis mit der richtigen Anzahl an.'
+        };
+      }
 
-    <div class="print-sec" style="background:#EEF3F7;border-radius:8px;padding:16px 18px;margin-bottom:16px;">
-      <h2 style="font-size:14px;font-weight:700;color:#2C3D4C;margin-bottom:12px;">Phase 4 · Die Botschaft</h2>
-      ${fmtField('1. Unsere Ausgangsfrage:', d.p4.frage)}
-      ${fmtField('2. Das haben wir ausprobiert:', d.p4.versucht)}
-      ${fmtField('3. Das hat sich bewährt:', d.p4.bewaehrt)}
-      ${fmtField('4. Das war schwierig:', d.p4.schwer)}
-      ${fmtField('5. Nächste Schritte:', d.p4.next)}
-    </div>
+      const first = pick(magicItems);
+      let second = pick(magicItems);
+      while (second.emoji === first.emoji) second = pick(magicItems);
+      const a = rand(1, 5);
+      const b = rand(1, 10 - a);
+      return {
+        kind,
+        op: '+',
+        a,
+        b,
+        answer: a + b,
+        first,
+        second,
+        title: 'Teste den Zauber',
+        label: 'Zauberspruch',
+        scene: '🔮',
+        instruction: 'Tippe den Zauberkreis mit der richtigen Anzahl an.'
+      };
+    }
 
-    <div class="print-sec" style="background:#FBF0EB;border-radius:8px;padding:16px 18px;margin-bottom:16px;">
-      <h2 style="font-size:14px;font-weight:700;color:#2C3D4C;margin-bottom:12px;">Phase 5 · Folieninhalte</h2>
-      ${fmtField('Folie 1 – Ausgangslage:', d.p5.f1)}
-      ${fmtField('Folie 2 – Methoden:', d.p5.f2)}
-      ${fmtField('Folie 3 – Ergebnisse:', d.p5.f3)}
-      ${fmtField('Folie 4 – Stolperstellen:', d.p5.f4)}
-      ${fmtField('Folie 5 – Nächste Schritte:', d.p5.f5)}
-      ${fmtField('Folie 6 – Materialbeispiele:', d.p5.f6)}
-    </div>
+    function answerOptions(answer) {
+      const values = new Set([answer]);
+      while (values.size < 3) {
+        const offset = pick([-2, -1, 1, 2]);
+        const candidate = answer + offset;
+        if (candidate >= 0 && candidate <= 10) values.add(candidate);
+      }
+      return Array.from(values).sort(() => Math.random() - 0.5);
+    }
 
-    <div class="print-sec" style="background:#DDF0D8;border-radius:8px;padding:16px 18px;">
-      <h2 style="font-size:14px;font-weight:700;color:#2C3D4C;margin-bottom:10px;">Phase 6 · Aufgabenverteilung</h2>
-      <p><strong>Was fehlt noch:</strong><br>${d.p6.fehlt ? escHtml(d.p6.fehlt).replace(/\n/g,'<br>') : '–'}</p>
-      <p style="margin-top:8px;"><strong>Materialien:</strong><br>${d.p6.mat ? escHtml(d.p6.mat).replace(/\n/g,'<br>') : '–'}</p>
-      <p style="margin-top:8px;"><strong>Sprecher:innen:</strong> ${d.p6.wer ? escHtml(d.p6.wer) : '–'}</p>
-      <p style="margin-top:8px;"><strong>Deadline Endfassung:</strong> ${d.p6.dl ? new Date(d.p6.dl+'T12:00:00').toLocaleDateString('de-DE') : '–'}</p>
-    </div>
-  </div>`;
-}
+    function renderTask(task) {
+      currentTask = task;
+      phase = task.kind;
+      phaseLabel.textContent = task.label;
+      taskTitle.textContent = task.title;
+      selectedDoorBadge.textContent = `Stall ${selectedDoor + 1}`;
+      sceneEmoji.textContent = task.scene;
+      if (task.kind === 'food') {
+        readAloudText.textContent = `Vorlesen: „Das Tier in Stall ${selectedDoor + 1} hat Hunger. Mische ${task.a} ${task.first.name} und ${task.b} ${task.second.name}. Wie viele Futterstücke sind zusammen in der Schale?“`;
+      } else if (task.op === '+') {
+        readAloudText.textContent = `Vorlesen: „Jetzt prüfen wir mit Zauberzeichen. Lege ${task.a} ${task.first.name} und ${task.b} ${task.second.name} in den Zauberkreis. Wie viele Zeichen sind es zusammen?“`;
+      } else {
+        readAloudText.textContent = `Vorlesen: „Im Zauberkreis leuchten ${task.a} ${task.first.name}. ${task.b} verschwinden. Wie viele Zeichen bleiben übrig?“`;
+      }
+      instructionText.textContent = task.instruction;
 
-window.doPrint = function() {
-  const w = window.open('','_blank');
-  w.document.write(`<!DOCTYPE html><html lang="de"><head><meta charset="UTF-8"><title>MPK Arbeitstreffen</title>
-    <style>body{margin:20px;font-family:-apple-system,Helvetica,Arial,sans-serif;} @page{margin:15mm;} .print-sec{page-break-inside:avoid;} h1,h2{color:#2C3D4C;} p{margin-bottom:6px;}</style>
-    </head><body>${buildExportMarkup()}</body></html>`);
-  w.document.close(); w.focus();
-  setTimeout(() => { w.print(); w.close(); }, 500);
-};
+      if (task.op === '+') {
+        equationText.textContent = `${task.a} + ${task.b} = ?`;
+        tokenText.innerHTML = `<span aria-label="${task.a} ${task.first.name}">${repeatEmoji(task.first.emoji, task.a)}</span> <span class="font-black">+</span> <span aria-label="${task.b} ${task.second.name}">${repeatEmoji(task.second.emoji, task.b)}</span>`;
+      } else {
+        equationText.textContent = `${task.a} - ${task.b} = ?`;
+        tokenText.innerHTML = `<span aria-label="${task.a} ${task.first.name}">${repeatEmoji(task.first.emoji, task.a)}</span> <span class="font-black">−</span> <span aria-label="${task.b} verschwinden">${repeatEmoji(task.second.emoji, task.b)}</span>`;
+      }
 
-window.doCopy = function() {
-  const d = S.d;
-  const fmtLabel = {folien:'Folien (5–7)',taskcard:'Taskcard',bericht:'Erfahrungsbericht'};
-  const hr = '─'.repeat(56);
-  const notesText = [1,2,3,4].map(cat => {
-    const ns = d.p2.notes.filter(n=>n.cat===cat);
-    if (!ns.length) return null;
-    return `${CAT_CFG[cat-1].label}:\n${ns.map(n=>`  • ${n.text}`).join('\n')}`;
-  }).filter(Boolean).join('\n');
+      answers.innerHTML = '';
+      const options = answerOptions(task.answer);
+      options.forEach(value => {
+        const btn = document.createElement('button');
+        btn.className = 'answerBtn no-tap-highlight rounded-3xl bg-white border-2 border-purple-100 shadow-lg min-h-[94px] p-2 flex flex-col items-center justify-center active:scale-95 transition';
+        btn.dataset.value = String(value);
+        const emoji = task.kind === 'food' ? '🥣' : '🪄';
+        const tokenEmoji = task.kind === 'food' ? task.first.emoji : task.first.emoji;
+        btn.innerHTML = `
+          <div class="text-3xl">${emoji}</div>
+          <div class="text-3xl font-black leading-none">${value}</div>
+          <div class="text-lg leading-tight break-all max-w-full">${repeatEmoji(tokenEmoji, value)}</div>
+        `;
+        btn.addEventListener('click', () => checkAnswer(value, btn));
+        answers.appendChild(btn);
+      });
 
-  const t = [
-    'ARBEITSTREFFEN – NETZWERK ZUKUNFTSSCHULEN',
-    `HBG Dortmund  ·  ${new Date().toLocaleDateString('de-DE')}`,
-    '═'.repeat(56),
-    '',
-    'PHASE 1 – EINSTIEG',
-    `Format: ${fmtLabel[d.p1.fmt]||'–'}`,
-    `Moderation: ${d.p1.mod||'–'}`,
-    `Dokumentation: ${d.p1.dok||'–'}`,
-    '',hr,
-    `PHASE 2 – SAMMLUNG (${d.p2.notes.length} Karten)`,
-    notesText || '(keine Karten)',
-    '',hr,
-    'PHASE 3 – GRUPPENAUSWERTUNG',
-    '',
-    '✅ Gruppe 1: Chancen & Gelungenes',
-    `Kernaussagen:\n${d.p3.g1.aus||'–'}`,
-    `Beispiele:\n${d.p3.g1.bsp||'–'}`,
-    '',
-    '⚠ Gruppe 2: Stolperstellen',
-    `Kernaussagen:\n${d.p3.g2.aus||'–'}`,
-    `Beispiele:\n${d.p3.g2.bsp||'–'}`,
-    '',
-    '👁 Gruppe 3: Perspektiven',
-    `Kernaussagen:\n${d.p3.g3.aus||'–'}`,
-    `Beispiele:\n${d.p3.g3.bsp||'–'}`,
-    '',hr,
-    'PHASE 4 – DIE BOTSCHAFT',
-    `1. Ausgangsfrage: ${d.p4.frage||'–'}`,
-    `2. Ausprobiert: ${d.p4.versucht||'–'}`,
-    `3. Bewährt: ${d.p4.bewaehrt||'–'}`,
-    `4. Schwierig: ${d.p4.schwer||'–'}`,
-    `5. Nächste Schritte: ${d.p4.next||'–'}`,
-    '',hr,
-    'PHASE 5 – FOLIENINHALTE',
-    `Folie 1 – Ausgangslage: ${d.p5.f1||'–'}`,
-    `Folie 2 – Methoden: ${d.p5.f2||'–'}`,
-    `Folie 3 – Ergebnisse: ${d.p5.f3||'–'}`,
-    `Folie 4 – Stolperstellen: ${d.p5.f4||'–'}`,
-    `Folie 5 – Nächste Schritte: ${d.p5.f5||'–'}`,
-    `Folie 6 – Materialbeispiele: ${d.p5.f6||'–'}`,
-    '',hr,
-    'PHASE 6 – AUFGABENVERTEILUNG',
-    `Was fehlt: ${d.p6.fehlt||'–'}`,
-    `Materialien: ${d.p6.mat||'–'}`,
-    `Sprecher:innen: ${d.p6.wer||'–'}`,
-    `Deadline: ${d.p6.dl ? new Date(d.p6.dl+'T12:00:00').toLocaleDateString('de-DE') : '–'}`,
-  ].join('\n');
+      showOnly(questionPanel);
+    }
 
-  navigator.clipboard.writeText(t).then(() => {
-    const b = ge('btn-copy');
-    if (b) { b.textContent = '✅ Kopiert!'; setTimeout(()=>b.textContent='📋 Text kopieren',2500); }
-  }).catch(() => alert('Kopieren nicht möglich – bitte manuell aus der Vorschau kopieren.'));
-};
+    function checkAnswer(value, btn) {
+      if (!currentTask) return;
+      if (value === currentTask.answer) {
+        btn.classList.remove('bg-white', 'border-purple-100');
+        btn.classList.add('bg-emerald-100', 'border-emerald-400', 'animate-pop');
+        document.querySelectorAll('.answerBtn').forEach(b => b.disabled = true);
+        if (phase === 'food') {
+          storyText.textContent = 'Prima! Das Futter duftet. Da kommt jemand zur Tür.';
+          smallHint.textContent = 'Jetzt brauchst du den Zauberspruch.';
+          readAloudText.textContent = 'Vorlesen: „Sehr gut gezählt! Das Futter ist fertig. Jetzt kommt das Tier zur Tür. Ob es wohl das Einhorn ist?“';
+          guideAvatar.textContent = '🥣';
+          setTimeout(() => renderTask(makeTask('magic')), 850);
+        } else {
+          setTimeout(() => revealDoor(), 650);
+        }
+      } else {
+        btn.classList.add('animate-wiggle', 'bg-rose-100', 'border-rose-300');
+        storyText.textContent = 'Fast! Zähl die Zeichen noch einmal langsam ab.';
+        smallHint.textContent = 'Du kannst es direkt noch einmal versuchen.';
+        readAloudText.textContent = 'Vorlesen: „Das war noch nicht ganz richtig. Zähl die Bilder noch einmal mit dem Finger. Danach probierst du es einfach noch einmal.“';
+        setTimeout(() => btn.classList.remove('animate-wiggle', 'bg-rose-100', 'border-rose-300'), 550);
+      }
+    }
 
-window.doReset = function() {
-  if (confirm('Alle Eingaben unwiderruflich löschen und neu starten?')) {
-    localStorage.removeItem(SK);
-    location.reload();
-  }
-};
+    function revealDoor() {
+      attempts += 1;
+      const door = doors[selectedDoor];
+      door.classList.add('animate-door');
+      setTimeout(() => door.classList.remove('animate-door'), 800);
 
-// ═══════════════════════════════════════════════════════════════
-// INIT
-// ═══════════════════════════════════════════════════════════════
-function init() {
-  updateNav();
-  timerSet(PHASES[S.cur].secs);
-  render();
-  if (S.pres) {
-    document.body.classList.add('pres');
-    ge('btn-pres').textContent = '✏️ Bearbeitungsmodus';
-    ge('btn-pres').style.background = 'var(--col-rust-dark)';
-  }
-}
+      if (selectedDoor === unicornDoor) {
+        doorStatuses[selectedDoor].textContent = '🦄';
+        doorStatuses[selectedDoor].classList.remove('bg-white/80');
+        doorStatuses[selectedDoor].classList.add('bg-pink-100');
+        storyText.textContent = 'Der Zauber glitzert hell!';
+        smallHint.textContent = 'Hinter dieser Tür ist wirklich das Einhorn.';
+        readAloudText.textContent = 'Vorlesen: „Der Zauber funkelt! Das bedeutet: Du hast das Einhorn gefunden. Es kommt jetzt aus seinem Stall.“';
+        guideAvatar.textContent = '✨';
+        progressBar.style.width = '100%';
+        showOnly(winPanel);
+      } else {
+        checkedDoors[selectedDoor] = true;
+        door.disabled = true;
+        doorStatuses[selectedDoor].textContent = '🐴';
+        doorStatuses[selectedDoor].classList.remove('bg-white/80');
+        doorStatuses[selectedDoor].classList.add('bg-amber-100');
+        const found = checkedDoors.filter(Boolean).length;
+        progressBar.style.width = `${Math.min(70, found * 35)}%`;
+        resultEmoji.textContent = pick(['🐴', '🐎', '🫏']);
+        resultTitle.textContent = 'Ein liebes Pferd!';
+        resultText.textContent = 'Das Tier freut sich über dein Futter. Aber das Einhorn versteckt sich in einem anderen Stall.';
+        continueBtn.textContent = checkedDoors.filter(Boolean).length >= 2 ? 'Letzte Tür prüfen' : 'Weiter suchen';
+        storyText.textContent = 'Gut gezaubert! Das war ein Pferd.';
+        smallHint.textContent = 'Wähle eine andere Stalltür.';
+        readAloudText.textContent = 'Vorlesen: „Das ist ein freundliches Pferd. Es freut sich über dein Futter. Das Einhorn ist aber noch versteckt. Suche weiter.“';
+        guideAvatar.textContent = '🐴';
+        showOnly(resultPanel);
+      }
+    }
 
-init();
-</script>
+    function startDoor(index) {
+      if (checkedDoors[index] || phase === 'food' || phase === 'magic') return;
+      selectedDoor = index;
+      doors.forEach((d, i) => d.classList.toggle('ring-4', i === index));
+      doors.forEach((d, i) => d.classList.toggle('ring-purple-400', i === index));
+      storyText.textContent = `Stall ${index + 1} ist ausgewählt. Mische jetzt das Lieblingsfutter.`;
+      smallHint.textContent = 'Zähle die Futterstücke und tippe die passende Schale an.';
+      readAloudText.textContent = `Vorlesen: „Du hast Stall ${index + 1} gewählt. Damit das Tier zur Tür kommt, brauchen wir eine besondere Futtermischung.“`; 
+      guideAvatar.textContent = '🥕';
+      renderTask(makeTask('food'));
+    }
+
+    function resetGame() {
+      unicornDoor = rand(0, 2);
+      selectedDoor = null;
+      phase = 'idle';
+      currentTask = null;
+      checkedDoors = [false, false, false];
+      attempts = 0;
+      progressBar.style.width = '0%';
+      storyText.textContent = 'Hinter einer Stalltür versteckt sich ein Einhorn. Tippe eine Tür an!';
+      smallHint.textContent = 'Löse erst die Futtermischung. Dann testest du mit Zauberzeichen.';
+      readAloudText.textContent = 'Vorlesen: „Schau dir die drei Stalltüren an. Hinter einer Tür versteckt sich das Einhorn. Welche Tür möchtest du zuerst öffnen?“';
+      guideAvatar.textContent = '🧚‍♀️';
+      doors.forEach((door, i) => {
+        door.disabled = false;
+        door.classList.remove('ring-4', 'ring-purple-400', 'opacity-70');
+        doorStatuses[i].textContent = '?';
+        doorStatuses[i].className = 'doorStatus absolute bottom-2 inset-x-2 rounded-2xl bg-white/80 text-center text-xs font-black py-1';
+      });
+      showOnly(idlePanel);
+    }
+
+    doors.forEach((door, index) => {
+      door.addEventListener('click', () => startDoor(index));
+    });
+
+    continueBtn.addEventListener('click', () => {
+      phase = 'idle';
+      selectedDoor = null;
+      doors.forEach(d => d.classList.remove('ring-4', 'ring-purple-400'));
+      storyText.textContent = 'Wähle die nächste Stalltür.';
+      smallHint.textContent = 'Vielleicht ist das Einhorn dort versteckt.';
+      readAloudText.textContent = 'Vorlesen: „Welche Tür möchtest du jetzt testen? Hinter einer der übrigen Türen wartet das Einhorn.“';
+      guideAvatar.textContent = '🧚‍♀️';
+      showOnly(idlePanel);
+    });
+
+    newGameBtn.addEventListener('click', resetGame);
+
+    fullscreenBtn.addEventListener('click', async () => {
+      try {
+        if (!document.fullscreenElement) {
+          await app.requestFullscreen();
+          fullscreenBtn.textContent = '⛶ Beenden';
+        } else {
+          await document.exitFullscreen();
+          fullscreenBtn.textContent = '⛶ Vollbild';
+        }
+      } catch (err) {
+        storyText.textContent = 'Vollbild klappt auf diesem Gerät gerade nicht.';
+        smallHint.textContent = 'Du kannst trotzdem weiterspielen.';
+        readAloudText.textContent = 'Vorlesen: „Das Spiel kann auch ohne Vollbild weitergehen.“';
+      }
+    });
+
+    document.addEventListener('fullscreenchange', () => {
+      fullscreenBtn.textContent = document.fullscreenElement ? '⛶ Beenden' : '⛶ Vollbild';
+    });
+
+    resetGame();
+  </script>
 </body>
 </html>
