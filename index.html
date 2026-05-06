@@ -710,10 +710,12 @@ function renderCards() {
     body.style.cssText = 'padding:14px 15px;display:flex;flex-direction:column;gap:11px;';
 
     [
-      {key:'lerngruppe', label:'📚 Lerngruppe / Jahrgang / Fach', ph:'z.B. Klasse 8a, Fach Technik'},
-      {key:'methode',    label:'🔬 Prüfungsmethode',               ph:'z.B. Portfolio, Lernprodukt, kompetenzorientierter Test'},
-      {key:'ziel',       label:'🎯 Zielsetzung',                   ph:'Warum wurde diese Methode erprobt?'},
-      {key:'sonstiges',  label:'💬 Sonstiges / Materialien',       ph:'Besonderheiten, genutzte Materialien, Aufgabenformate…'},
+      {key:'lerngruppe',  label:'📚 Lerngruppe / Jahrgang / Fach', ph:'z.B. Klasse 8a, Fach Technik'},
+      {key:'methode',     label:'🔬 Prüfungsmethode',               ph:'z.B. Portfolio, Lernprodukt, kompetenzorientierter Test'},
+      {key:'ziel',        label:'🎯 Zielsetzung',                   ph:'Warum wurde diese Methode erprobt?'},
+      {key:'sonstiges',   label:'💬 Sonstiges / Materialien',       ph:'Besonderheiten, genutzte Materialien, Aufgabenformate…'},
+      {key:'fbLehrkraft', label:'🧑‍🏫 Feedback der Lehrkraft',      ph:'Eigene Einschätzung, Beobachtungen, Konsequenzen…'},
+      {key:'fbSuS',       label:'🧑‍🎓 Feedback der SuS',             ph:'Rückmeldungen, Zitate, typische Reaktionen…'},
     ].forEach(f => {
       const wrap = mk('div');
       const lbl = mk('label');
@@ -744,7 +746,7 @@ function renderCards() {
 
 window.cardAdd = function() {
   const id = Date.now().toString(36)+Math.random().toString(36).slice(2,5);
-  S.d.p2.notes.push({id, lerngruppe:'', methode:'', ziel:'', sonstiges:''});
+  S.d.p2.notes.push({id, lerngruppe:'', methode:'', ziel:'', sonstiges:'', fbLehrkraft:'', fbSuS:''});
   persist();
   renderCards();
   // scroll to new card + flash animation
@@ -792,6 +794,8 @@ window.cardsPrint = function() {
             ${row('🔬 Methode',    n.methode)}
             ${row('🎯 Ziel',       n.ziel)}
             ${row('💬 Sonstiges',  n.sonstiges)}
+            ${row('🧑‍🏫 Feedback Lehrkraft', n.fbLehrkraft)}
+            ${row('🧑‍🎓 Feedback SuS',       n.fbSuS)}
           </table>
           <div style="margin-top:14px;border-top:1.5px solid ${bd};padding-top:10px;">
             <div style="font-size:11px;font-weight:700;color:${acc};text-transform:uppercase;letter-spacing:.07em;margin-bottom:6px;">Gruppenauswertung</div>
@@ -1066,6 +1070,8 @@ function buildExportMarkup() {
           ${n.methode    ? `<p><strong>🔬 Prüfungsmethode:</strong> ${escHtml(n.methode)}</p>` : ''}
           ${n.ziel       ? `<p><strong>🎯 Zielsetzung:</strong> ${escHtml(n.ziel)}</p>` : ''}
           ${n.sonstiges  ? `<p><strong>💬 Sonstiges:</strong> ${escHtml(n.sonstiges)}</p>` : ''}
+          ${n.fbLehrkraft? `<p><strong>🧑‍🏫 Feedback Lehrkraft:</strong> ${escHtml(n.fbLehrkraft)}</p>` : ''}
+          ${n.fbSuS      ? `<p><strong>🧑‍🎓 Feedback SuS:</strong> ${escHtml(n.fbSuS)}</p>` : ''}
         </div>`).join('');
   const fmtField = (label, val) => val ? `<p><strong>${label}</strong><br>${val.replace(/\n/g,'<br>')}</p>` : '';
 
@@ -1145,10 +1151,12 @@ window.doCopy = function() {
   const notesText = d.p2.notes.length === 0 ? '(keine Karten)' :
     d.p2.notes.map((n,i) => [
       `Karte ${i+1}:`,
-      n.lerngruppe ? `  Lerngruppe: ${n.lerngruppe}` : null,
-      n.methode    ? `  Methode: ${n.methode}` : null,
-      n.ziel       ? `  Ziel: ${n.ziel}` : null,
-      n.sonstiges  ? `  Sonstiges: ${n.sonstiges}` : null,
+      n.lerngruppe  ? `  Lerngruppe: ${n.lerngruppe}` : null,
+      n.methode     ? `  Methode: ${n.methode}` : null,
+      n.ziel        ? `  Ziel: ${n.ziel}` : null,
+      n.sonstiges   ? `  Sonstiges: ${n.sonstiges}` : null,
+      n.fbLehrkraft ? `  Feedback Lehrkraft: ${n.fbLehrkraft}` : null,
+      n.fbSuS       ? `  Feedback SuS: ${n.fbSuS}` : null,
     ].filter(Boolean).join('\n')).join('\n\n');
 
   const t = [
