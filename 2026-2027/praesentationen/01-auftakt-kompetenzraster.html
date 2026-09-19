@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Kompetenzraster im selbstregulierten Lernen</title>
+<link rel="stylesheet" href="../assets/netzwerk-2026.css">
+<style>
+html,body{height:100%;overflow:hidden}
+body{background:#eef1f1}
+.deck{height:100%;position:relative}
+.slide{
+  display:none;height:100%;padding:5vh 6vw 8vh;
+  background:
+    radial-gradient(circle at 85% 10%,rgba(165,204,203,.35),transparent 26%),
+    linear-gradient(145deg,#fff 0%,#edf1f1 100%);
+}
+.slide.active{display:flex;flex-direction:column;justify-content:center}
+.slide h1{font-size:clamp(2.4rem,6vw,5.8rem);line-height:.98;margin:.4rem 0 1rem}
+.slide h2{font-size:clamp(2rem,4.5vw,4.2rem);line-height:1.05;margin:.4rem 0 1rem;color:var(--nw-petrol)}
+.slide p,.slide li{font-size:clamp(1.1rem,2vw,1.65rem);line-height:1.45}
+.slide ul{max-width:1000px}
+.slide li{margin:.45rem 0}
+.big{font-size:clamp(1.6rem,3vw,2.8rem)!important;font-weight:900;color:var(--nw-petrol)}
+.cols{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;max-width:1200px}
+.card{background:white;border:1px solid rgba(16,63,68,.12);border-radius:18px;padding:20px;box-shadow:0 8px 26px var(--nw-shadow)}
+.flow{display:flex;gap:8px;flex-wrap:wrap;margin-top:18px}
+.flow span{padding:.72rem 1rem;border-radius:999px;background:var(--nw-aqua);font-weight:900;color:var(--nw-petrol)}
+.flow span:nth-child(2){background:#93d6c6}
+.flow span:nth-child(3){background:#77c6bc}
+.flow span:nth-child(4){background:#65aeb0}
+.flow span:nth-child(5){background:#588c98;color:white}
+.flow span:nth-child(6){background:var(--nw-slate);color:white}
+.nav{
+ position:fixed;left:0;right:0;bottom:0;height:54px;
+ background:rgba(16,63,68,.94);display:flex;align-items:center;justify-content:space-between;
+ color:white;padding:0 20px;z-index:20
+}
+.nav button{background:none;border:1px solid rgba(255,255,255,.35);color:white;border-radius:9px;padding:7px 12px;font-weight:800;cursor:pointer}
+.progress{position:fixed;left:0;bottom:54px;height:5px;background:var(--nw-turquoise);z-index:30;transition:width .2s}
+.small{font-size:.92rem!important;color:#587074}
+.cite{font-size:.86rem!important;color:#557073;margin-top:18px}
+@media(max-width:850px){.cols{grid-template-columns:1fr}.slide{padding:4vh 5vw 10vh}}
+</style>
+</head>
+<body>
+<div class="deck" id="deck">
+
+<section class="slide active">
+  <div class="nw-kicker">Netzwerk Zukunftsschulen · 2026/2027</div>
+  <h1 class="nw-title">Kompetenzraster im selbstregulierten Lernen</h1>
+  <p class="big">Von der Leistungsbewertung zur Lernentwicklung</p>
+  <div class="flow">
+    <span>Selbstregulation</span><span>KI</span><span>Leistungsbewertung</span><span>Kompetenzraster</span>
+  </div>
+</section>
+
+<section class="slide">
+  <div class="nw-kicker">Anschluss</div>
+  <h2>Drei Jahre Vorarbeit – ein nächster gemeinsamer Schritt</h2>
+  <div class="cols">
+    <div class="card"><strong>1 · Selbstreguliertes Lernen</strong><p>Wie übernehmen Lernende mehr Verantwortung für ihren Lernprozess?</p></div>
+    <div class="card"><strong>2 · KI</strong><p>Wie können digitale Werkzeuge professionelle Unterrichtsentwicklung unterstützen?</p></div>
+    <div class="card"><strong>3 · Leistungsbewertung</strong><p>Wie wird Bewertung fair, transparent und passend zu neuen Lernformen?</p></div>
+    <div class="card"><strong>4 · Kompetenzraster</strong><p>Wie lassen sich diese drei Stränge konkret miteinander verbinden?</p></div>
+  </div>
+</section>
+
+<section class="slide">
+  <div class="nw-kicker">Problemaufriss</div>
+  <h2>Selbstregulation braucht Orientierung</h2>
+  <p class="big">Mehr Verantwortung bedeutet nicht weniger Klarheit – sondern mehr.</p>
+  <ul>
+    <li>Was ist eigentlich eine gute Leistung?</li>
+    <li>Wo stehe ich?</li>
+    <li>Was ist mein nächster Lernschritt?</li>
+    <li>Wie wird meine Leistung bewertet?</li>
+  </ul>
+</section>
+
+<section class="slide">
+  <div class="nw-kicker">Begriff</div>
+  <h2>Was meinen wir mit Kompetenzrastern?</h2>
+  <div class="cols">
+    <div class="card"><h3>Sie machen sichtbar …</h3><ul><li>Kompetenzen</li><li>Kriterien</li><li>Qualitäts- oder Niveaustufen</li><li>Entwicklungsmöglichkeiten</li></ul></div>
+    <div class="card"><h3>Sie können genutzt werden für …</h3><ul><li>Orientierung</li><li>Planung</li><li>Feedback</li><li>Überarbeitung</li><li>Leistungsbewertung</li></ul></div>
+  </div>
+</section>
+
+<section class="slide">
+  <div class="nw-kicker">Forschung</div>
+  <h2>Was zeigt die Meta-Analyse?</h2>
+  <div class="cols">
+    <div class="card"><div class="big">g ≈ 0,45</div><p>positiver, moderater Effekt auf fachliche Leistung nach Korrektur für möglichen Publikationsbias</p></div>
+    <div class="card"><div class="big">g ≈ 0,23</div><p>kleiner positiver Effekt auf selbstreguliertes Lernen; deutlich kleinere Datenbasis</p></div>
+  </div>
+  <p style="margin-top:22px"><strong>Kernidee:</strong> Raster helfen vor allem dann, wenn Kriterien und Qualitätsniveaus im Lernprozess tatsächlich genutzt werden.</p>
+  <p class="cite">Panadero, Jonsson, Pinedo & Fernández-Castilla (2023), Educational Psychology Review, 35:113 · doi:10.1007/s10648-023-09823-4</p>
+</section>
+
+<section class="slide">
+  <div class="nw-kicker">Didaktischer Überbau</div>
+  <h2>Kompetenzraster im Zyklus selbstregulierten Lernens</h2>
+  <div class="flow">
+    <span>Orientieren</span><span>Planen</span><span>Arbeiten</span><span>Überprüfen</span><span>Überarbeiten</span><span>Reflektieren</span>
+  </div>
+  <p class="big" style="margin-top:28px">Kompetenzraster übersetzen Selbstregulation in konkrete Lernhandlungen.</p>
+</section>
+
+<section class="slide">
+  <div class="nw-kicker">Digitale Hilfsmittel</div>
+  <h2>Die Rolle von KI ist bewusst begrenzt</h2>
+  <p class="big">KI unterstützt in diesem Netzwerkjahr die professionelle Arbeit der Lehrkräfte.</p>
+  <ul>
+    <li>Kriterien formulieren und auf Beobachtbarkeit prüfen</li>
+    <li>Niveaustufen entwickeln und sprachlich schärfen</li>
+    <li>Passung von Raster und Lernaufgabe prüfen</li>
+    <li>Lernaufgaben und Lernwege planen</li>
+    <li>Bewertungslogiken vergleichen und weiterentwickeln</li>
+  </ul>
+  <p class="small">Die Nutzung von KI durch Schülerinnen und Schüler ist zunächst nicht Gegenstand des Schwerpunktes.</p>
+</section>
+
+<section class="slide">
+  <div class="nw-kicker">Leitfrage 2026/2027</div>
+  <h2>Wie können Kompetenzraster …</h2>
+  <p class="big">… selbstreguliertes Lernen unterstützen, Unterrichtsplanung strukturieren und Leistungsbewertung transparenter machen?</p>
+  <hr class="nw-rule" style="width:70%;margin:26px 0">
+  <p>Und: Wie können digitale Tools und KI Lehrkräfte bei der Entwicklung solcher Lernarrangements unterstützen?</p>
+</section>
+
+<section class="slide">
+  <div class="nw-kicker">Entwicklerteams</div>
+  <h2>Was wird konkret entwickelt?</h2>
+  <div class="cols">
+    <div class="card"><strong>1</strong><p>Kompetenzbereich auswählen</p></div>
+    <div class="card"><strong>2</strong><p>Kompetenzraster entwickeln</p></div>
+    <div class="card"><strong>3</strong><p>passende Lernaufgabe / Aufgabenfolge planen</p></div>
+    <div class="card"><strong>4</strong><p>SRL-Bezug und Bewertungslogik festlegen</p></div>
+    <div class="card"><strong>5</strong><p>KI- bzw. Tool-Einsatz der Lehrkräfte dokumentieren</p></div>
+    <div class="card"><strong>6</strong><p>in der Praxis erproben und Erfahrungen sichern</p></div>
+  </div>
+</section>
+
+<section class="slide">
+  <div class="nw-kicker">Mögliche Projektlinien</div>
+  <h2>Wo können Teams ansetzen?</h2>
+  <ul>
+    <li><strong>Fachliche Kompetenzraster</strong> – Schreiben, Experimentieren, Präsentieren, technisches Planen …</li>
+    <li><strong>Projektarbeit</strong> – Planung, Umsetzung, Problemlösen, Dokumentation, Reflexion</li>
+    <li><strong>Lernprozessbezogene Raster</strong> – beobachtbare Lernhandlungen statt Persönlichkeitsmerkmale</li>
+    <li><strong>KI-gestützte Rasterentwicklung</strong> – Prompts, Prüffragen, Workflows</li>
+    <li><strong>Leistungsbewertung</strong> – formativ, summativ, transparent und handhabbar</li>
+  </ul>
+</section>
+
+<section class="slide">
+  <div class="nw-kicker">Qualität</div>
+  <h2>Ein gutes Kompetenzraster …</h2>
+  <ul>
+    <li>beschreibt beobachtbare Kompetenzen,</li>
+    <li>nutzt verständliche und präzise Sprache,</li>
+    <li>hat unterscheidbare Niveaustufen,</li>
+    <li>passt zu einer konkreten Aufgabe oder Aufgabenfamilie,</li>
+    <li>unterstützt Orientierung und Reflexion,</li>
+    <li>macht Bewertung transparent und bleibt handhabbar.</li>
+  </ul>
+  <p class="big">Nicht möglichst vollständig – sondern möglichst nutzbar.</p>
+</section>
+
+<section class="slide">
+  <div class="nw-kicker">Arbeitsauftrag</div>
+  <h2>Erste Projektidee entwickeln</h2>
+  <p>Skizziert ein Vorhaben, das im Schuljahr realistisch erprobt werden kann.</p>
+  <ul>
+    <li>Fach / Jahrgang / Kompetenzbereich</li>
+    <li>Welche Leistung soll sichtbar werden?</li>
+    <li>Welche Aufgabe macht diese Kompetenz sichtbar?</li>
+    <li>Wie unterstützt das Raster selbstreguliertes Lernen?</li>
+    <li>Wie wird Leistung bewertet?</li>
+    <li>Wo können digitale Tools oder KI bei der Planung helfen?</li>
+  </ul>
+</section>
+
+<section class="slide">
+  <div class="nw-kicker">Zielbild</div>
+  <h2>Am Ende des Netzwerkjahres …</h2>
+  <p class="big">… liegen nicht nur einzelne Raster vor, sondern erprobte Beispiele dafür, wie Kompetenzraster Unterricht, Selbstregulation und Leistungsbewertung sinnvoll verbinden.</p>
+  <hr class="nw-rule" style="width:60%;margin:28px 0">
+  <p class="big">Wir entwickeln keine Tabellen. Wir entwickeln Orientierung für Lernen.</p>
+</section>
+
+</div>
+
+<div class="progress" id="progress"></div>
+<div class="nav">
+  <button onclick="move(-1)">←</button>
+  <div><span id="count">1</span> / <span id="total">13</span></div>
+  <button onclick="move(1)">→</button>
+</div>
+
+<script>
+const slides=[...document.querySelectorAll('.slide')];
+let i=0;
+const count=document.getElementById('count');
+document.getElementById('total').textContent=slides.length;
+function show(n){
+  i=Math.max(0,Math.min(slides.length-1,n));
+  slides.forEach((s,j)=>s.classList.toggle('active',j===i));
+  count.textContent=i+1;
+  document.getElementById('progress').style.width=((i+1)/slides.length*100)+'%';
+}
+function move(d){show(i+d)}
+document.addEventListener('keydown',e=>{
+  if(['ArrowRight','PageDown',' '].includes(e.key)){e.preventDefault();move(1)}
+  if(['ArrowLeft','PageUp'].includes(e.key)){e.preventDefault();move(-1)}
+  if(e.key==='Home')show(0);
+  if(e.key==='End')show(slides.length-1);
+});
+show(0);
+</script>
+</body>
+</html>
