@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Netzwerk Zukunftsschulen · 2026/2027</title>
+<link rel="stylesheet" href="assets/netzwerk-2026.css">
+<style>
+  body{min-height:100vh}
+  .hero{padding:34px}
+  .grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin-top:20px}
+  .box{padding:22px}
+  .box h2{margin:.1rem 0 .6rem;color:var(--nw-petrol)}
+  .box p{margin:.35rem 0;color:#40585b}
+  .timeline{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:20px}
+  .step{padding:14px;border-radius:14px;color:white;font-weight:800;min-height:84px}
+  .step:nth-child(1){background:var(--nw-green)}
+  .step:nth-child(2){background:var(--nw-turquoise)}
+  .step:nth-child(3){background:var(--nw-bluepetrol)}
+  .step:nth-child(4){background:var(--nw-slate)}
+  .quote{font-size:1.35rem;font-weight:900;color:var(--nw-petrol);margin:24px 0 8px}
+  @media(max-width:800px){.grid,.timeline{grid-template-columns:1fr}.nw-shell{padding:16px}.hero{padding:24px}}
+</style>
+</head>
+<body>
+<main class="nw-shell">
+  <section class="nw-card hero">
+    <div class="nw-kicker">Netzwerk Zukunftsschulen · Schuljahr 2026/2027</div>
+    <h1 class="nw-title" style="font-size:clamp(2rem,5vw,4.2rem);line-height:1.02;margin:.6rem 0 1rem">
+      Kompetenzraster als Scharnier
+    </h1>
+    <p style="font-size:1.25rem;max-width:850px">
+      Selbstreguliertes Lernen, Unterrichtsplanung und transparente Leistungsbewertung zusammendenken.
+    </p>
+    <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:16px">
+      <span class="nw-chip">Selbstregulation</span>
+      <span class="nw-chip">Kompetenzraster</span>
+      <span class="nw-chip">Leistungsbewertung</span>
+      <span class="nw-chip">KI für Lehrkräfte</span>
+    </div>
+    <hr class="nw-rule" style="margin:26px 0 18px">
+    <p class="quote">„Wir entwickeln keine Tabellen. Wir entwickeln Orientierung für Lernen.“</p>
+  </section>
+
+  <section class="timeline">
+    <div class="step">Auftakt<br><small>Input & Entwicklerteams</small></div>
+    <div class="step">Entwicklung<br><small>Praxisprojekte planen</small></div>
+    <div class="step">Austausch<br><small>hybrid & schulübergreifend</small></div>
+    <div class="step">Abschluss<br><small>Ergebnisse teilen</small></div>
+  </section>
+
+  <section class="grid">
+    <article class="nw-card box">
+      <div class="nw-kicker">Leitfrage</div>
+      <h2>Worum geht es?</h2>
+      <p>Wie können Kompetenzraster selbstreguliertes Lernen unterstützen, Unterrichtsplanung strukturieren und Leistungsbewertung transparenter machen?</p>
+    </article>
+
+    <article class="nw-card box">
+      <div class="nw-kicker">KI & digitale Tools</div>
+      <h2>Klare Eingrenzung</h2>
+      <p>Digitale Tools und KI unterstützen die <strong>Lehrkräfte</strong> bei der Entwicklung von Kompetenzrastern, Lernaufgaben, Lernwegen und Bewertungslogiken.</p>
+      <p>Die KI-Nutzung durch Schülerinnen und Schüler ist zunächst nicht Gegenstand des Schwerpunktes.</p>
+    </article>
+
+    <article class="nw-card box">
+      <div class="nw-kicker">Forschung</div>
+      <h2>Wissenschaftlicher Einstieg</h2>
+      <p>Panadero et al. (2023) zeigen in einer Meta-Analyse einen positiven, moderaten Effekt von Rubrics auf fachliche Leistung. Effekte auf Selbstregulation und Selbstwirksamkeit sind kleiner.</p>
+      <p><a href="quellen/metastudie-rubrics.md">Kurzfassung und Einordnung →</a></p>
+    </article>
+
+    <article class="nw-card box">
+      <div class="nw-kicker">Entwicklerteams</div>
+      <h2>Was wird erprobt?</h2>
+      <p>Ein Kompetenzraster + passende Lernaufgabe + SRL-Bezug + Bewertungslogik + dokumentierte digitale bzw. KI-gestützte Planungsarbeit.</p>
+    </article>
+  </section>
+
+  <section class="nw-card box" style="margin-top:18px">
+    <div class="nw-kicker">Arbeitsmaterial</div>
+    <h2>Direkt weiterarbeiten</h2>
+    <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:12px">
+      <a class="nw-btn" href="praesentationen/01-auftakt-kompetenzraster.html">HTML-Präsentation öffnen</a>
+      <a class="nw-btn secondary" href="planung.md">Planungsgrundlage</a>
+      <a class="nw-btn secondary" href="quellen/metastudie-rubrics.md">Meta-Analyse</a>
+    </div>
+  </section>
+</main>
+</body>
+</html>
