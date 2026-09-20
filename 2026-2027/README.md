@@ -29,6 +29,10 @@ Ein Entwicklungsprojekt verbindet möglichst:
 
 ## Dateien
 
+- `auftakt-120-minuten.md` – Vorschlag und Moderation für das erste Treffen (120 Minuten)
+- `materialien/auftakt-arbeitsvorlage.html` – dreiseitige Druckvorlage
+- `materialien/auftakt-arbeitsvorlage.md` – kopierbare Arbeitsvorlage
+- `quellen/forschungsbasis-auftakt.md` – geprüfte Quellen und Grenzen
 - `planung.md` – gemeinsame Planungsgrundlage
 - `quellen/metastudie-rubrics.md` – wissenschaftlicher Einstieg
 - `assets/netzwerk-2026.css` – gemeinsame Farb- und Layoutbasis

@@ -154,6 +154,11 @@ Ein gutes Kompetenzraster …
 ## Jahresstruktur
 
 ### Auftaktveranstaltung
+
+**Konkretisierter Vorschlag (120 Minuten):** [Moderationsplan](auftakt-120-minuten.md), [Präsentation](praesentationen/01-auftakt-kompetenzraster.html) und [Arbeitsvorlage](materialien/auftakt-arbeitsvorlage.html).
+
+Der Auftakt führt zu einem kleinen Lernarrangement: konkrete Aufgabe, Rasterausschnitt, geplanter Einsatz für Selbsteinschätzung und Überarbeitung sowie Erprobungsplan. Ein vollständiges Raster oder verbindliches Notenmodell folgt gegebenenfalls später.
+
 - fachlicher Input
 - wissenschaftlicher Einstieg
 - Verbindung mit den bisherigen Netzwerkjahren
