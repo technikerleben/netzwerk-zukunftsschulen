@@ -12,27 +12,33 @@ Eine Erkenntnis aus dem Forschungsüberblick / offene Frage:
 
 [Begriffshilfe](begriffshilfe.md) · [KI-Aufträge zum Kopieren](ki-workflow.md)
 
-## Gemeinsames Beispiel
+## Gemeinsames Beispiel: Wunschbrief, Deutsch 5
 
-Jahrgang 7: Überzeuge die Schülervertretung von einer umsetzbaren Veränderung des Schulhofs. Begründe den Nutzen und bedenke die Umsetzung.
+Unsere Schule soll schöner werden. Schreibe einen Brief an die Schulleitung. Beschreibe einen Wunsch für die Gestaltung des Schulhofs. Begründe deinen Wunsch und erkläre, wie er umgesetzt werden könnte.
 
-| Kriterium | A | B | C |
-|---|---|---|---|
-| Vorschlag konkretisieren | Ich nenne eine Veränderung. | Ich beschreibe, was sich für wen ändern soll. | Ich beschreibe die Veränderung und leite sie aus einem konkreten Bedarf ab. |
-| Nutzen begründen | Ich nenne einen konkreten Vorteil. | Ich erkläre, wie die Veränderung der Zielgruppe hilft. | Ich stütze meine Erklärung durch ein passendes Beispiel oder einen nachvollziehbaren Beleg. |
-| Umsetzbarkeit abwägen | Ich nenne eine Voraussetzung oder Schwierigkeit. | Ich erkläre, wie sie die Umsetzung beeinflusst. | Ich entwickle dafür eine passende Lösung und begründe meine Entscheidung. |
+[Vollständiges Raster mit sechs Kriterien](kompetenzraster-wunschbriefe.html)
 
-Arbeitsentwurf, keine Notenskala. „Noch nicht belegt“ gesondert erfassen.
+**Fokus im Austausch: Den Wunsch begründen**
 
-**Text A:** Ich wünsche mir eine Bank im Schatten. Das wäre schön.
+**Mindeststandard**: Ich nenne einen passenden Grund für meinen Wunsch.
 
-**Text B:** Eine Bank im Schatten hilft Kindern an heißen Tagen beim Ausruhen. Neben dem Spielfeld gibt es bisher keinen schattigen Sitzplatz. Eine neue Bank kostet Geld. Deshalb könnten wir eine vorhandene Bank umstellen.
+Beispiel: Ich wünsche mir eine Sitzbank, weil wir in der Pause einen Platz zum Ausruhen brauchen.
 
-Urteil und Textbeleg für das Kriterium Nutzen begründen:
+**Regelstandard**: Ich erkläre meinen Grund und verdeutliche ihn mit einem passenden Beispiel.
 
-Rückmeldung und nächster Schritt für Text A:
+Beispiel: Ich wünsche mir eine Sitzbank, weil wir nach dem Spielen einen Platz zum Ausruhen brauchen. Bisher müssen wir dafür auf dem Boden sitzen.
 
-Spätere Nutzung desselben Kriteriums zur Bewertung:
+**Leistungsstandard**: Ich begründe meinen Wunsch aus unterschiedlichen Blickwinkeln und greife einen möglichen Einwand auf.
+
+Beispiel: Eine Sitzbank würde uns nach dem Spielen beim Ausruhen helfen. Außerdem könnten dort Kinder zusammensitzen, die gerade nicht mitspielen möchten. Eine neue Bank kostet Geld. Vielleicht könnte der Förderverein helfen.
+
+Welche Textstelle belegt den Regelstandard? Wo bleibt eine Bewertungsfrage?
+
+Nächster Lernschritt und spätere Nutzung zur Bewertung:
+
+## Aktive Austauschpausen
+
+20–27: Urteil am Text · 37–42: eigene Instrumente · 54–60: Forschungsbefund übertragen · 80–85: eine Zeile schärfen. Jeweils Partnerwechsel möglichst schulübergreifend, Bewegung freiwillig. Eine Erkenntnis pro Gespräch notieren.
 
 ## Entwicklerteam (95–135 Minuten)
 

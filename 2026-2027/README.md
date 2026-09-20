@@ -29,6 +29,8 @@ Ein Entwicklungsprojekt verbindet möglichst:
 
 ## Dateien
 
+- [Wunschbrief-Raster Deutsch 5](materialien/kompetenzraster-wunschbriefe.html) – vollständiges Beispiel mit drei Niveaustufen
+
 - `auftakt-180-minuten.md` – Vorschlag und Moderation für das erste Treffen (180 Minuten)
 - `materialien/auftakt-arbeitsvorlage.html` – vierseitige Druckvorlage
 - `materialien/auftakt-arbeitsvorlage.md` – kopierbare Arbeitsvorlage

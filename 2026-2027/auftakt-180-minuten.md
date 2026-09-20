@@ -24,25 +24,32 @@ Am Ende können die Teilnehmenden:
 
 ## Ablauf
 
-| Minuten | Dauer | Phase und Methode | Ergebnis |
-|---|---:|---|---|
-| 0–15 | 15 Min. | Gemeinsame Geschichte, schulübergreifende Dreiergespräche, Ziel | Gemeinsame Fragen und Anschluss für neue Mitglieder |
-| 15–30 | 15 Min. | Begriffsklärung mit kurzen Zuordnungen und Rückfragen | Gemeinsames Begriffsverständnis |
-| 30–50 | 20 Min. | Forschungsüberblick mit Denkpausen und Partneraustausch | Befund, Grenze und Planungsfolgerung unterscheiden |
-| 50–70 | 20 Min. | Durchgängiges Beispiel, gemeinsames Beurteilen | Verbindung von Aufgabe, Raster, SRL und Bewertung |
-| 70–85 | 15 Min. | KI-Demonstration und gemeinsames Verbessern | Verständlicher Entwicklungsworkflow |
-| 85–95 | 10 Min. | Pause | Freier kollegialer Austausch |
-| 95–135 | 40 Min. | Entwicklerteams mit passenden Einstiegshilfen | Erste KI-gestützte Rasterfassung mit Nutzungsplan |
-| 135–155 | 20 Min. | Verbindliche Rückmeldung aus einer anderen Schule | Fachliche und didaktische Prüfhinweise |
-| 155–170 | 15 Min. | Überarbeitung und Erprobungsplanung | Verbesserte Fassung und konkrete Zuständigkeit |
-| 170–180 | 10 Min. | Exit-Tickets, drei Schulstimmen, gemeinsame Verabredung | Gesicherte Ergebnisse und nächster Schritt |
-| **Gesamt** | **180 Min.** | | |
+| Minuten | Dauer | Phase |
+|---|---:|---|
+| 0–5 | 5 Min. | Ankommen & gemeinsames Ziel |
+| 5–20 | 15 Min. | Wunschbrief & Raster konkret |
+| 20–27 | 7 Min. | Austausch 1: Unser Urteil am Text |
+| 27–37 | 10 Min. | Begriffe & Bewertungszweck |
+| 37–42 | 5 Min. | Austausch 2: Was nutzen wir schon? |
+| 42–54 | 12 Min. | Forschung mit Aussagegrenzen |
+| 54–60 | 6 Min. | Austausch 3: Ein Gedanke für unseren Unterricht |
+| 60–70 | 10 Min. | Lernsteuerung am selben Raster |
+| 70–80 | 10 Min. | KI am Beispiel prüfen |
+| 80–85 | 5 Min. | Austausch 4: Eine Zeile gemeinsam schärfen |
+| 85–95 | 10 Min. | Freie Pause |
+| 95–135 | 40 Min. | Im Team entwickeln |
+| 135–155 | 20 Min. | Schulübergreifendes Feedback |
+| 155–170 | 15 Min. | Überarbeiten & Erprobung planen |
+| 170–180 | 10 Min. | Ergebnisse & Ausblick |
+| **Gesamt** | **180 Min.** | |
 
-Die Präsentation hat 24 Folien im Ablauf sowie eine Quellen- und eine Reservefolie. Wissenschaftlicher Input bedeutet hier keinen langen Monolog: Begriffsarbeit, Denkpausen, Beispielprüfung und KI-Werkstatt wechseln sich ab. IGLU/PISA bleiben als Kontext in der Reserve und im Quellenpapier erhalten.
+Der konkrete Wunschbrief und das Raster stehen vor Begriffen und Forschungsbefunden. Vier aktive Austauschpausen (7 + 5 + 6 + 5 = 23 Minuten) verteilen sich über die erste Hälfte. Partnerwechsel möglichst schulübergreifend; Bewegung ist freiwillig, eine Sitzvariante gleichwertig. Die zehnminütige freie Pause bleibt ohne Arbeitsauftrag. 40 Minuten Entwicklerarbeit bleiben erhalten.
+
+27 Ablauf-Folien sowie Quellen- und Reservefolie. Das vollständige sechszeilige Raster steht auf zwei gut lesbaren Folien und als separates Material bereit.
 
 ## Was den Auftakt motivierend und zugänglich macht
 
-- Zu Beginn steht ein Wunsch für die Lernenden. Der Erfahrungsaustausch ist auch ohne vorhandenes Raster möglich.
+- Zu Beginn steht ein konkreter Wunschbrief mit Raster. Der Erfahrungsaustausch ist auch ohne eigenes Raster möglich.
 - Die Netzwerkgeschichte wird in zwei Minuten erklärt. Insiderwissen ist nicht nötig.
 - Ein überschaubares Beispiel zieht sich durch alle Schritte. Kolleg:innen erleben einen sichtbaren Fortschritt von einer unklaren Formulierung zu einer brauchbaren Beschreibung.
 - Die KI-Demonstration zeigt einen ersten Entwurf und eine begründete Verbesserung. Dadurch wird der Prozess nachvollziehbar.
@@ -52,14 +59,14 @@ Die Präsentation hat 24 Folien im Ablauf sowie eine Quellen- und eine Reservefo
 
 ## Drei Schulen bewusst vernetzen
 
-Einstiegsgruppen möglichst mit je einer Person pro Schule. Bei ungleichen Zahlen mindestens zwei Schulen pro Gruppe; Redezeiten gleich verteilen. Entwicklerteams mit drei bis fünf Personen nach Fach, Aufgabenfamilie und realer Erprobungsmöglichkeit bilden. Wo sinnvoll, schulübergreifend arbeiten. Jedes Team erhält unabhängig davon eine Partnergruppe aus einer anderen Schule. Mehrere Rückmeldetandems arbeiten parallel. Bei ungerader Teamzahl eine Dreiergruppe bilden.
+Für die aktiven Austauschpausen wechselnde Paare möglichst aus unterschiedlichen Schulen bilden. Bei ungleichen Zahlen mindestens zwei Schulen pro Gruppe; Redezeiten gleich verteilen. Entwicklerteams mit drei bis fünf Personen nach Fach, Aufgabenfamilie und realer Erprobungsmöglichkeit bilden. Wo sinnvoll, schulübergreifend arbeiten. Jedes Team erhält unabhängig davon eine Partnergruppe aus einer anderen Schule. Mehrere Rückmeldetandems arbeiten parallel. Bei ungerader Teamzahl eine Dreiergruppe bilden.
 
 Zum Schluss berichtet je eine Stimme aus jeder Schule. Alle Teams sichern zusätzlich ihren Entwurf und ihren Erprobungsauftrag. Die drei kurzen Berichte ersetzen keine vollständige Ergebnissammlung.
 
 ## Vorbereitung der Moderation
 
 - Vorab Teilnehmendenzahlen und Fächer abfragen, passende Thementische und Partnerteams vorbereiten.
-- Einladung: eigene Aufgabe oder vorhandenes Raster mitbringen, falls vorhanden. Wer nichts mitbringt, nutzt das Schulhof-Beispiel.
+- Einladung: eigene Aufgabe oder vorhandenes Raster mitbringen, falls vorhanden. Wer nichts mitbringt, nutzt das Wunschbrief-Beispiel (Deutsch, Klasse 5).
 - Mindestens ein Gerät und ein bereits nutzbarer, schulisch zugelassener KI-Zugang pro Team. Keine Einrichtung von Konten während der Sitzung.
 - Den KI-Auftrag vorab testen. Als technische Reserve eine tatsächliche, mit Werkzeug und Datum gekennzeichnete Ausgabe vorbereiten. Die beigefügte schwache Beispielzeile ist ein didaktisches Beispiel, kein angeblich echter KI-Output.
 - Bei technischem Ausfall eine vorbereitete Ausgabe analysieren. Die eigene KI-Generierung vor der Unterrichtserprobung nachholen und dokumentieren.
@@ -91,155 +98,176 @@ Den vereinbarten Jahrestitel nennen. Ziel: gemeinsame Arbeitsfähigkeit unabhän
 
 ### 2. Die bisherigen Themen kommen zusammen
 
-**Gemeinsame Geschichte · 3–5 Minuten**
+**Ankommen · 3–5 Minuten**
 
 Jedes Vorjahr in einem Satz erklären, ohne Insiderbegriffe. Leistungsüberprüfung war der Schwerpunkt des letzten Jahres. Im Abschlussjahr verbinden wir diese Erfahrungen über Kompetenzraster zur Leistungsbewertung und SRL-Strukturierung. Raster sind ein gemeinsames Entwicklungsinstrument, noch keine feststehende Lösung für jede Unterrichtssituation.
 
-### 3. Was soll für eure Lernenden leichter werden?
+### 3. Unser Beispiel: In Briefen Wünsche äußern
 
-**Schulübergreifender Austausch · 5–12 Minuten**
+**Beispiel · 5–7 Minuten**
 
-1 Minute nachdenken, je 1 Minute pro Person, 3 Minuten gemeinsame Frage. Alle drei Schulen werden vor Beginn mit Namensschildern oder Symbolen kenntlich gemacht. Wenn die Zahlen nicht aufgehen, Gruppen mit mindestens zwei Schulen bilden und Redezeit gleich verteilen. Keine Vorerfahrungsabfrage als Wettbewerb. Die Fragen kommen auf einen sichtbaren Fragenspeicher.
+Auftrag vorlesen. Zuerst das konkrete Instrument zeigen, noch keine abstrakte Begriffseinführung. Ziel heute: eigene kleine Rasterfassung mit KI und Erprobungsplan.
 
-### 4. Heute startet euer gemeinsames Entwicklungsprojekt
+### 4. Wunschbrief: Inhalt und Begründung
 
-**Zielklarheit · 12–15 Minuten**
+**Beispielraster · 7–11 Minuten**
 
-Das erreichbare Produkt ist eine Version 0.1: Aufgabe, kleines Raster, Nutzungsplan und offene Prüfaufträge. In 180 Minuten entsteht kein fertig validiertes Bewertungsinstrument. Die folgenden Grundlagen sind ein gemeinsamer Neustart für alle. Erfahrene bringen Beispiele und kritische Fragen ein, neue Mitglieder bringen den Verständlichkeitscheck ein.
+Eine Zeile horizontal lesen: dieselbe Dimension, unterschiedliche Qualität. Die Stufen bauen aufeinander auf. Leistungsstandard meint hier erweiterte Leistung über dem Regelstandard. Dies sind lokale didaktische Bezeichnungen, keine amtlichen Standards oder Noten. Raster ist ein Arbeitsentwurf, keine curricular validierte Vorgabe.
 
-### 5. Selbstreguliertes Lernen umfasst bewusste Steuerung
+### 5. Wunschbrief: Adressat, Aufbau und Sprache
 
-**Begriffe · 15–20 Minuten**
+**Beispielraster · 11–14 Minuten**
 
-Arbeitsdefinition nach den im Review dargestellten Modellen. Ein Wochenplan organisiert Aufgaben und Zeit. Offener Unterricht bietet Wahlmöglichkeiten. Individualisierung passt Angebote an unterschiedliche Voraussetzungen an. Keine dieser Organisationsformen stellt für sich sicher, dass Lernende Ziele prüfen oder Strategien anpassen. Kurze Frage: „Woran würden wir Steuerung tatsächlich erkennen?“ Zwei Minuten für Rückfragen und ein Gegenbeispiel vorsehen.
+Überschneidungen sichtbar machen: Wunsch beschreiben und Nutzen für Adressaten nicht doppelt bepunkten. Kriterien und Gewichtung vor einem benoteten Einsatz fachlich abstimmen. Für das Lernen jeweils ein oder zwei Kriterien fokussieren. Vollständiges Raster über den Materiallink.
 
-### 6. Ähnliche Tabellen erfüllen unterschiedliche Aufgaben
+### 6. Eine Begründung in drei Qualitätsstufen
 
-**Begriffe · 20–25 Minuten**
+**Beispielraster · 14–20 Minuten**
 
-Pragmatische Arbeitsdefinitionen, Begriffe werden in der Praxis nicht überall einheitlich gebraucht. Kompetenz ist die Fähigkeit, Wissen und Können in Anforderungen anzuwenden, erschlossen aus Leistungen in Aufgaben. Kriterium bezeichnet eine relevante Qualitätsdimension, Deskriptor deren beobachtbare Ausprägung. Ein Erwartungshorizont beschreibt erwartete Lösungen bzw. Leistungen und kann ein Rubric enthalten. Eine Liste von Ich-kann-Sätzen mit Smileys beschreibt noch keine Qualitätsstufen. Die Begriffsseite enthält Beispiele und Abgrenzungen. Kurze Zuordnung: „Aufgabe abhaken“ zur Checkliste, „Qualität begründen“ zum Bewertungsraster.
+Die drei konstruierten Textausschnitte sind Ankerbeispiele für genau ein Kriterium, keine vollständigen Briefe. Eine höhere Stufe braucht die zugehörigen Merkmale. Ein Einwand allein genügt nicht. Zwei Minuten lesen, dann Belege in den Formulierungen zeigen. Gleich folgt der Austausch.
 
-### 7. Überprüfen, bewerten und benoten sind verschiedene Schritte
+### 7. Austausch 1: Unser Urteil am Text
 
-**Begriffe · 25–30 Minuten**
+**Aktive Austauschpause · 20–27 Minuten**
 
-Zeitgemäße Leistungsüberprüfung ist hier ein pädagogisches Leitbild, kein einheitlich definiertes Messinstrument: Kompetenzbezug, transparente Anforderungen, sinnvolle Anwendung und erkennbare individuelle Leistung. Ein digitales Produkt ist dadurch allein noch nicht zeitgemäß. Dasselbe Raster kann beiden Zwecken dienen, wenn Übungs- und Bewertungssituationen transparent unterschieden werden. Formatives Assessment meint die Nutzung von Informationen für nächste Schritte, nicht bloß häufiges Testen. Benotungsregeln werden vor einem summativen Einsatz gesondert fachlich und schulisch abgestimmt.
+1 Minute Partnerwechsel, 4 Minuten Gespräch, 2 Minuten eine offene Frage pro Paar sichern. Ein Gespräch im Sitzen ist gleichwertig. Keine Plenumsrunde. Beide Personen kommen zu Wort.
 
-### 8. Für Rubrics ist der Leistungsbefund ermutigend
+### 8. Unser Kompetenzraster ist auch eine Rubric
 
-**Forschung · 30–37 Minuten**
+**Begriffe · 27–31 Minuten**
 
-21 Studien mit 54 Effekten zum Leistungsvergleich. g ist eine standardisierte Effektgröße, keine Prozentzahl. Das SRL-Intervall schließt null ein. Effekte auf Leistung und Selbstregulation unterscheiden. Die Untersuchung belegt weder für jedes Kompetenzraster eine Wirkung noch automatisch faire oder valide Noten. Unterschiedliche Bildungsstufen und Interventionen begrenzen den Transfer. Abschließend 30 Sekunden Denkpause: Welche Aussage trägt unsere Planung, welche wäre zu weitgehend? Eine Minute zum Austausch zu zweit, anschließend eine Verständnisfrage aufnehmen.
+Begriffe sind nicht überall einheitlich. Keine künstliche Trennlinie ziehen: das aufgabenbezogene Kompetenzraster hier ist eine analytische Bewertungsrubrik. Rubrics-Befunde gelten nicht automatisch für jedes Kompetenzraster. Die lokale Bezeichnung Leistungsstandard ist kein Wirksamkeitsmerkmal.
 
-### 9. Eigenständigkeit braucht passende Unterstützung
+### 9. Checkliste, Selbsteinschätzung und Rubric
 
-**Forschung · 37–42 Minuten**
+**Begriffe · 31–34 Minuten**
 
-Alfieri: zwei Meta-Analysen, insgesamt 164 Studien. Unterschiedliche Vergleichsgruppen; Werte weder addieren noch ihre Differenz als direkten Begleitungseffekt interpretieren. Es geht um Entdeckungslernen, nicht um Kompetenzraster oder den Nachweis des gesamten SRL. Beispiele, Rückmeldung und angeleitete Erklärungen geben einen begründeten Ansatz für unsere Unterrichtsplanung. Zwei Minuten für die Übertragung auf ein eigenes Unterrichtsbeispiel.
+Ein Erwartungshorizont beschreibt erwartete Leistungen und kann eine Rubric enthalten. Ein Lernplan organisiert Aufgaben und Zeiten. Ein Smiley wird nicht allein durch Tabellenform zum Leistungsdeskriptor.
 
-### 10. SRL verbindet Ziele, Strategien und Rückmeldung
+### 10. Überprüfen, bewerten und benoten sind verschiedene Schritte
+
+**Bewertung · 34–37 Minuten**
+
+Am Brief zeigen: Überprüfung = Brief schreiben; Bewertung = Merkmale je Kriterium beurteilen; Benotung = gesondert abgestimmte Übersetzung. Ein Profil kann je Zeile verschiedene Stufen zeigen. Noch nicht belegte Merkmale gesondert festhalten. Hilfen und Überarbeitung vorab klären.
+
+### 11. Austausch 2: Was nutzen wir schon?
+
+**Aktive Austauschpause · 37–42 Minuten**
+
+1 Minute Wechsel, je 90 Sekunden pro Person, 1 Minute eine Ergänzung notieren. Bewegung freiwillig. Erfahrungen teilen, keine Materialien vorbereiten müssen.
+
+### 12. Für Rubrics ist der Leistungsbefund ermutigend
 
 **Forschung · 42–47 Minuten**
 
-Panadero 2017 ist ein Review von sechs SRL-Modellen und ihrer Evidenz, keine neue Rubrics-Metaanalyse. SRL nicht auf Ankreuzen oder bloße Arbeitsorganisation reduzieren. Unsere operationalisierte Lernschleife ist eine didaktische Ableitung. Kollegiale Kurzfrage: „Welche Lernhandlung müsste unser Raster auslösen?“ Ein bis zwei Antworten aufnehmen. Eine Beobachtung aus jeder Schule zulassen, ohne längere Schulberichte.
+Panadero et al. 2023: 21 Studien mit 54 Effekten zum Leistungsvergleich. g ist eine standardisierte Effektgröße, keine Prozentzahl. SRL: nur fünf Studien, Intervall schließt null ein. Das Wunschbrief-Raster entspricht dem Kriterien-Deskriptoren-Aufbau. Daraus folgt keine garantierte Wirkung in Klasse 5 und kein Nachweis fairer Noten. Austausch folgt ausdrücklich nach dem Forschungsblock.
 
-### 11. KI-gestützte Rasterentwicklung bleibt eine zu prüfende Praxis
+### 13. Eigenständigkeit braucht passende Unterstützung
 
-**Evidenzgrenze · 47–50 Minuten**
+**Forschung · 47–51 Minuten**
 
-Keine pauschale Aussage, es gebe keinerlei KI-Forschung. Die ausgewählte Forschungsbasis trägt keinen Wirksamkeitsbeleg für unser Gesamtarrangement. UNESCO liefert eine Orientierung zu menschlicher Verantwortung und pädagogischer Prüfung, keine Effektstudie. KI wird im Arbeitsprozess genutzt und dokumentiert. Die Entscheidung über Kriterien und Bewertung bleibt professionelles Urteil. Eine Minute für offene Fragen zur KI-Evidenz einplanen.
+Alfieri 2011: zwei Meta-Analysen, insgesamt 164 Studien. Unterschiedliche Vergleichsgruppen, Werte nicht addieren oder als direkten Begleitungseffekt voneinander abziehen. Keine Kompetenzraster-Studie. Ableitung für unser Beispiel: Briefausschnitte gemeinsam prüfen und Überarbeitung anleiten.
 
-### 12. Ein Vorschlag für einen besseren Schulhof
+### 14. KI-gestützte Rasterentwicklung bleibt eine zu prüfende Praxis
 
-**Durchgängiges Beispiel · 50–53 Minuten**
+**Evidenzgrenze · 51–54 Minuten**
 
-Das Beispiel ist eigens für die Fortbildung gestaltet, keine curricular validierte Vorgabe. Kompetenzziel: einen adressatenbezogenen Vorschlag begründen und seine Umsetzung abwägen. Medienwahl nur, wenn alle Formate dieselbe fachliche Leistung sichtbar machen. Mündliche Erläuterung gegebenenfalls individuell erfassen. Andere Fächer können die Aufgabenfamilie übertragen. Alle folgenden Schritte bleiben bei diesem Beispiel.
+Die hier ausgewählten Quellen belegen nicht die Wirksamkeit des Gesamtpakets KI, Kompetenzraster, Leistungsbewertung und SRL. UNESCO ist Orientierung, keine Effektstudie. KI unterstützt Lehrkräfte beim Entwurf. Es geht nicht um KI-Nutzung durch Kinder.
 
-### 13. Drei Kriterien machen die Anforderungen greifbar
+### 15. Austausch 3: Ein Gedanke für unseren Unterricht
 
-**Beispielraster · 53–58 Minuten**
+**Aktive Austauschpause · 54–60 Minuten**
 
-Zunächst die Zeile Nutzen begründen erklären, dann die zwei weiteren Zeilen zeigen. Anders als im ersten Entwurf bleibt die Begründung eine eigene Dimension; die Umsetzbarkeit steht separat. Das ist ein vollständiger kleiner Rasterentwurf für das Beispiel, kein Raster für den gesamten Kompetenzbereich. Drei Kriterien und drei Stufen sind für die Übung überschaubar, kein Forschungsoptimum. Fachliche Qualität und benötigte Unterstützung getrennt dokumentieren. Zwei Minuten still lesen und unklare Wörter markieren.
+1 Minute Partnerwahl, 4 Minuten Austausch, 1 Minute Planungssatz notieren. Gleichwertige Sitzvariante anbieten. Keine zusätzlichen Schulberichte im Plenum.
 
-### 14. Welche Qualität erkennt ihr an derselben Leistung?
+### 16. Selbstreguliertes Lernen umfasst bewusste Steuerung
 
-**Beispiel gemeinsam prüfen · 58–65 Minuten**
+**SRL am Wunschbrief · 60–64 Minuten**
 
-2 Minuten einzeln, 3 Minuten Partnerabgleich, 2 Minuten zwei Beobachtungen. Konzentration auf Nutzen begründen. A nennt keinen konkreten Vorteil und bleibt dort noch nicht belegt. B erklärt den Nutzen und konkretisiert den Bedarf durch eine Angabe zum Spielfeld; C ist unter der Annahme einer sachlich passenden Angabe vertretbar. Abweichende Urteile als Hinweis auf nötige Ankerbeispiele nutzen. Keine Musterlösung vorweg anzeigen.
+SRL umfasst Ziele, Strategien, Beobachten und Anpassen sowie motivationale und emotionale Prozesse. Panadero 2017 ist ein Review von sechs Modellen. Wochenplan und Wahlmöglichkeiten allein garantieren keine Selbstregulation. Am Brief erklären: Lernziel Begründung, Strategie Beispiel ergänzen, Wirkung prüfen.
 
-### 15. Dasselbe Kriterium begleitet Lernen und Bewertung
+### 17. Dasselbe Raster begleitet Lernen und Bewertung
 
-**Verzahnung am Beispiel · 65–70 Minuten**
+**SRL am Wunschbrief · 64–70 Minuten**
 
-Für Text A eine mögliche Verbesserung zeigen: „Dort können Kinder an heißen Tagen im Schatten sitzen.“ Ein belegbarer nächster Schritt im Kriterium. Anschließend prüfen, ob die Erklärung trägt. Zwei Lehrkräfte gleichen ihre Urteile an Beispielprodukten ab. Das schafft eine Prüfmöglichkeit, garantiert aber keine Objektivität. Ein vorläufiges Bewertungsprofil benennt Stärken und Entwicklungsbedarf je Kriterium. Eine Notenübersetzung ist ein zusätzlicher Abstimmungsschritt. Lernprozessfeedback wird nicht stillschweigend zur Fachnote addiert.
+Am Mindeststandard-Text den nächsten Schritt zum Regelstandard zeigen. Nach Überarbeitung erneut prüfen: Erklärt das Beispiel den Grund? Lernprozessfeedback nicht automatisch in die Fachnote einrechnen. Die lokal gewählten Stufennamen bezeichnen Qualitätsanforderungen, keine Kindergruppen.
 
-### 16. Ein guter KI-Auftrag beginnt mit unserer fachlichen Entscheidung
+### 18. KI-Demonstration am Wunschbrief
 
-**KI-Werkstatt gemeinsam · 70–78 Minuten**
+**KI-Werkstatt · 70–77 Minuten**
 
-Kurze vorbereitete Live-Demonstration mit einem schulisch zugelassenen Zugang. Auftrag vorher fertig öffnen, 2 Minuten den Auftrag erläutern, 3 Minuten generieren und gemeinsam lesen, 3 Minuten erste Prüfung. Gemeinsam eine Zeile lesen. Keine Schülerdaten eingeben. Bei technischem Ausfall den vorbereiteten didaktischen Entwurf aus dem KI-Workflow verwenden; er ist ausdrücklich kein angeblich echter KI-Output. Eine reale Ausgabe kann vor der Veranstaltung vorbereitet und mit Werkzeug/Datum gekennzeichnet werden. Ein Teamzugang reicht, keine Registrierung während der Sitzung.
+1 Minute Auftrag erklären, 3 Minuten tatsächliche Ausgabe zeigen, 3 Minuten eine Zeile gemeinsam prüfen. Keine Lehrplanbezüge oder Notenschlüssel erfinden lassen. Erfundene Texte ohne Schülerdaten. Bei Ausfall vorbereitete tatsächliche Ausgabe mit Werkzeug und Datum nutzen.
 
-### 17. Wir prüfen und verbessern eine vorgeschlagene Zeile
+### 19. Qualitätsstufen brauchen sichtbare Merkmale
 
-**KI-Werkstatt gemeinsam · 78–85 Minuten**
+**KI-Werkstatt · 77–80 Minuten**
 
-Selbst erstelltes Negativbeispiel, nicht als empirisches KI-Ergebnis ausgeben. 2 Minuten Partnergespräch und 3 Minuten gemeinsame Überarbeitung, anschließend 2 Minuten Änderungsprotokoll. Dann die zuvor erarbeitete Nutzen-Zeile als mögliche Verbesserung vergleichen. Zeigen, dass eine KI-Prüfung ebenfalls menschlich kontrolliert wird. Im Änderungsprotokoll festhalten: Ausgangsformulierung, Problem, Änderung und Begründung. Drei Rollen vorbereiten: fachliche Prüfung, KI-Bedienung und Dokumentation; Aufgaben später wechseln.
+Didaktisches Negativbeispiel, kein angeblich realer KI-Output. Eine Verbesserung vormachen, beispielsweise Grund mit passendem Beispiel erklären. Im anschließenden Austausch bearbeiten die Paare eine eigene Formulierung.
 
-### 18. Zehn Minuten Pause
+### 20. Austausch 4: Eine Zeile gemeinsam schärfen
 
-**Pause · 85–95 Minuten**
+**Aktive Austauschpause · 80–85 Minuten**
+
+1 Minute Wechsel und Lesen, 3 Minuten Formulierung und Textprüfung, 1 Minute Änderung dokumentieren. Damit erproben alle bereits den Kern der Entwicklerarbeit.
+
+### 21. Zehn Minuten Pause
+
+**Freie Pause · 85–95 Minuten**
 
 Tische und Partnerteams vorab zuordnen. Für Entwicklungsgruppen zählt fachliche Anschlussfähigkeit und eine verfügbare Lerngruppe. Schulübergreifende Teams nach Möglichkeit, jedes Team erhält aber verbindlich Rückmeldung aus einer anderen Schule. Keine Zeit für neue Logins während der Pause einplanen. Die Pause ist vollständig frei von Arbeitsaufträgen.
 
-### 19. Euer Unterrichtsvorhaben bekommt einen klaren Rahmen
+### 22. Euer Unterrichtsvorhaben bekommt einen klaren Rahmen
 
 **Entwicklerteams · 95–105 Minuten**
 
 10 Minuten: 3 Minuten Thema und Rollen, 7 Minuten Planungsrahmen. Start A: Beispielaufgabe übernehmen und auf die eigene Lerngruppe übertragen. Start B: eigene Aufgabe mitbringen und einen neuen Entwurf beginnen. Start C: ein vorhandenes Raster gezielt verbessern. Alle Wege führen zum gleichen Mindestprodukt. Wenn keine erfahrene KI-Person im Team ist, unterstützt die Moderation mit dem fertigen Startprompt. Mindestens ein Gerät mit nutzbarem Zugang je Team.
 
-### 20. Mit KI entsteht die erste Rasterfassung
+### 23. Mit KI entsteht die erste Rasterfassung
 
 **Entwicklerteams · 105–123 Minuten**
 
 18 Minuten: 5 Minuten Entwurf, 8 Minuten Prüfung und Folgeauftrag, 5 Minuten Auswahl und Dokumentation. Alle Teammitglieder übernehmen eine inhaltliche Prüffrage. Bei Zeitknappheit mindestens eine Zeile vollständig schärfen und übrige Zeilen als offen markieren. Verbindlicher KI-Schritt; bei technischem Ausfall ersatzweise vorbereitete, gekennzeichnete Ausgabe kritisch bearbeiten und eigene Generierung vor der Erprobung nachholen. Keine automatisierte Notenvergabe.
 
-### 21. Der Entwurf erhält einen Nutzungs- und Bewertungsplan
+### 24. Der Entwurf erhält einen Nutzungs- und Bewertungsplan
 
 **Entwicklerteams · 123–135 Minuten**
 
 12 Minuten: 6 Minuten Lernschleife, 6 Minuten Bewertungsplan. Mindestens einen vollständigen Lernzyklus planen. Bei einem offenen Prüfungsformat zusätzlich klären, wie individuelle Beiträge sichtbar werden und Formate dieselben Kriterien abbilden. Notenumrechnung, Gewichtung und Fachkonferenzabsprachen bei Bedarf als Aufgaben vor dem summativen Einsatz festhalten. Der KI-Entwurf bleibt Version 0.1, bis fachliche und kollegiale Prüfung erfolgt sind.
 
-### 22. Ein anderes Schulteam prüft euren Entwurf
+### 25. Ein anderes Schulteam prüft euren Entwurf
 
-**Austausch zwischen den Schulen · 135–155 Minuten**
+**Schulübergreifendes Feedback · 135–155 Minuten**
 
 Partnerteams vorab schulübergreifend zuordnen. 2 Minuten still lesen, 7 Minuten Rückmeldung je Team, 4 Minuten schriftliche Sicherung. Bei Dreiergruppen je 5 Minuten und 5 Minuten Sicherung. Mehrere Tandems arbeiten parallel, daher unabhängig von der Gesamtzahl. Erfahrene prüfen fachliche Passung, neue Mitglieder Verständlichkeit. Unterschiedliche Schulbedingungen ausdrücklich benennen, nicht vorschnell vereinheitlichen.
 
-### 23. Aus Rückmeldung wird ein Erprobungsauftrag
+### 26. Aus Rückmeldung wird ein Erprobungsauftrag
 
-**Überarbeitung · 155–170 Minuten**
+**Überarbeiten & Erprobung planen · 155–170 Minuten**
 
 8 Minuten Überarbeitung, 7 Minuten Erprobungsvereinbarung. Drei Beobachtungsperspektiven: Stimmen begründete Urteile zweier Lehrkräfte überein? Können Lernende einen nächsten Schritt ableiten und umsetzen? Welche KI-Vorschläge waren brauchbar, welche mussten korrigiert werden und welcher Aufwand entstand? Anonymisierte Arbeitsproben nutzen. Ohne Vergleichsgruppe kein kausaler Wirksamkeitsnachweis. Ersten Austausch nach vier bis sechs Wochen vorschlagen.
 
-### 24. Drei Schulen gehen mit einem gemeinsamen Vorhaben weiter
+### 27. Drei Schulen gehen mit einem gemeinsamen Vorhaben weiter
 
-**Abschluss · 170–180 Minuten**
+**Ergebnisse & Ausblick · 170–180 Minuten**
 
 3 Minuten schriftliches Exit-Ticket für alle: Ein nächster Schritt, eine offene Frage. Je 1 Minute eine Stimme aus jeder Schule, 4 Minuten gemeinsamer Ausblick und nächste Verabredung. Alle Teams sichern ihre Ergebnisse schriftlich, keine lange Abschlusspräsentation. Fragenspeicher zuordnen: geklärt, vor der Erprobung zu klären oder Thema eines Austauschtermins. Motivation über sichtbare erste Ergebnisse und verbindliche Unterstützung erzeugen.
 
-### 25. Die Forschungsbasis unterscheidet Befunde und Orientierung
+### 28. Die Forschungsbasis unterscheidet Befunde und Orientierung
 
 **Quellen · Anhang**
 
 Vollständige Angaben und Aussagegrenzen im Quellenpapier. Der Input ist eine gezielte Auswahl, kein systematisches Review aller Forschung. Neue Studien können im Jahresverlauf ergänzt werden. Rubrics-Evidenz ist nicht ohne Prüfung auf jedes Kompetenzraster übertragbar.
 
-### 26. IGLU und PISA beschreiben den Ausgangspunkt
+### 29. IGLU und PISA beschreiben den Ausgangspunkt
 
-**Kontext · Reservefolie**
+**Kontext · Reserve**
 
 Reserve für Rückfragen oder einen späteren Termin. IGLU: Leistungstest. Hier ausgewählter PISA-Wert: Selbstauskunft. Unterschiedliche Altersgruppen und Konstrukte. Nicht als Längsschnitt darstellen. Die Reserve gehört nicht zusätzlich in die 180 Minuten. Quellen wurden am 20.09.2026 geprüft.
 
 ## Materialien
+
+- [Vollständiges Wunschbrief-Raster zum Drucken](materialien/kompetenzraster-wunschbriefe.html)
+- [Wunschbrief-Raster zum Kopieren](materialien/kompetenzraster-wunschbriefe.md)
 
 - [HTML-Präsentation](praesentationen/01-auftakt-kompetenzraster.html)
 - [Arbeitsvorlage zum Drucken](materialien/auftakt-arbeitsvorlage.html)
@@ -253,6 +281,6 @@ Technikhinweis: „Notizen“ zeigt den Moderationstext auf demselben Bildschirm
 
 ## Ablaufanzeige und Timer in der Präsentation
 
-Die Schaltfläche **„Ablauf · 180 Min.“** öffnet die einfache Übersicht aller zehn Zeitphasen einschließlich der zehnminütigen Pause. Jede Phase zeigt Zeitfenster und Dauer; ein Klick führt zur zugehörigen Folie. Auf jeder Folie markieren eine schmale Leiste und eine kurze Zeile die aktuelle Phase. Die Zeitangaben beziehen sich auf Minuten ab Veranstaltungsbeginn.
+Die Schaltfläche **„Ablauf · 180 Min.“** öffnet die einfache Übersicht aller Zeitphasen einschließlich der zehnminütigen Pause. Jede Phase zeigt Zeitfenster und Dauer; ein Klick führt zur zugehörigen Folie. Auf jeder Folie markieren eine schmale Leiste und eine kurze Zeile die aktuelle Phase. Die Zeitangaben beziehen sich auf Minuten ab Veranstaltungsbeginn.
 
-Arbeitsphasen haben einen Timer in der Ecke mit **Start, Pause und Zurücksetzen**. Er startet bewusst erst durch die Moderation. Die Entwicklerarbeit auf den Folien 19–21 teilt sich einen durchlaufenden **40-Minuten-Timer**. Beim Wechsel in eine andere Phase pausiert der bisherige Timer und behält seine Restzeit. Zurücksetzen stellt die geplante Dauer wieder her. Auf schmalen Bildschirmen steht der Timer im Folieninhalt. Auf der Pausenfolie erscheint ein großer **10-Minuten-Timer**. Nach Ablauf bleibt die Anzeige bei 00:00 und meldet „Zeit abgelaufen“. Ein Neuladen der Seite setzt alle Timer zurück; im Druck werden die Bedienfelder ausgeblendet.
+Arbeitsphasen haben einen Timer in der Ecke mit **Start, Pause und Zurücksetzen**. Er startet bewusst erst durch die Moderation. Die Entwicklerarbeit auf den Folien 22–24 teilt sich einen durchlaufenden **40-Minuten-Timer**. Beim Wechsel in eine andere Phase pausiert der bisherige Timer und behält seine Restzeit. Zurücksetzen stellt die geplante Dauer wieder her. Auf schmalen Bildschirmen steht der Timer im Folieninhalt. Auf der Pausenfolie erscheint ein großer **10-Minuten-Timer**. Nach Ablauf bleibt die Anzeige bei 00:00 und meldet „Zeit abgelaufen“. Ein Neuladen der Seite setzt alle Timer zurück; im Druck werden die Bedienfelder ausgeblendet.

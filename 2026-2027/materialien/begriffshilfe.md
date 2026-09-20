@@ -24,3 +24,8 @@ Diese Arbeitsdefinitionen schaffen eine gemeinsame Sprache. Die Begriffe werden 
 Für die Sitzung meinen wir mit **Kompetenzrastern zur Leistungsbewertung** überschaubare Raster, die fachliche Teilkompetenzen durch Kriterien und konkrete Qualitätsbeschreibungen sichtbar machen. Sie werden an einer Aufgabe erprobt und sowohl zur Lernsteuerung als auch zur begründeten Beurteilung genutzt. Wir kennzeichnen, wann wir von einem umfassenden Kompetenzbereich und wann von einem aufgabenbezogenen Bewertungsraster sprechen.
 
 Forschungsbezüge: [Panadero 2017: SRL-Modelle](https://doi.org/10.3389/fpsyg.2017.00422), [Panadero et al. 2023: Definition und Forschung zu Rubrics](https://doi.org/10.1007/s10648-023-09823-4). Die weiteren Abgrenzungen sind didaktische Arbeitsdefinitionen für die Sitzung.
+
+
+## Gemeinsames Beispiel: Wunschbrief, Deutsch 5
+
+Das [Wunschbrief-Raster](kompetenzraster-wunschbriefe.md) ist zugleich ein aufgabenbezogenes Kompetenzraster und eine analytische Rubric. Kriterien stehen in Zeilen, beschriebene Leistungsqualitäten in Spalten. Beide Begriffe überlappen hier. Die Stufen Mindeststandard, Regelstandard und Leistungsstandard sind lokale didaktische Bezeichnungen, keine unmittelbaren Noten. Eine Ich-kann-Liste mit „kann ich / teilweise / noch nicht“ enthält noch keine solchen Qualitätsbeschreibungen.

@@ -33,6 +33,8 @@ Erfinde keine Lehrplanbezüge, Quellen oder Notenschlüssel.
 Berücksichtige auch den Fall „noch nicht belegt“.
 ```
 
+Im gemeinsamen Beispiel heißen die Stufen Mindeststandard, Regelstandard und Leistungsstandard (erweiterte Leistung). Sie sind keine Noten oder amtlich gesetzten Standards. [Vollständiges Beispiel](kompetenzraster-wunschbriefe.md).
+
 Drei Stufen sind eine überschaubare Startvereinbarung für die Sitzung, kein wissenschaftlich ermitteltes Optimum.
 
 ## Schritt 3: Entwurf am Beispiel prüfen
@@ -86,7 +88,7 @@ Zusätzlich Werkzeug/Modell, Datum, Prompt und groben Zeitaufwand notieren. Für
 
 ## Demonstration und Ausfallreserve
 
-Die Moderation zeigt denselben Schulhof-Fall wie im Input. Zuerst den fachlichen Rahmen, dann den Vorschlag, anschließend eine begründete Verbesserung. Eine vorbereitete tatsächliche KI-Ausgabe mit Werkzeug und Datum kann bei einem Ausfall dienen. Die Zeile „wenig überzeugend / überzeugend / sehr überzeugend“ auf der Folie ist ein bewusst konstruiertes Negativbeispiel, keine dokumentierte KI-Ausgabe.
+Die Moderation zeigt denselben Wunschbrief-Fall aus Deutsch, Klasse 5 wie im Input. Zuerst den fachlichen Rahmen, dann den Vorschlag, anschließend eine begründete Verbesserung. Eine vorbereitete tatsächliche KI-Ausgabe mit Werkzeug und Datum kann bei einem Ausfall dienen. Die Zeile „wenig überzeugend / überzeugend / sehr überzeugend“ auf der Folie ist ein bewusst konstruiertes Negativbeispiel, keine dokumentierte KI-Ausgabe.
 
 Falls ein Team keinen Zugang nutzen kann, bearbeitet es eine vorbereitete Ausgabe und dokumentiert die Prüfung. Die eigene Generierung wird vor der Erprobung nachgeholt. Inhaltliche Beteiligung bleibt für alle möglich, auch ohne eigene Bedienerfahrung.
 
