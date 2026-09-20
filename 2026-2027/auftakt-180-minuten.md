@@ -39,7 +39,7 @@ Die Zeitangaben sind Größenordnungen. Innerhalb der Blöcke entscheidet die Mo
 
 Zwei kurze schulübergreifende Austauschrunden bleiben im Grundlagenblock: Urteile am Text vergleichen und einen Forschungsbefund in eine Planungsentscheidung übersetzen. Weitere Gespräche finden in den Entwicklerteams und im Feedback statt. Bewegung ist freiwillig.
 
-27 Ablauf-Folien und drei Quellen-/Reservefolien. Vor dem ersten Studienbefund erklärt eine kurze Folie Effektstärken an einem erfundenen Zahlenbeispiel. Visible Learning ergänzt die Rubrics-Forschung um passende breite Befunde. Das vollständige Wunschbrief-Raster bleibt auf einer anklickbaren Übersichtsfolie. Auf Inhaltsfolien stehen keine Minutenangaben.
+28 Ablauf-Folien und drei Quellen-/Reservefolien. Vor dem ersten Studienbefund erklärt eine kurze Folie Effektstärken an einem erfundenen Zahlenbeispiel. Visible Learning ergänzt die Rubrics-Forschung um passende breite Befunde. Das vollständige Wunschbrief-Raster bleibt auf einer anklickbaren Übersichtsfolie. Auf Inhaltsfolien stehen keine Minutenangaben.
 
 ## Was den Auftakt motivierend und zugänglich macht
 
@@ -86,123 +86,127 @@ Jahresweg: Auftakt, erste Erprobung, zwei bis drei schulübergreifende bzw. hybr
 
 Keine feste Dauer je Folie. Die Entwicklerarbeit hat Vorrang vor ausführlichen Plenumsberichten.
 
-### 1. Kompetenzraster zur Leistungsbewertung
+### 1. Herzlich willkommen!
+
+Datum und Ort vor dem Treffen einsetzen. QR-Code zur Präsentation auf Vercel zeigen. Die Notizfunktion speichert eigene Notizen pro Folie auf dem jeweiligen Gerät.
+
+### 2. Kompetenzraster zur Leistungsbewertung
 
 Den vereinbarten Jahrestitel nennen. Ziel: gemeinsame Arbeitsfähigkeit unabhängig von Einstiegsjahr und Vorerfahrung. Die Sitzung ist der Start eines Entwicklungs- und Erprobungsjahres. Niemand muss bereits ein Raster oder KI-Erfahrung mitbringen.
 
-### 2. Die bisherigen Themen kommen zusammen
+### 3. Die bisherigen Themen kommen zusammen
 
 Die Netzwerkgeschichte mit den korrekten Schuljahren knapp einordnen: 2023/2024 selbstreguliertes Lernen, 2024/2025 Nutzung von KI, 2025/2026 zeitgemäße Leistungsüberprüfung. Im Abschlussjahr verbinden wir die drei Stränge über Kompetenzraster zur Leistungsbewertung und Lernsteuerung.
 
-### 3. Unser Beispiel: In Briefen Wünsche äußern
+### 4. Unser Beispiel: In Briefen Wünsche äußern
 
 Auftrag vorlesen. Zuerst das konkrete Instrument zeigen, noch keine abstrakte Begriffseinführung. Ziel heute: eigene kleine Rasterfassung mit KI und Erprobungsplan.
 
-### 4. Kompetenzraster für den Wunschbrief
+### 5. Kompetenzraster für den Wunschbrief
 
 Zuerst die gesamte Struktur zeigen. Einen nummerierten Kompetenzbereich horizontal lesen: dieselbe fachliche Dimension, drei unterscheidbare Qualitäten. Bei Bedarf einzelne Zellen anklicken und vergrößern. Die Stufen sind lokale didaktische Bezeichnungen, keine amtlichen Standards oder Noten. Überschneidungen, Gewichtung und curriculare Passung müssen vor einem benoteten Einsatz fachlich geprüft werden.
 
-### 5. Eine Begründung in drei Qualitätsstufen
+### 6. Eine Begründung in drei Qualitätsstufen
 
 Die drei konstruierten Textausschnitte sind Ankerbeispiele für genau ein Kriterium, keine vollständigen Briefe. Gemeinsam lesen und Belege zeigen. Eine höhere Stufe braucht die zugehörigen Merkmale. Textlänge oder ein Einwand allein genügt nicht.
 
-### 6. Austausch 1: Unser Urteil am Text
+### 7. Austausch 1: Unser Urteil am Text
 
 Partnerwechsel möglichst zwischen den Schulen. Beide Personen zeigen einen Textbeleg und sichern eine offene Frage. Bewegung freiwillig, ein Gespräch im Sitzen ist gleichwertig. Keine Plenumsrunde.
 
-### 7. Unser Kompetenzraster ist auch eine Rubric
+### 8. Unser Kompetenzraster ist auch eine Rubric
 
 Begriffe sind nicht überall einheitlich. Keine künstliche Trennlinie ziehen: das aufgabenbezogene Kompetenzraster hier ist eine analytische Bewertungsrubrik. Rubrics-Befunde gelten nicht automatisch für jedes Kompetenzraster. Die lokale Bezeichnung Leistungsstandard ist kein Wirksamkeitsmerkmal.
 
-### 8. Checkliste, Selbsteinschätzung und Rubric
+### 9. Checkliste, Selbsteinschätzung und Rubric
 
 Ein Erwartungshorizont beschreibt erwartete Leistungen und kann eine Rubric enthalten. Ein Lernplan organisiert Aufgaben und Zeiten. Ein Smiley wird nicht allein durch Tabellenform zum Leistungsdeskriptor.
 
-### 9. Überprüfen, bewerten und benoten sind verschiedene Schritte
+### 10. Überprüfen, bewerten und benoten sind verschiedene Schritte
 
 Am Brief zeigen: Überprüfung = Brief schreiben; Bewertung = Merkmale je Kriterium beurteilen; Benotung = gesondert abgestimmte Übersetzung. Ein Profil kann je Zeile verschiedene Stufen zeigen. Noch nicht belegte Merkmale gesondert festhalten. Hilfen und Überarbeitung vorab klären.
 
-### 10. Selbstreguliertes Lernen umfasst bewusste Steuerung
+### 11. Selbstreguliertes Lernen umfasst bewusste Steuerung
 
 SRL umfasst Ziele, Strategien, Beobachten und Anpassen sowie motivationale und emotionale Prozesse. Panadero 2017 ist ein Review von sechs Modellen. Wochenplan und Wahlmöglichkeiten allein garantieren keine Selbstregulation. Am Brief erklären: Lernziel Begründung, Strategie Beispiel ergänzen, Wirkung prüfen.
 
-### 11. Dasselbe Raster begleitet Lernen und Bewertung
+### 12. Dasselbe Raster begleitet Lernen und Bewertung
 
 Am Mindeststandard-Text den nächsten Schritt zum Regelstandard zeigen. Nach Überarbeitung erneut prüfen: Erklärt das Beispiel den Grund? Lernprozessfeedback nicht automatisch in die Fachnote einrechnen. Die lokal gewählten Stufennamen bezeichnen Qualitätsanforderungen, keine Kindergruppen.
 
-### 12. Effektstärken einfach lesen
+### 13. Effektstärken einfach lesen
 
 Das Zahlenbeispiel ist frei erfunden und veranschaulicht einen Gruppenvergleich bei gleicher Streuung. Standardabweichung heißt hier typische Streuung der Werte. Hedges g korrigiert eine kleine Stichprobenverzerrung von d. Konventionen sind keine feste pädagogische Werteskala. Ein Konfidenzintervall zeigt Schätzunsicherheit. Schließt es null ein, ist auch kein Unterschied mit den Daten vereinbar. Ein positiver Wert belegt ohne passendes Studiendesign keine Ursache. Unterschiedliche Designs und Maße nicht direkt gleichsetzen.
 
-### 13. Für Rubrics ist der Leistungsbefund ermutigend
+### 14. Für Rubrics ist der Leistungsbefund ermutigend
 
 Panadero et al. 2023: 21 Studien mit 54 Effekten zum Leistungsvergleich. g ist eine standardisierte Effektgröße, keine Prozentzahl. SRL: nur fünf Studien, Intervall schließt null ein. Das Wunschbrief-Raster entspricht dem Kriterien-Deskriptoren-Aufbau. Daraus folgt keine garantierte Wirkung in Klasse 5 und kein Nachweis fairer Noten. Austausch folgt ausdrücklich nach dem Forschungsblock.
 
-### 14. Visible Learning: passende Ansatzpunkte
+### 15. Visible Learning: passende Ansatzpunkte
 
 Synthese von Meta-Analysen, keine einzelne neue Interventionsstudie. Verwendet werden ausdrücklich die Angaben „Weighted mean effect size“ im Evidenzfeld: Klarheit 0,85 (3 Meta-Analysen), Feedback 0,50 (10), Selbstregulationsstrategien 0,52 (28). Die darunter stehenden TOTAL/AVERAGE-Zeilen weichen teils ab und werden nicht übernommen. Unterschiedliche Designs, Populationen und teils zusammenhangsbasierte Befunde erlauben keine kausale Rangliste. Werte nicht addieren. 0,4 ist Hatties Orientierungsmarke, keine Signifikanzgrenze und keine verlässliche Umrechnung in Lernmonate. SRL-Strategien auf Leistung (hier 0,52) sind eine andere Frage als Rubrics auf SRL (Panadero: unsicherer Befund). Die rechte Spalte ist unsere didaktische Ableitung, nicht das getestete Interventionsprotokoll.
 
-### 15. Eigenständigkeit braucht passende Unterstützung
+### 16. Eigenständigkeit braucht passende Unterstützung
 
 Alfieri 2011: zwei Meta-Analysen, insgesamt 164 Studien. Unterschiedliche Vergleichsgruppen, Werte nicht addieren oder als direkten Begleitungseffekt voneinander abziehen. Keine Kompetenzraster-Studie. Ableitung für unser Beispiel: Briefausschnitte gemeinsam prüfen und Überarbeitung anleiten.
 
-### 16. KI-gestützte Rasterentwicklung bleibt eine zu prüfende Praxis
+### 17. KI-gestützte Rasterentwicklung bleibt eine zu prüfende Praxis
 
 Die hier ausgewählten Quellen belegen nicht die Wirksamkeit des Gesamtpakets KI, Kompetenzraster, Leistungsbewertung und SRL. UNESCO ist Orientierung, keine Effektstudie. KI unterstützt Lehrkräfte beim Entwurf. Es geht nicht um KI-Nutzung durch Kinder.
 
-### 17. Austausch 3: Ein Gedanke für unseren Unterricht
+### 18. Austausch 3: Ein Gedanke für unseren Unterricht
 
 Zu zweit einen Befund und seine Grenze besprechen, daraus einen Planungssatz ableiten. Bewegung freiwillig. Keine zusätzlichen Schulberichte im Plenum.
 
-### 18. Zehn Minuten Pause
+### 19. Zehn Minuten Pause
 
 Zehn Minuten ohne Arbeitsauftrag. Großen Timer bei Beginn manuell starten. Getränke, Bewegung und freier kollegialer Austausch.
 
-### 19. Prompt 1: Ein passendes Raster entwerfen
+### 20. Prompt 1: Ein passendes Raster entwerfen
 
 Nur den Aufbau eines nutzbaren Prompts demonstrieren: Kontext, Aufgabe, Kriterien, Stufen und Qualitätsanforderungen. Eine vorbereitete Ausgabe kann kurz daneben gezeigt werden. Keine separate Lernsteuerungseinheit oder gemeinsame Übungsrunde nach der Pause. Der Promptimpuls einschließlich Folgeprompt bleibt zusammen ungefähr 15 Minuten. Danach beginnt sofort die eigenständige Teamarbeit.
 
-### 20. Prompt 2: Den Entwurf gezielt verbessern
+### 21. Prompt 2: Den Entwurf gezielt verbessern
 
 Den Folgeprompt und eine mögliche Änderung zeigen. Die schwache Formulierung ist ein didaktisches Beispiel, keine behauptete reale KI-Ausgabe. Original und Überarbeitung sichern. Bei technischer Störung vorbereitete, mit Werkzeug und Datum gekennzeichnete Ausgabe verwenden. Keine Registrierung während der Veranstaltung. Die praktische Prüfung erfolgt anschließend in den Teams.
 
-### 21. Rasterwerkstatt: Euer Vorhaben im Mittelpunkt
+### 22. Rasterwerkstatt: Euer Vorhaben im Mittelpunkt
 
 Etwa 60 Minuten zusammenhängende Teamarbeit bilden den Schwerpunkt. Die drei Arbeitsfolien strukturieren den Prozess, ohne verpflichtende Teilzeiten. Teams arbeiten im eigenen Tempo; Rollen nach dem ersten Entwurf wechseln. Ein nutzbarer KI-Zugang je Team reicht. Moderation berät an den Tischen und unterbricht nicht durch weitere Inputs. Schulübergreifende Teams dort, wo Aufgabe und Erprobungsmöglichkeit passen.
 
-### 22. Entwerfen, am Beispiel prüfen und schärfen
+### 23. Entwerfen, am Beispiel prüfen und schärfen
 
 Alle beteiligen sich an der inhaltlichen Prüfung. Zuerst eine belastbare Zeile entwickeln, danach erweitern. Personenbezogene Daten nicht in das KI-Werkzeug eingeben. Bei Ausfall vorbereitete Ausgabe prüfen und eigene Generierung vor der Erprobung nachholen. Keine automatische Notenvergabe.
 
-### 23. Der Entwurf erhält einen Nutzungs- und Bewertungsplan
+### 24. Der Entwurf erhält einen Nutzungs- und Bewertungsplan
 
 Mindestens einen vollständigen Lernzyklus planen. Bei einem offenen Prüfungsformat zusätzlich klären, wie individuelle Beiträge sichtbar werden und Formate dieselben Kriterien abbilden. Notenumrechnung, Gewichtung und Fachkonferenzabsprachen bei Bedarf als Aufgaben vor dem summativen Einsatz festhalten. Der KI-Entwurf bleibt Version 0.1, bis fachliche und kollegiale Prüfung erfolgt sind.
 
-### 24. Zehn Minuten Pause
+### 25. Zehn Minuten Pause
 
 Zehn Minuten ohne Arbeitsauftrag. Großen Timer bei Beginn manuell starten. Getränke, Bewegung und freier kollegialer Austausch.
 
-### 25. Ein anderes Schulteam prüft euren Entwurf
+### 26. Ein anderes Schulteam prüft euren Entwurf
 
 Partnerteams vorab schulübergreifend zuordnen. Gegenseitig eine Zeile an einer Beispielantwort prüfen. Redezeit gleich verteilen, eine konkrete Änderungsidee schriftlich sichern. Bei ungerader Teamzahl Dreiergruppe bilden. Erfahrene prüfen fachliche Passung, neue Mitglieder Verständlichkeit. Schulbedingungen ausdrücklich benennen.
 
-### 26. Aus Rückmeldung wird ein Erprobungsauftrag
+### 27. Aus Rückmeldung wird ein Erprobungsauftrag
 
 Entwurf überarbeiten und die Erprobung vereinbaren. Drei Beobachtungsperspektiven: Stimmen begründete Urteile zweier Lehrkräfte überein? Können Lernende einen nächsten Schritt ableiten und umsetzen? Welche KI-Vorschläge waren brauchbar, welche mussten korrigiert werden und welcher Aufwand entstand? Anonymisierte Arbeitsproben nutzen. Ohne Vergleichsgruppe kein kausaler Wirksamkeitsnachweis. Ersten Austausch nach vier bis sechs Wochen vorschlagen.
 
-### 27. Drei Schulen gehen mit einem gemeinsamen Vorhaben weiter
+### 28. Drei Schulen gehen mit einem gemeinsamen Vorhaben weiter
 
 Alle sichern schriftlich einen nächsten Schritt und eine offene Frage. Je eine kurze Stimme aus den drei Schulen, dann gemeinsame Verabredung. Keine lange Abschlusspräsentation. Fragenspeicher zuordnen: geklärt, vor der Erprobung offen oder Thema eines späteren Austauschs.
 
-### 28. Die Forschungsbasis unterscheidet Befunde und Orientierung
+### 29. Die Forschungsbasis unterscheidet Befunde und Orientierung
 
 Vollständige Angaben und Aussagegrenzen im Quellenpapier. Der Input ist eine gezielte Auswahl, kein systematisches Review aller Forschung. Neue Studien können im Jahresverlauf ergänzt werden. Rubrics-Evidenz ist nicht ohne Prüfung auf jedes Kompetenzraster übertragbar.
 
-### 29. Ergänzende Quellen: Effektstärken und Visible Learning
+### 30. Ergänzende Quellen: Effektstärken und Visible Learning
 
 Die aktuellen MetaX-Evidenzfelder verwenden. Die Gesamtmittelwerte in den Detailtabellen nicht mit den gewichteten Kennwerten verwechseln. Keine Rangfolge eigener Methoden oder garantierte Wirkung des KI-Rasters aus den Kennwerten ableiten.
 
-### 30. IGLU und PISA beschreiben den Ausgangspunkt
+### 31. IGLU und PISA beschreiben den Ausgangspunkt
 
 Reserve für Rückfragen oder einen späteren Termin. IGLU: Leistungstest. Hier ausgewählter PISA-Wert: Selbstauskunft. Unterschiedliche Altersgruppen und Konstrukte. Nicht als Längsschnitt darstellen. Die Reserve gehört nicht zusätzlich in die 180 Minuten. Quellen wurden am 20.09.2026 geprüft.
 
@@ -219,11 +223,16 @@ Reserve für Rückfragen oder einen späteren Termin. IGLU: Leistungstest. Hier 
 - [Forschungsbasis](quellen/forschungsbasis-auftakt.md)
 - [Visible Learning: Auswahl und Einordnung](quellen/visible-learning-auftakt.md)
 
-Technikhinweis: „Notizen“ zeigt den Moderationstext auf demselben Bildschirm. Bei Projektion bewusst verwenden. Vollständige visuelle Browser- und Druckprüfung vor Einsatz noch offen.
+Technikhinweis: „Meine Notizen“ öffnet ein persönliches Eingabefeld zur aktuellen Folie. Moderationshinweise stehen weiterhin in diesem Plan. Der Export sichert alle Folieninhalte einschließlich Quellenlinks und den zugehörigen persönlichen Notizen als druckbare HTML-Datei. Darin lässt sich über Drucken eine PDF speichern. Notizen bleiben im Browser des jeweiligen Geräts, ohne Übertragung an andere Teilnehmende. Bei deaktiviertem Browserspeicher bleibt der Export während der Sitzung verfügbar.
 
 
 ## Ablaufanzeige und Timer
 
-„Ablauf · 180 Min.“ zeigt die fünf groben Blöcke. Beide Pausen haben einen eigenen großen Zehn-Minuten-Timer. Der kleine 60-Minuten-Timer läuft über die drei Entwicklerfolien 21–23 weiter. Feedback, Planung und Ausblick teilen sich einen 30-Minuten-Timer auf Folien 25–27. Die Promptbeispiele erhalten keinen Countdown.
+„Ablauf · 180 Min.“ zeigt die fünf groben Blöcke. Beide Pausen haben einen eigenen großen Zehn-Minuten-Timer. Der kleine 60-Minuten-Timer läuft über die drei Entwicklerfolien 21–23 weiter. Feedback, Planung und Ausblick teilen sich einen 30-Minuten-Timer auf Folien 26–28. Die Promptbeispiele erhalten keinen Countdown.
 
 Start, Pause und Zurücksetzen bleiben verfügbar. Beim Verlassen eines Arbeitsblocks pausiert der Timer. Ein Neuladen setzt alle Timer zurück. Im Druck verschwinden die Bedienfelder.
+
+
+## Willkommensfolie und persönliche Notizen
+
+Datum und Ort sind ausdrücklich Platzhalter. Der QR-Code verweist auf [die Vercel-Präsentation](https://netzwerk-zukunftsschulen.vercel.app/2026-2027/praesentationen/01-auftakt-kompetenzraster.html). Er ist ohne externen QR-Dienst direkt eingebettet. Eigene Notizen lassen sich über die Navigation jederzeit und auf der Abschlussfolie exportieren. Speicherung erfolgt anhand fester Folienkennungen, damit das Einfügen weiterer Folien die Zuordnung nicht verschiebt.
