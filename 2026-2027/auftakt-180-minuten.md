@@ -26,20 +26,20 @@ Am Ende können die Teilnehmenden:
 
 | Block | Größenordnung |
 |---|---:|
-| Ankommen, Wunschbrief-Raster, Begriffe und Forschung mit kurzen Austauschrunden | ca. 55 Minuten |
-| **Pause 1: freie Gespräche und Erholung** | **10 Minuten** |
-| Lernsteuerung und KI am Beispiel, kollegialer Austausch | ca. 25 Minuten |
-| Entwicklerteams: Raster mit KI und Nutzungsplan | ca. 40 Minuten |
-| **Pause 2: freie Gespräche und Erholung** | **10 Minuten** |
-| Schulübergreifendes Feedback, Überarbeitung und Erprobungsplanung | ca. 30 Minuten |
-| Abschluss und nächste Verabredung | ca. 10 Minuten |
+| Ankunft, Einführung am Wunschbrief-Raster, Begriffsklärung und Forschungsstand | ca. 55 Minuten |
+| **Pause mit kollegialem Austausch** | **10 Minuten** |
+| KI-Nutzung anhand von Promptbeispielen, anschließend Entwicklung im Team | ca. 75 Minuten |
+| **Pause** | **10 Minuten** |
+| Schulübergreifendes Feedback, weitere Planung und Ausblick | ca. 30 Minuten |
 | **Gesamt** | **180 Minuten** |
 
-Die Zeitblöcke sind Richtwerte, keine minutengenaue Regie. Die Moderation verteilt die Zeit innerhalb der Blöcke nach Gesprächsbedarf. Beide Pausen bleiben als vollständige zehnminütige Unterbrechungen ohne Arbeitsauftrag erhalten. Die erste liegt nach dem Forschungsüberblick und Austausch, die zweite nach der Entwicklerarbeit vor dem Feedback.
+Der zentrale Block umfasst ungefähr 15 Minuten Promptdemonstration und 60 Minuten zusammenhängende Entwicklerarbeit. Die Prompts zeigen, wie passende Raster erstellt und fachlich geschärft werden. Der SRL-Bezug wird bereits im Grundlagenblock am Wunschbrief erklärt und anschließend von den Teams auf die eigene Aufgabe übertragen. Nach der ersten Pause folgt kein weiterer Theorieblock zur Lernsteuerung.
 
-Die vier kurzen kollegialen Austauschrunden bleiben Teil der Arbeitsblöcke: Urteil am Text, eigene Instrumente, Übertragung der Forschung und Schärfung einer Rasterzeile. Sie haben keine eigenen festen Zeitfenster. Partnerwechsel möglichst zwischen den Schulen; Bewegung ist freiwillig, eine Sitzvariante gleichwertig.
+Die Zeitangaben sind Größenordnungen. Innerhalb der Blöcke entscheidet die Moderation nach Gesprächsbedarf. Die beiden zehnminütigen Pausen bleiben frei von Arbeitsaufträgen. In der ersten Pause ist ausdrücklich Platz für kollegialen Austausch.
 
-27 Ablauf-Folien sowie Quellen- und Reservefolie. Das vollständige Wunschbrief-Raster steht auf einer Übersichtsfolie. Einzelne Zellen lassen sich für die gemeinsame Betrachtung vergrößern; das Raster liegt zusätzlich als separates Material vor. Zeitangaben erscheinen nur in der Ablaufübersicht und den bewusst gestarteten Arbeits- bzw. Pausentimern. Inhaltsfolien tragen keine Minutenangaben.
+Zwei kurze schulübergreifende Austauschrunden bleiben im Grundlagenblock: Urteile am Text vergleichen und einen Forschungsbefund in eine Planungsentscheidung übersetzen. Weitere Gespräche finden in den Entwicklerteams und im Feedback statt. Bewegung ist freiwillig.
+
+27 Ablauf-Folien und drei Quellen-/Reservefolien. Vor dem ersten Studienbefund erklärt eine kurze Folie Effektstärken an einem erfundenen Zahlenbeispiel. Visible Learning ergänzt die Rubrics-Forschung um passende breite Befunde. Das vollständige Wunschbrief-Raster bleibt auf einer anklickbaren Übersichtsfolie. Auf Inhaltsfolien stehen keine Minutenangaben.
 
 ## Was den Auftakt motivierend und zugänglich macht
 
@@ -48,7 +48,7 @@ Die vier kurzen kollegialen Austauschrunden bleiben Teil der Arbeitsblöcke: Urt
 - Ein überschaubares Beispiel zieht sich durch alle Schritte. Kolleg:innen erleben einen sichtbaren Fortschritt von einer unklaren Formulierung zu einer brauchbaren Beschreibung.
 - Die KI-Demonstration zeigt einen ersten Entwurf und eine begründete Verbesserung. Dadurch wird der Prozess nachvollziehbar.
 - Drei Einstiege stehen bereit: Beispiel übertragen, eigene Aufgabe bearbeiten oder vorhandenes Raster verbessern. Alle arbeiten am selben Mindestprodukt.
-- Fachliche Prüfung, KI-Bedienung und Dokumentation erhalten eigene Rollen. Die Bedienperson trifft die inhaltlichen Entscheidungen nicht allein.
+- Fachliche Prüfung, Lernendenperspektive sowie KI-Bedienung und Dokumentation erhalten eigene Rollen. Die Bedienperson trifft die inhaltlichen Entscheidungen nicht allein.
 - Austausch aus einer anderen Schule ist ein eigener Programmpunkt. Schulbedingungen werden sichtbar, ohne ein einheitliches Raster für alle zu erzwingen.
 
 ## Drei Schulen bewusst vernetzen
@@ -84,7 +84,7 @@ Jahresweg: Auftakt, erste Erprobung, zwei bis drei schulübergreifende bzw. hybr
 
 ## Moderation je Folie
 
-Die Hinweise beschreiben den Ablauf inhaltlich. Eine feste Dauer je Folie ist nicht vorgesehen.
+Keine feste Dauer je Folie. Die Entwicklerarbeit hat Vorrang vor ausführlichen Plenumsberichten.
 
 ### 1. Kompetenzraster zur Leistungsbewertung
 
@@ -122,57 +122,57 @@ Ein Erwartungshorizont beschreibt erwartete Leistungen und kann eine Rubric enth
 
 Am Brief zeigen: Überprüfung = Brief schreiben; Bewertung = Merkmale je Kriterium beurteilen; Benotung = gesondert abgestimmte Übersetzung. Ein Profil kann je Zeile verschiedene Stufen zeigen. Noch nicht belegte Merkmale gesondert festhalten. Hilfen und Überarbeitung vorab klären.
 
-### 10. Austausch 2: Was nutzen wir schon?
-
-Mit einer neuen Person ein eigenes Instrument beschreiben und eine mögliche Ergänzung notieren. Beide kommen zu Wort. Bewegung freiwillig, mitgebrachte Materialien sind nicht nötig.
-
-### 11. Für Rubrics ist der Leistungsbefund ermutigend
-
-Panadero et al. 2023: 21 Studien mit 54 Effekten zum Leistungsvergleich. g ist eine standardisierte Effektgröße, keine Prozentzahl. SRL: nur fünf Studien, Intervall schließt null ein. Das Wunschbrief-Raster entspricht dem Kriterien-Deskriptoren-Aufbau. Daraus folgt keine garantierte Wirkung in Klasse 5 und kein Nachweis fairer Noten. Austausch folgt ausdrücklich nach dem Forschungsblock.
-
-### 12. Eigenständigkeit braucht passende Unterstützung
-
-Alfieri 2011: zwei Meta-Analysen, insgesamt 164 Studien. Unterschiedliche Vergleichsgruppen, Werte nicht addieren oder als direkten Begleitungseffekt voneinander abziehen. Keine Kompetenzraster-Studie. Ableitung für unser Beispiel: Briefausschnitte gemeinsam prüfen und Überarbeitung anleiten.
-
-### 13. KI-gestützte Rasterentwicklung bleibt eine zu prüfende Praxis
-
-Die hier ausgewählten Quellen belegen nicht die Wirksamkeit des Gesamtpakets KI, Kompetenzraster, Leistungsbewertung und SRL. UNESCO ist Orientierung, keine Effektstudie. KI unterstützt Lehrkräfte beim Entwurf. Es geht nicht um KI-Nutzung durch Kinder.
-
-### 14. Austausch 3: Ein Gedanke für unseren Unterricht
-
-Zu zweit einen Befund und seine Grenze besprechen, daraus einen Planungssatz ableiten. Bewegung freiwillig. Keine zusätzlichen Schulberichte im Plenum.
-
-### 15. Zehn Minuten Pause
-
-Zehn Minuten ohne Arbeitsauftrag. Großen Timer bei Beginn manuell starten. Getränke, Bewegung und freier kollegialer Austausch.
-
-### 16. Selbstreguliertes Lernen umfasst bewusste Steuerung
+### 10. Selbstreguliertes Lernen umfasst bewusste Steuerung
 
 SRL umfasst Ziele, Strategien, Beobachten und Anpassen sowie motivationale und emotionale Prozesse. Panadero 2017 ist ein Review von sechs Modellen. Wochenplan und Wahlmöglichkeiten allein garantieren keine Selbstregulation. Am Brief erklären: Lernziel Begründung, Strategie Beispiel ergänzen, Wirkung prüfen.
 
-### 17. Dasselbe Raster begleitet Lernen und Bewertung
+### 11. Dasselbe Raster begleitet Lernen und Bewertung
 
 Am Mindeststandard-Text den nächsten Schritt zum Regelstandard zeigen. Nach Überarbeitung erneut prüfen: Erklärt das Beispiel den Grund? Lernprozessfeedback nicht automatisch in die Fachnote einrechnen. Die lokal gewählten Stufennamen bezeichnen Qualitätsanforderungen, keine Kindergruppen.
 
-### 18. KI-Demonstration am Wunschbrief
+### 12. Effektstärken einfach lesen
 
-Auftrag kurz erläutern, tatsächliche Ausgabe zeigen und eine Zeile gemeinsam prüfen. Keine Lehrplanbezüge oder Notenschlüssel erfinden lassen. Erfundene Texte ohne Schülerdaten. Bei Ausfall vorbereitete tatsächliche Ausgabe mit Werkzeug und Datum nutzen.
+Das Zahlenbeispiel ist frei erfunden und veranschaulicht einen Gruppenvergleich bei gleicher Streuung. Standardabweichung heißt hier typische Streuung der Werte. Hedges g korrigiert eine kleine Stichprobenverzerrung von d. Konventionen sind keine feste pädagogische Werteskala. Ein Konfidenzintervall zeigt Schätzunsicherheit. Schließt es null ein, ist auch kein Unterschied mit den Daten vereinbar. Ein positiver Wert belegt ohne passendes Studiendesign keine Ursache. Unterschiedliche Designs und Maße nicht direkt gleichsetzen.
 
-### 19. Qualitätsstufen brauchen sichtbare Merkmale
+### 13. Für Rubrics ist der Leistungsbefund ermutigend
 
-Didaktisches Negativbeispiel, kein angeblich realer KI-Output. Eine Verbesserung vormachen, beispielsweise Grund mit passendem Beispiel erklären. Im anschließenden Austausch bearbeiten die Paare eine eigene Formulierung.
+Panadero et al. 2023: 21 Studien mit 54 Effekten zum Leistungsvergleich. g ist eine standardisierte Effektgröße, keine Prozentzahl. SRL: nur fünf Studien, Intervall schließt null ein. Das Wunschbrief-Raster entspricht dem Kriterien-Deskriptoren-Aufbau. Daraus folgt keine garantierte Wirkung in Klasse 5 und kein Nachweis fairer Noten. Austausch folgt ausdrücklich nach dem Forschungsblock.
 
-### 20. Austausch 4: Eine Zeile gemeinsam schärfen
+### 14. Visible Learning: passende Ansatzpunkte
 
-Mit neuer Gesprächsperson eine Formulierung schärfen, am Briefausschnitt prüfen und die Änderung notieren. Damit erproben alle bereits den Kern der Entwicklerarbeit.
+Synthese von Meta-Analysen, keine einzelne neue Interventionsstudie. Verwendet werden ausdrücklich die Angaben „Weighted mean effect size“ im Evidenzfeld: Klarheit 0,85 (3 Meta-Analysen), Feedback 0,50 (10), Selbstregulationsstrategien 0,52 (28). Die darunter stehenden TOTAL/AVERAGE-Zeilen weichen teils ab und werden nicht übernommen. Unterschiedliche Designs, Populationen und teils zusammenhangsbasierte Befunde erlauben keine kausale Rangliste. Werte nicht addieren. 0,4 ist Hatties Orientierungsmarke, keine Signifikanzgrenze und keine verlässliche Umrechnung in Lernmonate. SRL-Strategien auf Leistung (hier 0,52) sind eine andere Frage als Rubrics auf SRL (Panadero: unsicherer Befund). Die rechte Spalte ist unsere didaktische Ableitung, nicht das getestete Interventionsprotokoll.
 
-### 21. Euer Unterrichtsvorhaben bekommt einen klaren Rahmen
+### 15. Eigenständigkeit braucht passende Unterstützung
 
-Start A: Beispielaufgabe übernehmen und auf die eigene Lerngruppe übertragen. Start B: eigene Aufgabe mitbringen und einen neuen Entwurf beginnen. Start C: ein vorhandenes Raster gezielt verbessern. Alle Wege führen zum gleichen Mindestprodukt. Wenn keine erfahrene KI-Person im Team ist, unterstützt die Moderation mit dem fertigen Startprompt. Mindestens ein Gerät mit nutzbarem Zugang je Team.
+Alfieri 2011: zwei Meta-Analysen, insgesamt 164 Studien. Unterschiedliche Vergleichsgruppen, Werte nicht addieren oder als direkten Begleitungseffekt voneinander abziehen. Keine Kompetenzraster-Studie. Ableitung für unser Beispiel: Briefausschnitte gemeinsam prüfen und Überarbeitung anleiten.
 
-### 22. Mit KI entsteht die erste Rasterfassung
+### 16. KI-gestützte Rasterentwicklung bleibt eine zu prüfende Praxis
 
-Alle Teammitglieder übernehmen eine inhaltliche Prüffrage. Bei Zeitknappheit mindestens eine Zeile vollständig schärfen und übrige Zeilen als offen markieren. Verbindlicher KI-Schritt; bei technischem Ausfall ersatzweise vorbereitete, gekennzeichnete Ausgabe kritisch bearbeiten und eigene Generierung vor der Erprobung nachholen. Keine automatisierte Notenvergabe.
+Die hier ausgewählten Quellen belegen nicht die Wirksamkeit des Gesamtpakets KI, Kompetenzraster, Leistungsbewertung und SRL. UNESCO ist Orientierung, keine Effektstudie. KI unterstützt Lehrkräfte beim Entwurf. Es geht nicht um KI-Nutzung durch Kinder.
+
+### 17. Austausch 3: Ein Gedanke für unseren Unterricht
+
+Zu zweit einen Befund und seine Grenze besprechen, daraus einen Planungssatz ableiten. Bewegung freiwillig. Keine zusätzlichen Schulberichte im Plenum.
+
+### 18. Zehn Minuten Pause
+
+Zehn Minuten ohne Arbeitsauftrag. Großen Timer bei Beginn manuell starten. Getränke, Bewegung und freier kollegialer Austausch.
+
+### 19. Prompt 1: Ein passendes Raster entwerfen
+
+Nur den Aufbau eines nutzbaren Prompts demonstrieren: Kontext, Aufgabe, Kriterien, Stufen und Qualitätsanforderungen. Eine vorbereitete Ausgabe kann kurz daneben gezeigt werden. Keine separate Lernsteuerungseinheit oder gemeinsame Übungsrunde nach der Pause. Der Promptimpuls einschließlich Folgeprompt bleibt zusammen ungefähr 15 Minuten. Danach beginnt sofort die eigenständige Teamarbeit.
+
+### 20. Prompt 2: Den Entwurf gezielt verbessern
+
+Den Folgeprompt und eine mögliche Änderung zeigen. Die schwache Formulierung ist ein didaktisches Beispiel, keine behauptete reale KI-Ausgabe. Original und Überarbeitung sichern. Bei technischer Störung vorbereitete, mit Werkzeug und Datum gekennzeichnete Ausgabe verwenden. Keine Registrierung während der Veranstaltung. Die praktische Prüfung erfolgt anschließend in den Teams.
+
+### 21. Rasterwerkstatt: Euer Vorhaben im Mittelpunkt
+
+Etwa 60 Minuten zusammenhängende Teamarbeit bilden den Schwerpunkt. Die drei Arbeitsfolien strukturieren den Prozess, ohne verpflichtende Teilzeiten. Teams arbeiten im eigenen Tempo; Rollen nach dem ersten Entwurf wechseln. Ein nutzbarer KI-Zugang je Team reicht. Moderation berät an den Tischen und unterbricht nicht durch weitere Inputs. Schulübergreifende Teams dort, wo Aufgabe und Erprobungsmöglichkeit passen.
+
+### 22. Entwerfen, am Beispiel prüfen und schärfen
+
+Alle beteiligen sich an der inhaltlichen Prüfung. Zuerst eine belastbare Zeile entwickeln, danach erweitern. Personenbezogene Daten nicht in das KI-Werkzeug eingeben. Bei Ausfall vorbereitete Ausgabe prüfen und eigene Generierung vor der Erprobung nachholen. Keine automatische Notenvergabe.
 
 ### 23. Der Entwurf erhält einen Nutzungs- und Bewertungsplan
 
@@ -198,7 +198,11 @@ Alle sichern schriftlich einen nächsten Schritt und eine offene Frage. Je eine 
 
 Vollständige Angaben und Aussagegrenzen im Quellenpapier. Der Input ist eine gezielte Auswahl, kein systematisches Review aller Forschung. Neue Studien können im Jahresverlauf ergänzt werden. Rubrics-Evidenz ist nicht ohne Prüfung auf jedes Kompetenzraster übertragbar.
 
-### 29. IGLU und PISA beschreiben den Ausgangspunkt
+### 29. Ergänzende Quellen: Effektstärken und Visible Learning
+
+Die aktuellen MetaX-Evidenzfelder verwenden. Die Gesamtmittelwerte in den Detailtabellen nicht mit den gewichteten Kennwerten verwechseln. Keine Rangfolge eigener Methoden oder garantierte Wirkung des KI-Rasters aus den Kennwerten ableiten.
+
+### 30. IGLU und PISA beschreiben den Ausgangspunkt
 
 Reserve für Rückfragen oder einen späteren Termin. IGLU: Leistungstest. Hier ausgewählter PISA-Wert: Selbstauskunft. Unterschiedliche Altersgruppen und Konstrukte. Nicht als Längsschnitt darstellen. Die Reserve gehört nicht zusätzlich in die 180 Minuten. Quellen wurden am 20.09.2026 geprüft.
 
@@ -213,14 +217,13 @@ Reserve für Rückfragen oder einen späteren Termin. IGLU: Leistungstest. Hier 
 - [Begriffshilfe](materialien/begriffshilfe.md)
 - [KI-Workflow und Prompts](materialien/ki-workflow.md)
 - [Forschungsbasis](quellen/forschungsbasis-auftakt.md)
+- [Visible Learning: Auswahl und Einordnung](quellen/visible-learning-auftakt.md)
 
 Technikhinweis: „Notizen“ zeigt den Moderationstext auf demselben Bildschirm. Bei Projektion bewusst verwenden. Vollständige visuelle Browser- und Druckprüfung vor Einsatz noch offen.
 
 
 ## Ablaufanzeige und Timer
 
-„Ablauf · 180 Min.“ zeigt die sieben groben Blöcke mit Richtwerten. Ein Klick springt zur ersten zugehörigen Folie. Die schmale Leiste markiert den aktuellen Block ohne Minutenangaben auf den Inhaltsfolien.
+„Ablauf · 180 Min.“ zeigt die fünf groben Blöcke. Beide Pausen haben einen eigenen großen Zehn-Minuten-Timer. Der kleine 60-Minuten-Timer läuft über die drei Entwicklerfolien 21–23 weiter. Feedback, Planung und Ausblick teilen sich einen 30-Minuten-Timer auf Folien 25–27. Die Promptbeispiele erhalten keinen Countdown.
 
-Die beiden Pausenfolien haben jeweils einen eigenen großen Zehn-Minuten-Timer. Arbeitsphasen behalten kleine, manuell startbare Timer als Orientierung: 40 Minuten für die Entwicklerarbeit über Folien 21–23 sowie je 15 Minuten für Feedback und Überarbeitung/Planung. Innerhalb des gemeinsamen 30-Minuten-Blocks kann die Moderation diese Aufteilung flexibel handhaben. Kurze Austauschrunden haben keinen eigenen Countdown.
-
-Start, Pause und Zurücksetzen bleiben verfügbar. Beim Verlassen einer Arbeitsphase pausiert der Timer; die Restzeit bleibt erhalten. Ein Neuladen setzt alle Timer zurück. Im Druck verschwinden die Bedienfelder.
+Start, Pause und Zurücksetzen bleiben verfügbar. Beim Verlassen eines Arbeitsblocks pausiert der Timer. Ein Neuladen setzt alle Timer zurück. Im Druck verschwinden die Bedienfelder.

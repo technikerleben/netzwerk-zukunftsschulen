@@ -38,9 +38,11 @@ Nächster Lernschritt und spätere Nutzung zur Bewertung:
 
 ## Kollegiale Austauschrunden
 
-Urteil am Text · eigene Instrumente · Forschungsbefund übertragen · eine Zeile schärfen. Ohne feste Zeitfenster innerhalb der Arbeitsblöcke. Jeweils Partnerwechsel möglichst schulübergreifend, Bewegung freiwillig. Eine Erkenntnis pro Gespräch notieren.
+Urteil am Text · Forschungsbefund übertragen. Ohne feste Zeitfenster im Grundlagenblock. Eine Rasterzeile schärfen wir anschließend im Entwicklerteam. Jeweils Partnerwechsel möglichst schulübergreifend, Bewegung freiwillig. Eine Erkenntnis pro Gespräch notieren.
 
 ## Entwicklerteam
+
+Schwerpunkt des Treffens: rund 60 Minuten zusammenhängende Werkstatt nach den Promptbeispielen. Ziel: erster Entwurf, gründlich geprüfte Zeile und Nutzungsplan.
 
 Team / Schule(n) / Rollen:
 

@@ -160,7 +160,9 @@ Ein gutes Kompetenzraster …
 Der Auftakt führt zu einem kleinen Lernarrangement: konkrete Aufgabe, Rasterausschnitt, geplanter Einsatz für Selbsteinschätzung und Überarbeitung sowie Erprobungsplan. Die Entwicklerteams erstellen ihre erste Fassung mit KI. Ein vollständiges Instrument und verbindliche Bewertungsabsprachen werden vor dem jeweiligen Einsatz weiterentwickelt. Die Sitzung schafft gemeinsame Grundlagen für neue und erfahrene Netzwerkmitglieder aus drei Schulen.
 
 - konkreter Einstieg: Wunschbrief-Raster aus Deutsch, Klasse 5
-- vier kurze Austauschrunden mit schulübergreifendem Partnerwechsel innerhalb der Arbeitsblöcke
+- kurze schulübergreifende Austauschrunden im Grundlagenblock
+- kurze Erklärung von Effektstärken und eingeordnete aktuelle Visible-Learning-Befunde
+- Promptbeispiele als Einstieg in rund 60 Minuten zentrale Teamwerkstatt
 - zwei freie Pausenblöcke von jeweils zehn Minuten
 - Begriffsklärung einschließlich Kompetenzraster/Rubric
 - wissenschaftlicher Input nach dem Beispiel

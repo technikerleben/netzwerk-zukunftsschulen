@@ -1,6 +1,6 @@
 # Forschungsbasis für den Auftakt 2026/2027
 
-Prüfstand: 20.09.2026. Die Sitzung dauert 180 Minuten. Auf 15 Minuten Begriffsklärung folgen 20 Minuten Forschungsüberblick, 20 Minuten gemeinsame Beispielarbeit und 15 Minuten KI-Werkstatt. Quellenbefund, Übertragungsgrenze und eigene Gestaltungsentscheidung werden im Vortrag getrennt.
+Prüfstand: 20.09.2026. 180 Minuten mit fünf groben Blöcken und zentraler Teamarbeit. Effektstärken werden vor den Studien erklärt. Aktuelle Visible-Learning-Befunde ergänzen die gezielte Forschungsbasis. Quellenbefund, Grenze und didaktische Ableitung bleiben unterscheidbar.
 
 ## 1. Kontext: unterschiedliche Lernvoraussetzungen
 
@@ -40,7 +40,7 @@ Prüfstellen: Abstract, RQ1, RQ2 und Diskussion. Die zentrale quantitative Einor
 
 ## Eigene Beispiele und Vorschläge
 
-Die Schulhof-Aufgabe, die Texte A/B, die Rasterzeile, die Workshopzeiten und das Erprobungsverfahren sind didaktische Vorschläge für das Netzwerk. Sie sind keine validierten Messinstrumente oder aus den Studien übernommenen Interventionsprotokolle. Eine Erprobung ohne Kontrollgruppe erlaubt eine Einschätzung der Handhabbarkeit und Hinweise auf Veränderungen, keinen kausalen Wirksamkeitsnachweis.
+Die Wunschbrief-Aufgabe aus Deutsch 5, die drei Textausschnitte, das Beispielraster, die Workshopzeiten und das Erprobungsverfahren sind didaktische Vorschläge für das Netzwerk. Sie sind keine validierten Messinstrumente oder aus den Studien übernommenen Interventionsprotokolle. Eine Erprobung ohne Kontrollgruppe erlaubt eine Einschätzung der Handhabbarkeit und Hinweise auf Veränderungen, keinen kausalen Wirksamkeitsnachweis.
 
 
 ## 4. SRL als gemeinsamer Bezugsrahmen
@@ -65,3 +65,8 @@ Die Orientierung fordert pädagogische Prüfung und einen menschenzentrierten Ei
 | KI | Orientierung zur pädagogischen Prüfung, kein Wirkungsnachweis dieses Gesamtpakets | Entwurf, menschliche Änderung und Aufwand dokumentieren |
 
 Leistungsbewertung wird im Workshop über Aufgabenpassung und begründete Urteilsbildung konkretisiert. Der Leistungsvergleich in der Rubrics-Metaanalyse beweist nicht automatisch Validität, Zuverlässigkeit oder Fairness unserer eigenen Bewertung. Deshalb prüfen die Teams dieselben Beispiele unabhängig und besprechen Abweichungen.
+
+
+## 6. Ergänzung: Effektstärken und Visible Learning
+
+[Geprüfte Auswahl mit Primärlinks, Datenstand und Grenzen](visible-learning-auftakt.md). Die drei positiven Befunde betreffen Klarheit, Feedback und Selbstregulationsstrategien. Sie ergänzen die direkte Rubrics-Evidenz, ersetzen sie aber nicht. Die Umsetzung am Wunschbrief ist eine eigene didaktische Ableitung.

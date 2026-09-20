@@ -29,6 +29,8 @@ Ein Entwicklungsprojekt verbindet möglichst:
 
 ## Dateien
 
+- [Visible Learning: geprüfte Befunde](quellen/visible-learning-auftakt.md) – Klarheit, Feedback und Selbstregulationsstrategien
+
 - [Wunschbrief-Raster Deutsch 5](materialien/kompetenzraster-wunschbriefe.html) – vollständiges Beispiel mit drei Niveaustufen
 
 - `auftakt-180-minuten.md` – Vorschlag und Moderation für das erste Treffen (180 Minuten)

@@ -2,6 +2,10 @@
 
 KI ist ein fester Bestandteil der Entwicklerarbeit. Die Lehrkräfte bestimmen den fachlichen Rahmen, prüfen die Vorschläge und verantworten das Ergebnis. KI-Nutzung durch Schüler:innen und automatisierte Notenvergabe sind nicht Gegenstand dieses Entwicklungsschritts.
 
+## Kurzer Promptimpuls vor der Teamarbeit
+
+Die Moderation zeigt nur den Startprompt zur Rastererstellung und einen Folgeprompt zur Prüfung am Beispiel. Gemeinsam ungefähr 15 Minuten, anschließend rund 60 Minuten Entwicklerarbeit. Lernsteuerung und Bewertung wurden zuvor am Wunschbrief erklärt. Die Schritte unten sind eine Arbeitshilfe für Teams, keine weitere Vortragsfolge.
+
 ## Vorbereitung
 
 Ein nutzbarer, schulisch zugelassener Zugang und ein Gerät pro Team reichen. Eine Person bedient, die anderen prüfen fachliche Passung und Verständlichkeit. Rollen nach einer Arbeitsrunde wechseln. Aufgaben und erfundene Beispielprodukte verwenden, keine personenbezogenen Schülerdaten eingeben.
@@ -88,7 +92,7 @@ Zusätzlich Werkzeug/Modell, Datum, Prompt und groben Zeitaufwand notieren. Für
 
 ## Demonstration und Ausfallreserve
 
-Die Moderation zeigt denselben Wunschbrief-Fall aus Deutsch, Klasse 5 wie im Input. Zuerst den fachlichen Rahmen, dann den Vorschlag, anschließend eine begründete Verbesserung. Eine vorbereitete tatsächliche KI-Ausgabe mit Werkzeug und Datum kann bei einem Ausfall dienen. Die Zeile „wenig überzeugend / überzeugend / sehr überzeugend“ auf der Folie ist ein bewusst konstruiertes Negativbeispiel, keine dokumentierte KI-Ausgabe.
+Die Moderation zeigt denselben Wunschbrief-Fall aus Deutsch, Klasse 5 wie im Input. Zuerst den fachlichen Rahmen, dann den Vorschlag, anschließend eine begründete Verbesserung. Eine vorbereitete tatsächliche KI-Ausgabe mit Werkzeug und Datum kann bei einem Ausfall dienen. Die Formulierung „gut begründet“ im Promptbeispiel ist ein bewusst konstruiertes Negativbeispiel, keine dokumentierte KI-Ausgabe.
 
 Falls ein Team keinen Zugang nutzen kann, bearbeitet es eine vorbereitete Ausgabe und dokumentiert die Prüfung. Die eigene Generierung wird vor der Erprobung nachgeholt. Inhaltliche Beteiligung bleibt für alle möglich, auch ohne eigene Bedienerfahrung.
 
