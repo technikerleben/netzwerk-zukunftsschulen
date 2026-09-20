@@ -36,11 +36,11 @@ Welche Textstelle belegt den Regelstandard? Wo bleibt eine Bewertungsfrage?
 
 Nächster Lernschritt und spätere Nutzung zur Bewertung:
 
-## Aktive Austauschpausen
+## Kollegiale Austauschrunden
 
-20–27: Urteil am Text · 37–42: eigene Instrumente · 54–60: Forschungsbefund übertragen · 80–85: eine Zeile schärfen. Jeweils Partnerwechsel möglichst schulübergreifend, Bewegung freiwillig. Eine Erkenntnis pro Gespräch notieren.
+Urteil am Text · eigene Instrumente · Forschungsbefund übertragen · eine Zeile schärfen. Ohne feste Zeitfenster innerhalb der Arbeitsblöcke. Jeweils Partnerwechsel möglichst schulübergreifend, Bewegung freiwillig. Eine Erkenntnis pro Gespräch notieren.
 
-## Entwicklerteam (95–135 Minuten)
+## Entwicklerteam
 
 Team / Schule(n) / Rollen:
 
@@ -72,7 +72,7 @@ Bewertung: Welches Produkt, welcher Zeitpunkt, welche Hilfen, welcher Umgang mit
 
 Offen vor benotetem Einsatz: Gewichtung / Notenübersetzung / fachliche und schulische Absprachen:
 
-## Schulübergreifende Rückmeldung (135–155 Minuten)
+## Schulübergreifende Rückmeldung
 
 Partnerteam / andere Schule:
 
@@ -82,7 +82,7 @@ Unklare Stelle und Beleg am Beispiel:
 
 Konkrete Änderungsidee:
 
-## Überarbeitung und Erprobung (155–170 Minuten)
+## Überarbeitung und Erprobung
 
 Wir ändern …, weil …
 
@@ -98,7 +98,7 @@ Verantwortliche Person / Ablageort / nächster Austausch:
 
 Offene fachliche Prüfaufträge vor Unterrichtseinsatz:
 
-## Abschluss (170–180 Minuten)
+## Abschluss
 
 Mein nächster Schritt:
 
