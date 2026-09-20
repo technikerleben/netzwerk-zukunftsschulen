@@ -1,10 +1,10 @@
 # Forschungsbasis für den Auftakt 2026/2027
 
-Prüfstand: 20.09.2026. Der Kerninput dauert 25 Minuten. Quellenbefund, Übertragungsgrenze und eigene Gestaltungsentscheidung werden im Vortrag getrennt.
+Prüfstand: 20.09.2026. Die Sitzung dauert 180 Minuten. Auf 15 Minuten Begriffsklärung folgen 20 Minuten Forschungsüberblick, 20 Minuten gemeinsame Beispielarbeit und 15 Minuten KI-Werkstatt. Quellenbefund, Übertragungsgrenze und eigene Gestaltungsentscheidung werden im Vortrag getrennt.
 
 ## 1. Kontext: unterschiedliche Lernvoraussetzungen
 
-**IGLU 2021:** In Deutschland erreichten 25 % der Viertklässlerinnen und Viertklässler Kompetenzstufe III nicht. Primärquelle: [IFS/TU Dortmund, Pressemitteilung vom 16.05.2023](https://ifs.ep.tu-dortmund.de/storages/ifs-ep/r/Downloads_allgemein/Pressemeldung_IGLU2021_final.pdf), Seite 1. Die übrigen Punktwerte entfallen zugunsten einer kurzen Kontextfolie.
+**IGLU 2021:** In Deutschland erreichten 25 % der Viertklässlerinnen und Viertklässler Kompetenzstufe III nicht. Primärquelle: [IFS/TU Dortmund, Pressemitteilung vom 16.05.2023](https://ifs.ep.tu-dortmund.de/storages/ifs-ep/r/Downloads_allgemein/Pressemeldung_IGLU2021_final.pdf), Seite 1. IGLU/PISA bleiben als Reservefolie und Kontextmaterial erhalten.
 
 **PISA 2025:** Rund 33 % der 15-Jährigen in Deutschland geben an, ihr Lernen oft oder sehr oft zu planen. Primärquelle: [OECD, Ländernotiz Deutschland](https://www.oecd.org/de/publications/pisa-2025-ergebnisse-band-i_eade94cd-de/deutschland_8a1ce578-de.html), Abschnitt „Lerneinstellungen der Schüler*innen“. Dies ist eine Selbstauskunft, kein Test ihrer SRL-Kompetenz.
 
@@ -33,7 +33,7 @@ Prüfstellen: Abstract, RQ1, RQ2 und Diskussion. Die zentrale quantitative Einor
 
 ## Bewusste Kürzungen gegenüber der alten Fassung
 
-- Drei Kontextfolien zu IGLU/PISA werden zu einer Folie verdichtet.
+- Die Kontextfolien zu IGLU/PISA stehen als Reserve zur Verfügung. Der gemeinsame Einstieg beginnt mit dem Entwicklungsziel.
 - Der breite Self-Assessment-Block mit Yan et al. (2022) und Panadero et al. (2017) entfällt im Kerninput. Insbesondere wird aus verschiedenen Meta-Analysen keine Rangfolge von Methoden abgeleitet. Die Selbstbeurteilung bleibt als konkret beschriebene Lernhandlung im Workshop erhalten.
 - Keine Aufsummierung oder Rangfolge der Effektstärken aus unterschiedlichen Studien.
 - Keine Aussage, dass Raster automatisch SRL, faire Noten oder ein bestimmtes Niveau an Selbstständigkeit bewirken.
@@ -41,3 +41,27 @@ Prüfstellen: Abstract, RQ1, RQ2 und Diskussion. Die zentrale quantitative Einor
 ## Eigene Beispiele und Vorschläge
 
 Die Schulhof-Aufgabe, die Texte A/B, die Rasterzeile, die Workshopzeiten und das Erprobungsverfahren sind didaktische Vorschläge für das Netzwerk. Sie sind keine validierten Messinstrumente oder aus den Studien übernommenen Interventionsprotokolle. Eine Erprobung ohne Kontrollgruppe erlaubt eine Einschätzung der Handhabbarkeit und Hinweise auf Veränderungen, keinen kausalen Wirksamkeitsnachweis.
+
+
+## 4. SRL als gemeinsamer Bezugsrahmen
+
+Panadero, E. (2017). *A Review of Self-regulated Learning: Six Models and Four Directions for Research.* Frontiers in Psychology, 8, 422. [Originalartikel](https://doi.org/10.3389/fpsyg.2017.00422).
+
+Der Review beschreibt sechs Modelle und diskutiert ihre Evidenz. SRL umfasst neben kognitiven und metakognitiven auch motivationale, verhaltensbezogene und emotionale Aspekte. Für die Sitzung nutzen wir einen vereinfachten Zyklus aus Zielklärung, Beobachtung und Anpassung. Dieser Zyklus begründet die Planung konkreter Lernhandlungen; er ist kein eigener Wirksamkeitsbeleg für unser Raster.
+
+## 5. KI: Orientierung und offener Erprobungsauftrag
+
+UNESCO (2023). *Guidance for generative AI in education and research.* [Offizielle Publikationsseite](https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research).
+
+Die Orientierung fordert pädagogische Prüfung und einen menschenzentrierten Einsatz. Sie ist keine empirische Effektstudie. Die hier ausgewählten Quellen untersuchen die Kombination KI-gestützte Rastererstellung, Leistungsbewertung und SRL nicht als Gesamtintervention. Daraus folgt keine Aussage, dass generell keine KI-Forschung existiert. Es folgt für unser Projekt ein begrenzter Anspruch: den Nutzen eigener KI-Entwürfe kritisch prüfen und Erfahrungen dokumentieren.
+
+## Forschungsüberblick für Teilnehmende
+
+| Bereich | Was die ausgewählte Quelle trägt | Was wir daraus für die Erprobung ableiten |
+|---|---|---|
+| Rubrics | Moderater positiver mittlerer Leistungsbefund, unsicherer SRL-Befund | Qualität des Rasters und tatsächliche Nutzung prüfen |
+| Lernbegleitung | Unterschiedliche Befunde für unbegleitetes und unterstütztes Entdecken | Kriterien am Beispiel einführen und Anwenden üben |
+| SRL | Theorie- und Forschungsüberblick zu bewusster Lernsteuerung | Ziele, Strategien, Rückmeldung und Anpassung vorsehen |
+| KI | Orientierung zur pädagogischen Prüfung, kein Wirkungsnachweis dieses Gesamtpakets | Entwurf, menschliche Änderung und Aufwand dokumentieren |
+
+Leistungsbewertung wird im Workshop über Aufgabenpassung und begründete Urteilsbildung konkretisiert. Der Leistungsvergleich in der Rubrics-Metaanalyse beweist nicht automatisch Validität, Zuverlässigkeit oder Fairness unserer eigenen Bewertung. Deshalb prüfen die Teams dieselben Beispiele unabhängig und besprechen Abweichungen.

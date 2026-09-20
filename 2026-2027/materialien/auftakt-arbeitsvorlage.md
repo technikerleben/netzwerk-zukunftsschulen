@@ -1,88 +1,99 @@
-# Arbeitsvorlage: Vom Kriterium zum nächsten Lernschritt
+# Arbeitsvorlage: Kompetenzraster, Leistungsbewertung, SRL und KI
 
-Netzwerk Zukunftsschulen 2026/2027 · Auftakt · Vorschlag
+Auftakt 2026/2027 · 180 Minuten · Drei Schulen
 
-## 1. Gemeinsames Beispiel (35–50 Minuten)
+## Gemeinsamer Einstieg
 
-Aufgabe: Schlage der Schülervertretung eine Veränderung des Schulhofs vor und begründe ihren Nutzen.
+Lernende sollen besser erkennen können, …
 
-| Kriterium: Nutzen begründen | Qualitätsbeschreibung |
-|---|---|
-| A | Ich nenne einen Vorteil meines Vorschlags. |
-| B | Ich erkläre, wie mein Vorschlag jemandem konkret hilft. |
-| C | Ich wäge den Nutzen gegen eine Schwierigkeit ab und begründe meine Entscheidung. |
+Unsere gemeinsame Frage:
 
-Selbst erstelltes Arbeitsbeispiel, kein validiertes Instrument. A–C sind keine Noten. Falls kein Deskriptor passt: „noch nicht belegt“ vermerken.
+Eine Erkenntnis aus dem Forschungsüberblick / offene Frage:
+
+[Begriffshilfe](begriffshilfe.md) · [KI-Aufträge zum Kopieren](ki-workflow.md)
+
+## Gemeinsames Beispiel
+
+Jahrgang 7: Überzeuge die Schülervertretung von einer umsetzbaren Veränderung des Schulhofs. Begründe den Nutzen und bedenke die Umsetzung.
+
+| Kriterium | A | B | C |
+|---|---|---|---|
+| Vorschlag konkretisieren | Ich nenne eine Veränderung. | Ich beschreibe, was sich für wen ändern soll. | Ich beschreibe die Veränderung und leite sie aus einem konkreten Bedarf ab. |
+| Nutzen begründen | Ich nenne einen konkreten Vorteil. | Ich erkläre, wie die Veränderung der Zielgruppe hilft. | Ich stütze meine Erklärung durch ein passendes Beispiel oder einen nachvollziehbaren Beleg. |
+| Umsetzbarkeit abwägen | Ich nenne eine Voraussetzung oder Schwierigkeit. | Ich erkläre, wie sie die Umsetzung beeinflusst. | Ich entwickle dafür eine passende Lösung und begründe meine Entscheidung. |
+
+Arbeitsentwurf, keine Notenskala. „Noch nicht belegt“ gesondert erfassen.
 
 **Text A:** Ich wünsche mir eine Bank im Schatten. Das wäre schön.
 
-**Text B:** Ich wünsche mir eine Bank im Schatten. Dort können sich Kinder an heißen Tagen ausruhen. Sie kostet Geld. Deshalb schlage ich vor, zunächst eine vorhandene Bank umzustellen.
+**Text B:** Eine Bank im Schatten hilft Kindern an heißen Tagen beim Ausruhen. Neben dem Spielfeld gibt es bisher keinen schattigen Sitzplatz. Eine neue Bank kostet Geld. Deshalb könnten wir eine vorhandene Bank umstellen.
 
-- Meine Zuordnung für A und mein Textbeleg:
-- Meine Zuordnung für B und mein Textbeleg:
-- Nächster Lernschritt für A:
-- Wo urteilen wir verschieden? Welchen Ausdruck würden wir präzisieren?
+Urteil und Textbeleg für das Kriterium Nutzen begründen:
 
-## 2. Unser Entwurf (55–85 Minuten)
+Rückmeldung und nächster Schritt für Text A:
 
-Team / Schule(n):
+Spätere Nutzung desselben Kriteriums zur Bewertung:
 
-Fach / Jahrgang / Kompetenzbereich:
+## Entwicklerteam (95–135 Minuten)
 
-Konkretes Problem im bisherigen Unterricht:
+Team / Schule(n) / Rollen:
 
-Lernziel mit Bezug zur fachlichen Anforderung:
+Fach / Jahrgang / Lerngruppe:
 
-Aufgabe und erwartetes Produkt:
+Kompetenzziel / vorliegende fachliche Anforderungen:
 
-Zwei oder drei wesentliche Kriterien:
+Aufgabe / erwartetes Produkt:
 
-**Ein Kriterium ausarbeiten:**
+Zwei bis drei Kriterien:
 
 | Kriterium | Qualität A | Qualität B | Qualität C |
 |---|---|---|---|
 | | | | |
+| | | | |
+| | | | |
 
-Drei Stufen sind die Arbeitsvereinbarung dieses Workshops, kein wissenschaftlich ermitteltes Optimum. Den Fall „noch nicht belegt“ mitdenken.
+KI-Werkzeug / Modell / Datum / Prompt / grober Zeitaufwand:
 
-Beispielantwort oder Produktmerkmal, an dem wir die Beschreibungen prüfen:
+Beispielantwort zum Prüfen:
 
-Wann und wie führen wir das Kriterium anhand eines Beispiels ein?
+| KI-Ausgangsvorschlag | Fachlicher Einwand | Unsere Änderung | Begründung |
+|---|---|---|---|
+| | | | |
 
-Wann belegen die Lernenden ihre Selbsteinschätzung am Produkt?
+SRL: Wann lernen Schüler:innen das Raster kennen, wählen ein Ziel, belegen ihr Urteil und überarbeiten?
 
-Welchen nächsten Schritt ermöglicht unsere Rückmeldung? Wann überarbeiten die Lernenden?
+Bewertung: Welches Produkt, welcher Zeitpunkt, welche Hilfen, welcher Umgang mit Überarbeitung?
 
-Was dient der Übung? Was soll später bewertet werden? Welche Hilfen sind vorgesehen?
+Offen vor benotetem Einsatz: Gewichtung / Notenübersetzung / fachliche und schulische Absprachen:
 
-Wie gleichen wir vor einer Bewertung unsere Urteile an Beispielprodukten ab?
+## Schulübergreifende Rückmeldung (135–155 Minuten)
 
-**Optional KI:** Werkzeug / Prüfauftrag / Vorschlag / begründete Annahme oder Ablehnung:
+Partnerteam / andere Schule:
 
-## 3. Kollegiale Prüfung (85–100 Minuten)
+Stärke:
 
-Partnerteam:
+Unklare Stelle und Beleg am Beispiel:
 
-- Stärke des Entwurfs:
-- Unklarheit mit konkreter Stelle:
-- Änderungsvorschlag:
+Konkrete Änderungsidee:
 
-Prüffragen: Passt das Kriterium zur Aufgabe? Unterscheiden sich die Qualitätsstufen erkennbar? Würden wir ähnlich urteilen? Erkennen Lernende eine konkrete Überarbeitung? Sind Hilfen und Bewertungszweck klar?
-
-## 4. Überarbeitung und Transfer (100–120 Minuten)
+## Überarbeitung und Erprobung (155–170 Minuten)
 
 Wir ändern …, weil …
 
-Erprobung: Wer / Lerngruppe / Zeitraum oder Termin:
+Wer / Lerngruppe / Termin der Erprobung:
 
-Daran erkennen wir einen Nutzen für Lernende:
+| Perspektive | Beobachtungsfrage | Unser Beleg |
+|---|---|---|
+| Leistungsbewertung | Wie begründen zwei Lehrkräfte ihre Urteile? | |
+| SRL | Wie leiten Lernende einen nächsten Schritt ab und setzen ihn um? | |
+| KI | Welche Vorschläge helfen, welche Änderungen und welcher Aufwand entstehen? | |
 
-Diese Belege sammeln wir (z. B. anonymisierte Textstellen vorher/nachher, kurze Lernendenrückmeldung):
+Verantwortliche Person / Ablageort / nächster Austausch:
 
-Zeitaufwand oder Schwierigkeit, die wir mitbeobachten:
+Offene fachliche Prüfaufträge vor Unterrichtseinsatz:
 
-Das bringen wir zum ersten Austausch mit:
+## Abschluss (170–180 Minuten)
 
-Verantwortlich für Ablage / gemeinsamer Ablageort:
+Mein nächster Schritt:
 
-Offene Frage an das Netzwerk:
+Meine offene Frage:

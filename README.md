@@ -14,6 +14,8 @@ Für die Weiterarbeit wurde ein eigener Bereich angelegt:
 - [HTML-Präsentation für die erste Arbeitssitzung](2026-2027/praesentationen/01-auftakt-kompetenzraster.html)
 
 ### Schwerpunkt
-**Kompetenzraster als Scharnier zwischen selbstreguliertem Lernen und Leistungsbewertung**
+**Kompetenzraster zur Leistungsbewertung und die Verzahnung mit dem Selbstregulierten Lernen und der Nutzung von KI**
 
 Digitale Tools und KI werden dabei auf der Ebene der professionellen Unterrichtsentwicklung genutzt: zur Entwicklung und Prüfung von Kompetenzrastern, Lernaufgaben, Lernwegen und Bewertungslogiken. Die Nutzung durch Schülerinnen und Schüler ist zunächst nicht Teil des Schwerpunktes.
+
+Aktueller Auftaktentwurf: [180 Minuten](2026-2027/auftakt-180-minuten.md) mit Begriffsklärung, Forschung, KI-Werkstatt und schulübergreifender Entwicklung.

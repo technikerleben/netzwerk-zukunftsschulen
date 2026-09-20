@@ -3,209 +3,249 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Auftakt 2026/2027 · Kompetenzraster · 120 Minuten</title>
-<style>html,body{margin:0;min-height:100%;background:#f6f8f7;color:#103f44;font-family:Inter,system-ui,sans-serif}*{box-sizing:border-box}.slide{display:none;min-height:calc(100dvh - 68px);padding:44px 6vw 34px;border-top:10px solid #009288;background:linear-gradient(120deg,#fff 72%,#e9f3f1)}.slide.active{display:flex;flex-direction:column;justify-content:center}.phase{font-size:18px;font-weight:700;color:#376769;margin:0 0 20px}h1,h2{font-size:clamp(34px,3.65vw,58px);line-height:1.09;letter-spacing:-.03em;margin:0 0 30px;max-width:1180px}h3{font-size:27px;margin:0 0 12px}p,li,td,th,blockquote{font-size:clamp(22px,2vw,29px);line-height:1.4}p{margin:0 0 18px}li{margin:0 0 14px}ul,ol{margin:0;padding-left:1.25em;max-width:1180px}.lead{font-size:clamp(28px,2.7vw,40px);max-width:1100px}.tag{margin-top:30px;font-weight:700;color:#007881}.cols{display:grid;grid-template-columns:1fr 1fr;gap:52px}.cols>div+div{border-left:2px solid #a5cccb;padding-left:35px}.stat{font-size:64px;font-weight:800;line-height:1.05;margin:14px 0;color:#007881}.take{font-weight:650;margin:26px 0 0;padding-top:20px;border-top:2px solid #a5cccb}.cite{font-size:17px;margin-top:20px;color:#426365}.cite a{color:inherit}table{border-collapse:collapse;width:100%;margin:8px 0}th,td{border-bottom:1px solid #a5cccb;padding:12px 16px;text-align:left;font-size:24px}thead{background:#edf4f2}blockquote{margin:0;padding:15px 0;font-style:italic}.agenda p{display:flex;gap:32px;margin:8px 0}.agenda b{min-width:105px}.nav{position:sticky;bottom:0;min-height:68px;display:flex;align-items:center;gap:12px;padding:10px 24px;background:#103f44;color:#fff}.nav button,.nav select{font:inherit;background:#fff;color:#103f44;border:0;padding:9px 12px;border-radius:5px;cursor:pointer}.nav select{max-width:32vw}.nav a{color:white}.spacer{flex:1}.count{white-space:nowrap}.notes{display:none;position:fixed;inset:auto 25px 82px;max-height:40vh;overflow:auto;padding:24px;background:#fff;border:3px solid #007881;box-shadow:0 4px 30px #0003;font-size:20px;z-index:5}.notes.open{display:block}.speaker-note{display:none}.sources li{font-size:22px}.sources a{font-weight:700}a{color:#007881}button:focus-visible,select:focus-visible,a:focus-visible{outline:3px solid #d18d24;outline-offset:3px}.nav button:disabled{opacity:.5;cursor:default}@media(max-width:800px){.slide{padding:28px 6vw;min-height:calc(100dvh - 120px)}.cols{grid-template-columns:1fr;gap:20px}.cols>div+div{border-left:0;border-top:2px solid #a5cccb;padding:20px 0 0}.nav{flex-wrap:wrap}.nav select{max-width:50vw}.stat{font-size:48px}th,td{font-size:20px;padding:8px}h1,h2{margin-bottom:22px}.agenda p{font-size:20px}.sources li{font-size:20px}}@media print{@page{size:A4 landscape;margin:12mm}.slide,.slide.active{display:flex;min-height:0;height:180mm;break-after:page;padding:8mm;border-top:3mm solid #777;background:white}.slide:last-child{break-after:auto}.nav,.notes{display:none!important}h1,h2{font-size:30pt}p,li,td,th,blockquote{font-size:16pt}.lead{font-size:23pt}.stat{font-size:38pt}.phase,.cite{font-size:11pt}.sources li{font-size:15pt}h3{font-size:20pt}.take{margin-top:12px;padding-top:10px}.cols{gap:25px}a{color:inherit}}</style>
+<title>Kompetenzraster, Leistungsbewertung, SRL und KI · Auftakt 2026/2027</title>
+<style>html,body{margin:0;min-height:100%;background:#f6f8f7;color:#103f44;font-family:Inter,system-ui,sans-serif}*{box-sizing:border-box}.slide{display:none;min-height:calc(100dvh - 68px);padding:44px 6vw 34px;border-top:10px solid #009288;background:linear-gradient(120deg,#fff 72%,#e9f3f1)}.slide.active{display:flex;flex-direction:column;justify-content:center}.phase{font-size:18px;font-weight:700;color:#376769;margin:0 0 20px}h1,h2{font-size:clamp(34px,3.65vw,58px);line-height:1.09;letter-spacing:-.03em;margin:0 0 30px;max-width:1180px}h3{font-size:27px;margin:0 0 12px}p,li,td,th,blockquote{font-size:clamp(22px,2vw,29px);line-height:1.4}p{margin:0 0 18px}li{margin:0 0 14px}ul,ol{margin:0;padding-left:1.25em;max-width:1180px}.lead{font-size:clamp(28px,2.7vw,40px);max-width:1100px}.tag{margin-top:30px;font-weight:700;color:#007881}.cols{display:grid;grid-template-columns:1fr 1fr;gap:52px}.cols>div+div{border-left:2px solid #a5cccb;padding-left:35px}.stat{font-size:64px;font-weight:800;line-height:1.05;margin:14px 0;color:#007881}.take{font-weight:650;margin:26px 0 0;padding-top:20px;border-top:2px solid #a5cccb}.cite{font-size:17px;margin-top:20px;color:#426365}.cite a{color:inherit}table{border-collapse:collapse;width:100%;margin:8px 0}th,td{border-bottom:1px solid #a5cccb;padding:12px 16px;text-align:left;font-size:24px}thead{background:#edf4f2}blockquote{margin:0;padding:15px 0;font-style:italic}.agenda p{display:flex;gap:32px;margin:8px 0}.agenda b{min-width:105px}.nav{position:sticky;bottom:0;min-height:68px;display:flex;align-items:center;gap:12px;padding:10px 24px;background:#103f44;color:#fff}.nav button,.nav select{font:inherit;background:#fff;color:#103f44;border:0;padding:9px 12px;border-radius:5px;cursor:pointer}.nav select{max-width:32vw}.nav a{color:white}.spacer{flex:1}.count{white-space:nowrap}.notes{display:none;position:fixed;inset:auto 25px 82px;max-height:40vh;overflow:auto;padding:24px;background:#fff;border:3px solid #007881;box-shadow:0 4px 30px #0003;font-size:20px;z-index:5}.notes.open{display:block}.speaker-note{display:none}.sources li{font-size:22px}.sources a{font-weight:700}a{color:#007881}button:focus-visible,select:focus-visible,a:focus-visible{outline:3px solid #d18d24;outline-offset:3px}.nav button:disabled{opacity:.5;cursor:default}@media(max-width:800px){.slide{padding:28px 6vw;min-height:calc(100dvh - 120px)}.cols{grid-template-columns:1fr;gap:20px}.cols>div+div{border-left:0;border-top:2px solid #a5cccb;padding:20px 0 0}.nav{flex-wrap:wrap}.nav select{max-width:50vw}.stat{font-size:48px}th,td{font-size:20px;padding:8px}h1,h2{margin-bottom:22px}.agenda p{font-size:20px}.sources li{font-size:20px}}@media print{@page{size:A4 landscape;margin:12mm}.slide,.slide.active{display:flex;min-height:0;height:180mm;break-after:page;padding:8mm;border-top:3mm solid #777;background:white}.slide:last-child{break-after:auto}.nav,.notes{display:none!important}h1,h2{font-size:30pt}p,li,td,th,blockquote{font-size:16pt}.lead{font-size:23pt}.stat{font-size:38pt}.phase,.cite{font-size:11pt}.sources li{font-size:15pt}h3{font-size:20pt}.take{margin-top:12px;padding-top:10px}.cols{gap:25px}a{color:inherit}}
+.matrix td,.matrix th{font-size:clamp(18px,1.5vw,23px);padding:10px}.matrix th:first-child{width:16%}.compact li{font-size:24px}.phase{color:#376769}.journey{display:grid;grid-template-columns:repeat(4,1fr);gap:22px}.journey p{font-size:24px;border-top:4px solid #009288;padding-top:16px}.journey b{display:block;margin-bottom:10px}code{font:inherit;background:#edf4f2}.prompt{font-size:24px;border-left:4px solid #009288;padding-left:24px}.slide h1{font-size:clamp(36px,4.3vw,64px)}@media(max-width:800px){.journey{grid-template-columns:1fr 1fr}.matrix td,.matrix th{font-size:18px}.prompt{font-size:21px}}@media print{.matrix td,.matrix th{font-size:13pt}.prompt,.compact li,.journey p{font-size:15pt}}</style>
 </head>
 <body>
 <main>
-<section class="slide" id="folie-1" aria-label="Folie 1: Wie wird aus einem Kriterium ein nächster Lernschritt?">
-<p class="phase">Einstieg · 0–3 Minuten</p>
-<h1>Wie wird aus einem Kriterium ein nächster Lernschritt?</h1>
-<p class="lead">Kompetenzraster für Lernbegleitung und transparente Leistungsbewertung</p>
-<p>Netzwerk Zukunftsschulen · Auftakt 2026/2027</p>
-<p class="tag">Vorschlag für 120 Minuten</p>
-<aside class="speaker-note">Begrüßen. An die Vorjahre SRL, KI und Leistungsbewertung anschließen. Heute wird eine gemeinsame Entwicklungsrichtung vorgeschlagen. Am Ende besitzt jedes Team einen kleinen Entwurf samt Erprobungsplan, noch kein fertiges Jahresraster.</aside>
+<section class="slide" id="folie-1" aria-label="Folie 1: Kompetenzraster zur Leistungsbewertung">
+<p class="phase">Ankommen · 0–3 Minuten</p>
+<h1>Kompetenzraster zur Leistungsbewertung</h1>
+<p class="lead">und die Verzahnung mit dem Selbstregulierten Lernen und der Nutzung von KI</p>
+<p>Drei Schulen gestalten das gemeinsame Abschlussjahr 2026/2027.</p>
+<aside class="speaker-note">Den vereinbarten Jahrestitel nennen. Ziel: gemeinsame Arbeitsfähigkeit unabhängig von Einstiegsjahr und Vorerfahrung. Die Sitzung ist der Start eines Entwicklungs- und Erprobungsjahres. Niemand muss bereits ein Raster oder KI-Erfahrung mitbringen.</aside>
 </section>
-<section class="slide" id="folie-2" aria-label="Folie 2: Wo hilft euer Raster schon beim Lernen?">
-<p class="phase">Einstieg · 3–8 Minuten</p>
-<h2>Wo hilft euer Raster schon beim Lernen?</h2>
-<div class="cols">
-<div>
-<h3>Zu zweit</h3>
-<p>Denkt an eine konkrete Unterrichtssituation: Was tun Lernende mit euren Kriterien?</p>
-</div>
-<div>
-<h3>Eine Beobachtung</h3>
-<p>Wo gelingt daraus ein nächster Lernschritt? Wo bleibt es beim Ankreuzen?</p>
-</div>
-</div>
-<aside class="speaker-note">1 Minute einzeln, 2 Minuten zu zweit, 2 Minuten für zwei Stimmen im Plenum. Wer noch kein Raster verwendet, nimmt einen Rückmeldebogen oder Erwartungshorizont. Beobachtungen sammeln, nicht diskutieren.</aside>
-</section>
-<section class="slide" id="folie-3" aria-label="Folie 3: Heute entsteht ein erprobbarer Entwurf">
-<p class="phase">Einstieg · 8–10 Minuten</p>
-<h2>Heute entsteht ein erprobbarer Entwurf</h2>
-<div class="agenda">
+<section class="slide" id="folie-2" aria-label="Folie 2: Die bisherigen Themen kommen zusammen">
+<p class="phase">Gemeinsame Geschichte · 3–5 Minuten</p>
+<h2>Die bisherigen Themen kommen zusammen</h2>
+<div class="journey">
 <p>
-<b>10–35</b> Forschung und didaktische Folgerungen</p>
+<b>Selbstreguliertes Lernen</b>Lernen planen und steuern</p>
 <p>
-<b>35–50</b> Gemeinsam am Beispiel urteilen</p>
+<b>Nutzung von KI</b>Professionelle Arbeit unterstützen</p>
 <p>
-<b>50–55</b> Kurze Pause</p>
+<b>2025/2026</b>Zeitgemäße Leistungsüberprüfung</p>
 <p>
-<b>55–110</b> Entwickeln, prüfen und überarbeiten</p>
-<p>
-<b>110–120</b> Erprobung verbindlich vereinbaren</p>
+<b>2026/2027</b>Mit KI Raster entwickeln und im Unterricht erproben</p>
 </div>
-<aside class="speaker-note">Ergebnis nennen: Aufgabe, Rasterausschnitt, Lernhandlung, Bewertungszweck und Erprobungsplan. Teams arbeiten an einem überschaubaren Ausschnitt. Die fünf möglichen Jahresprojektlinien bleiben im Hintergrund als Auswahlhilfe.</aside>
+<aside class="speaker-note">Jedes Vorjahr in einem Satz erklären, ohne Insiderbegriffe. Leistungsüberprüfung war der Schwerpunkt des letzten Jahres. Im Abschlussjahr verbinden wir diese Erfahrungen über Kompetenzraster zur Leistungsbewertung und SRL-Strukturierung. Raster sind ein gemeinsames Entwicklungsinstrument, noch keine feststehende Lösung für jede Unterrichtssituation.</aside>
 </section>
-<section class="slide" id="folie-4" aria-label="Folie 4: Unterschiedliche Voraussetzungen verlangen zugängliche Orientierung">
-<p class="phase">Wissenschaftlicher Input · 10–13 Minuten</p>
-<h2>Unterschiedliche Voraussetzungen verlangen zugängliche Orientierung</h2>
-<div class="cols">
-<div>
-<div class="stat">25 %</div>
-<p>erreichen bei IGLU 2021 in Deutschland am Ende der vierten Klasse Stufe III im Lesen nicht.</p>
-</div>
-<div>
-<div class="stat">33 %</div>
-<p>der 15-Jährigen berichten in PISA 2025, ihr Lernen oft oder sehr oft zu planen.</p>
-</div>
-</div>
-<p class="take">Unsere Folgerung: Kriterien müssen verständlich sein. Ihre Nutzung braucht Anleitung.</p>
-<p class="cite">
-<a href="https://ifs.ep.tu-dortmund.de/storages/ifs-ep/r/Downloads_allgemein/Pressemeldung_IGLU2021_final.pdf">IFS, IGLU 2021</a> · <a href="https://www.oecd.org/de/publications/pisa-2025-ergebnisse-band-i_eade94cd-de/deutschland_8a1ce578-de.html">OECD, PISA 2025: Deutschland</a>
-</p>
-<aside class="speaker-note">IGLU erfasst Leseleistung, der hier gewählte PISA-Wert eine Selbstauskunft. Keine Gleichsetzung der Konstrukte und kein Längsschnitt derselben Kinder. Beide Studien liefern Kontext, keinen Wirksamkeitsnachweis für Kompetenzraster. Lesearme Formulierungen, Beispiele und gemeinsames Einüben sind unsere didaktische Ableitung.</aside>
+<section class="slide" id="folie-3" aria-label="Folie 3: Was soll für eure Lernenden leichter werden?">
+<p class="phase">Schulübergreifender Austausch · 5–12 Minuten</p>
+<h2>Was soll für eure Lernenden leichter werden?</h2>
+<p class="lead">„Lernende sollen besser erkennen können, …“</p>
+<ul>
+<li>Bildet möglichst eine Dreiergruppe mit je einer Person aus jeder Schule.</li>
+<li>Jede Person nennt eine Erfahrung oder einen Wunsch.</li>
+<li>Haltet eine gemeinsame Frage für heute fest.</li>
+</ul>
+<aside class="speaker-note">1 Minute nachdenken, je 1 Minute pro Person, 3 Minuten gemeinsame Frage. Alle drei Schulen werden vor Beginn mit Namensschildern oder Symbolen kenntlich gemacht. Wenn die Zahlen nicht aufgehen, Gruppen mit mindestens zwei Schulen bilden und Redezeit gleich verteilen. Keine Vorerfahrungsabfrage als Wettbewerb. Die Fragen kommen auf einen sichtbaren Fragenspeicher.</aside>
 </section>
-<section class="slide" id="folie-5" aria-label="Folie 5: Kompetenzraster und Rubric haben unterschiedliche Reichweiten">
-<p class="phase">Wissenschaftlicher Input · 13–16 Minuten</p>
-<h2>Kompetenzraster und Rubric haben unterschiedliche Reichweiten</h2>
-<div class="cols">
-<div>
-<h3>Kompetenzraster</h3>
-<p>Orientiert über Kompetenzen und mögliche Entwicklung in einem größeren Lernbereich.</p>
-</div>
-<div>
-<h3>Rubric / Bewertungsraster</h3>
-<p>Beschreibt Kriterien und unterscheidbare Qualität für eine Aufgabe oder Aufgabenfamilie.</p>
-</div>
-</div>
-<p class="take">Heute entwickeln wir einen kleinen Rasterausschnitt an einer konkreten Aufgabe.</p>
-<p class="cite">
-<a href="https://doi.org/10.1007/s10648-023-09823-4">Panadero et al. (2023)</a>
-</p>
-<aside class="speaker-note">Arbeitsdefinitionen, keine allgemeingültige Begriffsregelung. Eine Checkliste nennt Merkmale, beschreibt aber nicht zwingend Qualitätsstufen. Die gleich folgende Evidenz betrifft Rubrics. Ihre Übertragung auf umfassende Kompetenzraster muss im jeweiligen Kontext geprüft werden.</aside>
+<section class="slide" id="folie-4" aria-label="Folie 4: Heute startet euer gemeinsames Entwicklungsprojekt">
+<p class="phase">Zielklarheit · 12–15 Minuten</p>
+<h2>Heute startet euer gemeinsames Entwicklungsprojekt</h2>
+<ul>
+<li>Ihr könnt die zentralen Begriffe und Forschungsbefunde einordnen.</li>
+<li>Ihr erlebt an einem Beispiel, wie Bewertung und Lernsteuerung zusammenpassen.</li>
+<li>Ihr entwickelt mit KI einen ersten Rasterentwurf und prüft ihn kollegial.</li>
+<li>Ihr vereinbart eine Erprobung mit einer Lerngruppe.</li>
+</ul>
+<aside class="speaker-note">Das erreichbare Produkt ist eine Version 0.1: Aufgabe, kleines Raster, Nutzungsplan und offene Prüfaufträge. In 180 Minuten entsteht kein fertig validiertes Bewertungsinstrument. Die folgenden Grundlagen sind ein gemeinsamer Neustart für alle. Erfahrene bringen Beispiele und kritische Fragen ein, neue Mitglieder bringen den Verständlichkeitscheck ein.</aside>
 </section>
-<section class="slide" id="folie-6" aria-label="Folie 6: Begleitung unterstützt das Entdecken">
-<p class="phase">Wissenschaftlicher Input · 16–20 Minuten</p>
-<h2>Begleitung unterstützt das Entdecken</h2>
-<div class="cols">
-<div>
-<h3>Unbegleitetes Entdecken</h3>
-<p class="stat">d = −0,38</p>
-<p>im Vergleich zu expliziter Instruktion</p>
-</div>
-<div>
-<h3>Unterstütztes Entdecken</h3>
-<p class="stat">d = +0,30</p>
-<p>im Vergleich zu anderen Unterrichtsformen</p>
-</div>
-</div>
-<p class="take">Unsere Folgerung: Beispiel zeigen, Prüfen vormachen, selbst erproben lassen.</p>
-<p class="cite">
-<a href="https://doi.org/10.1037/a0021017">Alfieri et al. (2011)</a>
-</p>
-<aside class="speaker-note">Alfieri et al.: zwei Meta-Analysen mit insgesamt 164 Studien. Unterschiedliche Vergleichsgruppen, daher die Werte weder addieren noch als direkten Unterschied begleitet versus unbegleitet auslegen. Die Studie untersucht Entdeckungslernen, nicht Kompetenzraster oder das gesamte SRL. Hinweise zu Feedback, Lösungsbeispielen, Scaffolding und angeregten Erklärungen begründen unseren Vorschlag für Lernbegleitung.</aside>
-</section>
-<section class="slide" id="folie-7" aria-label="Folie 7: Rubrics können fachliche Leistung fördern">
-<p class="phase">Wissenschaftlicher Input · 20–24 Minuten</p>
-<h2>Rubrics können fachliche Leistung fördern</h2>
-<div class="cols">
-<div>
-<h3>Fachliche Leistung</h3>
-<p class="stat">g ≈ 0,45</p>
-<p>nach Korrektur für möglichen Publikationsbias</p>
-</div>
-<div>
-<h3>Selbstregulation</h3>
-<p class="stat">g = 0,23</p>
-<p>95%-Konfidenzintervall: −0,15 bis 0,60<br>Nur fünf Studien, statistisch unsicher.</p>
-</div>
-</div>
-<p class="take">SRL-Förderung bleibt ein Ziel, dessen Umsetzung wir beobachten müssen.</p>
-<p class="cite">
-<a href="https://doi.org/10.1007/s10648-023-09823-4">Panadero et al. (2023)</a>
-</p>
-<aside class="speaker-note">21 Studien mit 54 Effekten für den Leistungsvergleich, fünf Studien mit 17 Effekten für SRL. Das SRL-Konfidenzintervall schließt null ein. Kleine positive Punktschätzung ist kein gesicherter positiver Effekt. Die Meta-Analyse bestimmt kein bestes Rasterdesign und belegt keinen Automatismus. Effektstärken sind keine Prozentangaben und nicht direkt mit Alfieri vergleichbar.</aside>
-</section>
-<section class="slide" id="folie-8" aria-label="Folie 8: Ein Raster braucht eine geplante Lernhandlung">
-<p class="phase">Wissenschaftlicher Input · 24–27 Minuten</p>
-<h2>Ein Raster braucht eine geplante Lernhandlung</h2>
-<ol class="steps">
+<section class="slide" id="folie-5" aria-label="Folie 5: Selbstreguliertes Lernen umfasst bewusste Steuerung">
+<p class="phase">Begriffe · 15–20 Minuten</p>
+<h2>Selbstreguliertes Lernen umfasst bewusste Steuerung</h2>
+<ul>
 <li>
-<b>Orientieren:</b> Ein Beispiel mit einem Kriterium betrachten.</li>
+<b>Vorher:</b> Ziele klären und eine Strategie wählen.</li>
 <li>
-<b>Planen:</b> Ein passendes Ziel auswählen.</li>
+<b>Währenddessen:</b> Verständnis, Vorgehen und Motivation beobachten.</li>
 <li>
-<b>Überprüfen:</b> Eine Stelle im eigenen Produkt belegen.</li>
-<li>
-<b>Überarbeiten:</b> Etwas gezielt verändern und die Wirkung prüfen.</li>
-</ol>
-<p class="take">Entwicklungsannahme: Diese Nutzung macht Kriterien für Lernende handhabbar.</p>
-<aside class="speaker-note">Explizit als unsere didaktische Operationalisierung kennzeichnen. Das Raster allein beschreibt noch keine Unterrichtspraxis. Für jede Phase Akteur, Zeitpunkt und sichtbare Handlung bestimmen. Hilfen anfangs modellieren und später entsprechend dem beobachteten Bedarf zurücknehmen.</aside>
+<b>Danach:</b> Ergebnisse einschätzen und das Vorgehen anpassen.</li>
+</ul>
+<p class="take">Arbeitsorganisation und Wahlmöglichkeiten schaffen Spielräume. SRL beschreibt, wie Lernende diese steuern.</p>
+<p class="cite">
+<a href="https://doi.org/10.3389/fpsyg.2017.00422">Panadero (2017), Überblick über sechs SRL-Modelle</a>
+</p>
+<aside class="speaker-note">Arbeitsdefinition nach den im Review dargestellten Modellen. Ein Wochenplan organisiert Aufgaben und Zeit. Offener Unterricht bietet Wahlmöglichkeiten. Individualisierung passt Angebote an unterschiedliche Voraussetzungen an. Keine dieser Organisationsformen stellt für sich sicher, dass Lernende Ziele prüfen oder Strategien anpassen. Kurze Frage: „Woran würden wir Steuerung tatsächlich erkennen?“ Zwei Minuten für Rückfragen und ein Gegenbeispiel vorsehen.</aside>
 </section>
-<section class="slide" id="folie-9" aria-label="Folie 9: Qualität wird an einem Produkt sichtbar">
-<p class="phase">Wissenschaftlicher Input · 27–30 Minuten</p>
-<h2>Qualität wird an einem Produkt sichtbar</h2>
-<p>
-<b>Beispielaufgabe:</b> Schlage der Schülervertretung eine Veränderung des Schulhofs vor und begründe ihren Nutzen.</p>
-<table>
+<section class="slide" id="folie-6" aria-label="Folie 6: Ähnliche Tabellen erfüllen unterschiedliche Aufgaben">
+<p class="phase">Begriffe · 20–25 Minuten</p>
+<h2>Ähnliche Tabellen erfüllen unterschiedliche Aufgaben</h2>
+<table class="">
 <thead>
 <tr>
-<th>Kriterium: Nutzen begründen</th>
-<th>Beschreibung</th>
+<th>Instrument</th>
+<th>Leitfrage</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<th>A</th>
-<td>Ich nenne einen Vorteil meines Vorschlags.</td>
+<td>Kompetenzraster</td>
+<td>Welche Kompetenzen und Entwicklungsstufen werden beschrieben?</td>
 </tr>
 <tr>
-<th>B</th>
-<td>Ich erkläre, wie mein Vorschlag jemandem konkret hilft.</td>
+<td>Bewertungsraster / Rubric</td>
+<td>Woran erkennen wir unterschiedliche Qualität einer Leistung?</td>
 </tr>
 <tr>
-<th>C</th>
-<td>Ich wäge den Nutzen gegen eine Schwierigkeit ab und begründe meine Entscheidung.</td>
+<td>Checkliste</td>
+<td>Ist ein Merkmal vorhanden oder eine Handlung erledigt?</td>
+</tr>
+<tr>
+<td>Lernplan</td>
+<td>Welche Aufgabe bearbeite ich wann und wie?</td>
 </tr>
 </tbody>
 </table>
-<aside class="speaker-note">Selbst erstelltes didaktisches Beispiel, nicht validiert und keine feste Jahrgangsnorm. Stufen sind exemplarische Qualitätsbeschreibungen, keine Noten. Ein vollständiges Raster könnte weitere Kriterien enthalten. Im heutigen Ausschnitt geht es ausschließlich um die Begründung. Unterstützungsbedarf separat erfassen, damit fachliche Qualität und Hilfe nicht automatisch vermischt werden.</aside>
+<p class="take">Heute: Kompetenzraster mit konkreten Qualitätsbeschreibungen für Bewertung und Lernsteuerung.</p>
+<aside class="speaker-note">Pragmatische Arbeitsdefinitionen, Begriffe werden in der Praxis nicht überall einheitlich gebraucht. Kompetenz ist die Fähigkeit, Wissen und Können in Anforderungen anzuwenden, erschlossen aus Leistungen in Aufgaben. Kriterium bezeichnet eine relevante Qualitätsdimension, Deskriptor deren beobachtbare Ausprägung. Ein Erwartungshorizont beschreibt erwartete Lösungen bzw. Leistungen und kann ein Rubric enthalten. Eine Liste von Ich-kann-Sätzen mit Smileys beschreibt noch keine Qualitätsstufen. Die Begriffsseite enthält Beispiele und Abgrenzungen. Kurze Zuordnung: „Aufgabe abhaken“ zur Checkliste, „Qualität begründen“ zum Bewertungsraster.</aside>
 </section>
-<section class="slide" id="folie-10" aria-label="Folie 10: Lernbegleitung und Leistungsbewertung brauchen klare Absprachen">
-<p class="phase">Wissenschaftlicher Input · 30–33 Minuten</p>
-<h2>Lernbegleitung und Leistungsbewertung brauchen klare Absprachen</h2>
+<section class="slide" id="folie-7" aria-label="Folie 7: Überprüfen, bewerten und benoten sind verschiedene Schritte">
+<p class="phase">Begriffe · 25–30 Minuten</p>
+<h2>Überprüfen, bewerten und benoten sind verschiedene Schritte</h2>
+<table class="">
+<thead>
+<tr>
+<th>Schritt</th>
+<th>Im Unterricht</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Leistungsüberprüfung</td>
+<td>Eine Aufgabe macht fachliches Können sichtbar.</td>
+</tr>
+<tr>
+<td>Leistungsbewertung</td>
+<td>Die gezeigte Leistung wird anhand begründeter Kriterien beurteilt.</td>
+</tr>
+<tr>
+<td>Benotung</td>
+<td>Ein Urteil wird gegebenenfalls in eine Note übersetzt.</td>
+</tr>
+</tbody>
+</table>
+<p class="take">Formativ: Rückmeldung steuert weiteres Lernen.<br>Summativ: Ein Lernstand wird zu einem festgelegten Zeitpunkt bilanziert.</p>
+<aside class="speaker-note">Zeitgemäße Leistungsüberprüfung ist hier ein pädagogisches Leitbild, kein einheitlich definiertes Messinstrument: Kompetenzbezug, transparente Anforderungen, sinnvolle Anwendung und erkennbare individuelle Leistung. Ein digitales Produkt ist dadurch allein noch nicht zeitgemäß. Dasselbe Raster kann beiden Zwecken dienen, wenn Übungs- und Bewertungssituationen transparent unterschieden werden. Formatives Assessment meint die Nutzung von Informationen für nächste Schritte, nicht bloß häufiges Testen. Benotungsregeln werden vor einem summativen Einsatz gesondert fachlich und schulisch abgestimmt.</aside>
+</section>
+<section class="slide" id="folie-8" aria-label="Folie 8: Für Rubrics ist der Leistungsbefund ermutigend">
+<p class="phase">Forschung · 30–37 Minuten</p>
+<h2>Für Rubrics ist der Leistungsbefund ermutigend</h2>
 <div class="cols">
 <div>
-<h3>Während des Lernens</h3>
-<p>Kriterien besprechen, Rückmeldung erhalten und überarbeiten.</p>
-<p>Die Lernenden wissen, welche Erprobungen der Übung dienen.</p>
+<h3>Fachliche Leistung</h3>
+<p class="stat">g ≈ 0,45</p>
+<p>Moderater positiver Effekt nach Korrektur für möglichen Publikationsbias.</p>
 </div>
 <div>
-<h3>Bei der Bewertung</h3>
-<p>Produkt, Zeitpunkt, Hilfen und Kriterien vorab festlegen.</p>
-<p>Urteile anhand von Beispielprodukten abgleichen.</p>
+<h3>Selbstregulation</h3>
+<p class="stat">g = 0,23</p>
+<p>95%-KI: −0,15 bis 0,60<br>Fünf Studien, statistisch unsicher.</p>
 </div>
 </div>
-<p class="take">Eine Rasterstufe ergibt für sich genommen noch keine Note.</p>
-<aside class="speaker-note">Heute eine begründete Bewertungsabsicht beschreiben. Eine verbindliche Notenübersetzung wäre ein eigener Abstimmungsauftrag anhand der geltenden Vorgaben und Fachkonferenzbeschlüsse. Fachliche Leistung und Rückmeldung zum Lernprozess getrennt ausweisen. Persönlichkeitsmerkmale wie Fleiß nicht als Ersatz für fachliche Kriterien verwenden. Dies sind Gestaltungsfragen, keine Rechtsauskunft.</aside>
+<p class="take">Unser Prüfauftrag: Wie nutzen Lernende die Qualitätsbeschreibungen tatsächlich?</p>
+<p class="cite">
+<a href="https://doi.org/10.1007/s10648-023-09823-4">Panadero et al. (2023), Rubrics-Metaanalyse</a>
+</p>
+<aside class="speaker-note">21 Studien mit 54 Effekten zum Leistungsvergleich. g ist eine standardisierte Effektgröße, keine Prozentzahl. Das SRL-Intervall schließt null ein. Effekte auf Leistung und Selbstregulation unterscheiden. Die Untersuchung belegt weder für jedes Kompetenzraster eine Wirkung noch automatisch faire oder valide Noten. Unterschiedliche Bildungsstufen und Interventionen begrenzen den Transfer. Abschließend 30 Sekunden Denkpause: Welche Aussage trägt unsere Planung, welche wäre zu weitgehend? Eine Minute zum Austausch zu zweit, anschließend eine Verständnisfrage aufnehmen.</aside>
 </section>
-<section class="slide" id="folie-11" aria-label="Folie 11: KI kann Formulierungen prüfen, Lehrkräfte entscheiden">
-<p class="phase">Wissenschaftlicher Input · 33–35 Minuten</p>
-<h2>KI kann Formulierungen prüfen, Lehrkräfte entscheiden</h2>
-<p class="lead">Ein sinnvoller Auftrag: „Wo ist unser Kriterium mehrdeutig?“</p>
+<section class="slide" id="folie-9" aria-label="Folie 9: Eigenständigkeit braucht passende Unterstützung">
+<p class="phase">Forschung · 37–42 Minuten</p>
+<h2>Eigenständigkeit braucht passende Unterstützung</h2>
+<div class="cols">
+<div>
+<h3>Unbegleitetes Entdecken</h3>
+<p class="stat">d = −0,38</p>
+<p>gegenüber expliziter Instruktion</p>
+</div>
+<div>
+<h3>Unterstütztes Entdecken</h3>
+<p class="stat">d = +0,30</p>
+<p>gegenüber anderen Unterrichtsformen</p>
+</div>
+</div>
+<p class="take">Unsere Ableitung: Kriterien am Beispiel klären und die Anwendung einüben.</p>
+<p class="cite">
+<a href="https://doi.org/10.1037/a0021017">Alfieri et al. (2011), Entdeckungslernen</a>
+</p>
+<aside class="speaker-note">Alfieri: zwei Meta-Analysen, insgesamt 164 Studien. Unterschiedliche Vergleichsgruppen; Werte weder addieren noch ihre Differenz als direkten Begleitungseffekt interpretieren. Es geht um Entdeckungslernen, nicht um Kompetenzraster oder den Nachweis des gesamten SRL. Beispiele, Rückmeldung und angeleitete Erklärungen geben einen begründeten Ansatz für unsere Unterrichtsplanung. Zwei Minuten für die Übertragung auf ein eigenes Unterrichtsbeispiel.</aside>
+</section>
+<section class="slide" id="folie-10" aria-label="Folie 10: SRL verbindet Ziele, Strategien und Rückmeldung">
+<p class="phase">Forschung · 42–47 Minuten</p>
+<h2>SRL verbindet Ziele, Strategien und Rückmeldung</h2>
+<p class="lead">Lernende brauchen Gelegenheiten, ihr Vorgehen zu beobachten und zu verändern.</p>
 <ul>
-<li>Ausgangsaufgabe und fachliche Anforderungen vorgeben.</li>
-<li>Varianten für beobachtbare Qualitätsbeschreibungen anfordern.</li>
-<li>Vorschläge am Beispielprodukt prüfen und begründet auswählen.</li>
+<li>Der Modellüberblick beschreibt auch motivationale und emotionale Prozesse.</li>
+<li>Ein Raster kann dabei Orientierung bieten.</li>
+<li>Unser Unterricht muss die Nutzung und passende Hilfen vorsehen.</li>
 </ul>
-<p class="take">KI ist optional. Die Arbeitsphase funktioniert vollständig auf Papier.</p>
-<aside class="speaker-note">KI bleibt Werkzeug der Lehrkräfte. Keine Schülernutzung im Projektschwerpunkt. Für den heutigen Entwurf reichen ein kurzer Prompt und eine dokumentierte Annahme oder Ablehnung. Fachliche und curriculare Passung prüfen die Lehrkräfte. Keine Live-Demo einplanen, die Entwicklungszeit verbraucht.</aside>
+<p class="cite">
+<a href="https://doi.org/10.3389/fpsyg.2017.00422">Panadero (2017), Überblick über sechs SRL-Modelle</a>
+</p>
+<aside class="speaker-note">Panadero 2017 ist ein Review von sechs SRL-Modellen und ihrer Evidenz, keine neue Rubrics-Metaanalyse. SRL nicht auf Ankreuzen oder bloße Arbeitsorganisation reduzieren. Unsere operationalisierte Lernschleife ist eine didaktische Ableitung. Kollegiale Kurzfrage: „Welche Lernhandlung müsste unser Raster auslösen?“ Ein bis zwei Antworten aufnehmen. Eine Beobachtung aus jeder Schule zulassen, ohne längere Schulberichte.</aside>
 </section>
-<section class="slide" id="folie-12" aria-label="Folie 12: Welchen nächsten Schritt ermöglicht dieses Raster?">
-<p class="phase">Gemeinsames Beispiel · 35–43 Minuten</p>
-<h2>Welchen nächsten Schritt ermöglicht dieses Raster?</h2>
+<section class="slide" id="folie-11" aria-label="Folie 11: KI-gestützte Rasterentwicklung bleibt eine zu prüfende Praxis">
+<p class="phase">Evidenzgrenze · 47–50 Minuten</p>
+<h2>KI-gestützte Rasterentwicklung bleibt eine zu prüfende Praxis</h2>
+<p>Die hier vorgestellten Studien untersuchen die Verbindung <b>KI + Kompetenzraster + Leistungsbewertung + SRL</b> nicht als Gesamtpaket.</p>
+<p>KI kann Entwürfe und Alternativen liefern. Fachliche Passung und Brauchbarkeit prüfen wir an Aufgaben, Produkten und Unterrichtserfahrungen.</p>
+<p class="take">Unser Jahresprojekt prüft den Nutzen dieser Verbindung unter realen Bedingungen.</p>
+<p class="cite">
+<a href="https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research">UNESCO (2023), Guidance for generative AI</a> · Orientierung, keine Wirksamkeitsstudie</p>
+<aside class="speaker-note">Keine pauschale Aussage, es gebe keinerlei KI-Forschung. Die ausgewählte Forschungsbasis trägt keinen Wirksamkeitsbeleg für unser Gesamtarrangement. UNESCO liefert eine Orientierung zu menschlicher Verantwortung und pädagogischer Prüfung, keine Effektstudie. KI wird im Arbeitsprozess genutzt und dokumentiert. Die Entscheidung über Kriterien und Bewertung bleibt professionelles Urteil. Eine Minute für offene Fragen zur KI-Evidenz einplanen.</aside>
+</section>
+<section class="slide" id="folie-12" aria-label="Folie 12: Ein Vorschlag für einen besseren Schulhof">
+<p class="phase">Durchgängiges Beispiel · 50–53 Minuten</p>
+<h2>Ein Vorschlag für einen besseren Schulhof</h2>
+<p class="lead">„Überzeuge die Schülervertretung von einer umsetzbaren Veränderung.“</p>
+<ul>
+<li>Beispielrahmen: Jahrgang 7, begründetes Empfehlen.</li>
+<li>Produkt: ein kurzer Vorschlag mit Nutzen und Überlegung zur Umsetzung.</li>
+<li>Möglich: Text, Audiobeitrag oder Plakat mit Erläuterung.</li>
+</ul>
+<aside class="speaker-note">Das Beispiel ist eigens für die Fortbildung gestaltet, keine curricular validierte Vorgabe. Kompetenzziel: einen adressatenbezogenen Vorschlag begründen und seine Umsetzung abwägen. Medienwahl nur, wenn alle Formate dieselbe fachliche Leistung sichtbar machen. Mündliche Erläuterung gegebenenfalls individuell erfassen. Andere Fächer können die Aufgabenfamilie übertragen. Alle folgenden Schritte bleiben bei diesem Beispiel.</aside>
+</section>
+<section class="slide" id="folie-13" aria-label="Folie 13: Drei Kriterien machen die Anforderungen greifbar">
+<p class="phase">Beispielraster · 53–58 Minuten</p>
+<h2>Drei Kriterien machen die Anforderungen greifbar</h2>
+<table class="matrix">
+<thead>
+<tr>
+<th>Kriterium</th>
+<th>A</th>
+<th>B</th>
+<th>C</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Vorschlag konkretisieren</td>
+<td>Ich nenne eine Veränderung.</td>
+<td>Ich beschreibe, was sich für wen ändern soll.</td>
+<td>Ich beschreibe die Veränderung und leite sie aus einem konkreten Bedarf ab.</td>
+</tr>
+<tr>
+<td>Nutzen begründen</td>
+<td>Ich nenne einen konkreten Vorteil.</td>
+<td>Ich erkläre, wie die Veränderung der Zielgruppe hilft.</td>
+<td>Ich stütze meine Erklärung durch ein passendes Beispiel oder einen nachvollziehbaren Beleg.</td>
+</tr>
+<tr>
+<td>Umsetzbarkeit abwägen</td>
+<td>Ich nenne eine Voraussetzung oder Schwierigkeit.</td>
+<td>Ich erkläre, wie sie die Umsetzung beeinflusst.</td>
+<td>Ich entwickle dafür eine passende Lösung und begründe meine Entscheidung.</td>
+</tr>
+</tbody>
+</table>
+<p class="cite">Arbeitsentwurf. A–C sind Qualitätsbeschreibungen, keine Noten. „Noch nicht belegt“ gesondert vermerken.</p>
+<aside class="speaker-note">Zunächst die Zeile Nutzen begründen erklären, dann die zwei weiteren Zeilen zeigen. Anders als im ersten Entwurf bleibt die Begründung eine eigene Dimension; die Umsetzbarkeit steht separat. Das ist ein vollständiger kleiner Rasterentwurf für das Beispiel, kein Raster für den gesamten Kompetenzbereich. Drei Kriterien und drei Stufen sind für die Übung überschaubar, kein Forschungsoptimum. Fachliche Qualität und benötigte Unterstützung getrennt dokumentieren. Zwei Minuten still lesen und unklare Wörter markieren.</aside>
+</section>
+<section class="slide" id="folie-14" aria-label="Folie 14: Welche Qualität erkennt ihr an derselben Leistung?">
+<p class="phase">Beispiel gemeinsam prüfen · 58–65 Minuten</p>
+<h2>Welche Qualität erkennt ihr an derselben Leistung?</h2>
 <div class="cols">
 <div>
 <h3>Text A</h3>
@@ -213,106 +253,171 @@
 </div>
 <div>
 <h3>Text B</h3>
-<blockquote>Ich wünsche mir eine Bank im Schatten. Dort können sich Kinder an heißen Tagen ausruhen. Sie kostet Geld. Deshalb schlage ich vor, zunächst eine vorhandene Bank umzustellen.</blockquote>
+<blockquote>Eine Bank im Schatten hilft Kindern an heißen Tagen beim Ausruhen. Neben dem Spielfeld gibt es bisher keinen schattigen Sitzplatz. Eine neue Bank kostet Geld. Deshalb könnten wir eine vorhandene Bank umstellen.</blockquote>
 </div>
 </div>
-<p>Ordnet beide Texte der Rasterzeile zu. Markiert den Beleg. Formuliert für Text A einen nächsten Lernschritt.</p>
-<aside class="speaker-note">2 Minuten einzeln zuordnen, 4 Minuten Partnerabgleich, 2 Minuten offene Stellen zusammentragen. Rasterzeile auf der Arbeitsvorlage oder vorherige Folie nutzen. Text A: A ist diskutierbar, da „schön“ den Vorteil kaum präzisiert. Text B: C ist vertretbar, wenn Abwägung und Lösung als begründete Entscheidung zählen. Ziel ist begründete Kalibrierung. Vorab keine Musterlösung anzeigen.</aside>
+<p class="take">Zu zweit aus verschiedenen Schulen: ein Urteil, ein Textbeleg, ein nächster Lernschritt.</p>
+<aside class="speaker-note">2 Minuten einzeln, 3 Minuten Partnerabgleich, 2 Minuten zwei Beobachtungen. Konzentration auf Nutzen begründen. A nennt keinen konkreten Vorteil und bleibt dort noch nicht belegt. B erklärt den Nutzen und konkretisiert den Bedarf durch eine Angabe zum Spielfeld; C ist unter der Annahme einer sachlich passenden Angabe vertretbar. Abweichende Urteile als Hinweis auf nötige Ankerbeispiele nutzen. Keine Musterlösung vorweg anzeigen.</aside>
 </section>
-<section class="slide" id="folie-13" aria-label="Folie 13: Abweichende Urteile zeigen, wo das Raster unklar ist">
-<p class="phase">Gemeinsames Beispiel · 43–50 Minuten</p>
-<h2>Abweichende Urteile zeigen, wo das Raster unklar ist</h2>
+<section class="slide" id="folie-15" aria-label="Folie 15: Dasselbe Kriterium begleitet Lernen und Bewertung">
+<p class="phase">Verzahnung am Beispiel · 65–70 Minuten</p>
+<h2>Dasselbe Kriterium begleitet Lernen und Bewertung</h2>
+<table class="">
+<thead>
+<tr>
+<th>Zeitpunkt</th>
+<th>Handlung</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Vor dem Arbeiten</td>
+<td>Beispiel prüfen. Lernziel wählen: „Ich erkläre, wem die Bank hilft.“</td>
+</tr>
+<tr>
+<td>Während des Lernens</td>
+<td>Eigene Stelle markieren, Rückmeldung erhalten und ergänzen.</td>
+</tr>
+<tr>
+<td>Vereinbarter Bewertungszeitpunkt</td>
+<td>Die überarbeitete Leistung anhand der bekannten Kriterien beurteilen.</td>
+</tr>
+</tbody>
+</table>
+<p class="take">Wir klären vorab: Produkt, Hilfen, Zeitpunkt und Umgang mit Überarbeitung.</p>
+<aside class="speaker-note">Für Text A eine mögliche Verbesserung zeigen: „Dort können Kinder an heißen Tagen im Schatten sitzen.“ Ein belegbarer nächster Schritt im Kriterium. Anschließend prüfen, ob die Erklärung trägt. Zwei Lehrkräfte gleichen ihre Urteile an Beispielprodukten ab. Das schafft eine Prüfmöglichkeit, garantiert aber keine Objektivität. Ein vorläufiges Bewertungsprofil benennt Stärken und Entwicklungsbedarf je Kriterium. Eine Notenübersetzung ist ein zusätzlicher Abstimmungsschritt. Lernprozessfeedback wird nicht stillschweigend zur Fachnote addiert.</aside>
+</section>
+<section class="slide" id="folie-16" aria-label="Folie 16: Ein guter KI-Auftrag beginnt mit unserer fachlichen Entscheidung">
+<p class="phase">KI-Werkstatt gemeinsam · 70–78 Minuten</p>
+<h2>Ein guter KI-Auftrag beginnt mit unserer fachlichen Entscheidung</h2>
+<p class="prompt">„Für Jahrgang 7 entwickeln wir einen begründeten Schulhof-Vorschlag. Erstelle zu unseren drei Kriterien unterscheidbare Qualitätsbeschreibungen in verständlicher Sprache. Nutze die vorgegebenen Anforderungen. Markiere offene Annahmen. Erfinde keine Lehrplanbezüge.“</p>
+<p>Wir geben Lernziel, Aufgabe und Kriterien vor. Die KI schlägt Formulierungen vor.</p>
+<aside class="speaker-note">Kurze vorbereitete Live-Demonstration mit einem schulisch zugelassenen Zugang. Auftrag vorher fertig öffnen, 2 Minuten den Auftrag erläutern, 3 Minuten generieren und gemeinsam lesen, 3 Minuten erste Prüfung. Gemeinsam eine Zeile lesen. Keine Schülerdaten eingeben. Bei technischem Ausfall den vorbereiteten didaktischen Entwurf aus dem KI-Workflow verwenden; er ist ausdrücklich kein angeblich echter KI-Output. Eine reale Ausgabe kann vor der Veranstaltung vorbereitet und mit Werkzeug/Datum gekennzeichnet werden. Ein Teamzugang reicht, keine Registrierung während der Sitzung.</aside>
+</section>
+<section class="slide" id="folie-17" aria-label="Folie 17: Wir prüfen und verbessern eine vorgeschlagene Zeile">
+<p class="phase">KI-Werkstatt gemeinsam · 78–85 Minuten</p>
+<h2>Wir prüfen und verbessern eine vorgeschlagene Zeile</h2>
+<div class="cols">
+<div>
+<h3>Bewusst schwacher Beispielentwurf</h3>
+<p>„wenig überzeugend / überzeugend / sehr überzeugend“</p>
+</div>
+<div>
+<h3>Prüffragen</h3>
+<p>Was genau sieht man im Produkt?<br>Worin unterscheiden sich die Stufen?<br>Welche Anforderung fehlt?</p>
+</div>
+</div>
+<p class="take">Folgeauftrag: „Beschreibe sichtbare Unterschiede und prüfe die Zeile an Text A und B.“</p>
+<aside class="speaker-note">Selbst erstelltes Negativbeispiel, nicht als empirisches KI-Ergebnis ausgeben. 2 Minuten Partnergespräch und 3 Minuten gemeinsame Überarbeitung, anschließend 2 Minuten Änderungsprotokoll. Dann die zuvor erarbeitete Nutzen-Zeile als mögliche Verbesserung vergleichen. Zeigen, dass eine KI-Prüfung ebenfalls menschlich kontrolliert wird. Im Änderungsprotokoll festhalten: Ausgangsformulierung, Problem, Änderung und Begründung. Drei Rollen vorbereiten: fachliche Prüfung, KI-Bedienung und Dokumentation; Aufgaben später wechseln.</aside>
+</section>
+<section class="slide" id="folie-18" aria-label="Folie 18: Zehn Minuten Pause">
+<p class="phase">Pause · 85–95 Minuten</p>
+<h2>Zehn Minuten Pause</h2>
+<p class="lead">Danach beginnt die Entwicklung in Teams.</p>
+<p>An den Thementischen findet ihr Aufgabe, Beispielraster, Begriffshilfe und KI-Aufträge.</p>
+<aside class="speaker-note">Tische und Partnerteams vorab zuordnen. Für Entwicklungsgruppen zählt fachliche Anschlussfähigkeit und eine verfügbare Lerngruppe. Schulübergreifende Teams nach Möglichkeit, jedes Team erhält aber verbindlich Rückmeldung aus einer anderen Schule. Keine Zeit für neue Logins während der Pause einplanen. Die Pause ist vollständig frei von Arbeitsaufträgen.</aside>
+</section>
+<section class="slide" id="folie-19" aria-label="Folie 19: Euer Unterrichtsvorhaben bekommt einen klaren Rahmen">
+<p class="phase">Entwicklerteams · 95–105 Minuten</p>
+<h2>Euer Unterrichtsvorhaben bekommt einen klaren Rahmen</h2>
 <ul>
-<li>Welche Textstelle begründet eure Zuordnung?</li>
-<li>Welcher Ausdruck in der Rasterzeile ist noch mehrdeutig?</li>
-<li>Wie müsste die Beschreibung lauten, damit ihr ähnlich urteilt?</li>
+<li>Legt Fach, Jahrgang, Lerngruppe und Kompetenzziel fest.</li>
+<li>Wählt eine Aufgabe und das erwartete Produkt.</li>
+<li>Bestimmt zwei oder drei fachliche Kriterien.</li>
+<li>Verteilt die Rollen: fachlich prüfen, KI bedienen, dokumentieren.</li>
 </ul>
-<p class="take">Möglicher Lernschritt für Text A: „Erkläre, wem die Bank hilft und in welcher Situation.“</p>
-<aside class="speaker-note">Zwei Urteile mit Belegen vergleichen. Nicht die Personen bewerten, sondern die Beschreibung schärfen. Zum Beispiel A präzisieren: „Ich nenne einen konkreten Vorteil.“ Dann Text A als noch nicht belegt behandeln. Notieren, welche Fälle außerhalb der Stufen liegen. Das illustriert, warum ein Rasterausschnitt überprüft und überarbeitet werden muss.</aside>
+<aside class="speaker-note">10 Minuten: 3 Minuten Thema und Rollen, 7 Minuten Planungsrahmen. Start A: Beispielaufgabe übernehmen und auf die eigene Lerngruppe übertragen. Start B: eigene Aufgabe mitbringen und einen neuen Entwurf beginnen. Start C: ein vorhandenes Raster gezielt verbessern. Alle Wege führen zum gleichen Mindestprodukt. Wenn keine erfahrene KI-Person im Team ist, unterstützt die Moderation mit dem fertigen Startprompt. Mindestens ein Gerät mit nutzbarem Zugang je Team.</aside>
 </section>
-<section class="slide" id="folie-14" aria-label="Folie 14: Fünf Minuten Pause">
-<p class="phase">Pause · 50–55 Minuten</p>
-<h2>Fünf Minuten Pause</h2>
-<p class="lead">Danach arbeitet ihr in Teams mit drei bis fünf Personen.</p>
-<p>Findet euch nach einem gemeinsamen Fach, einer Aufgabenfamilie oder einem ähnlichen Entwicklungsproblem zusammen.</p>
-<aside class="speaker-note">Thementische vor Beginn beschriften. Die Teambildung beginnt spätestens in den letzten zwei Pausenminuten, damit die Entwicklungszeit erhalten bleibt. Bei ungerader Teamzahl für die spätere Rückmeldung eine Dreiergruppe einplanen.</aside>
-</section>
-<section class="slide" id="folie-15" aria-label="Folie 15: Eine konkrete Aufgabe begrenzt das Vorhaben">
-<p class="phase">Entwicklung · 55–65 Minuten</p>
-<h2>Eine konkrete Aufgabe begrenzt das Vorhaben</h2>
+<section class="slide" id="folie-20" aria-label="Folie 20: Mit KI entsteht die erste Rasterfassung">
+<p class="phase">Entwicklerteams · 105–123 Minuten</p>
+<h2>Mit KI entsteht die erste Rasterfassung</h2>
 <ul>
-<li>Legt Fach, Jahrgang und ein beobachtbares Lernziel fest.</li>
-<li>Wählt eine Aufgabe, die ihr bald unterrichten könnt.</li>
-<li>Beschreibt das erwartete Produkt und zwei oder drei wesentliche Kriterien.</li>
+<li>Lasst zu euren Kriterien verständliche Qualitätsbeschreibungen vorschlagen.</li>
+<li>Prüft Passung, Beobachtbarkeit und Unterschiede am Beispielprodukt.</li>
+<li>Gebt einen gezielten Folgeauftrag und entscheidet über Änderungen.</li>
+<li>Sichert Entwurf und eine begründete Überarbeitung im KI-Protokoll.</li>
 </ul>
-<p class="take">Ergebnis nach zehn Minuten: ein klarer Gegenstand für euren Rasterentwurf.</p>
-<aside class="speaker-note">Vorlage Teil 1. Keine große Kompetenzlandkarte beginnen. Vorhandene Aufgaben sind willkommen. Ohne eigenes Material die Schulhof-Aufgabe verwenden. Rollen: Moderation, Dokumentation, Zeitkontrolle. Kleine Teams können Rollen kombinieren.</aside>
+<aside class="speaker-note">18 Minuten: 5 Minuten Entwurf, 8 Minuten Prüfung und Folgeauftrag, 5 Minuten Auswahl und Dokumentation. Alle Teammitglieder übernehmen eine inhaltliche Prüffrage. Bei Zeitknappheit mindestens eine Zeile vollständig schärfen und übrige Zeilen als offen markieren. Verbindlicher KI-Schritt; bei technischem Ausfall ersatzweise vorbereitete, gekennzeichnete Ausgabe kritisch bearbeiten und eigene Generierung vor der Erprobung nachholen. Keine automatisierte Notenvergabe.</aside>
 </section>
-<section class="slide" id="folie-16" aria-label="Folie 16: Der Entwurf verbindet Kriterien mit Lernhandlungen">
-<p class="phase">Entwicklung · 65–85 Minuten</p>
-<h2>Der Entwurf verbindet Kriterien mit Lernhandlungen</h2>
+<section class="slide" id="folie-21" aria-label="Folie 21: Der Entwurf erhält einen Nutzungs- und Bewertungsplan">
+<p class="phase">Entwicklerteams · 123–135 Minuten</p>
+<h2>Der Entwurf erhält einen Nutzungs- und Bewertungsplan</h2>
 <ul>
-<li>Beschreibt für mindestens ein Kriterium drei unterscheidbare Qualitätsstufen.</li>
-<li>Plant einen Moment für Selbsteinschätzung mit einem Beleg.</li>
-<li>Formuliert eine mögliche Rückmeldung und eine Überarbeitung.</li>
-<li>Klärt den Bewertungszweck und den Umgang mit Hilfen.</li>
+<li>Wie lernen die Schüler:innen das Raster kennen?</li>
+<li>Wann wählen sie ein Ziel und belegen eine Selbsteinschätzung?</li>
+<li>Wann erhalten sie Rückmeldung und überarbeiten?</li>
+<li>Welche Leistung beurteilen wir zu welchem Zeitpunkt mit welchen Hilfen?</li>
 </ul>
-<p class="take">Bis Minute 85: Aufgabe, Rasterausschnitt und Nutzung liegen vor.</p>
-<aside class="speaker-note">Vorlage Teil 2 und 3. 10 Minuten Rasterausschnitt, 10 Minuten Nutzungs- und Bewertungsplan. Drei Stufen sind eine Arbeitsvereinbarung für diesen Workshop, kein empirisches Optimum. Teams mit vorhandenen Rastern überarbeiten gezielt eine Zeile. Optionale KI-Nutzung höchstens fünf Minuten innerhalb dieses Zeitfensters.</aside>
+<aside class="speaker-note">12 Minuten: 6 Minuten Lernschleife, 6 Minuten Bewertungsplan. Mindestens einen vollständigen Lernzyklus planen. Bei einem offenen Prüfungsformat zusätzlich klären, wie individuelle Beiträge sichtbar werden und Formate dieselben Kriterien abbilden. Notenumrechnung, Gewichtung und Fachkonferenzabsprachen bei Bedarf als Aufgaben vor dem summativen Einsatz festhalten. Der KI-Entwurf bleibt Version 0.1, bis fachliche und kollegiale Prüfung erfolgt sind.</aside>
 </section>
-<section class="slide" id="folie-17" aria-label="Folie 17: Ein anderes Team prüft den Entwurf">
-<p class="phase">Kollegiale Prüfung · 85–100 Minuten</p>
-<h2>Ein anderes Team prüft den Entwurf</h2>
+<section class="slide" id="folie-22" aria-label="Folie 22: Ein anderes Schulteam prüft euren Entwurf">
+<p class="phase">Austausch zwischen den Schulen · 135–155 Minuten</p>
+<h2>Ein anderes Schulteam prüft euren Entwurf</h2>
+<p class="lead">„Das würde bei unseren Lernenden helfen. Hier bleibt für uns eine Frage.“</p>
 <ul>
-<li>Können wir dasselbe Kriterium an einem Beispiel ähnlich beurteilen?</li>
-<li>Erkennen Lernende, was sie konkret verändern können?</li>
-<li>Passt die Aufgabe zu den beschriebenen Qualitätsstufen?</li>
-<li>Sind Üben, Hilfen und spätere Bewertung klar geregelt?</li>
+<li>Prüft ein Kriterium an einer Beispielantwort.</li>
+<li>Fragt nach dem geplanten Lernschritt und Bewertungszweck.</li>
+<li>Gebt eine konkrete Änderungsidee weiter.</li>
 </ul>
-<p class="take">Rückmeldung: eine Stärke, eine Unklarheit, eine konkrete Änderung.</p>
-<aside class="speaker-note">Partnerteams: 2 Minuten still lesen, 5 Minuten Rückmeldung an A, 5 Minuten an B, 3 Minuten Änderungen festhalten. Bei Dreiergruppen je Team 4 Minuten plus 3 Minuten gemeinsame Sicherung. Die Empfänger hören zunächst zu. Jede Gruppe prüft mindestens eine reale oder selbst erstellte Beispielantwort.</aside>
+<p class="take">Jedes Team erhält Rückmeldung aus mindestens einer anderen Schule.</p>
+<aside class="speaker-note">Partnerteams vorab schulübergreifend zuordnen. 2 Minuten still lesen, 7 Minuten Rückmeldung je Team, 4 Minuten schriftliche Sicherung. Bei Dreiergruppen je 5 Minuten und 5 Minuten Sicherung. Mehrere Tandems arbeiten parallel, daher unabhängig von der Gesamtzahl. Erfahrene prüfen fachliche Passung, neue Mitglieder Verständlichkeit. Unterschiedliche Schulbedingungen ausdrücklich benennen, nicht vorschnell vereinheitlichen.</aside>
 </section>
-<section class="slide" id="folie-18" aria-label="Folie 18: Jedes Team entscheidet über eine Änderung">
-<p class="phase">Überarbeitung · 100–110 Minuten</p>
-<h2>Jedes Team entscheidet über eine Änderung</h2>
-<p class="lead">Welche Rückmeldung verbessert euren Entwurf am stärksten?</p>
+<section class="slide" id="folie-23" aria-label="Folie 23: Aus Rückmeldung wird ein Erprobungsauftrag">
+<p class="phase">Überarbeitung · 155–170 Minuten</p>
+<h2>Aus Rückmeldung wird ein Erprobungsauftrag</h2>
 <ul>
-<li>Ändert eine Beschreibung oder den geplanten Einsatz.</li>
-<li>Haltet kurz fest, warum ihr die Änderung übernehmt.</li>
-<li>Legt fest, woran ihr in der Erprobung einen Nutzen erkennt.</li>
+<li>Überarbeitet die wichtigste Unklarheit, gegebenenfalls erneut mit KI.</li>
+<li>Legt fest, wer das Material in welcher Lerngruppe erprobt.</li>
+<li>Sammelt Hinweise zu Bewertung, SRL-Nutzung und Nutzen der KI.</li>
+<li>Sichert die Fassung samt nächstem Termin am gemeinsamen Ablageort.</li>
 </ul>
-<aside class="speaker-note">7 Minuten überarbeiten, 3 Minuten Erprobungsplan ausfüllen. Beobachtbare Anzeichen: Lernende belegen ihr Urteil am Produkt und nehmen eine passende Überarbeitung vor. Außerdem Aufwand und Verständnisschwierigkeiten sammeln. Lokale Erprobung liefert Hinweise, keinen kausalen Wirksamkeitsnachweis.</aside>
+<aside class="speaker-note">8 Minuten Überarbeitung, 7 Minuten Erprobungsvereinbarung. Drei Beobachtungsperspektiven: Stimmen begründete Urteile zweier Lehrkräfte überein? Können Lernende einen nächsten Schritt ableiten und umsetzen? Welche KI-Vorschläge waren brauchbar, welche mussten korrigiert werden und welcher Aufwand entstand? Anonymisierte Arbeitsproben nutzen. Ohne Vergleichsgruppe kein kausaler Wirksamkeitsnachweis. Ersten Austausch nach vier bis sechs Wochen vorschlagen.</aside>
 </section>
-<section class="slide" id="folie-19" aria-label="Folie 19: Die nächste Sitzung beginnt mit Unterrichtserfahrungen">
-<p class="phase">Transfer · 110–120 Minuten</p>
-<h2>Die nächste Sitzung beginnt mit Unterrichtserfahrungen</h2>
-<p class="lead">„Wir erproben … mit … bis … und bringen … mit.“</p>
-<ul>
-<li>Zuständigkeit und Erprobungstermin im Team festlegen.</li>
-<li>Entwurf und offene Frage am gemeinsamen Ablageort sichern.</li>
-<li>Zum Austausch: Rasterfassung, anonymisierte Arbeitsbeispiele und kurze Beobachtung.</li>
-</ul>
-<p class="take">Jahresweg: Auftakt · erste Erprobung · 2–3 Austauschtermine · Abschluss</p>
-<aside class="speaker-note">3 Minuten schriftliche Zusage und Ablage, 5 Minuten ausgewählte Kurzberichte, 2 Minuten Ausblick. Bei vielen Teams alle schriftlich sichern, nur drei Stimmen im Plenum. Für den ersten Austausch etwa vier bis sechs Wochen nach dem Auftakt vorschlagen, Termin gemeinsam festlegen. Danach Raster verbessern, gegebenenfalls schulübergreifend Urteile abgleichen und zum Abschluss erprobte Fälle mit Grenzen dokumentieren.</aside>
+<section class="slide" id="folie-24" aria-label="Folie 24: Drei Schulen gehen mit einem gemeinsamen Vorhaben weiter">
+<p class="phase">Abschluss · 170–180 Minuten</p>
+<h2>Drei Schulen gehen mit einem gemeinsamen Vorhaben weiter</h2>
+<p class="lead">„Wir erproben … bis … und bringen … zum Austausch mit.“</p>
+<p>Je eine kurze Stimme aus jeder Schule.</p>
+<p class="take">Aus dem Abschlussjahr entstehen erprobte Beispiele mit nachvollziehbaren Entwicklungswegen.</p>
+<aside class="speaker-note">3 Minuten schriftliches Exit-Ticket für alle: Ein nächster Schritt, eine offene Frage. Je 1 Minute eine Stimme aus jeder Schule, 4 Minuten gemeinsamer Ausblick und nächste Verabredung. Alle Teams sichern ihre Ergebnisse schriftlich, keine lange Abschlusspräsentation. Fragenspeicher zuordnen: geklärt, vor der Erprobung zu klären oder Thema eines Austauschtermins. Motivation über sichtbare erste Ergebnisse und verbindliche Unterstützung erzeugen.</aside>
 </section>
-<section class="slide" id="folie-20" aria-label="Folie 20: Quellen und Einordnung">
-<p class="phase">Anhang · bei Rückfragen</p>
-<h2>Quellen und Einordnung</h2>
+<section class="slide" id="folie-25" aria-label="Folie 25: Die Forschungsbasis unterscheidet Befunde und Orientierung">
+<p class="phase">Quellen · Anhang</p>
+<h2>Die Forschungsbasis unterscheidet Befunde und Orientierung</h2>
 <ul class="sources">
 <li>
-<a href="https://doi.org/10.1037/a0021017">Alfieri et al. (2011)</a>
-<br>Does Discovery-Based Instruction Enhance Learning? Journal of Educational Psychology, 103(1), 1–18.</li>
+<a href="https://doi.org/10.1007/s10648-023-09823-4">Panadero et al. (2023), Rubrics-Metaanalyse</a>
+<br>Educational Psychology Review, 35, 113.</li>
 <li>
-<a href="https://doi.org/10.1007/s10648-023-09823-4">Panadero et al. (2023)</a>
-<br>Effects of Rubrics on Academic Performance, Self-Regulated Learning, and Self-Efficacy. Educational Psychology Review, 35, 113.</li>
+<a href="https://doi.org/10.1037/a0021017">Alfieri et al. (2011), Entdeckungslernen</a>
+<br>Journal of Educational Psychology, 103(1), 1–18.</li>
 <li>
-<a href="https://ifs.ep.tu-dortmund.de/storages/ifs-ep/r/Downloads_allgemein/Pressemeldung_IGLU2021_final.pdf">IFS, IGLU 2021</a>
-<br>Ergebnisse 2021, Veröffentlichung 2023.</li>
+<a href="https://doi.org/10.3389/fpsyg.2017.00422">Panadero (2017), Überblick über sechs SRL-Modelle</a>
+<br>Frontiers in Psychology, 8, 422.</li>
 <li>
-<a href="https://www.oecd.org/de/publications/pisa-2025-ergebnisse-band-i_eade94cd-de/deutschland_8a1ce578-de.html">OECD, PISA 2025: Deutschland</a>
-<br>Ländernotiz, Abschnitt Lerneinstellungen. Abgerufen am 20.09.2026.</li>
+<a href="https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research">UNESCO (2023), Guidance for generative AI</a>
+<br>Leitfaden zur pädagogischen Prüfung, keine Effektstudie.</li>
 </ul>
-<aside class="speaker-note">Kein zusätzlicher Inputblock. Weitere Quellen und die Begründung der Kürzungen stehen in quellen/forschungsbasis-auftakt.md. Die alte Folie zu Self-Assessment entfällt im Kerninput: Ihre breite Effektsammlung hilft für den heutigen Auftrag weniger als eine genaue Einordnung der beiden Kernstudien.</aside>
+<aside class="speaker-note">Vollständige Angaben und Aussagegrenzen im Quellenpapier. Der Input ist eine gezielte Auswahl, kein systematisches Review aller Forschung. Neue Studien können im Jahresverlauf ergänzt werden. Rubrics-Evidenz ist nicht ohne Prüfung auf jedes Kompetenzraster übertragbar.</aside>
+</section>
+<section class="slide" id="folie-26" aria-label="Folie 26: IGLU und PISA beschreiben den Ausgangspunkt">
+<p class="phase">Kontext · Reservefolie</p>
+<h2>IGLU und PISA beschreiben den Ausgangspunkt</h2>
+<div class="cols">
+<div>
+<h3>IGLU 2021</h3>
+<p>25 % der Viertklässler:innen in Deutschland erreichen Kompetenzstufe III im Lesen nicht.</p>
+</div>
+<div>
+<h3>PISA 2025</h3>
+<p>33 % der 15-Jährigen berichten, ihr Lernen oft oder sehr oft zu planen.</p>
+</div>
+</div>
+<p class="take">Kontext für zugängliche Orientierung, kein Wirksamkeitsbeleg für Kompetenzraster.</p>
+<p class="cite">
+<a href="https://ifs.ep.tu-dortmund.de/storages/ifs-ep/r/Downloads_allgemein/Pressemeldung_IGLU2021_final.pdf">IFS / IGLU 2021</a> · <a href="https://www.oecd.org/de/publications/pisa-2025-ergebnisse-band-i_eade94cd-de/deutschland_8a1ce578-de.html">OECD / PISA 2025</a>
+</p>
+<aside class="speaker-note">Reserve für Rückfragen oder einen späteren Termin. IGLU: Leistungstest. Hier ausgewählter PISA-Wert: Selbstauskunft. Unterschiedliche Altersgruppen und Konstrukte. Nicht als Längsschnitt darstellen. Die Reserve gehört nicht zusätzlich in die 180 Minuten. Quellen wurden am 20.09.2026 geprüft.</aside>
 </section>
 </main>
 <nav class="nav" aria-label="Foliennavigation">
