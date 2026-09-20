@@ -2,7 +2,7 @@
 
 ## Arbeitstitel
 
-**Kompetenzraster als Scharnier zwischen selbstreguliertem Lernen und Leistungsbewertung**
+**Kompetenzraster zur Leistungsbewertung und die Verzahnung mit dem Selbstregulierten Lernen und der Nutzung von KI**
 
 ### Untertitel
 **KI-gestützte Entwicklung von Kompetenzrastern, Lernaufgaben und Bewertungslogiken**
@@ -15,10 +15,10 @@ Das Netzwerk arbeitet seit mehreren Jahren kontinuierlich an einer gemeinsamen E
 
 - Jahr 1: selbstreguliertes Lernen
 - Jahr 2: Einsatz von KI
-- Jahr 3: Leistungsbewertung
-- Jahr 4: Kompetenzraster als verbindendes Entwicklungsinstrument
+- Jahr 3 (2025/2026): zeitgemäße Leistungsüberprüfung
+- Abschlussjahr 2026/2027: Kompetenzraster, Leistungsbewertung, SRL und KI verbinden
 
-Das neue Netzwerkjahr soll diese bisherigen Themen **nicht nebeneinander fortführen**, sondern miteinander verbinden.
+Im gemeinsamen Abschlussjahr werden diese Themen in Planung und Erprobung miteinander verbunden.
 
 ---
 
@@ -154,6 +154,11 @@ Ein gutes Kompetenzraster …
 ## Jahresstruktur
 
 ### Auftaktveranstaltung
+
+**Konkretisierter Vorschlag (180 Minuten):** [Moderationsplan](auftakt-180-minuten.md), [Präsentation](praesentationen/01-auftakt-kompetenzraster.html) und [Arbeitsvorlage](materialien/auftakt-arbeitsvorlage.html).
+
+Der Auftakt führt zu einem kleinen Lernarrangement: konkrete Aufgabe, Rasterausschnitt, geplanter Einsatz für Selbsteinschätzung und Überarbeitung sowie Erprobungsplan. Die Entwicklerteams erstellen ihre erste Fassung mit KI. Ein vollständiges Instrument und verbindliche Bewertungsabsprachen werden vor dem jeweiligen Einsatz weiterentwickelt. Die Sitzung schafft gemeinsame Grundlagen für neue und erfahrene Netzwerkmitglieder aus drei Schulen.
+
 - fachlicher Input
 - wissenschaftlicher Einstieg
 - Verbindung mit den bisherigen Netzwerkjahren

@@ -1,7 +1,7 @@
 # Netzwerkjahr 2026/2027
 
 ## Arbeitsschwerpunkt
-**Kompetenzraster als Scharnier zwischen selbstreguliertem Lernen und Leistungsbewertung**
+**Kompetenzraster zur Leistungsbewertung und die Verzahnung mit dem Selbstregulierten Lernen und der Nutzung von KI**
 
 Untertitel:
 
@@ -11,8 +11,8 @@ Untertitel:
 
 1. **Selbstreguliertes Lernen** – didaktischer Überbau
 2. **KI im schulischen Kontext** – digitale Werkzeuge als Unterstützung professioneller Arbeit
-3. **Leistungsbewertung** – Transparenz, Fairness und neue Prüfungsformate
-4. **2026/2027: Kompetenzraster** – Verbindung der drei bisherigen Entwicklungsstränge
+3. **Zeitgemäße Leistungsüberprüfung (2025/2026)** – Kompetenzbezug, Transparenz und passende Prüfungsformate
+4. **Abschlussjahr 2026/2027: Kompetenzraster** – Verbindung der drei bisherigen Entwicklungsstränge
 
 ## Grundidee
 
@@ -29,6 +29,10 @@ Ein Entwicklungsprojekt verbindet möglichst:
 
 ## Dateien
 
+- `auftakt-180-minuten.md` – Vorschlag und Moderation für das erste Treffen (180 Minuten)
+- `materialien/auftakt-arbeitsvorlage.html` – vierseitige Druckvorlage
+- `materialien/auftakt-arbeitsvorlage.md` – kopierbare Arbeitsvorlage
+- `quellen/forschungsbasis-auftakt.md` – geprüfte Quellen und Grenzen
 - `planung.md` – gemeinsame Planungsgrundlage
 - `quellen/metastudie-rubrics.md` – wissenschaftlicher Einstieg
 - `assets/netzwerk-2026.css` – gemeinsame Farb- und Layoutbasis
@@ -38,3 +42,6 @@ Ein Entwicklungsprojekt verbindet möglichst:
 ## Arbeitsprinzip
 
 Die Dateien in diesem Bereich sollen im Laufe des Schuljahres weiterentwickelt werden. Neue Präsentationen, Projektsteckbriefe, Rasterbeispiele und Ergebnisse können innerhalb dieser Struktur ergänzt werden.
+
+- `materialien/begriffshilfe.md` – Definitionen und Abgrenzungen
+- `materialien/ki-workflow.md` – verbindlicher KI-Entwicklungsschritt mit Promptvorlagen
