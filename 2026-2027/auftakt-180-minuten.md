@@ -249,3 +249,10 @@ Reserve für Rückfragen oder einen späteren Termin. IGLU: Leistungstest. Hier 
 - [Forschungsbasis](quellen/forschungsbasis-auftakt.md)
 
 Technikhinweis: „Notizen“ zeigt den Moderationstext auf demselben Bildschirm. Bei Projektion bewusst verwenden. Vollständige visuelle Browser- und Druckprüfung vor Einsatz noch offen.
+
+
+## Ablaufanzeige und Timer in der Präsentation
+
+Die Schaltfläche **„Ablauf · 180 Min.“** öffnet die einfache Übersicht aller zehn Zeitphasen einschließlich der zehnminütigen Pause. Jede Phase zeigt Zeitfenster und Dauer; ein Klick führt zur zugehörigen Folie. Auf jeder Folie markieren eine schmale Leiste und eine kurze Zeile die aktuelle Phase. Die Zeitangaben beziehen sich auf Minuten ab Veranstaltungsbeginn.
+
+Arbeitsphasen haben einen Timer in der Ecke mit **Start, Pause und Zurücksetzen**. Er startet bewusst erst durch die Moderation. Die Entwicklerarbeit auf den Folien 19–21 teilt sich einen durchlaufenden **40-Minuten-Timer**. Beim Wechsel in eine andere Phase pausiert der bisherige Timer und behält seine Restzeit. Zurücksetzen stellt die geplante Dauer wieder her. Auf schmalen Bildschirmen steht der Timer im Folieninhalt. Auf der Pausenfolie erscheint ein großer **10-Minuten-Timer**. Nach Ablauf bleibt die Anzeige bei 00:00 und meldet „Zeit abgelaufen“. Ein Neuladen der Seite setzt alle Timer zurück; im Druck werden die Bedienfelder ausgeblendet.

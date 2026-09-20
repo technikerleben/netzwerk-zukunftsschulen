@@ -5,7 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Kompetenzraster, Leistungsbewertung, SRL und KI · Auftakt 2026/2027</title>
 <style>html,body{margin:0;min-height:100%;background:#f6f8f7;color:#103f44;font-family:Inter,system-ui,sans-serif}*{box-sizing:border-box}.slide{display:none;min-height:calc(100dvh - 68px);padding:44px 6vw 34px;border-top:10px solid #009288;background:linear-gradient(120deg,#fff 72%,#e9f3f1)}.slide.active{display:flex;flex-direction:column;justify-content:center}.phase{font-size:18px;font-weight:700;color:#376769;margin:0 0 20px}h1,h2{font-size:clamp(34px,3.65vw,58px);line-height:1.09;letter-spacing:-.03em;margin:0 0 30px;max-width:1180px}h3{font-size:27px;margin:0 0 12px}p,li,td,th,blockquote{font-size:clamp(22px,2vw,29px);line-height:1.4}p{margin:0 0 18px}li{margin:0 0 14px}ul,ol{margin:0;padding-left:1.25em;max-width:1180px}.lead{font-size:clamp(28px,2.7vw,40px);max-width:1100px}.tag{margin-top:30px;font-weight:700;color:#007881}.cols{display:grid;grid-template-columns:1fr 1fr;gap:52px}.cols>div+div{border-left:2px solid #a5cccb;padding-left:35px}.stat{font-size:64px;font-weight:800;line-height:1.05;margin:14px 0;color:#007881}.take{font-weight:650;margin:26px 0 0;padding-top:20px;border-top:2px solid #a5cccb}.cite{font-size:17px;margin-top:20px;color:#426365}.cite a{color:inherit}table{border-collapse:collapse;width:100%;margin:8px 0}th,td{border-bottom:1px solid #a5cccb;padding:12px 16px;text-align:left;font-size:24px}thead{background:#edf4f2}blockquote{margin:0;padding:15px 0;font-style:italic}.agenda p{display:flex;gap:32px;margin:8px 0}.agenda b{min-width:105px}.nav{position:sticky;bottom:0;min-height:68px;display:flex;align-items:center;gap:12px;padding:10px 24px;background:#103f44;color:#fff}.nav button,.nav select{font:inherit;background:#fff;color:#103f44;border:0;padding:9px 12px;border-radius:5px;cursor:pointer}.nav select{max-width:32vw}.nav a{color:white}.spacer{flex:1}.count{white-space:nowrap}.notes{display:none;position:fixed;inset:auto 25px 82px;max-height:40vh;overflow:auto;padding:24px;background:#fff;border:3px solid #007881;box-shadow:0 4px 30px #0003;font-size:20px;z-index:5}.notes.open{display:block}.speaker-note{display:none}.sources li{font-size:22px}.sources a{font-weight:700}a{color:#007881}button:focus-visible,select:focus-visible,a:focus-visible{outline:3px solid #d18d24;outline-offset:3px}.nav button:disabled{opacity:.5;cursor:default}@media(max-width:800px){.slide{padding:28px 6vw;min-height:calc(100dvh - 120px)}.cols{grid-template-columns:1fr;gap:20px}.cols>div+div{border-left:0;border-top:2px solid #a5cccb;padding:20px 0 0}.nav{flex-wrap:wrap}.nav select{max-width:50vw}.stat{font-size:48px}th,td{font-size:20px;padding:8px}h1,h2{margin-bottom:22px}.agenda p{font-size:20px}.sources li{font-size:20px}}@media print{@page{size:A4 landscape;margin:12mm}.slide,.slide.active{display:flex;min-height:0;height:180mm;break-after:page;padding:8mm;border-top:3mm solid #777;background:white}.slide:last-child{break-after:auto}.nav,.notes{display:none!important}h1,h2{font-size:30pt}p,li,td,th,blockquote{font-size:16pt}.lead{font-size:23pt}.stat{font-size:38pt}.phase,.cite{font-size:11pt}.sources li{font-size:15pt}h3{font-size:20pt}.take{margin-top:12px;padding-top:10px}.cols{gap:25px}a{color:inherit}}
-.matrix td,.matrix th{font-size:clamp(18px,1.5vw,23px);padding:10px}.matrix th:first-child{width:16%}.compact li{font-size:24px}.phase{color:#376769}.journey{display:grid;grid-template-columns:repeat(4,1fr);gap:22px}.journey p{font-size:24px;border-top:4px solid #009288;padding-top:16px}.journey b{display:block;margin-bottom:10px}code{font:inherit;background:#edf4f2}.prompt{font-size:24px;border-left:4px solid #009288;padding-left:24px}.slide h1{font-size:clamp(36px,4.3vw,64px)}@media(max-width:800px){.journey{grid-template-columns:1fr 1fr}.matrix td,.matrix th{font-size:18px}.prompt{font-size:21px}}@media print{.matrix td,.matrix th{font-size:13pt}.prompt,.compact li,.journey p{font-size:15pt}}</style>
+.matrix td,.matrix th{font-size:clamp(18px,1.5vw,23px);padding:10px}.matrix th:first-child{width:16%}.compact li{font-size:24px}.phase{color:#376769}.journey{display:grid;grid-template-columns:repeat(4,1fr);gap:22px}.journey p{font-size:24px;border-top:4px solid #009288;padding-top:16px}.journey b{display:block;margin-bottom:10px}code{font:inherit;background:#edf4f2}.prompt{font-size:24px;border-left:4px solid #009288;padding-left:24px}.slide h1{font-size:clamp(36px,4.3vw,64px)}@media(max-width:800px){.journey{grid-template-columns:1fr 1fr}.matrix td,.matrix th{font-size:18px}.prompt{font-size:21px}}@media print{.matrix td,.matrix th{font-size:13pt}.prompt,.compact li,.journey p{font-size:15pt}}
+.phase-strip{display:flex;gap:4px;margin:0 0 18px;flex-wrap:wrap}.phase-strip span{height:6px;min-width:14px;flex:1;background:#cedfdd;border-radius:4px}.phase-strip span.current{background:#007881}.phase-summary{font-size:16px;margin-bottom:14px;color:#376769}.timer-slot{margin:0}.has-timer .phase,.has-timer .phase-summary{padding-right:240px}.has-timer h2{max-width:calc(100% - 240px)}.timer-panel{position:fixed;right:24px;top:24px;width:220px;padding:16px;background:#103f44;color:white;border-radius:14px;z-index:3;box-shadow:0 4px 18px #103f4422;text-align:center}.timer-panel[hidden]{display:none}.timer-label{font-size:15px;margin:0 0 4px}.timer-value{display:block;font-size:48px;font-weight:750;font-variant-numeric:tabular-nums;line-height:1.2}.timer-status{font-size:14px;min-height:20px;margin:6px 0}.timer-actions{display:flex;justify-content:center;gap:8px}.timer-actions button,.schedule button{font:inherit;cursor:pointer;border:1px solid #a5cccb;border-radius:6px;padding:8px 10px;background:white;color:#103f44}.timer-actions button{font-size:14px}.timer-panel.finished{background:#7b4013}.break-slide .timer-panel{position:static;width:min(760px,100%);margin:10px auto;box-shadow:none;padding:24px}.break-slide .timer-value{font-size:clamp(100px,17vw,230px)}.break-slide .timer-label{font-size:24px}.break-slide .timer-status,.break-slide .timer-actions button{font-size:20px}.schedule{border:0;border-radius:16px;padding:28px;width:min(900px,94vw);max-height:90dvh;color:#103f44;background:#f6f8f7}.schedule::backdrop{background:#103f4488}.schedule h2{font-size:32px;margin-bottom:8px}.schedule>p{font-size:18px}.schedule-list{display:grid;grid-template-columns:1fr 1fr;gap:8px;list-style:none;padding:0;margin:18px 0}.schedule-list button{width:100%;text-align:left;display:grid;grid-template-columns:84px 1fr;gap:8px;font-size:18px;min-height:70px}.schedule-list small{display:block;font-size:15px;color:#376769}.schedule-list button[aria-current=true]{border:3px solid #007881;background:#e9f3f1}.schedule-close{float:right}.total-time{font-size:20px;font-weight:700;color:#007881;margin-top:16px}@media(max-width:800px){.has-timer .phase,.has-timer .phase-summary{padding-right:0}.has-timer h2{max-width:100%}.timer-panel{position:static;width:100%;margin:0 0 20px}.timer-value{font-size:42px}.schedule-list{grid-template-columns:1fr}.phase-summary{font-size:14px}}@media print{.timer-panel,.schedule,.phase-strip{display:none!important}.has-timer h2{max-width:100%}.has-timer .phase,.has-timer .phase-summary{padding-right:0}.phase-summary{font-size:10pt}}
+</style>
 </head>
 <body>
 <main>
@@ -13,7 +15,7 @@
 <p class="phase">Ankommen · 0–3 Minuten</p>
 <h1>Kompetenzraster zur Leistungsbewertung</h1>
 <p class="lead">und die Verzahnung mit dem Selbstregulierten Lernen und der Nutzung von KI</p>
-<p>Drei Schulen gestalten das gemeinsame Abschlussjahr 2026/2027.</p>
+<p>Drei Schulen gestalten das gemeinsame Abschlussjahr 2026/2027.</p><p class="total-time">180 Minuten · einschließlich 10 Minuten Pause</p>
 <aside class="speaker-note">Den vereinbarten Jahrestitel nennen. Ziel: gemeinsame Arbeitsfähigkeit unabhängig von Einstiegsjahr und Vorerfahrung. Die Sitzung ist der Start eines Entwicklungs- und Erprobungsjahres. Niemand muss bereits ein Raster oder KI-Erfahrung mitbringen.</aside>
 </section>
 <section class="slide" id="folie-2" aria-label="Folie 2: Die bisherigen Themen kommen zusammen">
@@ -430,11 +432,82 @@
 <span class="spacer">
 </span>
 <a href="../materialien/auftakt-arbeitsvorlage.html" target="_blank" rel="noopener">Arbeitsvorlage</a>
+<button id="openSchedule">Ablauf · 180 Min.</button>
 <button id="toggleNotes" aria-expanded="false" aria-controls="notes">Notizen</button>
 <button id="print">Drucken</button>
 </nav>
 <aside class="notes" id="notes" aria-label="Moderationsnotizen">
 </aside>
-<script>const slides=[...document.querySelectorAll('.slide')], picker=document.querySelector('#picker'), notes=document.querySelector('#notes');let index=0;slides.forEach((s,i)=>{const o=new Option(`${i+1}. ${s.querySelector('h1,h2').textContent}`,i);picker.add(o)});function show(n,write=true){index=Math.max(0,Math.min(slides.length-1,n));slides.forEach((s,i)=>{s.classList.toggle('active',i===index);s.setAttribute('aria-hidden',String(i!==index))});picker.value=index;document.querySelector('#count').textContent=`${index+1} / ${slides.length}`;document.querySelector('#prev').disabled=index===0;document.querySelector('#next').disabled=index===slides.length-1;notes.textContent=slides[index].querySelector('.speaker-note').textContent;if(write)history.replaceState(null,'',`#folie-${index+1}`);window.scrollTo(0,0)}function fromHash(){const m=location.hash.match(/^#folie-(\d+)$/);show(m?Number(m[1])-1:0,false)}document.querySelector('#prev').onclick=()=>show(index-1);document.querySelector('#next').onclick=()=>show(index+1);picker.onchange=()=>show(Number(picker.value));document.querySelector('#toggleNotes').onclick=()=>{const open=notes.classList.toggle('open');document.querySelector('#toggleNotes').setAttribute('aria-expanded',String(open))};document.querySelector('#print').onclick=()=>window.print();document.addEventListener('keydown',e=>{if(e.target.closest('button,select,a,input,textarea'))return;if(['ArrowRight','PageDown',' '].includes(e.key)){e.preventDefault();show(index+1)}if(['ArrowLeft','PageUp'].includes(e.key)){e.preventDefault();show(index-1)}if(e.key==='Home'){e.preventDefault();show(0)}if(e.key==='End'){e.preventDefault();show(slides.length-1)}if(e.key.toLowerCase()==='n')document.querySelector('#toggleNotes').click();if(e.key==='Escape'){notes.classList.remove('open');document.querySelector('#toggleNotes').setAttribute('aria-expanded','false')}});window.addEventListener('hashchange',fromHash);fromHash();</script>
+<dialog class="schedule" id="schedule" aria-labelledby="scheduleTitle"><button class="schedule-close" id="closeSchedule" aria-label="Ablauf schließen">Schließen ✕</button><h2 id="scheduleTitle">Unser Ablauf · 180 Minuten</h2><p>Zeitangaben ab Veranstaltungsbeginn. Phase anklicken, um zur ersten zugehörigen Folie zu springen.</p><ol class="schedule-list" id="scheduleList"></ol></dialog>
+<section class="timer-panel" id="timerPanel" aria-label="Phasentimer" hidden><p class="timer-label" id="timerLabel"></p><output class="timer-value" id="timerValue" aria-label="Verbleibende Zeit">00:00</output><p class="timer-status" id="timerStatus" role="status"></p><div class="timer-actions"><button id="timerToggle">Start</button><button id="timerReset">Zurücksetzen</button></div></section>
+<script>const slides=[...document.querySelectorAll('.slide')], picker=document.querySelector('#picker'), notes=document.querySelector('#notes');let index=0;slides.forEach((s,i)=>{const o=new Option(`${i+1}. ${s.querySelector('h1,h2').textContent}`,i);picker.add(o)});function show(n,write=true){index=Math.max(0,Math.min(slides.length-1,n));slides.forEach((s,i)=>{s.classList.toggle('active',i===index);s.setAttribute('aria-hidden',String(i!==index))});picker.value=index;document.querySelector('#count').textContent=`${index+1} / ${slides.length}`;document.querySelector('#prev').disabled=index===0;document.querySelector('#next').disabled=index===slides.length-1;notes.textContent=slides[index].querySelector('.speaker-note').textContent;if(write)history.replaceState(null,'',`#folie-${index+1}`);syncPhase(index);window.scrollTo(0,0)}function fromHash(){const m=location.hash.match(/^#folie-(\d+)$/);show(m?Number(m[1])-1:0,false)}document.querySelector('#prev').onclick=()=>show(index-1);document.querySelector('#next').onclick=()=>show(index+1);picker.onchange=()=>show(Number(picker.value));document.querySelector('#toggleNotes').onclick=()=>{const open=notes.classList.toggle('open');document.querySelector('#toggleNotes').setAttribute('aria-expanded',String(open))};document.querySelector('#print').onclick=()=>window.print();document.addEventListener('keydown',e=>{if(document.querySelector('#schedule').open||e.target.closest('button,select,a,input,textarea'))return;if(['ArrowRight','PageDown',' '].includes(e.key)){e.preventDefault();show(index+1)}if(['ArrowLeft','PageUp'].includes(e.key)){e.preventDefault();show(index-1)}if(e.key==='Home'){e.preventDefault();show(0)}if(e.key==='End'){e.preventDefault();show(slides.length-1)}if(e.key.toLowerCase()==='n')document.querySelector('#toggleNotes').click();if(e.key==='Escape'){notes.classList.remove('open');document.querySelector('#toggleNotes').setAttribute('aria-expanded','false')}});window.addEventListener('hashchange',fromHash);
+const phases = [
+ {name:'Ankommen & Austausch',start:0,end:15,slide:1,last:4},
+ {name:'Begriffe klären',start:15,end:30,slide:5,last:7},
+ {name:'Forschung verstehen',start:30,end:50,slide:8,last:11},
+ {name:'Am Beispiel arbeiten',start:50,end:70,slide:12,last:15},
+ {name:'KI ausprobieren & prüfen',start:70,end:85,slide:16,last:17},
+ {name:'Pause',start:85,end:95,slide:18,last:18},
+ {name:'Im Team entwickeln',start:95,end:135,slide:19,last:21},
+ {name:'Schulübergreifendes Feedback',start:135,end:155,slide:22,last:22},
+ {name:'Überarbeiten & Erprobung planen',start:155,end:170,slide:23,last:23},
+ {name:'Ergebnisse & Ausblick',start:170,end:180,slide:24,last:24}
+];
+const timerSpecs = [
+ {key:'entry',slides:[3],minutes:7,label:'Austausch zu dritt'},
+ {key:'example',slides:[14],minutes:7,label:'Texte vergleichen'},
+ {key:'critique',slides:[17],minutes:7,label:'KI-Entwurf prüfen'},
+ {key:'break',slides:[18],minutes:10,label:'Pause'},
+ {key:'develop',slides:[19,20,21],minutes:40,label:'Entwicklerteams · gesamt'},
+ {key:'feedback',slides:[22],minutes:20,label:'Kollegiales Feedback'},
+ {key:'revision',slides:[23],minutes:15,label:'Überarbeiten & planen'},
+ {key:'closing',slides:[24],minutes:10,label:'Ergebnisse & Ausblick'}
+];
+// Absolute deadlines keep the countdown accurate when the tab is in the background.
+class PhaseTimer {
+ constructor(seconds,now=()=>Date.now()){this.duration=seconds*1000;this.remaining=this.duration;this.deadline=null;this.now=now}
+ value(){if(this.deadline!==null){this.remaining=Math.max(0,this.deadline-this.now());if(this.remaining===0)this.deadline=null}return Math.ceil(this.remaining/1000)}
+ start(){this.value();if(this.remaining>0&&this.deadline===null)this.deadline=this.now()+this.remaining}
+ pause(){this.value();this.deadline=null}
+ reset(){this.remaining=this.duration;this.deadline=null}
+}
+const timers=new Map(timerSpecs.map(t=>[t.key,new PhaseTimer(t.minutes*60)]));
+const panel=document.querySelector('#timerPanel'),timerValue=document.querySelector('#timerValue'),timerStatus=document.querySelector('#timerStatus'),toggle=document.querySelector('#timerToggle'),schedule=document.querySelector('#schedule');
+let activeTimerKey=null;
+const phaseButtons=[];
+phases.forEach((p,i)=>{
+ const li=document.createElement('li'),button=document.createElement('button');
+ button.innerHTML=`<b>${p.start}–${p.end}<small>Minute</small></b><span>${p.name}<small>${p.end-p.start} Minuten</small></span>`;
+ button.onclick=()=>{schedule.close();show(p.slide-1)};li.append(button);document.querySelector('#scheduleList').append(li);phaseButtons.push(button);
+});
+slides.forEach((slide,i)=>{
+ const phaseIndex=phases.findIndex(p=>i+1>=p.slide&&i+1<=p.last);
+ const summary=document.createElement('p');summary.className='phase-summary';summary.textContent=phaseIndex<0?'Anhang · außerhalb der 180 Minuten':`Phase ${phaseIndex+1}/10 · ${phases[phaseIndex].name} · ${phases[phaseIndex].end-phases[phaseIndex].start} Min. · Gesamt: 180 Min.`;
+ const strip=document.createElement('div');strip.className='phase-strip';strip.setAttribute('aria-hidden','true');
+ phases.forEach((p,j)=>{const segment=document.createElement('span');segment.style.flex=p.end-p.start;segment.classList.toggle('current',j===phaseIndex);strip.append(segment)});
+ slide.prepend(strip,summary);
+ const spec=timerSpecs.find(t=>t.slides.includes(i+1));
+ if(spec){slide.classList.add(spec.key==='break'?'break-slide':'has-timer');const slot=document.createElement('div');slot.className='timer-slot';slide.querySelector('h1,h2').after(slot)}
+});
+function renderTimer(){
+ if(!activeTimerKey)return;const timer=timers.get(activeTimerKey),seconds=timer.value();
+ timerValue.textContent=`${Math.floor(seconds/60).toString().padStart(2,'0')}:${(seconds%60).toString().padStart(2,'0')}`;
+ toggle.textContent=timer.deadline!==null?'Pause':seconds===0?'Beendet':'Start';toggle.disabled=seconds===0;
+ const status=seconds===0?'Zeit abgelaufen':timer.deadline!==null?'Läuft':timer.remaining===timer.duration?'Bereit zum Start':'Pausiert';
+ if(timerStatus.textContent!==status)timerStatus.textContent=status;
+ panel.classList.toggle('finished',seconds===0);
+}
+function syncPhase(slideIndex){
+ const spec=timerSpecs.find(t=>t.slides.includes(slideIndex+1)),nextKey=spec?.key??null;
+ if(activeTimerKey!==nextKey&&activeTimerKey)timers.get(activeTimerKey).pause();
+ activeTimerKey=nextKey;panel.hidden=!spec;
+ if(spec){slides[slideIndex].querySelector('.timer-slot').append(panel);document.querySelector('#timerLabel').textContent=spec.label;renderTimer()}
+ phaseButtons.forEach((b,i)=>b.setAttribute('aria-current',String(slideIndex+1>=phases[i].slide&&slideIndex+1<=phases[i].last)));
+}
+ toggle.onclick=()=>{if(!activeTimerKey)return;const t=timers.get(activeTimerKey);if(t.deadline!==null)t.pause();else t.start();renderTimer()};
+ document.querySelector('#timerReset').onclick=()=>{if(activeTimerKey){timers.get(activeTimerKey).reset();renderTimer()}};
+ document.querySelector('#openSchedule').onclick=()=>schedule.showModal();document.querySelector('#closeSchedule').onclick=()=>schedule.close();
+ setInterval(renderTimer,200);fromHash();
+</script>
 </body>
 </html>
