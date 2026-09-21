@@ -236,3 +236,10 @@ Start, Pause und Zurücksetzen bleiben verfügbar. Beim Verlassen eines Arbeitsb
 ## Willkommensfolie und persönliche Notizen
 
 Datum und Ort sind ausdrücklich Platzhalter. Der QR-Code verweist auf [die Vercel-Präsentation](https://netzwerk-zukunftsschulen.vercel.app/2026-2027/praesentationen/01-auftakt-kompetenzraster.html). Er ist ohne externen QR-Dienst direkt eingebettet. Eigene Notizen lassen sich über die Navigation jederzeit und auf der Abschlussfolie exportieren. Speicherung erfolgt anhand fester Folienkennungen, damit das Einfügen weiterer Folien die Zuordnung nicht verschiebt.
+
+
+### Ergänzung: Fünf Kriterien und Bepunktung als Diskussionsmodell
+
+Im Wunschbrief-Beispiel werden Wunschbeschreibung und Umsetzungsvorschlag zu einem Kriterium verbunden. Begründung, Adressatenbezug, Briefaufbau und Sprache bleiben eigene Kriterien. Nach der Unterscheidung von Überprüfung, Bewertung und Benotung folgen zwei Folien: Zuordnung von 0–3 Punkten je Kriterium sowie ein kurzer Austausch über Gewichtung, Ausgleich zwischen Kriterien und Alternativen. Die 180 Minuten und die beiden zehnminütigen Pausen bleiben unverändert. Der Austausch liegt innerhalb des ersten groben Zeitblocks.
+
+Die Summe von maximal 15 Rasterpunkten ist eine Arbeitsidee, keine rechtliche Vorgabe. Die Ähnlichkeit zur Oberstufenskala begründet keine automatische Notenumrechnung. 0 setzt hier eine beurteilbare Leistung unterhalb des Mindeststandards voraus; bei fehlender Bewertungsgrundlage wird zunächst keine Summe gebildet. In der Teamphase können die Teams das Modell prüfen, verändern oder eine begründete Alternative wählen.
