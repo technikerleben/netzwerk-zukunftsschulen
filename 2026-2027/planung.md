@@ -11,6 +11,8 @@
 
 ## Ausgangslage
 
+Im Schuljahr 2026/2027 nehmen drei Schulen teil. Die Hardenstein-Gesamtschule ist in diesem Schuljahr nicht beteiligt.
+
 Das Netzwerk arbeitet seit mehreren Jahren kontinuierlich an einer gemeinsamen Entwicklungslinie:
 
 - Jahr 1: selbstreguliertes Lernen
