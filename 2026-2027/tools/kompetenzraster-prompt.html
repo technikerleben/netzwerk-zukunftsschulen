@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Prompt-Werkstatt für lehrplankonforme Kompetenzraster an Gesamtschulen in NRW">
+  <title>Prompt-Werkstatt · Netzwerk Zukunftsschulen</title>
+  <link rel="stylesheet" href="../assets/netzwerk-2026.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='13' fill='%23103f44'/%3E%3Cpath d='M15 16h34v32H15zM15 27h34M15 38h34M28 16v32' fill='none' stroke='%23fff' stroke-width='3.5'/%3E%3Cpath d='M28 27h21v11H28z' fill='%23009288'/%3E%3C/svg%3E">
+  <style>
+    :root{--focus:#f0a66f;--line:#cfdddd;--wash:#f2f7f6;--muted:#587074}
+    html{background:#eef3f2}body{min-height:100vh;background:radial-gradient(circle at 10% 10%,rgba(165,204,203,.35),transparent 27%),linear-gradient(145deg,#fff 0%,#e9eeee 100%)}
+    button,input,select,textarea{font:inherit}button{cursor:pointer}
+    :focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+    .topbar{background:var(--nw-petrol);color:#fff;border-bottom:5px solid var(--nw-turquoise)}
+    .topbar-inner{max-width:1460px;margin:auto;padding:15px 28px;display:flex;align-items:center;justify-content:space-between;gap:18px}
+    .brand{display:flex;align-items:center;gap:12px;color:#fff;text-decoration:none;font-size:1.05rem;font-weight:900}
+    .brand-mark{display:grid;grid-template-columns:repeat(2,9px);gap:3px;padding:7px;border:2px solid #fff;border-radius:8px}
+    .brand-mark i{width:9px;height:9px;border-radius:2px;background:var(--nw-aqua)}.brand-mark i:nth-child(2),.brand-mark i:nth-child(3){background:#fff}
+    .back{color:#fff;text-decoration:none;font-size:.88rem;font-weight:800}.back:hover{text-decoration:underline}
+    main{max-width:1460px;margin:auto;padding:28px}
+    .intro{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;margin-bottom:20px}
+    h1{margin:.35rem 0 .55rem;color:var(--nw-petrol);font-size:clamp(2rem,4vw,3.5rem);line-height:1;letter-spacing:-.045em}
+    .lead{margin:0;max-width:820px;color:#40585b;font-size:1.03rem;line-height:1.55}
+    .source{color:var(--nw-bluepetrol);font-weight:850;text-decoration:none;white-space:nowrap}.source:hover{text-decoration:underline}
+    .workspace{display:grid;grid-template-columns:minmax(420px,.9fr) minmax(500px,1.1fr);gap:20px;align-items:start}
+    .tool-card{background:rgba(255,255,255,.96);border:1px solid rgba(16,63,68,.14);border-radius:18px;box-shadow:0 12px 32px var(--nw-shadow);overflow:hidden}
+    .tool-head{padding:18px 21px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:center;gap:12px}
+    .tool-head h2{margin:0;color:var(--nw-petrol);font-size:1.08rem}.step{display:grid;place-items:center;min-width:31px;height:27px;padding:0 10px;border-radius:999px;background:var(--nw-aqua);color:var(--nw-petrol);font-size:.8rem;font-weight:900}
+    form,.output{padding:21px;display:grid;gap:18px}.grid2{display:grid;grid-template-columns:1fr 1fr;gap:13px}
+    label,.legend{display:block;margin:0 0 7px;color:var(--nw-petrol);font-size:.86rem;font-weight:850}
+    .optional{color:var(--muted);font-weight:500}input,select,textarea{width:100%;min-height:45px;padding:10px 12px;color:var(--nw-text);background:#fff;border:1px solid #b9cccc;border-radius:10px}
+    textarea{min-height:76px;resize:vertical;line-height:1.45}.hint{margin:5px 0 0;color:var(--muted);font-size:.77rem;line-height:1.4}
+    fieldset{border:0;margin:0;padding:0;min-width:0}.counter{display:grid;grid-template-columns:45px 1fr 45px;gap:8px}.counter input{text-align:center;font-weight:900}.counter button{border:1px solid #b9cccc;border-radius:10px;background:var(--wash);color:var(--nw-petrol);font-size:1.3rem;font-weight:900}
+    .levels{display:grid;gap:8px}.level-row{display:grid;grid-template-columns:30px 1fr;gap:8px;align-items:center;margin:0}.level-row span{display:grid;place-items:center;width:28px;height:28px;border-radius:8px;background:#dff1ed;color:var(--nw-petrol);font-size:.78rem;font-weight:900}
+    .actions{display:flex;gap:9px;flex-wrap:wrap}.primary,.secondary,.copy{border-radius:11px;padding:12px 16px;font-weight:850}.primary{border:0;background:var(--nw-petrol);color:#fff}.primary:hover{background:var(--nw-turquoise)}.secondary{border:1px solid #b9cccc;background:#fff;color:var(--nw-petrol)}
+    .notice{padding:11px 13px;background:#e7f5f2;border-left:4px solid var(--nw-green);border-radius:8px;color:#315f60;font-size:.84rem;line-height:1.45}.notice strong{color:var(--nw-petrol)}
+    #prompt{min-height:520px;background:#102f32;color:#edf7f5;border:0;border-radius:13px;padding:17px;font-family:"SFMono-Regular",Consolas,"Liberation Mono",monospace;font-size:.86rem;line-height:1.58;box-shadow:inset 0 0 0 1px rgba(255,255,255,.08)}
+    .output-actions{display:flex;align-items:center;justify-content:space-between;gap:12px}.charcount{color:var(--muted);font-size:.77rem}.copy{min-width:150px;border:0;background:var(--nw-green);color:#fff}.copy.done{background:var(--nw-aqua);color:var(--nw-petrol)}
+    .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+    @media(max-width:980px){.workspace{grid-template-columns:1fr}.intro{align-items:flex-start;flex-direction:column}.source{white-space:normal}#prompt{min-height:430px}}
+    @media(max-width:620px){.topbar-inner,main{padding-left:15px;padding-right:15px}.topbar-inner{align-items:flex-start;flex-direction:column}.intro{margin-top:4px}.grid2{grid-template-columns:1fr}.tool-head,form,.output{padding-left:15px;padding-right:15px}.output-actions{align-items:stretch;flex-direction:column}.copy{width:100%}}
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="../../index.html"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span>Netzwerk Zukunftsschulen</a>
+      <a class="back" href="../index.html">← Zur Jahresübersicht 2026/2027</a>
+    </div>
+  </header>
+  <main>
+    <section class="intro">
+      <div><div class="nw-kicker">KI-Werkzeug · Kompetenzraster</div><h1>Prompt-Werkstatt</h1><p class="lead">Lege die Eckdaten fest. Die Werkstatt erstellt einen Prompt, der aktuelle Kernlehrpläne für die Gesamtschule in NRW als verbindliche Grundlage einfordert.</p></div>
+      <a class="source" href="https://www.schulentwicklung.nrw.de/lehrplaene/" target="_blank" rel="noreferrer">Offizielle Lehrpläne NRW ↗</a>
+    </section>
+    <div class="workspace">
+      <section class="tool-card" aria-labelledby="input-title">
+        <div class="tool-head"><h2 id="input-title">Eckdaten des Rasters</h2><span class="step">1</span></div>
+        <form id="builder">
+          <div class="grid2">
+            <div><label for="subject">Fach</label><select id="subject"><option>Deutsch</option><option>Mathematik</option><option>Englisch</option><option>Technik</option><option>Arbeitslehre</option><option>Gesellschaftslehre</option><option>Naturwissenschaften</option><option>Biologie</option><option>Chemie</option><option>Physik</option><option>Informatik</option><option>Kunst</option><option>Musik</option><option>Sport</option><option>Religion</option><option>Praktische Philosophie</option><option value="other">Anderes Fach …</option></select><input id="subjectOther" hidden aria-label="Anderes Fach" placeholder="Fach eingeben" style="margin-top:8px"></div>
+            <div><label for="grade">Jahrgang</label><select id="grade"><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option><option>10</option></select></div>
+          </div>
+          <div><label for="topic">Unterrichtsvorhaben oder Thema</label><input id="topic" required value="In Briefen Wünsche äußern" placeholder="z. B. In Briefen Wünsche äußern"><p class="hint">Je genauer das Thema, desto passender werden die Kompetenzen.</p></div>
+          <div><label for="focus">Schwerpunkt oder Produkt <span class="optional">(optional)</span></label><textarea id="focus" placeholder="z. B. Die Lernenden schreiben einen adressatengerechten Wunschbrief."></textarea></div>
+          <div class="grid2">
+            <fieldset><span class="legend">Kategorien</span><div class="counter"><button type="button" data-target="categories" data-delta="-1" aria-label="Eine Kategorie weniger">−</button><input id="categories" type="number" min="2" max="10" value="5"><button type="button" data-target="categories" data-delta="1" aria-label="Eine Kategorie mehr">+</button></div><p class="hint">2 bis 10 Kriterien</p></fieldset>
+            <fieldset><span class="legend">Niveaustufen</span><div class="counter"><button type="button" data-target="levelCount" data-delta="-1" aria-label="Eine Niveaustufe weniger">−</button><input id="levelCount" type="number" min="2" max="5" value="3"><button type="button" data-target="levelCount" data-delta="1" aria-label="Eine Niveaustufe mehr">+</button></div><p class="hint">2 bis 5 Abstufungen</p></fieldset>
+          </div>
+          <fieldset><span class="legend">Niveaustufen benennen</span><div id="levels" class="levels"></div></fieldset>
+          <div class="actions"><button class="primary" type="submit">Prompt aktualisieren</button><button class="secondary" type="button" id="reset">Zurücksetzen</button></div>
+        </form>
+      </section>
+      <section class="tool-card" aria-labelledby="output-title">
+        <div class="tool-head"><h2 id="output-title">Fertiger Prompt</h2><span class="step">2</span></div>
+        <div class="output">
+          <div class="notice"><strong>Lehrplanbezug eingebaut:</strong> Der Prompt fordert Quellenprüfung, konkrete Kompetenzbezüge und eine transparente Kennzeichnung didaktischer Konkretisierungen.</div>
+          <label class="sr-only" for="prompt">Erzeugter Prompt</label><textarea id="prompt" spellcheck="false"></textarea>
+          <div class="output-actions"><span id="charcount" class="charcount"></span><button id="copy" class="copy" type="button">Prompt kopieren</button></div>
+          <div id="status" class="sr-only" role="status" aria-live="polite"></div>
+        </div>
+      </section>
+    </div>
+  </main>
+  <script>
+    const defaults=['Mindeststandard','Regelstandard','Leistungsstandard','Vertiefungsstandard','Exzellenzstandard'];
+    const el=id=>document.getElementById(id);
+    function clamp(input){const n=Math.max(Number(input.min),Math.min(Number(input.max),Number(input.value)||Number(input.min)));input.value=n;return n}
+    function renderLevels(){const count=clamp(el('levelCount'));const previous=[...document.querySelectorAll('.level-name')].map(input=>input.value);el('levels').replaceChildren();for(let i=0;i<count;i++){const row=document.createElement('label');row.className='level-row';const number=document.createElement('span');number.textContent=i+1;const input=document.createElement('input');input.className='level-name';input.setAttribute('aria-label',`Name der Niveaustufe ${i+1}`);input.value=previous[i]||defaults[i]||`Niveau ${i+1}`;row.append(number,input);el('levels').append(row)}}
+    function value(id){return el(id).value.trim()}
+    function makePrompt(){
+      const subject=value('subject')==='other'?(value('subjectOther')||'[Fach ergänzen]'):value('subject');
+      const grade=value('grade');const topic=value('topic')||'[Thema ergänzen]';const focus=value('focus');
+      const categories=clamp(el('categories'));const levels=[...document.querySelectorAll('.level-name')].map((input,i)=>input.value.trim()||`Niveau ${i+1}`);
+      const focusLine=focus?`\n- Geplanter Schwerpunkt / Produkt: ${focus}`:'';
+      const prompt=`Du bist Fachberater:in für kompetenzorientierten Unterricht in Nordrhein-Westfalen. Erstelle ein Kompetenzraster für die Sekundarstufe I der Gesamtschule.\n\nRAHMEN\n- Fach: ${subject}\n- Jahrgangsstufe: ${grade}\n- Unterrichtsvorhaben / Thema: ${topic}${focusLine}\n- Anzahl der Kategorien: genau ${categories}\n- Niveaustufen: genau ${levels.length}\n- Bezeichnungen in aufsteigender Reihenfolge: ${levels.join(' | ')}\n\nVERBINDLICHE LEHRPLANGRUNDLAGE\n1. Recherchiere und nutze den aktuell gültigen offiziellen Kernlehrplan bzw. Lehrplan des Landes NRW für ${subject} in der Gesamtschule, Sekundarstufe I. Nutze vorrangig die offiziellen Angebote des Ministeriums für Schule und Bildung NRW bzw. des Lehrplannavigators NRW.\n2. Prüfe, welche Kompetenzbereiche, konkretisierten Kompetenzerwartungen und Inhaltsfelder zum Thema und zur Jahrgangsstufe passen. Erfinde keine Lehrplanformulierungen. Falls es keinen eigenen Kernlehrplan für diese genaue Fachbezeichnung oder Schulform gibt, benenne transparent, auf welche offizielle und fachlich passende Grundlage du stattdessen zurückgreifst.\n3. Nenne nach dem Raster die verwendete Dokumentfassung und verlinke die offizielle Quelle. Weise knapp darauf hin, wenn die Zuordnung zum Jahrgang nur aus einer Doppeljahrgangsstufe abgeleitet werden kann.\n\nANFORDERUNGEN AN DAS RASTER\n- Bilde genau ${categories} klar voneinander unterscheidbare Kategorien. Leite sie aus dem Lehrplan und dem konkreten Unterrichtsvorhaben ab.\n- Formuliere jede Beschreibung beobachtbar, konkret und überprüfbar. Vermeide unklare Wörter wie „gut“, „angemessen“ oder „sicher“, wenn nicht deutlich wird, woran dies erkennbar ist.\n- Formuliere aus Sicht der Lernenden in einfacher Sprache mit „Du kannst …“.\n- Baue die Niveaustufen kumulativ auf: Jede höhere Stufe schließt die Anforderungen der vorherigen Stufe ein und erweitert sie erkennbar.\n- Halte jede Zelle kurz genug für ein übersichtliches Raster.\n- Ordne jeder Kategorie einen knappen Lehrplanbezug zu. Trenne wörtliche Lehrplanformulierungen klar von didaktischen Konkretisierungen.\n\nAUSGABE\n1. Gib zuerst eine Markdown-Tabelle aus. Spalten: Kategorie | Lehrplanbezug | ${levels.join(' | ')}.\n2. Gib danach unter „Lehrplanprüfung“ stichpunktartig an: offizielles Dokument, Kompetenzbereiche/Inhaltsfelder, genaue Fundstelle soweit verfügbar, offizieller Link und mögliche Unsicherheiten.\n3. Ergänze abschließend höchstens drei kurze Hinweise, falls das Raster für die genannte Jahrgangsstufe oder das Vorhaben noch fachlich geschärft werden sollte.\n\nStelle nur dann eine Rückfrage, wenn eine fachlich belastbare Zuordnung ohne eine weitere Angabe nicht möglich ist. Ansonsten erstelle direkt das Raster.`;
+      el('prompt').value=prompt;el('charcount').textContent=`${prompt.length.toLocaleString('de-DE')} Zeichen`;el('copy').textContent='Prompt kopieren';el('copy').classList.remove('done');
+    }
+    document.querySelectorAll('[data-target]').forEach(button=>button.addEventListener('click',()=>{const input=el(button.dataset.target);input.value=Number(input.value)+Number(button.dataset.delta);clamp(input);if(input.id==='levelCount')renderLevels();makePrompt()}));
+    el('levelCount').addEventListener('change',()=>{renderLevels();makePrompt()});el('categories').addEventListener('change',makePrompt);
+    el('subject').addEventListener('change',()=>{el('subjectOther').hidden=el('subject').value!=='other';if(!el('subjectOther').hidden)el('subjectOther').focus();makePrompt()});
+    el('builder').addEventListener('submit',event=>{event.preventDefault();makePrompt();el('prompt').focus()});el('builder').addEventListener('input',event=>{if(event.target.matches('input,textarea,select'))makePrompt()});
+    el('copy').addEventListener('click',async()=>{try{await navigator.clipboard.writeText(el('prompt').value)}catch{el('prompt').select();document.execCommand('copy')}el('copy').textContent='Kopiert ✓';el('copy').classList.add('done');el('status').textContent='Prompt wurde kopiert.'});
+    el('reset').addEventListener('click',()=>{el('builder').reset();el('subjectOther').hidden=true;renderLevels();makePrompt()});
+    renderLevels();makePrompt();
+  </script>
+</body>
+</html>
