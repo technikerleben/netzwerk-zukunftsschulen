@@ -41,6 +41,7 @@ Ein Entwicklungsprojekt verbindet möglichst:
 - `quellen/metastudie-rubrics.md` – wissenschaftlicher Einstieg
 - `assets/netzwerk-2026.css` – gemeinsame Farb- und Layoutbasis
 - `praesentationen/01-auftakt-kompetenzraster.html` – erste HTML-Präsentation
+- `tools/kompetenzraster-prompt.html` – interaktive Prompt-Werkstatt mit NRW-Lehrplanbezug
 - `index.html` – kompakte Übersicht für Planungsgruppe und Entwicklerteams
 
 ## Arbeitsprinzip
