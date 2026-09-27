@@ -12,6 +12,7 @@ Für die Weiterarbeit wurde ein eigener Bereich angelegt:
 - [Planungsgrundlage](2026-2027/planung.md)
 - [Wissenschaftlicher Einstieg: Meta-Analyse zu Rubrics](2026-2027/quellen/metastudie-rubrics.md)
 - [HTML-Präsentation für die erste Arbeitssitzung](2026-2027/praesentationen/01-auftakt-kompetenzraster.html)
+- [Prompt-Werkstatt für Kompetenzraster](2026-2027/tools/kompetenzraster-prompt.html)
 
 ### Schwerpunkt
 **Kompetenzraster zur Leistungsbewertung und die Verzahnung mit dem Selbstregulierten Lernen und der Nutzung von KI**
