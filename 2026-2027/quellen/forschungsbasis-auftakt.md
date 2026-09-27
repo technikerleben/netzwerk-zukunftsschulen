@@ -4,7 +4,7 @@ Prüfstand: 20.09.2026. 180 Minuten mit fünf groben Blöcken und zentraler Team
 
 ## 1. Kontext: unterschiedliche Lernvoraussetzungen
 
-**IGLU 2021:** In Deutschland erreichten 25 % der Viertklässlerinnen und Viertklässler Kompetenzstufe III nicht. Primärquelle: [IFS/TU Dortmund, Pressemitteilung vom 16.05.2023](https://ifs.ep.tu-dortmund.de/storages/ifs-ep/r/Downloads_allgemein/Pressemeldung_IGLU2021_final.pdf), Seite 1. IGLU/PISA bleiben als Reservefolie und Kontextmaterial erhalten.
+**IGLU 2021:** In Deutschland erreichten 25 % der Viertklässlerinnen und Viertklässler Kompetenzstufe III nicht. Primärquelle: [IFS/TU Dortmund, Pressemitteilung vom 16.05.2023](https://ifs.ep.tu-dortmund.de/storages/ifs-ep/r/Downloads_allgemein/Pressemeldung_IGLU2021_final.pdf), Seite 1. IGLU/PISA dienen hier als zusätzliches Kontextmaterial; die gekürzte Präsentation enthält dazu keine Reservefolien.
 
 **PISA 2025:** Rund 33 % der 15-Jährigen in Deutschland geben an, ihr Lernen oft oder sehr oft zu planen. Primärquelle: [OECD, Ländernotiz Deutschland](https://www.oecd.org/de/publications/pisa-2025-ergebnisse-band-i_eade94cd-de/deutschland_8a1ce578-de.html), Abschnitt „Lerneinstellungen der Schüler*innen“. Dies ist eine Selbstauskunft, kein Test ihrer SRL-Kompetenz.
 
@@ -33,7 +33,7 @@ Prüfstellen: Abstract, RQ1, RQ2 und Diskussion. Die zentrale quantitative Einor
 
 ## Bewusste Kürzungen gegenüber der alten Fassung
 
-- Die Kontextfolien zu IGLU/PISA stehen als Reserve zur Verfügung. Der gemeinsame Einstieg beginnt mit dem Entwicklungsziel.
+- IGLU/PISA werden nur in diesem ergänzenden Quellenpapier erläutert. Der gemeinsame Einstieg beginnt mit dem Entwicklungsziel.
 - Der breite Self-Assessment-Block mit Yan et al. (2022) und Panadero et al. (2017) entfällt im Kerninput. Insbesondere wird aus verschiedenen Meta-Analysen keine Rangfolge von Methoden abgeleitet. Die Selbstbeurteilung bleibt als konkret beschriebene Lernhandlung im Workshop erhalten.
 - Keine Aufsummierung oder Rangfolge der Effektstärken aus unterschiedlichen Studien.
 - Keine Aussage, dass Raster automatisch SRL, faire Noten oder ein bestimmtes Niveau an Selbstständigkeit bewirken.

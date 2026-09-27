@@ -4,7 +4,7 @@
 
 **Kompetenzraster zur Leistungsbewertung und die Verzahnung mit dem Selbstregulierten Lernen und der Nutzung von KI**
 
-Planungsstand: 20.09.2026. Der Nachtrag mit 180 Minuten ersetzt den vorherigen Zeitrahmen von 120 Minuten.
+Planungsstand: 27.09.2026. Treffen: Donnerstag, 19. November 2026, 13–16 Uhr, Heinrich-Böll-Gesamtschule Bochum. Der Nachtrag mit 180 Minuten ersetzt den vorherigen Zeitrahmen von 120 Minuten.
 
 ## Ziel und Anschluss
 
@@ -14,7 +14,7 @@ Der Auftakt schafft eine gemeinsame Grundlage für Kolleg:innen aller drei Schul
 
 Am Ende können die Teilnehmenden:
 
-1. Kompetenzraster, Bewertungsraster, Checkliste, Erwartungshorizont und Lernplan unterscheiden.
+1. Kompetenzraster, analytische Rubric, Checkliste, Leistungsüberprüfung, Leistungsbewertung und Benotung unterscheiden; die Begriffshilfe bietet weitere Abgrenzungen.
 2. Die tragenden Forschungsbefunde und ihre Grenzen in eigenen Worten erklären.
 3. Ein Beispiel vom Kompetenzziel über die Aufgabe und das Raster bis zur Lernbegleitung und Bewertung nachvollziehen.
 4. Einen KI-Entwurf fachlich prüfen, überarbeiten und seine Verwendung planen.
@@ -39,7 +39,7 @@ Die Zeitangaben sind Größenordnungen. Innerhalb der Blöcke entscheidet die Mo
 
 Zwei kurze schulübergreifende Austauschrunden bleiben im Grundlagenblock: Urteile am Text vergleichen und einen Forschungsbefund in eine Planungsentscheidung übersetzen. Weitere Gespräche finden in den Entwicklerteams und im Feedback statt. Bewegung ist freiwillig.
 
-28 Ablauf-Folien und drei Quellen-/Reservefolien. Vor dem ersten Studienbefund erklärt eine kurze Folie Effektstärken an einem erfundenen Zahlenbeispiel. Visible Learning ergänzt die Rubrics-Forschung um passende breite Befunde. Das vollständige Wunschbrief-Raster bleibt auf einer anklickbaren Übersichtsfolie. Auf Inhaltsfolien stehen keine Minutenangaben.
+21 Ablauf-Folien und eine Quellenfolie. Die Forschungsübersicht beginnt mit einer kurzen Erklärung der Effektstärken. Visible Learning ergänzt die Rubrics-Forschung um passende breite Befunde. Das vollständige Wunschbrief-Raster bleibt auf einer anklickbaren Übersichtsfolie. Auf Inhaltsfolien stehen keine Minutenangaben.
 
 ## Was den Auftakt motivierend und zugänglich macht
 
@@ -142,7 +142,7 @@ Start, Pause und Zurücksetzen bleiben verfügbar. Beim Verlassen eines Arbeitsb
 
 ## Willkommensfolie und persönliche Notizen
 
-Datum und Ort sind ausdrücklich Platzhalter. Der QR-Code verweist auf [die Vercel-Präsentation](https://netzwerk-zukunftsschulen.vercel.app/2026-2027/praesentationen/01-auftakt-kompetenzraster.html). Er ist ohne externen QR-Dienst direkt eingebettet. Eigene Notizen lassen sich über die Navigation jederzeit und auf der Abschlussfolie exportieren. Speicherung erfolgt anhand fester Folienkennungen, damit das Einfügen weiterer Folien die Zuordnung nicht verschiebt.
+Datum und Ort entsprechen der Save-the-Date-Ankündigung. Der QR-Code verweist auf [die Vercel-Präsentation](https://netzwerk-zukunftsschulen.vercel.app/2026-2027/praesentationen/01-auftakt-kompetenzraster.html). Er ist ohne externen QR-Dienst direkt eingebettet. Eigene Notizen lassen sich über die Navigation jederzeit und auf der Abschlussfolie exportieren. Speicherung erfolgt anhand fester Folienkennungen, damit das Einfügen weiterer Folien die Zuordnung nicht verschiebt.
 
 
 ### Ergänzung: Fünf Kriterien und Bepunktung als Diskussionsmodell
@@ -150,3 +150,5 @@ Datum und Ort sind ausdrücklich Platzhalter. Der QR-Code verweist auf [die Verc
 Im Wunschbrief-Beispiel werden Wunschbeschreibung und Umsetzungsvorschlag zu einem Kriterium verbunden. Begründung, Adressatenbezug, Briefaufbau und Sprache bleiben eigene Kriterien. Nach der Unterscheidung von Überprüfung, Bewertung und Benotung folgen zwei Folien: Zuordnung von 0–3 Punkten je Kriterium sowie ein kurzer Austausch über Gewichtung, Ausgleich zwischen Kriterien und Alternativen. Die 180 Minuten und die beiden zehnminütigen Pausen bleiben unverändert. Der Austausch liegt innerhalb des ersten groben Zeitblocks.
 
 Die Summe von maximal 15 Rasterpunkten ist eine Arbeitsidee, keine rechtliche Vorgabe. Die Ähnlichkeit zur Oberstufenskala begründet keine automatische Notenumrechnung. 0 setzt hier eine beurteilbare Leistung unterhalb des Mindeststandards voraus; bei fehlender Bewertungsgrundlage wird zunächst keine Summe gebildet. In der Teamphase können die Teams das Modell prüfen, verändern oder eine begründete Alternative wählen.
+
+Notizen zu inzwischen entfernten oder zusammengeführten Folien werden beim Export zusätzlich unter „Notizen zu früheren Folien“ gesichert. Das 15-Punkte-Beispiel setzt fünf gleich gewichtete Kriterien mit je 0–3 Punkten voraus; ein erster Entwurf mit zwei oder drei Kriterien wird nicht auf derselben Summenskala bewertet.
