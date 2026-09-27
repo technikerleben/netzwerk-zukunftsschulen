@@ -4,6 +4,8 @@ KI ist ein fester Bestandteil der Entwicklerarbeit. Die Lehrkräfte bestimmen de
 
 ## Kurzer Promptimpuls vor der Teamarbeit
 
+Die [Prompt-Werkstatt](https://netzwerk-zukunftsschulen.vercel.app/2026-2027/tools/kompetenzraster-prompt.html) führt durch Fach, Jahrgang, Unterrichtsvorhaben, Kriterien und Niveaustufen und erzeugt daraus einen kopierbaren Arbeitsauftrag. Der erzeugte Prompt ist der Startpunkt für die fachliche Prüfung im Team.
+
 Die Moderation zeigt nur den Startprompt zur Rastererstellung und einen Folgeprompt zur Prüfung am Beispiel. Gemeinsam ungefähr 15 Minuten, anschließend rund 60 Minuten Entwicklerarbeit. Lernsteuerung und Bewertung wurden zuvor am Wunschbrief erklärt. Die Schritte unten sind eine Arbeitshilfe für Teams, keine weitere Vortragsfolge.
 
 ## Vorbereitung

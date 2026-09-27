@@ -84,131 +84,38 @@ Jahresweg: Auftakt, erste Erprobung, zwei bis drei schulübergreifende bzw. hybr
 
 ## Moderation je Folie
 
-Keine feste Dauer je Folie. Die Entwicklerarbeit hat Vorrang vor ausführlichen Plenumsberichten.
+Die Präsentation ist auf 22 Folien verdichtet. Die Folien 1–12 bilden den gemeinsamen Input; Folie 13 ist die erste Pause. Nach der Prompt-Werkstatt auf Folie 14 folgen drei Arbeitsfolien mit einem durchlaufenden 60-Minuten-Timer. Folie 18 ist die zweite Pause. Die Folien 19–21 strukturieren Feedback, Erprobungsplanung und Abschluss. Folie 22 enthält Quellen und Vertiefungen für Rückfragen und Export.
 
-### 1. Herzlich willkommen!
+### Input und gemeinsames Beispiel
 
-Datum und Ort vor dem Treffen einsetzen. QR-Code zur Präsentation auf Vercel zeigen. Die Notizfunktion speichert eigene Notizen pro Folie auf dem jeweiligen Gerät.
+1. Willkommen, QR-Code und Notizfunktion
+2. Entwicklungslinie des Netzwerks
+3. Aufgabe „In Briefen Wünsche äußern“
+4. vollständiges Kompetenzraster mit anklickbaren Zellen
+5. drei Ankerbeispiele für eine Begründung
+6. kurzer schulübergreifender Austausch am Text
+7. Überblick zu Kompetenzraster, Checkliste, Überprüfung, Bewertung und Benotung
+8. 15-Punkte-Modell als Diskussionsvorschlag
+9. Grenzen und Alternativen des Punktmodells
+10. Überblick: Raster im SRL-Zyklus
+11. Forschungsstand einschließlich kurzer Erklärung von Effektstärken
+12. Austausch: tragfähige und zu weitgehende Schlussfolgerungen
 
-### 2. Kompetenzraster zur Leistungsbewertung
+### Prompt-Werkstatt und Entwicklung
 
-Den vereinbarten Jahrestitel nennen. Ziel: gemeinsame Arbeitsfähigkeit unabhängig von Einstiegsjahr und Vorerfahrung. Die Sitzung ist der Start eines Entwicklungs- und Erprobungsjahres. Niemand muss bereits ein Raster oder KI-Erfahrung mitbringen.
+13. zehn Minuten Pause mit freiem Austausch
+14. Prompt-Werkstatt öffnen: [Webapp](https://netzwerk-zukunftsschulen.vercel.app/2026-2027/tools/kompetenzraster-prompt.html), Einstellungen zeigen, Prompt erzeugen und fachliche Prüfung erklären
+15. Arbeitsauftrag und Zielprodukt der Rasterwerkstatt
+16. Entwurf an Beispielen prüfen und schärfen
+17. Nutzungs-, SRL- und Bewertungsplan ergänzen
 
-### 3. Die bisherigen Themen kommen zusammen
+### Feedback und Ausblick
 
-Die Netzwerkgeschichte mit den korrekten Schuljahren knapp einordnen: 2023/2024 selbstreguliertes Lernen, 2024/2025 Nutzung von KI, 2025/2026 zeitgemäße Leistungsüberprüfung. Im Abschlussjahr verbinden wir die drei Stränge über Kompetenzraster zur Leistungsbewertung und Lernsteuerung.
-
-### 4. Unser Beispiel: In Briefen Wünsche äußern
-
-Auftrag vorlesen. Zuerst das konkrete Instrument zeigen, noch keine abstrakte Begriffseinführung. Ziel heute: eigene kleine Rasterfassung mit KI und Erprobungsplan.
-
-### 5. Kompetenzraster für den Wunschbrief
-
-Zuerst die gesamte Struktur zeigen. Einen nummerierten Kompetenzbereich horizontal lesen: dieselbe fachliche Dimension, drei unterscheidbare Qualitäten. Bei Bedarf einzelne Zellen anklicken und vergrößern. Die Stufen sind lokale didaktische Bezeichnungen, keine amtlichen Standards oder Noten. Überschneidungen, Gewichtung und curriculare Passung müssen vor einem benoteten Einsatz fachlich geprüft werden.
-
-### 6. Eine Begründung in drei Qualitätsstufen
-
-Die drei konstruierten Textausschnitte sind Ankerbeispiele für genau ein Kriterium, keine vollständigen Briefe. Gemeinsam lesen und Belege zeigen. Eine höhere Stufe braucht die zugehörigen Merkmale. Textlänge oder ein Einwand allein genügt nicht.
-
-### 7. Austausch 1: Unser Urteil am Text
-
-Partnerwechsel möglichst zwischen den Schulen. Beide Personen zeigen einen Textbeleg und sichern eine offene Frage. Bewegung freiwillig, ein Gespräch im Sitzen ist gleichwertig. Keine Plenumsrunde.
-
-### 8. Unser Kompetenzraster ist auch eine Rubric
-
-Begriffe sind nicht überall einheitlich. Keine künstliche Trennlinie ziehen: das aufgabenbezogene Kompetenzraster hier ist eine analytische Bewertungsrubrik. Rubrics-Befunde gelten nicht automatisch für jedes Kompetenzraster. Die lokale Bezeichnung Leistungsstandard ist kein Wirksamkeitsmerkmal.
-
-### 9. Checkliste, Selbsteinschätzung und Rubric
-
-Ein Erwartungshorizont beschreibt erwartete Leistungen und kann eine Rubric enthalten. Ein Lernplan organisiert Aufgaben und Zeiten. Ein Smiley wird nicht allein durch Tabellenform zum Leistungsdeskriptor.
-
-### 10. Überprüfen, bewerten und benoten sind verschiedene Schritte
-
-Am Brief zeigen: Überprüfung = Brief schreiben; Bewertung = Merkmale je Kriterium beurteilen; Benotung = gesondert abgestimmte Übersetzung. Ein Profil kann je Zeile verschiedene Stufen zeigen. Noch nicht belegte Merkmale gesondert festhalten. Hilfen und Überarbeitung vorab klären.
-
-### 11. Selbstreguliertes Lernen umfasst bewusste Steuerung
-
-SRL umfasst Ziele, Strategien, Beobachten und Anpassen sowie motivationale und emotionale Prozesse. Panadero 2017 ist ein Review von sechs Modellen. Wochenplan und Wahlmöglichkeiten allein garantieren keine Selbstregulation. Am Brief erklären: Lernziel Begründung, Strategie Beispiel ergänzen, Wirkung prüfen.
-
-### 12. Dasselbe Raster begleitet Lernen und Bewertung
-
-Am Mindeststandard-Text den nächsten Schritt zum Regelstandard zeigen. Nach Überarbeitung erneut prüfen: Erklärt das Beispiel den Grund? Lernprozessfeedback nicht automatisch in die Fachnote einrechnen. Die lokal gewählten Stufennamen bezeichnen Qualitätsanforderungen, keine Kindergruppen.
-
-### 13. Effektstärken einfach lesen
-
-Das Zahlenbeispiel ist frei erfunden und veranschaulicht einen Gruppenvergleich bei gleicher Streuung. Standardabweichung heißt hier typische Streuung der Werte. Hedges g korrigiert eine kleine Stichprobenverzerrung von d. Konventionen sind keine feste pädagogische Werteskala. Ein Konfidenzintervall zeigt Schätzunsicherheit. Schließt es null ein, ist auch kein Unterschied mit den Daten vereinbar. Ein positiver Wert belegt ohne passendes Studiendesign keine Ursache. Unterschiedliche Designs und Maße nicht direkt gleichsetzen.
-
-### 14. Für Rubrics ist der Leistungsbefund ermutigend
-
-Panadero et al. 2023: 21 Studien mit 54 Effekten zum Leistungsvergleich. g ist eine standardisierte Effektgröße, keine Prozentzahl. SRL: nur fünf Studien, Intervall schließt null ein. Das Wunschbrief-Raster entspricht dem Kriterien-Deskriptoren-Aufbau. Daraus folgt keine garantierte Wirkung in Klasse 5 und kein Nachweis fairer Noten. Austausch folgt ausdrücklich nach dem Forschungsblock.
-
-### 15. Visible Learning: passende Ansatzpunkte
-
-Synthese von Meta-Analysen, keine einzelne neue Interventionsstudie. Verwendet werden ausdrücklich die Angaben „Weighted mean effect size“ im Evidenzfeld: Klarheit 0,85 (3 Meta-Analysen), Feedback 0,50 (10), Selbstregulationsstrategien 0,52 (28). Die darunter stehenden TOTAL/AVERAGE-Zeilen weichen teils ab und werden nicht übernommen. Unterschiedliche Designs, Populationen und teils zusammenhangsbasierte Befunde erlauben keine kausale Rangliste. Werte nicht addieren. 0,4 ist Hatties Orientierungsmarke, keine Signifikanzgrenze und keine verlässliche Umrechnung in Lernmonate. SRL-Strategien auf Leistung (hier 0,52) sind eine andere Frage als Rubrics auf SRL (Panadero: unsicherer Befund). Die rechte Spalte ist unsere didaktische Ableitung, nicht das getestete Interventionsprotokoll.
-
-### 16. Eigenständigkeit braucht passende Unterstützung
-
-Alfieri 2011: zwei Meta-Analysen, insgesamt 164 Studien. Unterschiedliche Vergleichsgruppen, Werte nicht addieren oder als direkten Begleitungseffekt voneinander abziehen. Keine Kompetenzraster-Studie. Ableitung für unser Beispiel: Briefausschnitte gemeinsam prüfen und Überarbeitung anleiten.
-
-### 17. KI-gestützte Rasterentwicklung bleibt eine zu prüfende Praxis
-
-Die hier ausgewählten Quellen belegen nicht die Wirksamkeit des Gesamtpakets KI, Kompetenzraster, Leistungsbewertung und SRL. UNESCO ist Orientierung, keine Effektstudie. KI unterstützt Lehrkräfte beim Entwurf. Es geht nicht um KI-Nutzung durch Kinder.
-
-### 18. Austausch 3: Ein Gedanke für unseren Unterricht
-
-Zu zweit einen Befund und seine Grenze besprechen, daraus einen Planungssatz ableiten. Bewegung freiwillig. Keine zusätzlichen Schulberichte im Plenum.
-
-### 19. Zehn Minuten Pause
-
-Zehn Minuten ohne Arbeitsauftrag. Großen Timer bei Beginn manuell starten. Getränke, Bewegung und freier kollegialer Austausch.
-
-### 20. Prompt 1: Ein passendes Raster entwerfen
-
-Nur den Aufbau eines nutzbaren Prompts demonstrieren: Kontext, Aufgabe, Kriterien, Stufen und Qualitätsanforderungen. Eine vorbereitete Ausgabe kann kurz daneben gezeigt werden. Keine separate Lernsteuerungseinheit oder gemeinsame Übungsrunde nach der Pause. Der Promptimpuls einschließlich Folgeprompt bleibt zusammen ungefähr 15 Minuten. Danach beginnt sofort die eigenständige Teamarbeit.
-
-### 21. Prompt 2: Den Entwurf gezielt verbessern
-
-Den Folgeprompt und eine mögliche Änderung zeigen. Die schwache Formulierung ist ein didaktisches Beispiel, keine behauptete reale KI-Ausgabe. Original und Überarbeitung sichern. Bei technischer Störung vorbereitete, mit Werkzeug und Datum gekennzeichnete Ausgabe verwenden. Keine Registrierung während der Veranstaltung. Die praktische Prüfung erfolgt anschließend in den Teams.
-
-### 22. Rasterwerkstatt: Euer Vorhaben im Mittelpunkt
-
-Etwa 60 Minuten zusammenhängende Teamarbeit bilden den Schwerpunkt. Die drei Arbeitsfolien strukturieren den Prozess, ohne verpflichtende Teilzeiten. Teams arbeiten im eigenen Tempo; Rollen nach dem ersten Entwurf wechseln. Ein nutzbarer KI-Zugang je Team reicht. Moderation berät an den Tischen und unterbricht nicht durch weitere Inputs. Schulübergreifende Teams dort, wo Aufgabe und Erprobungsmöglichkeit passen.
-
-### 23. Entwerfen, am Beispiel prüfen und schärfen
-
-Alle beteiligen sich an der inhaltlichen Prüfung. Zuerst eine belastbare Zeile entwickeln, danach erweitern. Personenbezogene Daten nicht in das KI-Werkzeug eingeben. Bei Ausfall vorbereitete Ausgabe prüfen und eigene Generierung vor der Erprobung nachholen. Keine automatische Notenvergabe.
-
-### 24. Der Entwurf erhält einen Nutzungs- und Bewertungsplan
-
-Mindestens einen vollständigen Lernzyklus planen. Bei einem offenen Prüfungsformat zusätzlich klären, wie individuelle Beiträge sichtbar werden und Formate dieselben Kriterien abbilden. Notenumrechnung, Gewichtung und Fachkonferenzabsprachen bei Bedarf als Aufgaben vor dem summativen Einsatz festhalten. Der KI-Entwurf bleibt Version 0.1, bis fachliche und kollegiale Prüfung erfolgt sind.
-
-### 25. Zehn Minuten Pause
-
-Zehn Minuten ohne Arbeitsauftrag. Großen Timer bei Beginn manuell starten. Getränke, Bewegung und freier kollegialer Austausch.
-
-### 26. Ein anderes Schulteam prüft euren Entwurf
-
-Partnerteams vorab schulübergreifend zuordnen. Gegenseitig eine Zeile an einer Beispielantwort prüfen. Redezeit gleich verteilen, eine konkrete Änderungsidee schriftlich sichern. Bei ungerader Teamzahl Dreiergruppe bilden. Erfahrene prüfen fachliche Passung, neue Mitglieder Verständlichkeit. Schulbedingungen ausdrücklich benennen.
-
-### 27. Aus Rückmeldung wird ein Erprobungsauftrag
-
-Entwurf überarbeiten und die Erprobung vereinbaren. Drei Beobachtungsperspektiven: Stimmen begründete Urteile zweier Lehrkräfte überein? Können Lernende einen nächsten Schritt ableiten und umsetzen? Welche KI-Vorschläge waren brauchbar, welche mussten korrigiert werden und welcher Aufwand entstand? Anonymisierte Arbeitsproben nutzen. Ohne Vergleichsgruppe kein kausaler Wirksamkeitsnachweis. Ersten Austausch nach vier bis sechs Wochen vorschlagen.
-
-### 28. Drei Schulen gehen mit einem gemeinsamen Vorhaben weiter
-
-Alle sichern schriftlich einen nächsten Schritt und eine offene Frage. Je eine kurze Stimme aus den drei Schulen, dann gemeinsame Verabredung. Keine lange Abschlusspräsentation. Fragenspeicher zuordnen: geklärt, vor der Erprobung offen oder Thema eines späteren Austauschs.
-
-### 29. Die Forschungsbasis unterscheidet Befunde und Orientierung
-
-Vollständige Angaben und Aussagegrenzen im Quellenpapier. Der Input ist eine gezielte Auswahl, kein systematisches Review aller Forschung. Neue Studien können im Jahresverlauf ergänzt werden. Rubrics-Evidenz ist nicht ohne Prüfung auf jedes Kompetenzraster übertragbar.
-
-### 30. Ergänzende Quellen: Effektstärken und Visible Learning
-
-Die aktuellen MetaX-Evidenzfelder verwenden. Die Gesamtmittelwerte in den Detailtabellen nicht mit den gewichteten Kennwerten verwechseln. Keine Rangfolge eigener Methoden oder garantierte Wirkung des KI-Rasters aus den Kennwerten ableiten.
-
-### 31. IGLU und PISA beschreiben den Ausgangspunkt
-
-Reserve für Rückfragen oder einen späteren Termin. IGLU: Leistungstest. Hier ausgewählter PISA-Wert: Selbstauskunft. Unterschiedliche Altersgruppen und Konstrukte. Nicht als Längsschnitt darstellen. Die Reserve gehört nicht zusätzlich in die 180 Minuten. Quellen wurden am 20.09.2026 geprüft.
+18. zehn Minuten Pause
+19. schulübergreifendes Feedback an einer Rasterzeile
+20. Überarbeitung und konkrete Erprobung vereinbaren
+21. kurze Abschlussstimmen aus den drei Schulen; Inhalte und Notizen exportieren
+22. Quellen und digitale Arbeitshilfen
 
 ## Materialien
 
@@ -228,7 +135,7 @@ Technikhinweis: „Meine Notizen“ öffnet ein persönliches Eingabefeld zur ak
 
 ## Ablaufanzeige und Timer
 
-„Ablauf · 180 Min.“ zeigt die fünf groben Blöcke. Beide Pausen haben einen eigenen großen Zehn-Minuten-Timer. Der kleine 60-Minuten-Timer läuft über die drei Entwicklerfolien 21–23 weiter. Feedback, Planung und Ausblick teilen sich einen 30-Minuten-Timer auf Folien 26–28. Die Promptbeispiele erhalten keinen Countdown.
+„Ablauf · 180 Min.“ zeigt die fünf groben Blöcke. Beide Pausen haben einen eigenen großen Zehn-Minuten-Timer. Der kleine 60-Minuten-Timer läuft über die drei Entwicklerfolien 15–17 weiter. Feedback, Planung und Ausblick teilen sich einen 30-Minuten-Timer auf den Folien 19–21. Die Prompt-Werkstatt erhält keinen Countdown.
 
 Start, Pause und Zurücksetzen bleiben verfügbar. Beim Verlassen eines Arbeitsblocks pausiert der Timer. Ein Neuladen setzt alle Timer zurück. Im Druck verschwinden die Bedienfelder.
 
