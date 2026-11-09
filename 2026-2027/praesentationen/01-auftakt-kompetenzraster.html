@@ -630,6 +630,9 @@
       .raster-slide .matrix th:first-child {
         width: 18%;
       }
+      .raster-slide .matrix.raster-6 th:first-child {
+        width: 14%;
+      }
       .raster-slide .matrix td:first-child {
         font-weight: 650;
         background: #f1f7f5;
@@ -1235,6 +1238,21 @@
           font-size: 12pt;
         }
       }
+      @media screen {
+        .raster-slide .matrix.raster-6 th,
+        .raster-slide .matrix.raster-6 td {
+          font-size: clamp(10.5px, min(1vw, 1.55vh), 16px);
+          line-height: 1.18;
+          padding: 5px 8px;
+        }
+      }
+      @media screen and (max-height: 820px) {
+        .scoring-slide .score-key td,
+        .scoring-slide .score-key th {
+          padding-top: 5px;
+          padding-bottom: 5px;
+        }
+      }
     </style>
   </head>
   <body>
@@ -1312,20 +1330,22 @@
       >
         <p class="phase">Beispiel</p>
         <h2>Unser Beispiel: In Briefen Wünsche äußern</h2>
-        <p class="lead">Deutsch · Klasse 5</p>
+        <p class="lead">Deutsch · Klasse 5 · Klassenarbeit, 45 Minuten</p>
         <blockquote>
-          Unsere Schule soll schöner werden. Schreibe einen Brief an die
-          Schulleitung. Beschreibe einen Wunsch für die Gestaltung des
-          Schulhofs. Begründe deinen Wunsch und erkläre, wie er umgesetzt werden
-          könnte.
+          Schulleiterin Frau Schneider sammelt Wünsche für Schulhof B. Schreibe
+          ihr einen Brief und wünsche dir eine Ausleihe von Spielgeräten für die
+          Pausen. Nenne mindestens einen passenden Grund. Freiwillig kannst du
+          ein Ergebnis aus einer Beispielumfrage einbauen.
         </blockquote>
         <p class="take">
           Wir betrachten die Qualität des Briefes anhand beschriebener
           Kriterien.
         </p>
         <aside class="speaker-note">
-          Auftrag vorlesen. Zuerst das konkrete Instrument zeigen, noch keine
-          abstrakte Begriffseinführung. Ziel heute: eigene kleine Rasterfassung
+          Auftrag vorlesen. So wurde die Klassenarbeit in der 5.3 tatsächlich
+          gestellt; ein zweiter Termin nutzte dasselbe Format mit anderem
+          Adressaten und Wunsch. Zuerst das konkrete Instrument zeigen, noch
+          keine abstrakte Begriffseinführung. Ziel heute: eigene kleine Rasterfassung
           mit KI und Erprobungsplan.
         </aside>
       </section>
@@ -1341,110 +1361,77 @@
           auswählen, um sie groß zu lesen.
         </p>
         <div class="matrix-wrap">
-          <table class="matrix interactive-matrix">
+          <table class="matrix interactive-matrix raster-6">
             <thead>
               <tr>
                 <th>Kompetenzbereich</th>
-                <th>Mindeststandard</th>
-                <th>Regelstandard</th>
-                <th>Leistungsstandard</th>
+                <th>In Ansätzen · 1 P.</th>
+                <th>Mindeststandard · 2 P.</th>
+                <th>Regelstandard · 3 P.</th>
+                <th>Leistungsstandard · 4 P.</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td>
-                  <em>1. Einen Wunsch und seine Umsetzung beschreiben</em>
-                </td>
-                <td>
-                  Ich nenne einen konkreten Wunsch und eine einfache Idee zur
-                  Umsetzung.
-                </td>
-                <td>
-                  Ich beschreibe meinen Wunsch genau und erkläre, was für die
-                  Umsetzung gebraucht wird oder wer helfen könnte.
-                </td>
-                <td>
-                  Ich beschreibe meinen Wunsch anschaulich, schlage einen
-                  realistischen ersten Schritt vor und berücksichtige eine
-                  mögliche Schwierigkeit.
-                </td>
+                <td><em>1. Schreibsituation und Wunsch</em></td>
+                <td>Erste Ansätze eines zur Schreibsituation passenden Wunsches sind erkennbar.</td>
+                <td>Adressat und Wunsch sind erkennbar und passen grundsätzlich zur Schreibsituation.</td>
+                <td>Adressat, Anlass und Wunsch sind klar, passend und verständlich formuliert.</td>
+                <td>Die Schreibsituation wird sehr sicher erfasst; der Wunsch ist präzise und besonders adressatengerecht formuliert.</td>
               </tr>
               <tr>
-                <td><em>2. Den Wunsch begründen</em></td>
-                <td>Ich nenne einen passenden Grund für meinen Wunsch.</td>
-                <td>
-                  Ich erkläre meinen Grund und verdeutliche ihn mit einem
-                  passenden Beispiel.
-                </td>
-                <td>
-                  Ich begründe meinen Wunsch aus unterschiedlichen Blickwinkeln
-                  und greife einen möglichen Einwand auf.
-                </td>
+                <td><em>2. Briefaufbau</em></td>
+                <td>Erste Briefteile sind erkennbar, aber wichtige Bestandteile fehlen noch oder sind ungeordnet.</td>
+                <td>Die Briefform ist erkennbar; die wichtigsten Teile sind vorhanden, auch wenn einzelne Formmerkmale noch unsicher sind.</td>
+                <td>Der Brief ist vollständig und sinnvoll gegliedert; Ort/Datum, Anrede, Text, Grußformel und Name stehen passend.</td>
+                <td>Der Brief ist vollständig, sicher und normgerecht gesetzt; auch freie Zeilen und Anordnung unterstützen die Lesbarkeit.</td>
               </tr>
               <tr>
-                <td><em>3. Adressatengerecht schreiben</em></td>
-                <td>
-                  Ich spreche die Schulleitung passend an und formuliere meinen
-                  Wunsch höflich.
-                </td>
-                <td>
-                  Ich formuliere eine freundliche Bitte und mache deutlich,
-                  warum mein Wunsch für die Schulgemeinschaft sinnvoll ist.
-                </td>
-                <td>
-                  Ich berücksichtige auch die Aufgaben und Möglichkeiten der
-                  Schulleitung und lade zu einer Rückmeldung ein.
-                </td>
+                <td><em>3. Freundliche und passende Sprache</em></td>
+                <td>Erste höfliche Formulierungen sind vorhanden, die Sprache ist jedoch noch nicht durchgehend passend.</td>
+                <td>Der Brief ist insgesamt höflich und respektvoll, auch wenn einzelne Formulierungen noch schlicht oder unsicher sind.</td>
+                <td>Der Brief ist durchgehend freundlich und passend zur Adressatin formuliert.</td>
+                <td>Die Sprache ist besonders sicher, freundlich und adressatengerecht; Bitte und Schluss wirken überzeugend und angemessen.</td>
               </tr>
               <tr>
-                <td><em>4. Den Brief aufbauen</em></td>
-                <td>
-                  Mein Brief enthält Anrede, Brieftext, Grußformel und Namen.
-                </td>
-                <td>
-                  Mein Brief enthält außerdem Ort und Datum. Ich ordne
-                  Einleitung, Wunsch mit Begründung und Schluss sinnvoll und
-                  setze Absätze.
-                </td>
-                <td>
-                  Ich verbinde die Abschnitte so, dass mein Gedankengang leicht
-                  nachvollziehbar ist. Mein Schluss greift mein Anliegen passend
-                  auf.
-                </td>
+                <td><em>4. Begründung</em></td>
+                <td>Erste Ansätze einer Begründung sind vorhanden, der passende Grund bleibt aber noch unklar.</td>
+                <td>Mindestens ein passender Grund ist erkennbar und erklärt grundsätzlich, warum der Wunsch sinnvoll ist.</td>
+                <td>Der Grund ist nachvollziehbar ausgeführt und klar mit dem Wunsch verbunden.</td>
+                <td>Die Begründung ist besonders überzeugend, genauer ausgeführt oder verbindet mehrere passende Gedanken sinnvoll miteinander.</td>
               </tr>
               <tr>
-                <td>
-                  <em>5. Verständlich und sprachlich richtig schreiben</em>
-                </td>
-                <td>
-                  Meine Sätze sind überwiegend verständlich. Satzanfänge und
-                  Satzenden sind meist erkennbar.
-                </td>
-                <td>
-                  Ich formuliere vollständige, zusammenhängende Sätze. Geübte
-                  Regeln zu Rechtschreibung und Zeichensetzung wende ich
-                  überwiegend richtig an.
-                </td>
-                <td>
-                  Ich formuliere präzise und abwechslungsreich. Rechtschreibung
-                  und Zeichensetzung sind weitgehend sicher.
-                </td>
+                <td><em>5. Sätze, Rechtschreibung und Zeichensetzung</em></td>
+                <td>Erste verständliche Satzteile sind erkennbar; vollständige Sätze und sprachliche Richtigkeit gelingen noch nicht sicher.</td>
+                <td>Der Text ist insgesamt verständlich; Fehler kommen vor, verhindern das Verstehen aber nicht.</td>
+                <td>Die Sätze sind überwiegend vollständig und sprachlich sicher; Fehler stören das Lesen kaum.</td>
+                <td>Der Text ist sprachlich sehr sicher; Satzbau, Rechtschreibung und Zeichensetzung gelingen fast durchgehend.</td>
+              </tr>
+              <tr>
+                <td><em>6. Lesbarkeit und Gliederung</em></td>
+                <td>Erste Textteile sind lesbar, die Gliederung oder Entzifferbarkeit ist noch oft schwierig.</td>
+                <td>Der Text ist überwiegend lesbar; die wichtigsten Briefteile sind optisch erkennbar.</td>
+                <td>Der Brief ist gut lesbar und übersichtlich gegliedert; Abstände und Zeilenführung unterstützen das Lesen.</td>
+                <td>Der Brief ist sehr klar, sicher und übersichtlich gestaltet; die Gliederung unterstützt den Inhalt besonders gut.</td>
               </tr>
             </tbody>
           </table>
         </div>
         <p class="cite">
-          Didaktischer Entwurf. Die Stufen sind keine Noten. Höhere Stufen
-          schließen grundlegende Anforderungen ein.
+          Raster der Klassenarbeit Deutsch 5.3 (Oktober 2026). Nicht vorhanden
+          = 0 Punkte. Höhere Stufen schließen grundlegende Anforderungen ein.
+          Die Stufen beschreiben Qualität, erst die Punktzuordnung führt zur
+          Note.
         </p>
         <aside class="speaker-note">
           Zuerst die gesamte Struktur zeigen. Einen nummerierten
-          Kompetenzbereich horizontal lesen: dieselbe fachliche Dimension, drei
-          unterscheidbare Qualitäten. Bei Bedarf einzelne Zellen anklicken und
-          vergrößern. Die Stufen sind lokale didaktische Bezeichnungen, keine
-          amtlichen Standards oder Noten. Überschneidungen, Gewichtung und
-          curriculare Passung müssen vor einem benoteten Einsatz fachlich
-          geprüft werden.
+          Kompetenzbereich horizontal lesen: dieselbe fachliche Dimension, vier
+          unterscheidbare Qualitäten. Die drei Standards stammen aus der
+          Reihenplanung. Die Stufe „In Ansätzen“ wurde für die Klassenarbeit
+          ergänzt, damit erste erkennbare Leistungen gewürdigt werden und die
+          Punkte zum Leistungsbewertungskonzept passen. Bei Bedarf einzelne
+          Zellen anklicken und vergrößern. Die Stufen sind lokale didaktische
+          Bezeichnungen, keine amtlichen Standards.
         </aside>
       </section>
       <section
@@ -1458,25 +1445,25 @@
           <div>
             <h3>Mindeststandard</h3>
             <p>
-              Ich wünsche mir eine Sitzbank, weil wir in der Pause einen Platz
-              zum Ausruhen brauchen.
+              Ich wünsche mir eine Ausleihe von Spielgeräten, weil uns in der
+              Pause oft langweilig ist.
             </p>
           </div>
           <div>
             <h3>Regelstandard</h3>
             <p>
-              Ich wünsche mir eine Sitzbank, weil wir nach dem Spielen einen
-              Platz zum Ausruhen brauchen. Bisher müssen wir dafür auf dem Boden
-              sitzen.
+              Ich wünsche mir eine Ausleihe von Spielgeräten. Auf Schulhof B
+              gibt es bisher nichts zum Spielen. Mit Bällen und Springseilen
+              könnten wir uns in der Pause richtig bewegen.
             </p>
           </div>
           <div>
             <h3>Leistungsstandard</h3>
             <p>
-              Eine Sitzbank würde uns nach dem Spielen beim Ausruhen helfen.
-              Außerdem könnten dort Kinder zusammensitzen, die gerade nicht
-              mitspielen möchten. Eine neue Bank kostet Geld. Vielleicht könnte
-              der Förderverein helfen.
+              Mit einer Ausleihe könnten wir uns in der Pause bewegen und danach
+              im Unterricht besser aufpassen. Außerdem spielen dann Kinder
+              zusammen, die sich sonst kaum kennen. Unsere Klasse würde die
+              Ausleihe gern organisieren.
             </p>
           </div>
         </div>
@@ -1587,74 +1574,82 @@
         data-note-key="bewertungsmodell-funf-kriterien"
         class="slide scoring-slide"
       >
-        <p class="phase">Diskussionsvorschlag · Leistungsbewertung</p>
-        <h2>Fünf Kriterien, bis zu 15 Punkte</h2>
+        <p class="phase">Praxisbeispiel · Leistungsbewertung</p>
+        <h2>Sechs Bereiche, bis zu 24 Punkte</h2>
         <div class="cols">
           <div>
             <table class="score-key">
               <thead>
                 <tr>
-                  <th>Erreichte Stufe je Kriterium</th>
+                  <th>Erreichte Stufe je Bereich</th>
                   <th>Punkte</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td>Beurteilbare Leistung unter Mindeststandard</td>
+                  <td>Nicht vorhanden</td>
                   <td>0</td>
                 </tr>
                 <tr>
-                  <td>Mindeststandard</td>
+                  <td>In Ansätzen</td>
                   <td>1</td>
                 </tr>
                 <tr>
-                  <td>Regelstandard</td>
+                  <td>Mindeststandard</td>
                   <td>2</td>
                 </tr>
                 <tr>
-                  <td>Leistungsstandard</td>
+                  <td>Regelstandard</td>
                   <td>3</td>
+                </tr>
+                <tr>
+                  <td>Leistungsstandard</td>
+                  <td>4</td>
                 </tr>
               </tbody>
             </table>
             <p class="cite">
-              Je Kriterium zählt die höchste vollständig belegte Stufe einmal.
-              Die Punkte der Stufen werden nicht addiert. Fehlt die
-              Bewertungsgrundlage: „nicht beurteilbar“, noch keine Summe.
+              Je Bereich zählt die höchste vollständig belegte Stufe einmal.
+              Fehlt die Bewertungsgrundlage: „nicht beurteilbar“, noch keine
+              Summe.
             </p>
           </div>
           <div>
-            <p>Fünf gleich gewichtete Kriterien:</p>
+            <p>Sechs gleich gewichtete Bereiche:</p>
             <p>
               <b
-                >überall Mindeststandard = 5 Punkte<br />überall Regelstandard =
-                10 Punkte<br />überall Leistungsstandard = 15 Punkte</b
+                >überall Mindeststandard = 12 Punkte (50 %)<br />überall
+                Regelstandard = 18 Punkte (75 %)<br />überall
+                Leistungsstandard = 24 Punkte (100 %)</b
               >
             </p>
             <p>
               Ein gemischtes Profil:<br /><b
-                >2 + 3 + 1 + 2 + 2 = 10 von 15 Punkten</b
+                >3 + 4 + 2 + 3 + 3 + 3 = 18 von 24 Punkten</b
               >
             </p>
             <p class="cite">
-              Reihenfolge wie im Wunschbrief-Raster. Die Rückmeldung zu jeder
-              Zeile bleibt erhalten.
+              Reihenfolge wie im Raster. Freiwillig: bis zu 2 Bonuspunkte für
+              ein passend genutztes Umfrageergebnis; die Bewertungsbasis bleibt
+              24 Punkte.
             </p>
           </div>
         </div>
         <p class="take">
-          Arbeitsidee zur Diskussion: keine rechtliche Vorgabe und kein
-          beschlossener Notenschlüssel.
+          Die Note ergibt sich aus dem Prozentschlüssel der Fachschaft:
+          Mindeststandard in allen Bereichen bedeutet „ausreichend“.
         </p>
         <aside class="speaker-note">
-          Das Lernraster beschreibt Qualität. Erst die zusätzliche
-          Zuordnungsregel macht daraus dieses Bepunktungsmodell. Anhand eines
-          vollständigen Briefs pro Zeile eine Stufe durch Textbelege begründen.
-          0 gilt hier bei einer beurteilbaren Leistung unterhalb des
-          Mindeststandards. Fehlt die Bewertungsgrundlage, zunächst „nicht
-          beurteilbar“ erfassen und keine Gesamtsumme bilden. Fehlende Abgabe
-          oder Erkrankung sind nicht automatisch 0. Die drei Niveaustufen selbst
-          bleiben unverändert.
+          So wurde die Klassenarbeit in der 5.3 tatsächlich ausgewertet. Das
+          Raster beschreibt Qualität. Erst die Zuordnungsregel macht daraus
+          Punkte. Pro Bereich eine Stufe durch Textbelege begründen. 0 gilt nur,
+          wenn im Text nichts davon erkennbar ist. Fehlt die
+          Bewertungsgrundlage, zunächst „nicht beurteilbar“ erfassen und keine
+          Gesamtsumme bilden. Fehlende Abgabe oder Erkrankung sind nicht
+          automatisch 0. Die Bonuspunkte erhöhen die erreichte Punktzahl, nicht
+          die Bewertungsbasis. Mindeststandard in fünf von sechs Bereichen
+          diente als pädagogische Orientierung, nicht als zweite
+          Notenbedingung.
         </aside>
       </section>
       <section
@@ -1666,43 +1661,38 @@
         <h2>Was trägt das Punktmodell?</h2>
         <p class="lead">
           Gleiche Summe, unterschiedliches Lernprofil:<br /><b
-            >2 + 2 + 2 + 2 + 2 = 10</b
-          ><br /><b>3 + 3 + 3 + 1 + 0 = 10</b>
+            >3 + 3 + 3 + 3 + 3 + 3 = 18</b
+          ><br /><b>4 + 4 + 4 + 4 + 1 + 1 = 18</b>
         </p>
         <ul>
-          <li>Sollen alle fünf Kriterien gleich viel zählen?</li>
+          <li>Sollen alle sechs Bereiche gleich viel zählen?</li>
           <li>
-            Dürfen starke Bereiche einen nicht erreichten Mindeststandard
+            Dürfen starke Bereiche einen nur in Ansätzen erreichten Bereich
             ausgleichen?
           </li>
           <li>
-            Welche Alternative wäre überzeugender: Gewichtung,
-            Mindestbedingungen oder ein Profil ohne Gesamtsumme?
+            Regelstandard überall ergibt 75 % und damit „gut“. Passt das zu
+            eurem Leistungsbewertungskonzept?
           </li>
         </ul>
         <p class="take">
-          Die Skala erinnert an 0–15 Notenpunkte der Oberstufe. Unsere
-          Rasterpunkte sind zunächst Aufgabenpunkte. Eine Übersetzung in Noten
-          muss gesondert begründet werden.
+          Warum 1–4 statt 0–3? Mit 0–3 Punkten läge Mindeststandard überall bei
+          33 % und damit unter der Grenze für „ausreichend“.
         </p>
         <p class="cite">
-          Diskussionsgrundlage, keine rechtliche Vorgabe. Einordnung:
-          <a
-            href="https://bass.schule.nrw/9607.htm"
-            target="_blank"
-            rel="noopener"
-            >APO-GOSt § 16: Notenpunkte in Qualifikationsphase und Abitur</a
-          >.
+          Notenschlüssel der Fachschaft Deutsch, bezogen auf 24 Punkte: 1 ab
+          87 % (21 P.) · 2 ab 73 % (18 P.) · 3 ab 59 % (15 P.) · 4 ab 45 %
+          (11 P.) · 5 ab 18 % (5 P.) · 6 darunter.
         </p>
         <aside class="speaker-note">
           Kurzer Austausch mit einer Person aus einer anderen Schule: Welche
           Stärke und welche Grenze seht ihr? Keine zusätzliche feste Zeitphase.
           Im ersten Block knapp halten und die offenen Fragen in der Teamarbeit
-          aufgreifen. Die numerische Ähnlichkeit ist eine Anregung, keine
-          Gleichsetzung: 10 Rasterpunkte ergeben nicht automatisch die
-          Oberstufennote gut. Auch ein reines Prozentmodell wäre eine gesonderte
-          Bewertungsentscheidung. Für Klasse 5 werden hier keine verbindlichen
-          Noten festgelegt.
+          aufgreifen. Kernidee: Die Stufe „In Ansätzen“ würdigt erste
+          erkennbare Leistungen und verschiebt die Punkte so, dass der
+          Mindeststandard rechnerisch bei „ausreichend“ landet. Die
+          Prozentgrenzen sind Absprachen der HBG-Fachschaft; andere Schulen
+          prüfen sie an ihrem eigenen Leistungsbewertungskonzept.
         </aside>
       </section>
       <section
@@ -2031,8 +2021,8 @@
             Hilfen?
           </li>
           <li>
-            Fünf Kriterien mit je 0–3 Punkten ergeben 0–15 Punkte. Passt das zu
-            unserem Raster oder brauchen wir eine andere Lösung?
+            Wie werden Stufen zu Punkten und Punkte zu Noten? Passt die Zuordnung
+            zum Notenschlüssel eurer Fachschaft?
           </li>
         </ul>
         <aside class="speaker-note">

@@ -95,8 +95,8 @@ Die Präsentation ist auf 22 Folien verdichtet. Die Folien 1–12 bilden den gem
 5. drei Ankerbeispiele für eine Begründung
 6. kurzer schulübergreifender Austausch am Text
 7. Überblick zu Kompetenzraster, Checkliste, Überprüfung, Bewertung und Benotung
-8. 15-Punkte-Modell als Diskussionsvorschlag
-9. Grenzen und Alternativen des Punktmodells
+8. Bepunktung der Klassenarbeit: sechs Bereiche, 0–4 Punkte, 24 Punkte
+9. Grenzen des Punktmodells und Anschluss an den Notenschlüssel
 10. Überblick: Raster im SRL-Zyklus
 11. Forschungsstand einschließlich kurzer Erklärung von Effektstärken
 12. Austausch: tragfähige und zu weitgehende Schlussfolgerungen
@@ -145,10 +145,10 @@ Start, Pause und Zurücksetzen bleiben verfügbar. Beim Verlassen eines Arbeitsb
 Datum und Ort entsprechen der Save-the-Date-Ankündigung. Der QR-Code verweist auf [die Vercel-Präsentation](https://netzwerk-zukunftsschulen.vercel.app/2026-2027/praesentationen/01-auftakt-kompetenzraster.html). Er ist ohne externen QR-Dienst direkt eingebettet. Eigene Notizen lassen sich über die Navigation jederzeit und auf der Abschlussfolie exportieren. Speicherung erfolgt anhand fester Folienkennungen, damit das Einfügen weiterer Folien die Zuordnung nicht verschiebt.
 
 
-### Ergänzung: Fünf Kriterien und Bepunktung als Diskussionsmodell
+### Ergänzung: Sechs Bereiche und Bepunktung wie in Klasse 5 durchgeführt
 
-Im Wunschbrief-Beispiel werden Wunschbeschreibung und Umsetzungsvorschlag zu einem Kriterium verbunden. Begründung, Adressatenbezug, Briefaufbau und Sprache bleiben eigene Kriterien. Nach der Unterscheidung von Überprüfung, Bewertung und Benotung folgen zwei Folien: Zuordnung von 0–3 Punkten je Kriterium sowie ein kurzer Austausch über Gewichtung, Ausgleich zwischen Kriterien und Alternativen. Die 180 Minuten und die beiden zehnminütigen Pausen bleiben unverändert. Der Austausch liegt innerhalb des ersten groben Zeitblocks.
+Das Wunschbrief-Beispiel zeigt Aufgabe, Raster und Bepunktung der tatsächlich geschriebenen Klassenarbeit der 5.3 (Brief an die Schulleiterin, Spielgeräteausleihe für Schulhof B). Bewertet wurden sechs Bereiche: Schreibsituation und Wunsch, Briefaufbau, freundliche Sprache, Begründung, Sätze/Rechtschreibung/Zeichensetzung sowie Lesbarkeit und Gliederung. Nach der Unterscheidung von Überprüfung, Bewertung und Benotung folgen zwei Folien: Zuordnung von 0–4 Punkten je Bereich sowie ein kurzer Austausch über Gewichtung, Ausgleich zwischen Bereichen und den Anschluss an den Notenschlüssel. Die 180 Minuten und die beiden zehnminütigen Pausen bleiben unverändert. Der Austausch liegt innerhalb des ersten groben Zeitblocks.
 
-Die Summe von maximal 15 Rasterpunkten ist eine Arbeitsidee, keine rechtliche Vorgabe. Die Ähnlichkeit zur Oberstufenskala begründet keine automatische Notenumrechnung. 0 setzt hier eine beurteilbare Leistung unterhalb des Mindeststandards voraus; bei fehlender Bewertungsgrundlage wird zunächst keine Summe gebildet. In der Teamphase können die Teams das Modell prüfen, verändern oder eine begründete Alternative wählen.
+Je Bereich: nicht vorhanden 0, in Ansätzen 1, Mindeststandard 2, Regelstandard 3, Leistungsstandard 4 Punkte; maximal 24 Grundpunkte, freiwillig bis zu 2 Bonuspunkte. Die Note folgt dem Prozentschlüssel der Fachschaft Deutsch (ausreichend ab 45 %). Mindeststandard überall ergibt 50 % und damit „ausreichend“; mit 0–3 Punkten je Stufe wären es nur 33 %. Die Stufe „in Ansätzen“ macht das Raster deshalb an das Leistungsbewertungskonzept anschlussfähig. Bei fehlender Bewertungsgrundlage wird zunächst keine Summe gebildet. In der Teamphase prüfen die Teams, wie Stufen in ihrem Fach zu Punkten und Noten werden.
 
-Notizen zu inzwischen entfernten oder zusammengeführten Folien werden beim Export zusätzlich unter „Notizen zu früheren Folien“ gesichert. Das 15-Punkte-Beispiel setzt fünf gleich gewichtete Kriterien mit je 0–3 Punkten voraus; ein erster Entwurf mit zwei oder drei Kriterien wird nicht auf derselben Summenskala bewertet.
+Notizen zu inzwischen entfernten oder zusammengeführten Folien werden beim Export zusätzlich unter „Notizen zu früheren Folien“ gesichert. Das Punktebeispiel setzt sechs gleich gewichtete Bereiche mit je 0–4 Punkten voraus; ein erster Entwurf mit zwei oder drei Kriterien wird nicht auf derselben Summenskala bewertet.
