@@ -1,54 +1,48 @@
 # Kompetenzraster: In Briefen Wünsche äußern
 
-Deutsch · Klasse 5 · didaktischer Arbeitsentwurf
+Deutsch · Klasse 5 · Raster der Klassenarbeit 5.3 (Oktober 2026)
 
 ## Aufgabe
 
-Unsere Schule soll schöner werden. Schreibe einen Brief an die Schulleitung. Beschreibe einen Wunsch für die Gestaltung des Schulhofs. Begründe deinen Wunsch und erkläre, wie er umgesetzt werden könnte.
+Schulleiterin Frau Schneider sammelt Wünsche für Schulhof B. Schreibe ihr einen Brief und wünsche dir eine Ausleihe von Spielgeräten für die Pausen. Nenne mindestens einen passenden Grund. Freiwillig kannst du ein Ergebnis aus einer Beispielumfrage einbauen. Arbeitszeit: 45 Minuten.
 
-## Drei aufeinander aufbauende Niveaustufen
+## Vier Stufen je Bereich
 
-Leistungsstandard bezeichnet hier erweiterte Leistung über dem Regelstandard. Die Bezeichnungen sind lokale didaktische Setzungen, keine amtlichen Bildungsstandards und keine Notenskala. Höhere Stufen schließen grundlegende Anforderungen ein. Fehlende Belege werden gesondert als „noch nicht belegt“ erfasst.
+Mindest-, Regel- und Leistungsstandard stammen aus der Reihenplanung. Für die Klassenarbeit wurde die Stufe „in Ansätzen“ ergänzt, damit erste erkennbare Leistungen gewürdigt werden und die Punkte zum Leistungsbewertungskonzept passen. Leistungsstandard bezeichnet erweiterte Leistung über dem Regelstandard. Die Bezeichnungen sind lokale didaktische Setzungen, keine amtlichen Bildungsstandards. Höhere Stufen schließen grundlegende Anforderungen ein. Ist in einem Bereich nichts erkennbar, gilt „nicht vorhanden“ (0 Punkte); fehlt die Bewertungsgrundlage, wird „nicht beurteilbar“ vermerkt.
 
-| Kompetenzbereich | Mindeststandard | Regelstandard | Leistungsstandard |
-|---|---|---|---|
-| *1. Einen Wunsch und seine Umsetzung beschreiben* | Ich nenne einen konkreten Wunsch und eine einfache Idee zur Umsetzung. | Ich beschreibe meinen Wunsch genau und erkläre, was für die Umsetzung gebraucht wird oder wer helfen könnte. | Ich beschreibe meinen Wunsch anschaulich, schlage einen realistischen ersten Schritt vor und berücksichtige eine mögliche Schwierigkeit. |
-| *2. Den Wunsch begründen* | Ich nenne einen passenden Grund für meinen Wunsch. | Ich erkläre meinen Grund und verdeutliche ihn mit einem passenden Beispiel. | Ich begründe meinen Wunsch aus unterschiedlichen Blickwinkeln und greife einen möglichen Einwand auf. |
-| *3. Adressatengerecht schreiben* | Ich spreche die Schulleitung passend an und formuliere meinen Wunsch höflich. | Ich formuliere eine freundliche Bitte und mache deutlich, warum mein Wunsch für die Schulgemeinschaft sinnvoll ist. | Ich berücksichtige auch die Aufgaben und Möglichkeiten der Schulleitung und lade zu einer Rückmeldung ein. |
-| *4. Den Brief aufbauen* | Mein Brief enthält Anrede, Brieftext, Grußformel und Namen. | Mein Brief enthält außerdem Ort und Datum. Ich ordne Einleitung, Wunsch mit Begründung und Schluss sinnvoll und setze Absätze. | Ich verbinde die Abschnitte so, dass mein Gedankengang leicht nachvollziehbar ist. Mein Schluss greift mein Anliegen passend auf. |
-| *5. Verständlich und sprachlich richtig schreiben* | Meine Sätze sind überwiegend verständlich. Satzanfänge und Satzenden sind meist erkennbar. | Ich formuliere vollständige, zusammenhängende Sätze. Geübte Regeln zu Rechtschreibung und Zeichensetzung wende ich überwiegend richtig an. | Ich formuliere präzise und abwechslungsreich. Rechtschreibung und Zeichensetzung sind weitgehend sicher. |
+| Kompetenzbereich | In Ansätzen (1) | Mindeststandard (2) | Regelstandard (3) | Leistungsstandard (4) |
+|---|---|---|---|---|
+| *1. Schreibsituation und Wunsch* | Erste Ansätze eines zur Schreibsituation passenden Wunsches sind erkennbar. | Adressat und Wunsch sind erkennbar und passen grundsätzlich zur Schreibsituation. | Adressat, Anlass und Wunsch sind klar, passend und verständlich formuliert. | Die Schreibsituation wird sehr sicher erfasst; der Wunsch ist präzise und besonders adressatengerecht formuliert. |
+| *2. Briefaufbau* | Erste Briefteile sind erkennbar, aber wichtige Bestandteile fehlen noch oder sind ungeordnet. | Die Briefform ist erkennbar; die wichtigsten Teile sind vorhanden, auch wenn einzelne Formmerkmale noch unsicher sind. | Der Brief ist vollständig und sinnvoll gegliedert; Ort/Datum, Anrede, Text, Grußformel und Name stehen passend. | Der Brief ist vollständig, sicher und normgerecht gesetzt; auch freie Zeilen und Anordnung unterstützen die Lesbarkeit. |
+| *3. Freundliche und passende Sprache* | Erste höfliche Formulierungen sind vorhanden, die Sprache ist jedoch noch nicht durchgehend passend. | Der Brief ist insgesamt höflich und respektvoll, auch wenn einzelne Formulierungen noch schlicht oder unsicher sind. | Der Brief ist durchgehend freundlich und passend zur Adressatin formuliert. | Die Sprache ist besonders sicher, freundlich und adressatengerecht; Bitte und Schluss wirken überzeugend und angemessen. |
+| *4. Begründung* | Erste Ansätze einer Begründung sind vorhanden, der passende Grund bleibt aber noch unklar. | Mindestens ein passender Grund ist erkennbar und erklärt grundsätzlich, warum der Wunsch sinnvoll ist. | Der Grund ist nachvollziehbar ausgeführt und klar mit dem Wunsch verbunden. | Die Begründung ist besonders überzeugend, genauer ausgeführt oder verbindet mehrere passende Gedanken sinnvoll miteinander. |
+| *5. Sätze, Rechtschreibung und Zeichensetzung* | Erste verständliche Satzteile sind erkennbar; vollständige Sätze und sprachliche Richtigkeit gelingen noch nicht sicher. | Der Text ist insgesamt verständlich; Fehler kommen vor, verhindern das Verstehen aber nicht. | Die Sätze sind überwiegend vollständig und sprachlich sicher; Fehler stören das Lesen kaum. | Der Text ist sprachlich sehr sicher; Satzbau, Rechtschreibung und Zeichensetzung gelingen fast durchgehend. |
+| *6. Lesbarkeit und Gliederung* | Erste Textteile sind lesbar, die Gliederung oder Entzifferbarkeit ist noch oft schwierig. | Der Text ist überwiegend lesbar; die wichtigsten Briefteile sind optisch erkennbar. | Der Brief ist gut lesbar und übersichtlich gegliedert; Abstände und Zeilenführung unterstützen das Lesen. | Der Brief ist sehr klar, sicher und übersichtlich gestaltet; die Gliederung unterstützt den Inhalt besonders gut. |
 
-## Ankerbeispiele: Den Wunsch begründen
+## Ankerbeispiele: Begründung
 
-**Mindeststandard:** Ich wünsche mir eine Sitzbank, weil wir in der Pause einen Platz zum Ausruhen brauchen.
+**Mindeststandard:** Ich wünsche mir eine Ausleihe von Spielgeräten, weil uns in der Pause oft langweilig ist.
 
-**Regelstandard:** Ich wünsche mir eine Sitzbank, weil wir nach dem Spielen einen Platz zum Ausruhen brauchen. Bisher müssen wir dafür auf dem Boden sitzen.
+**Regelstandard:** Ich wünsche mir eine Ausleihe von Spielgeräten. Auf Schulhof B gibt es bisher nichts zum Spielen. Mit Bällen und Springseilen könnten wir uns in der Pause richtig bewegen.
 
-**Leistungsstandard:** Eine Sitzbank würde uns nach dem Spielen beim Ausruhen helfen. Außerdem könnten dort Kinder zusammensitzen, die gerade nicht mitspielen möchten. Eine neue Bank kostet Geld. Vielleicht könnte der Förderverein helfen.
+**Leistungsstandard:** Mit einer Ausleihe könnten wir uns in der Pause bewegen und danach im Unterricht besser aufpassen. Außerdem spielen dann Kinder zusammen, die sich sonst kaum kennen. Unsere Klasse würde die Ausleihe gern organisieren.
 
-Dies sind konstruierte Ausschnitte, keine vollständigen Briefe. Nur das Kriterium Begründung wird daran eingeschätzt. Länge allein entscheidet nicht über die Qualität.
+Dies sind konstruierte Ausschnitte, keine vollständigen Briefe. Nur der Bereich Begründung wird daran eingeschätzt. Länge allein entscheidet nicht über die Qualität.
 
 ## Verwendung
 
-Vor dem Schreiben ein Kriterium als Lernziel wählen. Beim Überarbeiten Textstellen markieren, Rückmeldung erhalten und gezielt verändern. Am vereinbarten Bewertungszeitpunkt jede Zeile am Brief belegen. So entsteht ein Leistungsprofil. Vor benotetem Einsatz Kriterienüberschneidungen, Gewichtung, Hilfen und Notenübersetzung fachlich abstimmen. Sprachrichtigkeit gegebenenfalls für den Unterricht weiter aufgliedern. Das Raster vor Einsatz auf curriculare Passung prüfen.
+Vor dem Schreiben einen Bereich als Lernziel wählen. Beim Überarbeiten Textstellen markieren, Rückmeldung erhalten und gezielt verändern. In der Klassenarbeit jeden Bereich getrennt am Brief belegen. So entsteht ein Leistungsprofil, das zusammen mit der Note zurückgemeldet wird. Für Lernende mit Nachteilsausgleich bei LRS wurde der Bereich Sprache auf vollständige Sätze und Satzschlusszeichen konzentriert.
 
 ## Kompetenzraster und Rubric
 
 Unser aufgabenbezogenes Kompetenzraster ist zugleich eine analytische Bewertungsrubrik: Kriterien mit beschriebenen Qualitätsstufen. Kompetenzraster können darüber hinaus längerfristige Lernentwicklung abbilden. Eine Ich-kann-Liste mit „kann ich / teilweise / noch nicht“ enthält noch keine solchen Qualitätsbeschreibungen. Die Rubrics-Metaanalyse untersucht nicht automatisch jede Form von Kompetenzraster.
 
+## Bepunktung, wie in Klasse 5 durchgeführt
 
-## Diskussionsvorschlag: 0–15 Rasterpunkte
+Sechs gleich gewichtete Bereiche. Pro Bereich zählt die höchste vollständig belegte Stufe einmal: nicht vorhanden = 0, in Ansätzen = 1, Mindeststandard = 2, Regelstandard = 3, Leistungsstandard = 4 Punkte. Fehlt eine Bewertungsgrundlage, „nicht beurteilbar“ vermerken und keine Gesamtsumme bilden.
 
-Diskussionsvorschlag: 0–15 Rasterpunkte
+Überall Mindeststandard: 12 Punkte (50 %). Überall Regelstandard: 18 Punkte (75 %). Überall Leistungsstandard: 24 Punkte. Beispiel in der Reihenfolge der Bereiche: 3 + 4 + 2 + 3 + 3 + 3 = 18 von 24 Punkten. Freiwillig: bis zu 2 Bonuspunkte für ein passend genutztes Umfrageergebnis; die Bewertungsbasis bleibt 24 Punkte. Die Einzelrückmeldungen bleiben erhalten.
 
-Fünf gleich gewichtete Kriterien. Pro Kriterium zählt die höchste vollständig belegte Stufe einmal: Mindeststandard = 1 Punkt, Regelstandard = 2 Punkte, Leistungsstandard = 3 Punkte. Bei einer beurteilbaren Leistung unterhalb des Mindeststandards: 0 Punkte. Fehlt eine Bewertungsgrundlage, „nicht beurteilbar“ vermerken und keine Gesamtsumme bilden.
+Notenschlüssel der Fachschaft Deutsch (HBG), bezogen auf 24 Punkte: 1 ab 87 % (21 P.) · 2 ab 73 % (18 P.) · 3 ab 59 % (15 P.) · 4 ab 45 % (11 P.) · 5 ab 18 % (5 P.) · 6 darunter. Mindeststandard in allen Bereichen bedeutet damit „ausreichend“. Mit einer Zuordnung von 0–3 Punkten je Stufe läge derselbe Brief bei 33 % und damit unter dieser Grenze; deshalb die zusätzliche Stufe „in Ansätzen“.
 
-Überall Mindeststandard: 5 Punkte. Überall Regelstandard: 10 Punkte. Überall Leistungsstandard: 15 Punkte. Beispiel in der Reihenfolge der Kriterien: 2 + 3 + 1 + 2 + 2 = 10 von 15 Punkten. Die Einzelrückmeldungen bleiben erhalten.
-
-Keine rechtliche Vorgabe und kein beschlossener Notenschlüssel. Die gleiche Spannweite wie bei Oberstufen-Notenpunkten begründet keine automatische Notenumrechnung. Bezug: APO-GOSt § 16.
-
-Diskutiert: Sind die Kriterien gleich wichtig? Darf eine Stärke einen nicht erreichten Mindeststandard ausgleichen? Wären Gewichtungen, Mindestbedingungen oder ein Profil ohne Gesamtsumme sinnvoller? Vergleicht dazu 2 + 2 + 2 + 2 + 2 mit 3 + 3 + 3 + 1 + 0.
-
-
-
-Quelle zur Abgrenzung: [APO-GOSt § 16](https://bass.schule.nrw/9607.htm).
+Diskutiert: Sind die Bereiche gleich wichtig? Darf eine Stärke einen nur in Ansätzen erreichten Bereich ausgleichen? Passt „Regelstandard überall = 75 % = gut“ zu eurem Leistungsbewertungskonzept? Vergleicht dazu 3 + 3 + 3 + 3 + 3 + 3 mit 4 + 4 + 4 + 4 + 1 + 1.

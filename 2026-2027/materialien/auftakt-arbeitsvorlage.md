@@ -14,23 +14,23 @@ Eine Erkenntnis aus dem Forschungsüberblick / offene Frage:
 
 ## Gemeinsames Beispiel: Wunschbrief, Deutsch 5
 
-Unsere Schule soll schöner werden. Schreibe einen Brief an die Schulleitung. Beschreibe einen Wunsch für die Gestaltung des Schulhofs. Begründe deinen Wunsch und erkläre, wie er umgesetzt werden könnte.
+Schulleiterin Frau Schneider sammelt Wünsche für Schulhof B. Schreibe ihr einen Brief und wünsche dir eine Ausleihe von Spielgeräten für die Pausen. Nenne mindestens einen passenden Grund. Freiwillig kannst du ein Ergebnis aus einer Beispielumfrage einbauen.
 
-[Vollständiges Raster mit sechs Kriterien](kompetenzraster-wunschbriefe.html)
+[Vollständiges Raster mit sechs Bereichen und Bepunktung](kompetenzraster-wunschbriefe.html)
 
-**Fokus im Austausch: Den Wunsch begründen**
+**Fokus im Austausch: Begründung**
 
-**Mindeststandard**: Ich nenne einen passenden Grund für meinen Wunsch.
+**Mindeststandard**: Mindestens ein passender Grund ist erkennbar und erklärt grundsätzlich, warum der Wunsch sinnvoll ist.
 
-Beispiel: Ich wünsche mir eine Sitzbank, weil wir in der Pause einen Platz zum Ausruhen brauchen.
+Beispiel: Ich wünsche mir eine Ausleihe von Spielgeräten, weil uns in der Pause oft langweilig ist.
 
-**Regelstandard**: Ich erkläre meinen Grund und verdeutliche ihn mit einem passenden Beispiel.
+**Regelstandard**: Der Grund ist nachvollziehbar ausgeführt und klar mit dem Wunsch verbunden.
 
-Beispiel: Ich wünsche mir eine Sitzbank, weil wir nach dem Spielen einen Platz zum Ausruhen brauchen. Bisher müssen wir dafür auf dem Boden sitzen.
+Beispiel: Ich wünsche mir eine Ausleihe von Spielgeräten. Auf Schulhof B gibt es bisher nichts zum Spielen. Mit Bällen und Springseilen könnten wir uns in der Pause richtig bewegen.
 
-**Leistungsstandard**: Ich begründe meinen Wunsch aus unterschiedlichen Blickwinkeln und greife einen möglichen Einwand auf.
+**Leistungsstandard**: Die Begründung ist besonders überzeugend, genauer ausgeführt oder verbindet mehrere passende Gedanken sinnvoll miteinander.
 
-Beispiel: Eine Sitzbank würde uns nach dem Spielen beim Ausruhen helfen. Außerdem könnten dort Kinder zusammensitzen, die gerade nicht mitspielen möchten. Eine neue Bank kostet Geld. Vielleicht könnte der Förderverein helfen.
+Beispiel: Mit einer Ausleihe könnten wir uns in der Pause bewegen und danach im Unterricht besser aufpassen. Außerdem spielen dann Kinder zusammen, die sich sonst kaum kennen. Unsere Klasse würde die Ausleihe gern organisieren.
 
 Welche Textstelle belegt den Regelstandard? Wo bleibt eine Bewertungsfrage?
 

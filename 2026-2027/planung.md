@@ -133,6 +133,7 @@ Fragen:
 - Was wird summativ bewertet?
 - Wie transparent ist die Bewertung?
 - Wie werden Kompetenzstufen in Noten oder andere Rückmeldungen übersetzt?
+  - Praxisbeispiel Wunschbrief, Deutsch 5: sechs Bereiche mit je 0–4 Punkten (0 nicht vorhanden, 1 in Ansätzen, 2 Mindest-, 3 Regel-, 4 Leistungsstandard), 24 Grundpunkte, Note über den Prozentschlüssel der Fachschaft. Mindeststandard überall = 50 % = ausreichend.
 
 ---
 
