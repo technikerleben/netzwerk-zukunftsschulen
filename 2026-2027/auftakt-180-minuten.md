@@ -104,7 +104,7 @@ Die Präsentation ist auf 22 Folien verdichtet. Die Folien 1–12 bilden den gem
 ### Prompt-Werkstatt und Entwicklung
 
 13. zehn Minuten Pause mit freiem Austausch
-14. Prompt-Werkstatt öffnen: [Webapp](https://netzwerk-zukunftsschulen.vercel.app/2026-2027/tools/kompetenzraster-prompt.html), Einstellungen zeigen, Prompt erzeugen und fachliche Prüfung erklären
+14. Prompt-Werkstatt öffnen: [Webapp](https://netzwerk-zukunftsschulen.vercel.app/2026-2027/tools/kompetenzraster-prompt.html), Einstellungen zeigen (auch „In Ansätzen“ und „Bepunktung ergänzen“), Prompt erzeugen und fachliche Prüfung erklären
 15. Arbeitsauftrag und Zielprodukt der Rasterwerkstatt
 16. Entwurf an Beispielen prüfen und schärfen
 17. Nutzungs-, SRL- und Bewertungsplan ergänzen

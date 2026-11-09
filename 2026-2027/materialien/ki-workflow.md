@@ -4,7 +4,7 @@ KI ist ein fester Bestandteil der Entwicklerarbeit. Die Lehrkräfte bestimmen de
 
 ## Kurzer Promptimpuls vor der Teamarbeit
 
-Die [Prompt-Werkstatt](https://netzwerk-zukunftsschulen.vercel.app/2026-2027/tools/kompetenzraster-prompt.html) führt durch Fach, Jahrgang, Unterrichtsvorhaben, Kriterien und Niveaustufen und erzeugt daraus einen kopierbaren Arbeitsauftrag. Der erzeugte Prompt ist der Startpunkt für die fachliche Prüfung im Team.
+Die [Prompt-Werkstatt](https://netzwerk-zukunftsschulen.vercel.app/2026-2027/tools/kompetenzraster-prompt.html) führt durch Fach, Jahrgang, Unterrichtsvorhaben, Kriterien und Niveaustufen und erzeugt daraus einen kopierbaren Arbeitsauftrag. Optional lassen sich die Stufe „In Ansätzen“ und eine Bepunktung je Stufe ergänzen; mit dem Notenschlüssel der Fachschaft prüft die KI dann, welche Note bei durchgängigem Mindeststandard entstünde. Der erzeugte Prompt ist der Startpunkt für die fachliche Prüfung im Team.
 
 Die Moderation zeigt nur den Startprompt zur Rastererstellung und einen Folgeprompt zur Prüfung am Beispiel. Gemeinsam ungefähr 15 Minuten, anschließend rund 60 Minuten Entwicklerarbeit. Lernsteuerung und Bewertung wurden zuvor am Wunschbrief erklärt. Die Schritte unten sind eine Arbeitshilfe für Teams, keine weitere Vortragsfolge.
 
@@ -39,9 +39,9 @@ Erfinde keine Lehrplanbezüge, Quellen oder Notenschlüssel.
 Berücksichtige auch den Fall „noch nicht belegt“.
 ```
 
-Im gemeinsamen Beispiel heißen die Stufen Mindeststandard, Regelstandard und Leistungsstandard (erweiterte Leistung). Sie sind keine Noten oder amtlich gesetzten Standards. [Vollständiges Beispiel](kompetenzraster-wunschbriefe.md).
+Im gemeinsamen Beispiel heißen die Stufen Mindeststandard, Regelstandard und Leistungsstandard (erweiterte Leistung). Für die Klassenarbeit kam darunter die Stufe „In Ansätzen“ hinzu; mit 1–4 Punkten je Stufe entspricht durchgängiger Mindeststandard 50 % und damit „ausreichend“. Die Stufen sind keine Noten oder amtlich gesetzten Standards. [Vollständiges Beispiel](kompetenzraster-wunschbriefe.md).
 
-Drei Stufen sind eine überschaubare Startvereinbarung für die Sitzung, kein wissenschaftlich ermitteltes Optimum.
+Drei Stufen sind eine überschaubare Startvereinbarung für die Sitzung, kein wissenschaftlich ermitteltes Optimum. Wer das Raster später bepunkten will, prüft früh, ob eine Stufe „In Ansätzen“ nötig ist.
 
 ## Schritt 3: Entwurf am Beispiel prüfen
 
