@@ -18,7 +18,7 @@ Schulleiterin Frau Schneider sammelt Wünsche für Schulhof B. Schreibe ihr eine
 
 [Vollständiges Raster mit sechs Bereichen und Bepunktung](kompetenzraster-wunschbriefe.html)
 
-**Fokus im Austausch: Begründung**
+**Fokus: Begründung**
 
 **Mindeststandard**: Mindestens ein passender Grund ist erkennbar und erklärt grundsätzlich, warum der Wunsch sinnvoll ist.
 
@@ -36,13 +36,15 @@ Welche Textstelle belegt den Regelstandard? Wo bleibt eine Bewertungsfrage?
 
 Nächster Lernschritt und spätere Nutzung zur Bewertung:
 
-## Kollegiale Austauschrunden
+## Kollegialer Austausch
 
-Urteil am Text · Forschungsbefund übertragen. Ohne feste Zeitfenster im Grundlagenblock. Eine Rasterzeile schärfen wir anschließend im Entwicklerteam. Jeweils Partnerwechsel möglichst schulübergreifend, Bewegung freiwillig. Eine Erkenntnis pro Gespräch notieren.
+Forschungsbefund übertragen. Ohne feste Zeitfenster im Grundlagenblock. Eine Rasterzeile schärfen wir anschließend im Entwicklerteam. Jeweils Partnerwechsel möglichst schulübergreifend, Bewegung freiwillig. Eine Erkenntnis pro Gespräch notieren.
 
 ## Entwicklerteam
 
 Schwerpunkt des Treffens: rund 60 Minuten zusammenhängende Werkstatt nach den Promptbeispielen. Ziel: erster Entwurf, gründlich geprüfte Zeile und Nutzungsplan.
+
+> Unser Stufenmodell (vier Niveaustufen, 0–4 Punkte) ist ein Vorschlag. Andere Modelle, etwa drei Stufen, Raster ohne Punkte oder eine andere Bewertungslogik, könnt ihr ebenso entwickeln, diskutieren und erproben.
 
 Team / Schule(n) / Rollen:
 
