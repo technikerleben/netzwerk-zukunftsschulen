@@ -1494,6 +1494,23 @@
         background: #ffffffc0;
         font-size: clamp(17px, 1.45vw, 22px);
       }
+      .meeting-date {
+        display: block;
+        width: fit-content;
+        align-self: flex-start;
+        margin: 4px 0 14px;
+        padding: 12px 22px;
+        border-radius: 6px;
+        background: #214b49;
+        color: #fff;
+        font-size: clamp(22px, 2.2vw, 34px);
+      }
+      .meeting-date span {
+        opacity: 0.8;
+      }
+      .meeting-flow b {
+        color: #214b49;
+      }
     </style>
   </head>
   <body>
@@ -2253,6 +2270,46 @@
       </section>
       <section
         id="folie-17"
+        data-note-key="naechster-termin-zwischentreffen"
+        class="slide next-meeting"
+      >
+        <p class="phase">Ausblick</p>
+        <h2>Unser nächstes Treffen</h2>
+        <p class="meeting-date">
+          <!-- TODO: Termin eintragen -->
+          <span>Termin:</span> <b>TT.MM.2027 · __:__–__:__ Uhr</b>
+        </p>
+        <p class="lead">
+          Zwischentreffen in den jeweiligen Schulen, gerahmt von einer
+          gemeinsamen Videokonferenz.
+        </p>
+        <ol class="meeting-flow">
+          <li>
+            <b>Gemeinsamer Start per Videokonferenz:</b> Ankommen, Stand der
+            Erprobungen, Arbeitsauftrag
+          </li>
+          <li>
+            <b>Arbeit vor Ort in den Schulteams:</b> Erfahrungen auswerten,
+            Raster überarbeiten
+          </li>
+          <li>
+            <b>Gemeinsamer Abschluss per Videokonferenz:</b> Ergebnisse teilen,
+            nächste Schritte verabreden
+          </li>
+        </ol>
+        <p class="take">
+          Bringt Erfahrungen und anonymisierte Arbeitsproben aus der Erprobung
+          mit.
+        </p>
+        <aside class="speaker-note">
+          Termin und Uhrzeit vor der Sitzung eintragen. Den Link zur
+          Videokonferenz rechtzeitig über die TaskCards-Pinnwand teilen. Format
+          wie bei den bisherigen Zwischentreffen: gemeinsamer Start und
+          Abschluss digital, die Arbeit dazwischen findet in den Schulen statt.
+        </aside>
+      </section>
+      <section
+        id="folie-18"
         data-note-key="quellen-und-vertiefung"
         class="slide"
       >
@@ -2778,7 +2835,7 @@
           name: "Feedback, weitere Planung & Ausblick",
           minutes: 30,
           slide: 15,
-          last: 16,
+          last: 17,
           pause: false,
         },
       ];
@@ -2806,7 +2863,7 @@
         },
         {
           key: "feedback",
-          slides: [15, 16],
+          slides: [15, 16, 17],
           minutes: 30,
           label: "Feedback, Planung & Ausblick",
           large: false,

@@ -39,7 +39,7 @@ Die Zeitangaben sind Größenordnungen. Innerhalb der Blöcke entscheidet die Mo
 
 Im Grundlagenblock gibt es keine eigenen Austauschrunden mehr. Die Ankerbeispiele werden gemeinsam im Plenum gelesen; das Gespräch über den Forschungsstand findet in der anschließenden Pause statt. Weitere Gespräche finden in den Entwicklerteams und im Feedback statt. Bewegung ist freiwillig.
 
-16 Ablauf-Folien und eine Quellenfolie. Die Forschungsübersicht beginnt mit einer kurzen Erklärung der Effektstärken. Visible Learning ergänzt die Rubrics-Forschung um passende breite Befunde. Das vollständige Wunschbrief-Raster bleibt auf einer anklickbaren Übersichtsfolie. Auf Inhaltsfolien stehen keine Minutenangaben.
+17 Ablauf-Folien und eine Quellenfolie. Die Forschungsübersicht beginnt mit einer kurzen Erklärung der Effektstärken. Visible Learning ergänzt die Rubrics-Forschung um passende breite Befunde. Das vollständige Wunschbrief-Raster bleibt auf einer anklickbaren Übersichtsfolie. Auf Inhaltsfolien stehen keine Minutenangaben.
 
 ## Was den Auftakt motivierend und zugänglich macht
 
@@ -84,7 +84,7 @@ Jahresweg: Auftakt, erste Erprobung, zwei bis drei schulübergreifende bzw. hybr
 
 ## Moderation je Folie
 
-Die Präsentation ist auf 17 Folien verdichtet. Die Folien 1–10 bilden den gemeinsamen Input; Folie 11 ist die erste Pause. Nach der Prompt-Werkstatt auf Folie 12 folgt mit Folie 13 eine einzige Arbeitsfolie, die mit dem 60-Minuten-Timer stehen bleibt. Folie 14 ist die zweite Pause. Folie 15 bündelt Feedback und Erprobungsplanung, Folie 16 den Abschluss. Folie 17 enthält Quellen und Vertiefungen für Rückfragen und Export. Die Arbeitsaufträge sind bewusst knapp gehalten, weil die meisten Kolleg:innen die Projektentwicklung im Netzwerk gewohnt sind.
+Die Präsentation umfasst 18 Folien. Die Folien 1–10 bilden den gemeinsamen Input; Folie 11 ist die erste Pause. Nach der Prompt-Werkstatt auf Folie 12 folgt mit Folie 13 eine einzige Arbeitsfolie, die mit dem 60-Minuten-Timer stehen bleibt. Folie 14 ist die zweite Pause. Folie 15 bündelt Feedback und Erprobungsplanung, Folie 16 den Abschluss, Folie 17 den nächsten Termin. Folie 18 enthält Quellen und Vertiefungen für Rückfragen und Export. Die Arbeitsaufträge sind bewusst knapp gehalten, weil die meisten Kolleg:innen die Projektentwicklung im Netzwerk gewohnt sind.
 
 ### Input und gemeinsames Beispiel
 
@@ -110,7 +110,8 @@ Die Präsentation ist auf 17 Folien verdichtet. Die Folien 1–10 bilden den gem
 14. zehn Minuten Pause
 15. Feedback geben und Erprobung planen: Partnerteam aus einer anderen Schule (Stärke, offene Frage, Änderungsidee), wichtigste Änderung einarbeiten, Erprobung festlegen und auf TaskCards sichern
 16. kurze Abschlussstimmen aus den drei Schulen; Ergebnisse auf der TaskCards-Pinnwand sichern, Inhalte und Notizen exportieren
-17. Quellen und digitale Arbeitshilfen
+17. nächster Termin (Platzhalter, vor der Sitzung eintragen): Zwischentreffen in den jeweiligen Schulen mit gemeinsamer Videokonferenz am Anfang und am Ende
+18. Quellen und digitale Arbeitshilfen
 
 ## Materialien
 
@@ -130,7 +131,7 @@ Technikhinweis: „Meine Notizen“ öffnet ein persönliches Eingabefeld zur ak
 
 ## Ablaufanzeige und Timer
 
-„Ablauf · 180 Min.“ zeigt die fünf groben Blöcke. Beide Pausen haben einen eigenen großen Zehn-Minuten-Timer. Der kleine 60-Minuten-Timer läuft auf der Arbeitsfolie 13. Feedback, Planung und Ausblick teilen sich einen 30-Minuten-Timer auf den Folien 15 und 16. Die Prompt-Werkstatt erhält keinen Countdown.
+„Ablauf · 180 Min.“ zeigt die fünf groben Blöcke. Beide Pausen haben einen eigenen großen Zehn-Minuten-Timer. Der kleine 60-Minuten-Timer läuft auf der Arbeitsfolie 13. Feedback, Planung und Ausblick teilen sich einen 30-Minuten-Timer auf den Folien 15–17. Die Prompt-Werkstatt erhält keinen Countdown.
 
 Start, Pause und Zurücksetzen bleiben verfügbar. Beim Verlassen eines Arbeitsblocks pausiert der Timer. Ein Neuladen setzt alle Timer zurück. Im Druck verschwinden die Bedienfelder.
 
