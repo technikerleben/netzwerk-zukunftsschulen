@@ -219,6 +219,41 @@
       body.nav-collapsed .menu-toggle {
         display: block;
       }
+      .nav .menu-burger {
+        display: none;
+      }
+      @media (orientation: portrait) {
+        .nav .menu-burger {
+          display: inline-block;
+          position: absolute;
+          top: 8px;
+          right: 12px;
+          z-index: 1;
+          font-size: 22px;
+          line-height: 1;
+          padding: 8px 12px;
+        }
+        .menu-toggle {
+          right: 14px;
+          bottom: 14px;
+          width: 52px;
+          height: 52px;
+          padding: 0;
+          font-size: 26px;
+          line-height: 52px;
+          border-radius: 50%;
+          opacity: 0.85;
+          box-shadow: 0 3px 12px #0004;
+        }
+        .menu-toggle .menu-toggle-text {
+          display: none;
+        }
+      }
+      @media (orientation: portrait) and (min-width: 801px) {
+        #mainNav.nav {
+          padding-right: 70px;
+        }
+      }
 
       .count {
         white-space: nowrap;
@@ -2271,6 +2306,15 @@
     </main>
 
     <nav class="nav" id="mainNav" aria-label="Foliennavigation">
+      <button
+        id="hideMenu"
+        class="menu-burger"
+        aria-controls="mainNav"
+        aria-label="Menüleiste ausblenden"
+        title="Menüleiste ausblenden (Taste M)"
+      >
+        ☰
+      </button>
       <span
         class="network-mark nav-logo"
         role="img"
@@ -2316,8 +2360,10 @@
       aria-controls="mainNav"
       aria-expanded="false"
       title="Menüleiste einblenden (Taste M)"
+      aria-label="Menüleiste einblenden"
     >
-      Menü (M)
+      <span class="menu-toggle-icon" aria-hidden="true">☰</span
+      ><span class="menu-toggle-text"> Menü (M)</span>
     </button>
     <aside class="notes" id="notes" aria-label="Eigene Notizen">
       <div class="notes-heading">
@@ -2512,6 +2558,7 @@
       const toggleMenu = () =>
         setMenu(mainNav.classList.contains("nav-hidden"));
       showMenu.onclick = () => setMenu(true);
+      document.querySelector("#hideMenu").onclick = () => setMenu(false);
       document.addEventListener("keydown", (e) => {
         if (
           e.key.toLowerCase() === "m" &&
