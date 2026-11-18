@@ -124,6 +124,7 @@ Die Präsentation ist auf 21 Folien verdichtet. Die Folien 1–11 bilden den gem
 - [HTML-Präsentation](praesentationen/01-auftakt-kompetenzraster.html)
 - [Arbeitsvorlage zum Drucken](materialien/auftakt-arbeitsvorlage.html)
 - [Arbeitsvorlage zum Kopieren](materialien/auftakt-arbeitsvorlage.md)
+- Arbeitsvorlage für TaskCards: [PDF](materialien/Arbeitsvorlage-Auftakt-2026-2027.pdf) · [Word](materialien/Arbeitsvorlage-Auftakt-2026-2027.docx)
 - [Begriffshilfe](materialien/begriffshilfe.md)
 - [Technische Reserve: KI-Ausgabe Technik 7](materialien/ki-reserve-technik7.md)
 - [KI-Workflow und Prompts](materialien/ki-workflow.md)
