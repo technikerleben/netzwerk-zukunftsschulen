@@ -169,6 +169,33 @@
       .nav.nav-hidden {
         display: none;
       }
+      @media (min-width: 801px) and (max-width: 1000px) {
+        .journey {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+      }
+      @media (min-width: 801px) and (max-width: 1700px) {
+        .nav {
+          gap: 8px;
+          padding: 6px 14px;
+          min-height: 0;
+          font-size: 15px;
+        }
+        .nav .nav-controls {
+          gap: 6px 7px;
+        }
+        .nav .network-mark {
+          width: 104px;
+          height: 40px;
+        }
+        .nav button,
+        .nav select {
+          padding: 7px 9px;
+        }
+        .nav select {
+          max-width: 15vw;
+        }
+      }
       .menu-toggle {
         display: none;
         position: fixed;
@@ -2280,6 +2307,7 @@
           Meine Notizen</button
         ><button class="export-notes">Export</button>
         <button id="print">Drucken</button>
+        <button id="fullscreen" title="Vollbild (Taste F)" hidden>Vollbild</button>
       </div>
     </nav>
     <button
@@ -2391,6 +2419,7 @@
         if (write) history.replaceState(null, "", `#folie-${index + 1}`);
         syncPhase(index);
         window.scrollTo(0, 0);
+        if (typeof fitSlide === "function") fitSlide();
       }
       function fromHash() {
         const m = location.hash.match(/^#folie-(\d+)$/);
@@ -2411,6 +2440,7 @@
         showMenu = document.querySelector("#showMenu");
       const setMenu = (visible) => {
         mainNav.classList.toggle("nav-hidden", !visible);
+        scheduleFit();
         document.body.classList.toggle("nav-collapsed", !visible);
         showMenu.setAttribute("aria-expanded", String(visible));
         if (!visible && mainNav.contains(document.activeElement))
@@ -2418,6 +2448,67 @@
         if (visible && document.activeElement === showMenu)
           document.querySelector("#next").focus();
       };
+      const fsButton = document.querySelector("#fullscreen"),
+        root = document.documentElement,
+        fsElement = () =>
+          document.fullscreenElement || document.webkitFullscreenElement,
+        fsSupported = !!(
+          root.requestFullscreen || root.webkitRequestFullscreen
+        );
+      const toggleFullscreen = () => {
+        if (!fsSupported) return;
+        if (fsElement()) {
+          (document.exitFullscreen || document.webkitExitFullscreen).call(
+            document,
+          );
+        } else {
+          const req = root.requestFullscreen || root.webkitRequestFullscreen;
+          const r = req.call(root);
+          if (r && r.catch) r.catch(() => {});
+        }
+      };
+      const syncFullscreen = () => {
+        const on = !!fsElement();
+        fsButton.textContent = on ? "Vollbild beenden" : "Vollbild";
+        fsButton.setAttribute("aria-pressed", String(on));
+        setTimeout(fitSlide, 150);
+      };
+      if (fsSupported) {
+        fsButton.hidden = false;
+        fsButton.onclick = toggleFullscreen;
+        document.addEventListener("fullscreenchange", syncFullscreen);
+        document.addEventListener("webkitfullscreenchange", syncFullscreen);
+      }
+      // Folieninhalt bei Bedarf verkleinern, damit nichts gescrollt werden muss
+      function fitSlide() {
+        const slide = document.querySelector(".slide.active");
+        if (!slide || matchMedia("print").matches) return;
+        const parts = [...slide.children].filter(
+          (el) =>
+            !el.classList.contains("speaker-note") &&
+            getComputedStyle(el).position !== "fixed",
+        );
+        parts.forEach((el) => (el.style.zoom = ""));
+        if (innerWidth <= 800) return;
+        const fits = () =>
+          root.scrollHeight <= innerHeight + 1 &&
+          root.scrollWidth <= innerWidth + 1;
+        let z = 1;
+        while (!fits() && z > 0.62) {
+          z = Math.round((z - 0.03) * 100) / 100;
+          parts.forEach((el) => (el.style.zoom = z));
+        }
+      }
+      let fitTimer;
+      const scheduleFit = () => {
+        clearTimeout(fitTimer);
+        fitTimer = setTimeout(fitSlide, 60);
+      };
+      addEventListener("resize", scheduleFit);
+      if (typeof ResizeObserver !== "undefined")
+        new ResizeObserver(scheduleFit).observe(mainNav);
+      if (document.fonts && document.fonts.ready)
+        document.fonts.ready.then(fitSlide);
       const toggleMenu = () =>
         setMenu(mainNav.classList.contains("nav-hidden"));
       showMenu.onclick = () => setMenu(true);
@@ -2433,6 +2524,17 @@
         ) {
           e.preventDefault();
           toggleMenu();
+          return;
+        }
+        if (
+          e.key.toLowerCase() === "f" &&
+          !e.ctrlKey &&
+          !e.metaKey &&
+          !e.altKey &&
+          !e.target.closest("input,textarea,select,[contenteditable]")
+        ) {
+          e.preventDefault();
+          toggleFullscreen();
           return;
         }
         if (
