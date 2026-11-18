@@ -158,7 +158,7 @@ Ein gutes Kompetenzraster …
 
 ### Auftaktveranstaltung
 
-**Konkretisierter Vorschlag (180 Minuten):** [Moderationsplan](auftakt-180-minuten.md), [Präsentation](praesentationen/01-auftakt-kompetenzraster.html) und [Arbeitsvorlage](materialien/auftakt-arbeitsvorlage.html).
+**Konkretisierter Vorschlag (180 Minuten):** [Moderationsplan](auftakt-180-minuten.md), [Präsentation](praesentationen/01-auftakt-kompetenzraster.html) und [Ergebnisbogen für die Rasterwerkstatt](materialien/Ergebnisbogen-Rasterwerkstatt.pdf).
 
 Der Auftakt führt zu einem kleinen Lernarrangement: konkrete Aufgabe, Rasterausschnitt, geplanter Einsatz für Selbsteinschätzung und Überarbeitung sowie Erprobungsplan. Die Entwicklerteams erstellen ihre erste Fassung mit KI. Ein vollständiges Instrument und verbindliche Bewertungsabsprachen werden vor dem jeweiligen Einsatz weiterentwickelt. Die Sitzung schafft gemeinsame Grundlagen für neue und erfahrene Netzwerkmitglieder aus drei Schulen.
 

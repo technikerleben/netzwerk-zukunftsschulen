@@ -64,8 +64,8 @@ Zum Schluss berichtet je eine Stimme aus jeder Schule. Alle Teams sichern zusät
 - Mindestens ein Gerät und ein bereits nutzbarer, schulisch zugelassener KI-Zugang pro Team. Keine Einrichtung von Konten während der Sitzung.
 - Den KI-Auftrag vorab testen. Als technische Reserve liegt eine tatsächliche, mit Werkzeug und Datum gekennzeichnete Ausgabe bereit: [Kompetenzraster Technik 7 „Eine technische Zeichnung anfertigen“](materialien/ki-reserve-technik7.md), erzeugt mit dem Prompt der Prompt-Werkstatt (Claude, 18.11.2026), bewusst ein anderes Fach und ein anderer Jahrgang als das Wunschbrief-Beispiel. Die beigefügte schwache Beispielzeile ist ein didaktisches Beispiel, kein angeblich echter KI-Output.
 - Bei technischem Ausfall eine vorbereitete Ausgabe analysieren. Die eigene KI-Generierung vor der Unterrichtserprobung nachholen und dokumentieren.
-- Vierseitige Arbeitsvorlage pro Person oder pro Team je nach Arbeitsweise; zusätzliche digitale Begriffshilfe und KI-Prompts bereitstellen.
-- Gemeinsamer Ablageort ist die TaskCards-Pinnwand des Netzwerks. Der Link steht auf Folie 20 und in der Menüleiste und wird in der Vorlage eingetragen. Zu Beginn können dort auch die Fächer der Teilnehmenden abgefragt werden, um nach der ersten Pause passende Teams zu bilden.
+- Einseitiger Ergebnisbogen für die Rasterwerkstatt, einer pro Team (gedruckt oder als Word-Datei von der TaskCards-Pinnwand); zusätzliche digitale Begriffshilfe und KI-Prompts bereitstellen. Für Grundlagenblock, Feedback und Abschluss gibt es keine eigene Vorlage; dafür reicht die Notizfunktion der Präsentation.
+- Gemeinsamer Ablageort ist die TaskCards-Pinnwand des Netzwerks. Der Link steht auf Folie 20 und in der Menüleiste und auf dem Ergebnisbogen genannt. Zu Beginn können dort auch die Fächer der Teilnehmenden abgefragt werden, um nach der ersten Pause passende Teams zu bilden.
 - Keine personenbezogenen Schülerdaten für die KI-Übung verwenden. Aufgaben und erfundene Beispiele reichen.
 
 ## Erprobung im laufenden Schuljahr
@@ -122,9 +122,7 @@ Die Präsentation ist auf 21 Folien verdichtet. Die Folien 1–11 bilden den gem
 - [Wunschbrief-Raster zum Kopieren](materialien/kompetenzraster-wunschbriefe.md)
 
 - [HTML-Präsentation](praesentationen/01-auftakt-kompetenzraster.html)
-- [Arbeitsvorlage zum Drucken](materialien/auftakt-arbeitsvorlage.html)
-- [Arbeitsvorlage zum Kopieren](materialien/auftakt-arbeitsvorlage.md)
-- Arbeitsvorlage für TaskCards: [PDF](materialien/Arbeitsvorlage-Auftakt-2026-2027.pdf) · [Word](materialien/Arbeitsvorlage-Auftakt-2026-2027.docx)
+- Ergebnisbogen Rasterwerkstatt (eine Seite, für TaskCards): [PDF](materialien/Ergebnisbogen-Rasterwerkstatt.pdf) · [Word](materialien/Ergebnisbogen-Rasterwerkstatt.docx)
 - [Begriffshilfe](materialien/begriffshilfe.md)
 - [Technische Reserve: KI-Ausgabe Technik 7](materialien/ki-reserve-technik7.md)
 - [KI-Workflow und Prompts](materialien/ki-workflow.md)
