@@ -4,7 +4,7 @@
 
 **Kompetenzraster zur Leistungsbewertung und die Verzahnung mit dem Selbstregulierten Lernen und der Nutzung von KI**
 
-Planungsstand: 27.09.2026. Treffen: Donnerstag, 19. November 2026, 13–16 Uhr, Heinrich-Böll-Gesamtschule Bochum. Der Nachtrag mit 180 Minuten ersetzt den vorherigen Zeitrahmen von 120 Minuten.
+Planungsstand: 18.11.2026. Treffen: Donnerstag, 19. November 2026, 13–16 Uhr, Heinrich-Böll-Gesamtschule Bochum. Der Nachtrag mit 180 Minuten ersetzt den vorherigen Zeitrahmen von 120 Minuten; der frühere Entwurf bleibt in der Git-Historie nachvollziehbar.
 
 ## Ziel und Anschluss
 
@@ -62,10 +62,10 @@ Zum Schluss berichtet je eine Stimme aus jeder Schule. Alle Teams sichern zusät
 - Vorab Teilnehmendenzahlen und Fächer abfragen, passende Thementische und Partnerteams vorbereiten.
 - Einladung: eigene Aufgabe oder vorhandenes Raster mitbringen, falls vorhanden. Wer nichts mitbringt, nutzt das Wunschbrief-Beispiel (Deutsch, Klasse 5).
 - Mindestens ein Gerät und ein bereits nutzbarer, schulisch zugelassener KI-Zugang pro Team. Keine Einrichtung von Konten während der Sitzung.
-- Den KI-Auftrag vorab testen. Als technische Reserve eine tatsächliche, mit Werkzeug und Datum gekennzeichnete Ausgabe vorbereiten. Die beigefügte schwache Beispielzeile ist ein didaktisches Beispiel, kein angeblich echter KI-Output.
+- Den KI-Auftrag vorab testen. Als technische Reserve liegt eine tatsächliche, mit Werkzeug und Datum gekennzeichnete Ausgabe bereit: [Kompetenzraster Technik 7 „Eine technische Zeichnung anfertigen“](materialien/ki-reserve-technik7.md), erzeugt mit dem Prompt der Prompt-Werkstatt (Claude, 18.11.2026), bewusst ein anderes Fach und ein anderer Jahrgang als das Wunschbrief-Beispiel. Die beigefügte schwache Beispielzeile ist ein didaktisches Beispiel, kein angeblich echter KI-Output.
 - Bei technischem Ausfall eine vorbereitete Ausgabe analysieren. Die eigene KI-Generierung vor der Unterrichtserprobung nachholen und dokumentieren.
 - Vierseitige Arbeitsvorlage pro Person oder pro Team je nach Arbeitsweise; zusätzliche digitale Begriffshilfe und KI-Prompts bereitstellen.
-- Gemeinsamen Ablageort vor Beginn bestimmen (z. B. vorhandenes Netzwerkboard), auf der Abschlussfolie bzw. mündlich zeigen und in der Vorlage eintragen lassen.
+- Gemeinsamer Ablageort ist die TaskCards-Pinnwand des Netzwerks. Der Link steht auf Folie 21 und wird in der Vorlage eingetragen. Zu Beginn können dort auch die Fächer der Teilnehmenden abgefragt werden, um nach der ersten Pause passende Teams zu bilden.
 - Keine personenbezogenen Schülerdaten für die KI-Übung verwenden. Aufgaben und erfundene Beispiele reichen.
 
 ## Erprobung im laufenden Schuljahr
@@ -126,6 +126,7 @@ Die Präsentation ist auf 22 Folien verdichtet. Die Folien 1–12 bilden den gem
 - [Arbeitsvorlage zum Drucken](materialien/auftakt-arbeitsvorlage.html)
 - [Arbeitsvorlage zum Kopieren](materialien/auftakt-arbeitsvorlage.md)
 - [Begriffshilfe](materialien/begriffshilfe.md)
+- [Technische Reserve: KI-Ausgabe Technik 7](materialien/ki-reserve-technik7.md)
 - [KI-Workflow und Prompts](materialien/ki-workflow.md)
 - [Forschungsbasis](quellen/forschungsbasis-auftakt.md)
 - [Visible Learning: Auswahl und Einordnung](quellen/visible-learning-auftakt.md)

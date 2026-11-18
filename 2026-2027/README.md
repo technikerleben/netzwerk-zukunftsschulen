@@ -49,4 +49,5 @@ Ein Entwicklungsprojekt verbindet möglichst:
 Die Dateien in diesem Bereich sollen im Laufe des Schuljahres weiterentwickelt werden. Neue Präsentationen, Projektsteckbriefe, Rasterbeispiele und Ergebnisse können innerhalb dieser Struktur ergänzt werden.
 
 - `materialien/begriffshilfe.md` – Definitionen und Abgrenzungen
+- `materialien/ki-reserve-technik7.md` – technische Reserve: echte KI-Ausgabe (Kompetenzraster Technik 7) für die Werkstatt bei Technikausfall
 - `materialien/ki-workflow.md` – verbindlicher KI-Entwicklungsschritt mit Promptvorlagen
