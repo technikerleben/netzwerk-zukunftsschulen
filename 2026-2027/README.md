@@ -34,7 +34,7 @@ Ein Entwicklungsprojekt verbindet möglichst:
 - [Wunschbrief-Raster Deutsch 5](materialien/kompetenzraster-wunschbriefe.html) – Raster und Bepunktung der Klassenarbeit (sechs Bereiche, vier Stufen, 24 Punkte)
 
 - `auftakt-180-minuten.md` – Vorschlag und Moderation für das erste Treffen (180 Minuten)
-- `materialien/Ergebnisbogen-Rasterwerkstatt.pdf` / `.docx` – einseitiger Ergebnisbogen für die lange Teamphase (Folien 14–16), Ablage auf TaskCards
+- `materialien/Ergebnisbogen-Rasterwerkstatt.pdf` / `.docx` – einseitiger Ergebnisbogen für die lange Teamphase (Folien 13–15), Ablage auf TaskCards
 - `quellen/forschungsbasis-auftakt.md` – geprüfte Quellen und Grenzen
 - `planung.md` – gemeinsame Planungsgrundlage
 - `quellen/metastudie-rubrics.md` – wissenschaftlicher Einstieg
