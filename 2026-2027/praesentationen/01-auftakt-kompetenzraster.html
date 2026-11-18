@@ -174,28 +174,6 @@
           grid-template-columns: repeat(2, minmax(0, 1fr));
         }
       }
-      @media (min-width: 801px) and (max-width: 1700px) {
-        .nav {
-          gap: 8px;
-          padding: 6px 14px;
-          min-height: 0;
-          font-size: 15px;
-        }
-        .nav .nav-controls {
-          gap: 6px 7px;
-        }
-        .nav .network-mark {
-          width: 104px;
-          height: 40px;
-        }
-        .nav button,
-        .nav select {
-          padding: 7px 9px;
-        }
-        .nav select {
-          max-width: 15vw;
-        }
-      }
       .menu-toggle {
         display: none;
         position: fixed;
@@ -218,41 +196,6 @@
       }
       body.nav-collapsed .menu-toggle {
         display: block;
-      }
-      .nav .menu-burger {
-        display: none;
-      }
-      @media (orientation: portrait) {
-        .nav .menu-burger {
-          display: inline-block;
-          position: absolute;
-          top: 8px;
-          right: 12px;
-          z-index: 1;
-          font-size: 22px;
-          line-height: 1;
-          padding: 8px 12px;
-        }
-        .menu-toggle {
-          right: 14px;
-          bottom: 14px;
-          width: 52px;
-          height: 52px;
-          padding: 0;
-          font-size: 26px;
-          line-height: 52px;
-          border-radius: 50%;
-          opacity: 0.85;
-          box-shadow: 0 3px 12px #0004;
-        }
-        .menu-toggle .menu-toggle-text {
-          display: none;
-        }
-      }
-      @media (orientation: portrait) and (min-width: 801px) {
-        #mainNav.nav {
-          padding-right: 70px;
-        }
       }
 
       .count {
@@ -1343,6 +1286,207 @@
           padding-bottom: 5px;
         }
       }
+
+      /* Menüleiste: drei Gruppen (Folien · Werkzeuge · Ansicht) */
+      #mainNav {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        gap: 14px;
+        padding: 8px 16px;
+        min-height: 0;
+        font-size: 16px;
+      }
+      #mainNav.nav-hidden {
+        display: none;
+      }
+      #mainNav .nav-logo {
+        flex: 0 0 auto;
+        width: 120px;
+        height: 44px;
+      }
+      #mainNav .nav-group {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+      }
+      #mainNav .nav-slides {
+        flex: 1 1 auto;
+        min-width: 0;
+      }
+      #mainNav .nav-slides button,
+      #mainNav .nav-slides select {
+        background: #fff;
+        color: #214b49;
+        border: 0;
+        border-radius: 4px;
+        padding: 7px 10px;
+        font: inherit;
+      }
+      #mainNav .nav-slides select {
+        flex: 0 1 340px;
+        min-width: 110px;
+        max-width: 340px;
+        text-overflow: ellipsis;
+      }
+      #mainNav .count {
+        min-width: 4.2em;
+        text-align: center;
+      }
+      #mainNav .nav-tools {
+        flex: 0 0 auto;
+      }
+      #mainNav .nav-view {
+        flex: 0 0 auto;
+        padding-left: 12px;
+        border-left: 1px solid #ffffff45;
+      }
+      #mainNav .nav-btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        background: transparent;
+        color: #fff;
+        border: 1px solid #ffffff80;
+        border-radius: 4px;
+        padding: 7px 11px;
+        font: inherit;
+        line-height: 1.2;
+        white-space: nowrap;
+        text-decoration: none;
+        cursor: pointer;
+      }
+      #mainNav .nav-btn:hover,
+      #mainNav .nav-btn[aria-expanded="true"],
+      #mainNav .nav-btn[aria-pressed="true"],
+      #mainNav details[open] > .nav-btn {
+        background: #ffffff22;
+      }
+      #mainNav .nav-accent {
+        background: #009288;
+        border-color: #009288;
+        font-weight: 700;
+      }
+      #mainNav .nav-accent:hover {
+        background: #00a99d;
+      }
+      #mainNav .nav-icon {
+        min-width: 38px;
+        justify-content: center;
+        padding: 7px 9px;
+      }
+      #mainNav .short {
+        display: none;
+      }
+      #mainNav .nav-menu {
+        position: relative;
+      }
+      #mainNav .nav-menu > summary {
+        list-style: none;
+      }
+      #mainNav .nav-menu > summary::-webkit-details-marker {
+        display: none;
+      }
+      #mainNav .nav-menu-panel {
+        position: absolute;
+        bottom: calc(100% + 12px);
+        left: 0;
+        z-index: 10;
+        display: flex;
+        flex-direction: column;
+        min-width: 250px;
+        padding: 6px 0;
+        background: #fff;
+        border-radius: 6px;
+        box-shadow: 0 6px 24px #0004;
+      }
+      #mainNav .nav-menu-panel a,
+      #mainNav .nav-menu-panel button {
+        display: block;
+        width: 100%;
+        padding: 10px 16px;
+        background: none;
+        border: 0;
+        border-radius: 0;
+        color: #214b49;
+        font: inherit;
+        text-align: left;
+        text-decoration: none;
+        cursor: pointer;
+      }
+      #mainNav .nav-menu-panel a:hover,
+      #mainNav .nav-menu-panel button:hover {
+        background: #edf4f2;
+      }
+      #mainNav .nav-menu-panel small {
+        display: block;
+        font-size: 13px;
+        color: #5b7c7d;
+      }
+      #mainNav .nav-menu-panel hr {
+        width: 100%;
+        margin: 4px 0;
+        border: 0;
+        border-top: 1px solid #d6e4e2;
+      }
+      #mainNav .icon-portrait {
+        display: none;
+      }
+      @media (max-width: 1300px) {
+        #mainNav .long {
+          display: none;
+        }
+        #mainNav .short {
+          display: inline;
+        }
+      }
+      @media (max-width: 1180px) {
+        #mainNav {
+          gap: 10px;
+          padding: 7px 12px;
+          font-size: 15px;
+        }
+        #mainNav .nav-logo {
+          width: 96px;
+          height: 36px;
+        }
+        #mainNav .nav-view {
+          padding-left: 10px;
+        }
+      }
+      @media (orientation: portrait), (max-width: 800px) {
+        #mainNav {
+          flex-wrap: wrap;
+          row-gap: 8px;
+        }
+        #mainNav .nav-slides {
+          flex: 1 1 0;
+        }
+        #mainNav .nav-tools {
+          order: 3;
+          flex: 1 1 100%;
+          flex-wrap: wrap;
+        }
+        #mainNav .nav-view {
+          padding-left: 0;
+          border-left: 0;
+        }
+        #mainNav .icon-landscape {
+          display: none;
+        }
+        #mainNav .icon-portrait {
+          display: inline;
+        }
+      }
+      @media (max-width: 600px) {
+        #mainNav .nav-logo {
+          display: none;
+        }
+        #mainNav .nav-slides select {
+          min-width: 0;
+          flex: 1 1 auto;
+        }
+      }
     </style>
   </head>
   <body>
@@ -2306,52 +2450,89 @@
     </main>
 
     <nav class="nav" id="mainNav" aria-label="Foliennavigation">
-      <button
-        id="hideMenu"
-        class="menu-burger"
-        aria-controls="mainNav"
-        aria-label="Menüleiste ausblenden"
-        title="Menüleiste ausblenden (Taste M)"
-      >
-        ☰
-      </button>
       <span
         class="network-mark nav-logo"
         role="img"
         aria-label="Zukunftsschulen NRW – Netzwerk Lernkultur, Individuelle Förderung"
       ></span>
-      <div class="nav-controls">
+      <div class="nav-group nav-slides">
         <button id="prev" aria-label="Vorherige Folie">←</button>
         <span class="count" id="count" aria-live="polite"> </span>
         <button id="next" aria-label="Nächste Folie">→</button>
         <select id="picker" aria-label="Folie auswählen"></select>
-        <span class="spacer"> </span>
+      </div>
+      <div class="nav-group nav-tools">
+        <button id="openSchedule" class="nav-btn">
+          <span class="long">Ablauf · 180 Min.</span
+          ><span class="short">Ablauf</span>
+        </button>
+        <details class="nav-menu" id="materialMenu">
+          <summary class="nav-btn">Material ▾</summary>
+          <div class="nav-menu-panel">
+            <a
+              href="https://netzwerk-zukunftsschulen.vercel.app/2026-2027/tools/kompetenzraster-prompt.html"
+              target="_blank"
+              rel="noopener"
+              >Prompt-Werkstatt<small>Prompt für ein eigenes Raster erzeugen</small></a
+            >
+            <a
+              href="../materialien/auftakt-arbeitsvorlage.html"
+              target="_blank"
+              rel="noopener"
+              >Arbeitsvorlage<small>vierseitige Vorlage für die Teamarbeit</small></a
+            >
+            <a
+              href="../materialien/kompetenzraster-wunschbriefe.html"
+              target="_blank"
+              rel="noopener"
+              >Beispielraster<small>Wunschbrief, Deutsch 5</small></a
+            >
+            <hr />
+            <button class="export-notes">
+              Inhalte &amp; Notizen exportieren
+            </button>
+            <button id="print">Folien drucken</button>
+          </div>
+        </details>
+        <button
+          id="toggleNotes"
+          class="nav-btn"
+          aria-expanded="false"
+          aria-controls="notes"
+        >
+          <span class="long">Meine Notizen</span
+          ><span class="short">Notizen</span>
+        </button>
         <a
-          href="https://netzwerk-zukunftsschulen.vercel.app/2026-2027/tools/kompetenzraster-prompt.html"
+          class="nav-btn nav-accent"
+          href="https://schulendortmund.taskcards.app/#/board/dd79efdc-a93f-4d76-a27c-608db19e52dd?token=eaee7488-66a7-4cdd-a5ab-60c20d583e61"
           target="_blank"
           rel="noopener"
-          >Prompt-Werkstatt</a
-        >
-        <a
-          href="../materialien/auftakt-arbeitsvorlage.html"
-          target="_blank"
-          rel="noopener"
-          >Arbeitsvorlage</a
-        >
-        <button id="openSchedule">Ablauf · 180 Min.</button>
-        <a
-          href="../materialien/kompetenzraster-wunschbriefe.html"
-          target="_blank"
-          rel="noopener"
-          >Beispielraster</a
-        >
-        <a href="https://schulendortmund.taskcards.app/#/board/dd79efdc-a93f-4d76-a27c-608db19e52dd?token=eaee7488-66a7-4cdd-a5ab-60c20d583e61" target="_blank" rel="noopener"
+          title="TaskCards-Pinnwand des Netzwerks"
           >TaskCards</a
-        ><button id="toggleNotes" aria-expanded="false" aria-controls="notes">
-          Meine Notizen</button
-        ><button class="export-notes">Export</button>
-        <button id="print">Drucken</button>
-        <button id="fullscreen" title="Vollbild (Taste F)" hidden>Vollbild</button>
+        >
+      </div>
+      <div class="nav-group nav-view">
+        <button
+          id="fullscreen"
+          class="nav-btn nav-icon"
+          title="Vollbild (Taste F)"
+          aria-label="Vollbild"
+          aria-pressed="false"
+          hidden
+        >
+          ⛶
+        </button>
+        <button
+          id="hideMenu"
+          class="nav-btn nav-icon"
+          aria-controls="mainNav"
+          aria-label="Menüleiste ausblenden"
+          title="Menüleiste ausblenden (Taste M)"
+        >
+          <span class="icon-landscape" aria-hidden="true">▾</span
+          ><span class="icon-portrait" aria-hidden="true">☰</span>
+        </button>
       </div>
     </nav>
     <button
@@ -2515,7 +2696,8 @@
       };
       const syncFullscreen = () => {
         const on = !!fsElement();
-        fsButton.textContent = on ? "Vollbild beenden" : "Vollbild";
+        fsButton.setAttribute("aria-label", on ? "Vollbild beenden" : "Vollbild");
+        fsButton.title = on ? "Vollbild beenden (Taste F)" : "Vollbild (Taste F)";
         fsButton.setAttribute("aria-pressed", String(on));
         setTimeout(fitSlide, 150);
       };
@@ -2559,6 +2741,25 @@
         setMenu(mainNav.classList.contains("nav-hidden"));
       showMenu.onclick = () => setMenu(true);
       document.querySelector("#hideMenu").onclick = () => setMenu(false);
+      const materialMenu = document.querySelector("#materialMenu");
+      document.addEventListener("click", (e) => {
+        if (materialMenu.open && !materialMenu.contains(e.target))
+          materialMenu.open = false;
+      });
+      materialMenu
+        .querySelectorAll(".nav-menu-panel a, .nav-menu-panel button")
+        .forEach((el) =>
+          el.addEventListener("click", () =>
+            setTimeout(() => (materialMenu.open = false), 0),
+          ),
+        );
+      materialMenu.addEventListener("keydown", (e) => {
+        if (e.key === "Escape") {
+          materialMenu.open = false;
+          materialMenu.querySelector("summary").focus();
+          e.stopPropagation();
+        }
+      });
       document.addEventListener("keydown", (e) => {
         if (
           e.key.toLowerCase() === "m" &&
