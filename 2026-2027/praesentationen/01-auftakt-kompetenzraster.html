@@ -166,6 +166,33 @@
       .spacer {
         flex: 1;
       }
+      .nav.nav-hidden {
+        display: none;
+      }
+      .menu-toggle {
+        display: none;
+        position: fixed;
+        right: 18px;
+        bottom: 18px;
+        z-index: 6;
+        font: inherit;
+        font-size: 16px;
+        padding: 8px 14px;
+        border: 0;
+        border-radius: 3px;
+        background: #214b49;
+        color: #fff;
+        opacity: 0.55;
+        cursor: pointer;
+      }
+      .menu-toggle:hover,
+      .menu-toggle:focus-visible {
+        opacity: 1;
+      }
+      body.nav-collapsed .menu-toggle {
+        display: block;
+      }
+
       .count {
         white-space: nowrap;
       }
@@ -265,6 +292,7 @@
           break-after: auto;
         }
         .nav,
+        .menu-toggle,
         .notes {
           display: none !important;
         }
@@ -2215,7 +2243,7 @@
       </section>
     </main>
 
-    <nav class="nav" aria-label="Foliennavigation">
+    <nav class="nav" id="mainNav" aria-label="Foliennavigation">
       <span
         class="network-mark nav-logo"
         role="img"
@@ -2245,12 +2273,24 @@
           target="_blank"
           rel="noopener"
           >Beispielraster</a
+        >
+        <a href="https://schulendortmund.taskcards.app/#/board/dd79efdc-a93f-4d76-a27c-608db19e52dd?token=eaee7488-66a7-4cdd-a5ab-60c20d583e61" target="_blank" rel="noopener"
+          >TaskCards</a
         ><button id="toggleNotes" aria-expanded="false" aria-controls="notes">
           Meine Notizen</button
         ><button class="export-notes">Export</button>
         <button id="print">Drucken</button>
       </div>
     </nav>
+    <button
+      id="showMenu"
+      class="menu-toggle"
+      aria-controls="mainNav"
+      aria-expanded="false"
+      title="Menüleiste einblenden (Taste M)"
+    >
+      Menü (M)
+    </button>
     <aside class="notes" id="notes" aria-label="Eigene Notizen">
       <div class="notes-heading">
         <label for="userNote" id="noteLabel">Meine Notizen zur Folie</label
@@ -2367,7 +2407,34 @@
         if (open) document.querySelector("#userNote").focus();
       };
       document.querySelector("#print").onclick = () => window.print();
+      const mainNav = document.querySelector("#mainNav"),
+        showMenu = document.querySelector("#showMenu");
+      const setMenu = (visible) => {
+        mainNav.classList.toggle("nav-hidden", !visible);
+        document.body.classList.toggle("nav-collapsed", !visible);
+        showMenu.setAttribute("aria-expanded", String(visible));
+        if (!visible && mainNav.contains(document.activeElement))
+          showMenu.focus();
+        if (visible && document.activeElement === showMenu)
+          document.querySelector("#next").focus();
+      };
+      const toggleMenu = () =>
+        setMenu(mainNav.classList.contains("nav-hidden"));
+      showMenu.onclick = () => setMenu(true);
       document.addEventListener("keydown", (e) => {
+        if (
+          e.key.toLowerCase() === "m" &&
+          !e.ctrlKey &&
+          !e.metaKey &&
+          !e.altKey &&
+          !e.target.closest("input,textarea,select,[contenteditable]") &&
+          !document.querySelector("#schedule").open &&
+          !document.querySelector("#cellDetail").open
+        ) {
+          e.preventDefault();
+          toggleMenu();
+          return;
+        }
         if (
           e.key === "Escape" &&
           notes.classList.contains("open") &&
