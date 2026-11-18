@@ -39,7 +39,7 @@ Die Zeitangaben sind Größenordnungen. Innerhalb der Blöcke entscheidet die Mo
 
 Im Grundlagenblock gibt es keine eigenen Austauschrunden mehr. Die Ankerbeispiele werden gemeinsam im Plenum gelesen; das Gespräch über den Forschungsstand findet in der anschließenden Pause statt. Weitere Gespräche finden in den Entwicklerteams und im Feedback statt. Bewegung ist freiwillig.
 
-19 Ablauf-Folien und eine Quellenfolie. Die Forschungsübersicht beginnt mit einer kurzen Erklärung der Effektstärken. Visible Learning ergänzt die Rubrics-Forschung um passende breite Befunde. Das vollständige Wunschbrief-Raster bleibt auf einer anklickbaren Übersichtsfolie. Auf Inhaltsfolien stehen keine Minutenangaben.
+16 Ablauf-Folien und eine Quellenfolie. Die Forschungsübersicht beginnt mit einer kurzen Erklärung der Effektstärken. Visible Learning ergänzt die Rubrics-Forschung um passende breite Befunde. Das vollständige Wunschbrief-Raster bleibt auf einer anklickbaren Übersichtsfolie. Auf Inhaltsfolien stehen keine Minutenangaben.
 
 ## Was den Auftakt motivierend und zugänglich macht
 
@@ -65,7 +65,7 @@ Zum Schluss berichtet je eine Stimme aus jeder Schule. Alle Teams sichern zusät
 - Den KI-Auftrag vorab testen. Als technische Reserve liegt eine tatsächliche, mit Werkzeug und Datum gekennzeichnete Ausgabe bereit: [Kompetenzraster Technik 7 „Eine technische Zeichnung anfertigen“](materialien/ki-reserve-technik7.md), erzeugt mit dem Prompt der Prompt-Werkstatt (Claude, 18.11.2026), bewusst ein anderes Fach und ein anderer Jahrgang als das Wunschbrief-Beispiel. Die beigefügte schwache Beispielzeile ist ein didaktisches Beispiel, kein angeblich echter KI-Output.
 - Bei technischem Ausfall eine vorbereitete Ausgabe analysieren. Die eigene KI-Generierung vor der Unterrichtserprobung nachholen und dokumentieren.
 - Einseitiger Ergebnisbogen für die Rasterwerkstatt, einer pro Team (gedruckt oder als Word-Datei von der TaskCards-Pinnwand); zusätzliche digitale Begriffshilfe und KI-Prompts bereitstellen. Für Grundlagenblock, Feedback und Abschluss gibt es keine eigene Vorlage; dafür reicht die Notizfunktion der Präsentation.
-- Gemeinsamer Ablageort ist die TaskCards-Pinnwand des Netzwerks. Der Link steht auf Folie 19 und in der Menüleiste und auf dem Ergebnisbogen genannt. Zu Beginn können dort auch die Fächer der Teilnehmenden abgefragt werden, um nach der ersten Pause passende Teams zu bilden.
+- Gemeinsamer Ablageort ist die TaskCards-Pinnwand des Netzwerks. Der Link steht auf den Folien 15 und 16 sowie in der Menüleiste und auf dem Ergebnisbogen genannt. Zu Beginn können dort auch die Fächer der Teilnehmenden abgefragt werden, um nach der ersten Pause passende Teams zu bilden.
 - Keine personenbezogenen Schülerdaten für die KI-Übung verwenden. Aufgaben und erfundene Beispiele reichen.
 
 ## Erprobung im laufenden Schuljahr
@@ -84,7 +84,7 @@ Jahresweg: Auftakt, erste Erprobung, zwei bis drei schulübergreifende bzw. hybr
 
 ## Moderation je Folie
 
-Die Präsentation ist auf 20 Folien verdichtet. Die Folien 1–10 bilden den gemeinsamen Input; Folie 11 ist die erste Pause. Nach der Prompt-Werkstatt auf Folie 12 folgen drei Arbeitsfolien mit einem durchlaufenden 60-Minuten-Timer. Folie 16 ist die zweite Pause. Die Folien 17–19 strukturieren Feedback, Erprobungsplanung und Abschluss. Folie 20 enthält Quellen und Vertiefungen für Rückfragen und Export.
+Die Präsentation ist auf 17 Folien verdichtet. Die Folien 1–10 bilden den gemeinsamen Input; Folie 11 ist die erste Pause. Nach der Prompt-Werkstatt auf Folie 12 folgt mit Folie 13 eine einzige Arbeitsfolie, die mit dem 60-Minuten-Timer stehen bleibt. Folie 14 ist die zweite Pause. Folie 15 bündelt Feedback und Erprobungsplanung, Folie 16 den Abschluss. Folie 17 enthält Quellen und Vertiefungen für Rückfragen und Export. Die Arbeitsaufträge sind bewusst knapp gehalten, weil die meisten Kolleg:innen die Projektentwicklung im Netzwerk gewohnt sind.
 
 ### Input und gemeinsames Beispiel
 
@@ -103,17 +103,14 @@ Die Präsentation ist auf 20 Folien verdichtet. Die Folien 1–10 bilden den gem
 
 11. zehn Minuten Pause mit freiem Austausch, gern auch über die Forschungsbefunde
 12. Prompt-Werkstatt öffnen: [Webapp](https://netzwerk-zukunftsschulen.vercel.app/2026-2027/tools/kompetenzraster-prompt.html), Einstellungen zeigen (auch „In Ansätzen“ und „Bepunktung ergänzen“), Prompt erzeugen und fachliche Prüfung erklären
-13. Arbeitsauftrag und Zielprodukt der Rasterwerkstatt; ausdrücklich betonen, dass das Modell mit vier Niveaustufen und 0–4 Punkten ein Vorschlag ist und andere Stufen- und Bewertungsmodelle diskutiert und erprobt werden können
-14. Entwurf an Beispielen prüfen und schärfen
-15. Nutzungs-, SRL- und Bewertungsplan ergänzen
+13. Rasterwerkstatt (eine Folie, bleibt mit dem 60-Minuten-Timer stehen): Vorhaben wählen · mit KI entwerfen und an einem Beispielprodukt prüfen · Einsatz planen einschließlich Bewertung und Abgleich mit dem Notenschlüssel der Fachschaft; ausdrücklich betonen, dass das Stufenmodell ein Vorschlag ist. Weitere Hinweise (Rollen, Grenzfall, Datenschutz) nur bei Bedarf an den Tischen
 
 ### Feedback und Ausblick
 
-16. zehn Minuten Pause
-17. schulübergreifendes Feedback an einer Rasterzeile
-18. Überarbeitung und konkrete Erprobung vereinbaren
-19. kurze Abschlussstimmen aus den drei Schulen; Ergebnisse auf der TaskCards-Pinnwand sichern, Inhalte und Notizen exportieren
-20. Quellen und digitale Arbeitshilfen
+14. zehn Minuten Pause
+15. Feedback geben und Erprobung planen: Partnerteam aus einer anderen Schule (Stärke, offene Frage, Änderungsidee), wichtigste Änderung einarbeiten, Erprobung festlegen und auf TaskCards sichern
+16. kurze Abschlussstimmen aus den drei Schulen; Ergebnisse auf der TaskCards-Pinnwand sichern, Inhalte und Notizen exportieren
+17. Quellen und digitale Arbeitshilfen
 
 ## Materialien
 
@@ -133,7 +130,7 @@ Technikhinweis: „Meine Notizen“ öffnet ein persönliches Eingabefeld zur ak
 
 ## Ablaufanzeige und Timer
 
-„Ablauf · 180 Min.“ zeigt die fünf groben Blöcke. Beide Pausen haben einen eigenen großen Zehn-Minuten-Timer. Der kleine 60-Minuten-Timer läuft über die drei Entwicklerfolien 13–15 weiter. Feedback, Planung und Ausblick teilen sich einen 30-Minuten-Timer auf den Folien 17–19. Die Prompt-Werkstatt erhält keinen Countdown.
+„Ablauf · 180 Min.“ zeigt die fünf groben Blöcke. Beide Pausen haben einen eigenen großen Zehn-Minuten-Timer. Der kleine 60-Minuten-Timer läuft auf der Arbeitsfolie 13. Feedback, Planung und Ausblick teilen sich einen 30-Minuten-Timer auf den Folien 15 und 16. Die Prompt-Werkstatt erhält keinen Countdown.
 
 Start, Pause und Zurücksetzen bleiben verfügbar. Beim Verlassen eines Arbeitsblocks pausiert der Timer. Ein Neuladen setzt alle Timer zurück. Im Druck verschwinden die Bedienfelder.
 
