@@ -110,7 +110,7 @@ Die Präsentation umfasst 18 Folien. Die Folien 1–10 bilden den gemeinsamen In
 14. zehn Minuten Pause
 15. Feedback geben und Erprobung planen: Partnerteam aus einer anderen Schule (Stärke, offene Frage, Änderungsidee), wichtigste Änderung einarbeiten, Erprobung festlegen und auf TaskCards sichern
 16. kurze Abschlussstimmen aus den drei Schulen; Ergebnisse auf der TaskCards-Pinnwand sichern, Inhalte und Notizen exportieren
-17. nächster Termin: Montag, 25.01.2027, ganztägiger Pädagogischer Tag an der Holzkamp-Gesamtschule mit Prof. Stebner (Universität Osnabrück); das Netzwerk ist zu Gast, am Nachmittag Zwischenblick auf die laufenden Projekte und Austausch
+17. nächster Termin: Montag, 25.01.2027, ganztägiger Pädagogischer Tag an der Holzkamp-Gesamtschule mit Prof. Stebner (Universität Osnabrück); das Netzwerk ist zu Gast, am Nachmittag Zwischenblick auf die laufenden Projekte, Austausch und Weiterarbeit auf Grundlage der Erkenntnisse des Vormittags
 18. Quellen und digitale Arbeitshilfen
 
 ## Materialien
